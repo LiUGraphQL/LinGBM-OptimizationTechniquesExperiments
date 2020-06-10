@@ -38,5 +38,6 @@ node index.js npm start
 
 # Disabling Cache
 
-Default, this approach implements both batch and cache for the GraphQL server. In some cases, the cache may not be desirable, setting cache as false in the config.js file can disable cache, show as below:
-const cache = false
+Default, this approach implements both batch and cache for the GraphQL server. 
+
+In some cases, the cache may not be desirable. Setting cache as 'false' in the config.js file can disable cache.
