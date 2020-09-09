@@ -5,8 +5,8 @@
 
 For development:
 ```
-git clone https://github.com/LiUGraphQL/LinGBM-OptimizationTechniquesExperiments.git
-cd LinGBM-OptimizationTechniquesExperiments/src/cache
+git clone git@gitlab.ida.liu.se:rabsh696/graphqlbenchmark.git
+cd graphqlbenchmark/cache
 
 ```
 
@@ -20,7 +20,7 @@ touch .env
 
 copy the below line as your database connection string
 ```
-PG_CONNECTION_STRING="postgres://USERNAME:PASSWORD@HOSTNAME:PORTNUMBER/DATABASENAME"
+PG_CONNECTION_STRING="postgres://postgres:postgres@host:postNumber/databaseName"
 ```
 
 # To Run Server 

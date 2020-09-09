@@ -212,8 +212,8 @@ enum PublicationField
 
 enum SortDirection 
 {
-  asc
-  desc
+  ASC
+  DESC
 }
 
 enum GraduateStudentField

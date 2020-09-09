@@ -430,8 +430,15 @@ const resolvers = {
 				let publicaitons = await context.loaderGetPublicationByAuthorId.load(parent.id)
 				
 				const{field,direction} = order 	|| {}
+				let directionLowCase
+				if(direction === 'DESC'){
+					directionLowCase = "desc";
+				}else{
+					directionLowCase = "asc";
+				}
+
 				if(field && direction){
-					publicaitons = order ? _.orderBy(publicaitons, field,direction) : publicaitons;
+					publicaitons = order ? _.orderBy(publicaitons, field,directionLowCase) : publicaitons;
 				}
 				else if(field)
 					publicaitons = resolvePublication(publicaitons,order);

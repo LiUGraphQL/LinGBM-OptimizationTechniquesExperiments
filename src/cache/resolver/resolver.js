@@ -175,24 +175,24 @@ const getGraduateStudentMemberOf = (memberId) =>{
 /// memorized function calling
 let memoizeGetGraduateStudentPlusAdvisor = memoize(getGdStudentPlusAdvisorByUniID);
 let memoizeGetGraduateStudent = memoize(getGraduateStudentbyUniversity);
-let memoizeGetPublication = memoize(getPublication)
-let memoizeGetAllGraduateStudent = memoize(getAllGraduateStudents)
-let memoizeGetUniversityById = memoize(getUniversityById)
-let memoizeGetDoctoralDegreeById = memoize(getDoctoralDegreeById)
-let memoizeGetDoctoralDegreeByWorkFor = memoize(getDoctoralDegreeByWorkFor)
-let memoizeGetPublicationByAuthor = memoize(getPublicationByAuthor)
-let memoizeGetGraduateStudentTakeCourses = memoize(getGraduateStudentTakeCourses)
-let memoizeGetUnderGraduateStudent = memoize(getUnderGraduateStudent)
-let memoizeGetResearchGroupById = memoize(getResearchGroupById)
-let memoizeGetDepartmentHeadById = memoize(getDepartmentHeadById)
-let memoizeGetLecturerById = memoize(getLecturerById)
-let memoizegGetGraduateStudentAdvisorById = memoize(getGraduateStudentAdvisorById)
-let memoizeGetDepartmentById  = memoize(getDepartmentById)
-let memoizeGetDepartmentByFacultyId = memoize(getDepartmentByFacultyId)
-let memoizeGetGraduateStudentMemberOf = memoize(getGraduateStudentMemberOf)
+let memoizeGetPublication = memoize(getPublication);
+let memoizeGetAllGraduateStudent = memoize(getAllGraduateStudents);
+let memoizeGetUniversityById = memoize(getUniversityById);
+let memoizeGetDoctoralDegreeById = memoize(getDoctoralDegreeById);
+let memoizeGetDoctoralDegreeByWorkFor = memoize(getDoctoralDegreeByWorkFor);
+let memoizeGetPublicationByAuthor = memoize(getPublicationByAuthor);
+let memoizeGetGraduateStudentTakeCourses = memoize(getGraduateStudentTakeCourses);
+let memoizeGetUnderGraduateStudent = memoize(getUnderGraduateStudent);
+let memoizeGetResearchGroupById = memoize(getResearchGroupById);
+let memoizeGetDepartmentHeadById = memoize(getDepartmentHeadById);
+let memoizeGetLecturerById = memoize(getLecturerById);
+let memoizegGetGraduateStudentAdvisorById = memoize(getGraduateStudentAdvisorById);
+let memoizeGetDepartmentById  = memoize(getDepartmentById);
+let memoizeGetDepartmentByFacultyId = memoize(getDepartmentByFacultyId);
+let memoizeGetGraduateStudentMemberOf = memoize(getGraduateStudentMemberOf); 
 
-const resolvers = {
-		
+
+const resolvers = {	
 	Faculty:{
 		
 		__resolveType:(parent, context, info) => {
@@ -657,8 +657,15 @@ const resolvers = {
 				let publicaitons = await memoizeGetPublicationByAuthor(parent.id)
 				
 				const{field,direction} = order 	
+				let directionLowCase
+				if(direction === 'DESC'){
+					directionLowCase = "desc";
+				}else{
+					directionLowCase = "asc";
+				}
+
 				if(field && direction){
-					publicaitons = order ? _.orderBy(publicaitons, field,direction) : publicaitons;
+					publicaitons = order ? _.orderBy(publicaitons, field,directionLowCase) : publicaitons;
 				}
 				else if(field)
 					//publicaitons = resolvePublication(publicaitons,order);

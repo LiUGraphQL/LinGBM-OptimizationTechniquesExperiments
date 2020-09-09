@@ -6,7 +6,7 @@ const { ApolloServer } = require("apollo-server");
 const resolvers = require("./resolver");
 const typeDefs = require("./typeDefs");
 
-const {researchGroupLoader, loaderDepartmentByResearchGroup, loaderDepartmentByResearchGroupID} = require('./loaders/researchgroup');
+const {researchGroupLoader, loaderDepartmentByResearchGroup} = require('./loaders/researchgroup');
 const {lecturerLoaderDegreeFrom,lecturerLoaderWorkFor,loaderGetLecturerById} = require('./loaders/lecturer');
 const {loaderGetPublicationByAuthorId,loaderGetAllPublications} = require('./loaders/publication');
 const {loaderGetUndergratudateCourseByTeacherIds,loaderUndergraduateTakeCourses} = require('./loaders/undergraduatecourse');
@@ -24,7 +24,6 @@ const server = new ApolloServer({
 	context :{
 		researchGroupLoader: researchGroupLoader(),
 		loaderDepartmentByResearchGroup: loaderDepartmentByResearchGroup(),
-		loaderDepartmentByResearchGroupID: loaderDepartmentByResearchGroupID(),
 		lecturerLoaderDegreeFrom: lecturerLoaderDegreeFrom(),
 		lecturerLoaderWorkFor: lecturerLoaderWorkFor(),
 		loaderGetPublicationByAuthorId: loaderGetPublicationByAuthorId(),

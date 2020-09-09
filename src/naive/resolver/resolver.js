@@ -470,10 +470,15 @@ const resolvers = {
 		},
 		ResearchGroup:{
 			subOrgnizationOf(parent, args, context, info){
-	
+				/*
 				return{
 					id: parent.subOrganizationOf
 				}
+				*/
+				let query = con.select().from("department").where('nr', parent.subOrganizationOf);
+				let result =  query.then(rows => new Department(rows[0]))
+				return result;
+
 			}
 		},
 		GraduateStudent:{
@@ -560,9 +565,16 @@ const resolvers = {
 				
 				let publicaitons = await getPublicationByAuthor(parent.id)
 				
-				const{field,direction} = order	
+				const{field,direction} = order
+				let directionLowCase
+				if(direction === 'DESC'){
+					directionLowCase = "desc";
+				}else{
+					directionLowCase = "asc";
+				}
+
 				if(field && direction){
-					publicaitons = order ? _.orderBy(publicaitons, field,direction) : publicaitons;
+					publicaitons = order ? _.orderBy(publicaitons, field,directionLowCase) : publicaitons;
 				}
 				else if(field)
 					//publicaitons = resolvePublication(publicaitons, order);
