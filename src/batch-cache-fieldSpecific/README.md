@@ -5,8 +5,8 @@
 
 For development:
 ```
-git clone git@gitlab.ida.liu.se:rabsh696/graphqlbenchmark.git
-cd graphqlbenchmark/batch-cache-fieldSpecific
+git clone https://github.com/LiUGraphQL/LinGBM-OptimizationTechniquesExperiments.git
+cd LinGBM-OptimizationTechniquesExperiments/src/batch-cache-fieldSpecific
 
 ```
 
@@ -20,7 +20,7 @@ touch .env
 
 copy the below line as your database connection string
 ```
-PG_CONNECTION_STRING="postgres://postgres:postgres@host:postNumber/databaseName"
+PG_CONNECTION_STRING="postgres://USERNAME:PASSWORD@HOSTNAME:PORTNUMBER/DATABASENAME"
 ```
 
 # To Run Server 
@@ -35,3 +35,10 @@ npm update or npm install
 node index.js npm start
 
 ```
+
+
+# Disabling Cache
+
+Default, this approach implements both batch and cache for the GraphQL server. 
+
+In some cases, the cache may not be desirable, setting cache as 'false' in the config.js file can disable cache.
