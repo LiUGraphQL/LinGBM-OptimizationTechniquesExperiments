@@ -74,32 +74,32 @@ const resolvers = {
 			faculty: async ( _ , {nr},context ) =>{
 
 				let facultyId = parseInt(nr);
-				let lecturer = await context.loaderGetLecturerById.get(facultyId);
-				let professor = await context.loaderGetProfessorById.get(facultyId);
+				let lecturer = await context.repository.loaderGetLecturerById.get(facultyId);
+				let professor = await context.repository.loaderGetProfessorById.get(facultyId);
 				let arr = (lecturer) ? lecturer[0]: professor[0];
 				return  arr;
 			},
 			researchGroup:(_,{nr} ,context) => {
-				return context.researchGroupLoader.get(parseInt(nr));
+				return context.repository.researchGroupLoader.get(parseInt(nr));
 			},
 			university(_,{nr},context){
 				let universityId = parseInt(nr);
-				return context.loaderGetUniversityById.get(universityId);
+				return context.repository.loaderGetUniversityById.get(universityId);
 			},
 			department(_,{nr},context){
 				let departmentId = parseInt(nr);
-				return context.loaderGetDepartmentsById.get(departmentId)
+				return context.repository.loaderGetDepartmentsById.get(departmentId)
 			},
 			async publicationSearch(_,args,context  ){
 				//publiaction loader
-				let publicaitons = await context.loaderGetAllPublications.all();
+				let publicaitons = await context.repository.loaderGetAllPublications.all();
 				let result = resolvePublication(publicaitons, args);			
 				return result
 
 			},
 			async graduateStudents( parent,{ where,  limit , order },context ){
 				//graduate student loader
-				let students = await context.loaderGetAllGraduateStudents.all()
+				let students = await context.repository.loaderGetAllGraduateStudents.all()
 				
 				students = limit ? students.slice(0, limit) : students;
 				students = order ? _.orderBy(students, order) : students;
@@ -128,7 +128,7 @@ const resolvers = {
 			},
 			async lecturer(_,{nr},context){
 				let lecturerId = parseInt(nr);
-				let result = await context.loaderGetLecturerById.get(lecturerId)
+				let result = await context.repository.loaderGetLecturerById.get(lecturerId)
 				return  result?  result[0]: null	
 				
 			}
@@ -137,47 +137,47 @@ const resolvers = {
 			teacherOfGraduateCourses(parent, args, context, info)
 			{
 				let teacherId = parent.id;
-				return context.loaderGetGratudateCourseByTeacherIds.get(teacherId);
+				return context.repository.loaderGetGratudateCourseByTeacherIds.get(teacherId);
 			},
 			teacherOfUndergraduateCourses(parent, args, context, info){
 				let teacherId = parent.id;
-				return context.loaderGetUndergratudateCourseByTeacherIds.get(teacherId);
+				return context.repository.loaderGetUndergratudateCourseByTeacherIds.get(teacherId);
 			},
 			publications(parent, args, context, info){
 				let mainAuthorId = parent.id;
-				return context.loaderGetPublicationByAuthorId.get(mainAuthorId);
+				return context.repository.loaderGetPublicationByAuthorId.get(mainAuthorId);
 			},
 			undergraduteDegreeFrom(parent, args, context, info){
-				return context.lecturerLoaderDegreeFrom.get(parent.undergraduteDegreeFrom);
+				return context.repository.lecturerLoaderDegreeFrom.get(parent.undergraduteDegreeFrom);
 			},
 			masterDegreeFrom(parent, args, context, info){
-				return context.lecturerLoaderDegreeFrom.get(parent.masterDegreeFrom);
+				return context.repository.lecturerLoaderDegreeFrom.get(parent.masterDegreeFrom);
 			},
 			doctoralDegreeFrom(parent, args, context, info){
-				return context.lecturerLoaderDegreeFrom.get(parent.doctoralDegreeFrom);
+				return context.repository.lecturerLoaderDegreeFrom.get(parent.doctoralDegreeFrom);
 			},
 			async worksFor(parent, args, context, info){
-				return context.lecturerLoaderWorkFor.get(parent.worksFor)
+				return context.repository.lecturerLoaderWorkFor.get(parent.worksFor)
 			}
 	
 		},
 		GraduateCourse:{
 			teachedby(parent, args, context, info){
-				return context.loaderGetFacultyById.get(parent.teacher)
+				return context.repository.loaderGetFacultyById.get(parent.teacher)
 			},
 			graduateStudents(parent, args, context, info){
-				return context.loaderGetGraduateStudentById.get(parent.graduatestudentid)
+				return context.repository.loaderGetGraduateStudentById.get(parent.graduatestudentid)
 			},
 		},
 		UndergraduateCourse:{
 			teachedby(parent, args, context, info){
-				return context.loaderGetFacultyById.get(parent.teacher)
+				return context.repository.loaderGetFacultyById.get(parent.teacher)
 			},
 			undergraduateStudents(parent, args, context, info){
-				return context.loaderUndergraduateStudentById.get(parent.undergraduatestudentid);
+				return context.repository.loaderUndergraduateStudentById.get(parent.undergraduatestudentid);
 			},
 			teachingAssistants(parent, args, context, info){
-				return context.loaderGetGraduateStudentById.get(parent.teachingassistant)
+				return context.repository.loaderGetGraduateStudentById.get(parent.teachingassistant)
 			}
 
 			
@@ -187,9 +187,9 @@ const resolvers = {
 			
 				let mainaAuthor = parent.mainauthor
 				// data loader
-				let lecturerPublications = await context.loaderGetLecturerById.get(mainaAuthor);
-				let professorPublications = await context.loaderGetProfessorById.get(mainaAuthor);
-				let graduateStudent = await context.loaderGetGraduateStudentPublication.get(parent.id)
+				let lecturerPublications = await context.repository.loaderGetLecturerById.get(mainaAuthor);
+				let professorPublications = await context.repository.loaderGetProfessorById.get(mainaAuthor);
+				let graduateStudent = await context.repository.loaderGetGraduateStudentPublication.get(parent.id)
 				
 				let arr = [...professorPublications,...lecturerPublications,...graduateStudent]
 			
@@ -202,10 +202,10 @@ const resolvers = {
 		},
 		University:{
 			undergraduateDegreeObtainedByFaculty(parent, args, context, info){
-				return context.loaderfacultyGetUndergraduatedegreeFrom.get(parent.id)
+				return context.repository.loaderfacultyGetUndergraduatedegreeFrom.get(parent.id)
 			},
 			mastergraduateDegreeObtainers(parent, args, context, info){
-				return context.loaderfacultyGetmasterdegreeFrom.get(parent.id)
+				return context.repository.loaderfacultyGetmasterdegreeFrom.get(parent.id)
 			},
 			//doctoralDegreeObtainers(parent,{where},context){
 			//	let doctoralIds = parent.id;
@@ -214,21 +214,21 @@ const resolvers = {
 			doctoralDegreeObtainers(parent,{where}, context){
 				let result = "";
 				if(where)
-					result = context.loaderfacultyGetWorksfor.get(parent.id,where);
+					result = context.repository.loaderfacultyGetWorksfor.get(parent.id,where);
 				else
-					result = context.loaderfacultyGetDoctordegreeFrom.get(parent.id);
+					result = context.repository.loaderfacultyGetDoctordegreeFrom.get(parent.id);
 				return result;
 			},
 			async undergraduateDegreeObtainedBystudent(parent,{ where , limit , offset },context){
 				// get graduate student by university id dataloader method
 
-				let students =  await context.loaderGetGraduateStudentByUniversityId.get(parent.id)
+				let students =  await context.repository.loaderGetGraduateStudentByUniversityId.get(parent.id)
 				
 				students = offset ? students.slice(offset) : students;
     			students = limit ? students.slice(0, limit) : students;
 
     			if(where){
-					students = await context.loadergetGraduateStudentByUniIdPlusAdvisor.get(parent.id);
+					students = await context.repository.loadergetGraduateStudentByUniIdPlusAdvisor.get(parent.id);
 					if(where.AND){
 						for(let i = 0; i< where.AND.length; i ++){
 							const {advisor, university, age} = where.AND[i] || {};
@@ -296,12 +296,12 @@ const resolvers = {
 			},
 			async graduateStudentConnection(parent, args, context, info)
 			{
-				let GraduteStudents = await context.loaderGetGraduateStudentByUniversityId.get(parent.id);
+				let GraduteStudents = await context.repository.loaderGetGraduateStudentByUniversityId.get(parent.id);
 				return GraduteStudents;
 			},
 			departments(parent, args, context, info){
 				let subOrganizationId = parent.id;
-				return context.loaderGetDepartmentsBySuborganizationId.get(subOrganizationId);
+				return context.repository.loaderGetDepartmentsBySuborganizationId.get(subOrganizationId);
 			}
 
 		},
@@ -348,28 +348,28 @@ const resolvers = {
 			async head(parent, args, context, info){
 				//dataloader for head of department
 				//let result = await context.loaderGetHeadOfDepartment.load(parseInt(parent.id));
-				let result = await context.loaderGetHeadOfDepartment.get(parent.id);
+				let result = await context.repository.loaderGetHeadOfDepartment.get(parent.id);
 				return result?  result[0]: null	
 			},
 			faculties(parent, args, context, info){
 				let departmentId = parseInt(parent.id);
-				return context.loaderGetFacultiesByDepartmentId.get(departmentId)
+				return context.repository.loaderGetFacultiesByDepartmentId.get(departmentId)
 			},
 			professors(parent, args, context, info){
 				let worksFor = parseInt(parent.id);
-				return context.loaderGetProfessorByDepartmentId.get(worksFor);
+				return context.repository.loaderGetProfessorByDepartmentId.get(worksFor);
 			},
 			lecturers(parent, args, context, info){
 				let worksFor = parseInt(parent.id);
-				return context.loaderGetLecturerByDepartmentId.get(worksFor);
+				return context.repository.loaderGetLecturerByDepartmentId.get(worksFor);
 			},
 			graduateStudents(parent, args, context, info){
 				let departmentId = parent.id;
-				return context.loaderGetGraduateStudentDepartmentsById.get(departmentId)
+				return context.repository.loaderGetGraduateStudentDepartmentsById.get(departmentId)
 			},
 			undergraduateStudents(parent, args, context, info){				
 				let departmentId = parent.id;
-				return context.loaderGetUndergraduateStudentDepartmentsById.get(departmentId)
+				return context.repository.loaderGetUndergraduateStudentDepartmentsById.get(departmentId)
 			}
 		},
 		ResearchGroup:{
@@ -379,63 +379,63 @@ const resolvers = {
 					id: parent.subOrganizationOf
 				}
 				*/
-				return context.loaderDepartmentByResearchGroup.get(parent.subOrganizationOf);
+				return context.repository.loaderDepartmentByResearchGroup.get(parent.subOrganizationOf);
 			}
 		},
 		GraduateStudent:{
 			memberOf(parent, args, context, info){
-				return context.loaderGraduateStudentMemberofById.get(parent.memberOf);
+				return context.repository.loaderGraduateStudentMemberofById.get(parent.memberOf);
 			},
 			advisor(parent, args, context, info){
 				// get professor data which are adviosr of graduate student
 				let adviosrId = parent.advisor
-				return context.loaderGraduateStudentAdvisorById.get(adviosrId);
+				return context.repository.loaderGraduateStudentAdvisorById.get(adviosrId);
 			},
 			takeGraduateCourses(parent, args, context, info){
 				let studentId = parent.id;
-				return context.loaderGraduateTakeCourses.get(studentId);
+				return context.repository.loaderGraduateTakeCourses.get(studentId);
 			},
 			assistCourses(parent, args, context, info){
 				let graduateStudentId  = parent.id;
-				return context.loaderGraduateAssistCourses.get(graduateStudentId)
+				return context.repository.loaderGraduateAssistCourses.get(graduateStudentId)
 			}
 		},
 		UndergraduateStudent:{
 			
 			memberOf(parent, args, context, info){
 				let memberIds = parent.memberOf;
-				return context.loaderUndergraduateStudentMemberofById.get(memberIds);
+				return context.repository.loaderUndergraduateStudentMemberofById.get(memberIds);
 			},
 			takeCourses(parent, args, context, info){
 				let underGraduteStudentIds = parent.id;
-				return context.loaderUndergraduateTakeCourses.get(underGraduteStudentIds);
+				return context.repository.loaderUndergraduateTakeCourses.get(underGraduteStudentIds);
 			}
 		},
 		Professor:{
 			undergraduteDegreeFrom(parent, args, context, info){
-				return context.professorLoaderDegreeFrom.get(parent.undergraduteDegreeFrom);
+				return context.repository.professorLoaderDegreeFrom.get(parent.undergraduteDegreeFrom);
 			},
 			masterDegreeFrom(parent, args, context, info){
-				return context.professorLoaderDegreeFrom.get(parent.masterDegreeFrom);
+				return context.repository.professorLoaderDegreeFrom.get(parent.masterDegreeFrom);
 			},
 			doctoralDegreeFrom(parent, args, context, info){
-				return context.professorLoaderDegreeFrom.get(parent.doctoralDegreeFrom);
+				return context.repository.professorLoaderDegreeFrom.get(parent.doctoralDegreeFrom);
 			},
 			worksFor(parent, args, context, info){
-				return context.professorLoaderWorkFor.get(parent.worksFor)
+				return context.repository.professorLoaderWorkFor.get(parent.worksFor)
 			},
 			teacherOfGraduateCourses(parent, args, context, info)
 			{
 				let teacherId = parent.id;
-				return context.loaderGetGratudateCourseByTeacherIds.get(teacherId);
+				return context.repository.loaderGetGratudateCourseByTeacherIds.get(teacherId);
 			},
 			teacherOfUndergraduateCourses(parent, args, context, info){
 				let teacherId = parent.id;
-				return context.loaderGetUndergratudateCourseByTeacherIds.get(teacherId);
+				return context.repository.loaderGetUndergratudateCourseByTeacherIds.get(teacherId);
 			},
 			async publications(parent, {order},context){
 				
-				let publicaitons = await context.loaderGetPublicationByAuthorId.get(parent.id)
+				let publicaitons = await context.repository.loaderGetPublicationByAuthorId.get(parent.id)
 				
 				const{field,direction} = order 	|| {}
 				let directionLowCase
@@ -455,11 +455,11 @@ const resolvers = {
 			},
 			supervisedGraduateStudents(parent, args, context, info){
 				let superviosIds = parent.id;
-				return context.loaderGraduateStudentSuperviosrById.get(superviosIds);
+				return context.repository.loaderGraduateStudentSuperviosrById.get(superviosIds);
 			},
 			supervisedUndergraduateStudents(parent, args, context, info){
 				let superviosIds = parent.id;
-				return context.loaderUndergraduateStudentSuperviosrById.get(superviosIds);
+				return context.repository.loaderUndergraduateStudentSuperviosrById.get(superviosIds);
 			}
 
 
