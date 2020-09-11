@@ -38,37 +38,33 @@ const getMasterdegreeFrom = (masterdegreefromIds) =>{
 	);
 };
 
-
-const getfacultyWorksfor  =  (doctoraldegreefromIds) =>{
-	const  {doctoralIds,where} = doctoraldegreefromIds[0];
-	
-	let doctoraldegreeIds = [doctoralIds]
-	
-	let query = "";
-	//if where works for
-	if(where){
-		let worksFor = parseInt(where.worksFor.nr);
-		query = con
-			.select()
-			.from('faculty')
-			.whereIn('doctoraldegreefrom',doctoraldegreeIds).where('worksfor',worksFor)
-		
-	}
-	else{
-		// without where
-		query = con
+const getDoctordegreeFrom = (doctoraldegreeIds) =>{
+	let query = con
 		.select()
 		.from('faculty')
-		.whereIn('doctoraldegreefrom',doctoraldegreeIds)
-	}
+		.whereIn('doctoraldegreefrom',doctoraldegreeIds);
 	
+	return query.then(rows =>
+		doctoraldegreeIds.map(nr =>
+			rows.filter(row => row.doctoraldegreefrom == nr).map(row => new Fa(row))
+		)
+	);
+};
+
+
+const getfacultyWorksfor = (doctoraldegreeIds, where) =>{
+	let query = "";
+	let worksFor = parseInt(where.worksFor.nr);
+	query = con
+		.select()
+		.from('faculty')
+		.whereIn('doctoraldegreefrom',doctoraldegreeIds).where('worksfor',worksFor)
 	return query.then(rows =>
 		doctoraldegreeIds.map(nr =>
 			rows.filter(row => (row.doctoraldegreefrom == nr)).map(row => new Fa(row))
 		)
 	);
 };
-
 
 // get lecturer who works for department department Id
 const getLecturerByDepartmentId = (worksFor) =>{
@@ -114,7 +110,14 @@ const getFacultiesByDepartmentId = (departmentId) =>{
 	);
 };
 
-
+class loaderfacultyGetDoctordegreeFrom{
+	constructor(){
+		this.GetDoctordegreeFrom = new DataLoader(getDoctordegreeFrom, {cache});
+	}
+	get(nr){
+		return this.GetDoctordegreeFrom.load(nr);
+	}
+}
 
 // get facuilty member by id
 const getFacultyById = (facultyIds) =>{
@@ -124,14 +127,73 @@ const getFacultyById = (facultyIds) =>{
 	return query.then(rows => simpleSortRows(rows, facultyIds, Fa));
 };
 
+class loaderfacultyGetUndergraduatedegreeFrom{
+	constructor(){
+		this.GetUndergraduatedegreeFrom = new DataLoader(getUndergraduatedegreeFrom, {cache});
+	}
+	get(nr){
+		return this.GetUndergraduatedegreeFrom.load(nr);
+	}
+}
+//const loaderfacultyGetUndergraduatedegreeFrom = () => new DataLoader(getUndergraduatedegreeFrom, {cache});
 
-const loaderfacultyGetUndergraduatedegreeFrom = () => new DataLoader(getUndergraduatedegreeFrom, {cache});
-const loaderfacultyGetmasterdegreeFrom = () => new DataLoader(getMasterdegreeFrom, {cache});
-const loaderfacultyGetWorksfor = () => new DataLoader(getfacultyWorksfor, {cache});
-const loaderGetLecturerByDepartmentId = () => new DataLoader(getLecturerByDepartmentId, {cache});
-const loaderGetProfessorByDepartmentId = () => new DataLoader(getProfessorByDepartmentId, {cache});
-const loaderGetFacultiesByDepartmentId = () => new DataLoader(getFacultiesByDepartmentId, {cache});
-const loaderGetFacultyById = () => new DataLoader(getFacultyById, {cache});
+class loaderfacultyGetmasterdegreeFrom{
+	constructor(){
+		this.GetMasterdegreeFrom = new DataLoader(getMasterdegreeFrom, {cache});
+	}
+	get(nr){
+		return this.GetMasterdegreeFrom.load(nr);
+	}
+}
+//const loaderfacultyGetmasterdegreeFrom = () => new DataLoader(getMasterdegreeFrom, {cache});
+class loaderfacultyGetWorksfor{
+	constructor(){
+		this.GetfacultyWorksfor = new DataLoader(getfacultyWorksfor, {cache});
+	}
+	get(nr, where){
+		return this.GetfacultyWorksfor.load(nr,where);
+	}
+}
+//const loaderfacultyGetWorksfor = () => new DataLoader(getfacultyWorksfor, {cache});
+
+class loaderGetLecturerByDepartmentId{
+	constructor(){
+		this.GetLecturerByDepartmentId = new DataLoader(getLecturerByDepartmentId, {cache});
+	}
+	get(nr){
+		return this.GetLecturerByDepartmentId.load(nr);
+	}
+}
+
+//const loaderGetLecturerByDepartmentId = () => new DataLoader(getLecturerByDepartmentId, {cache});
+class loaderGetProfessorByDepartmentId{
+	constructor(){
+		this.GetProfessorByDepartmentId = new DataLoader(getProfessorByDepartmentId, {cache});
+	}
+	get(nr){
+		return this.GetProfessorByDepartmentId.load(nr);
+	}
+}
+//const loaderGetProfessorByDepartmentId = () => new DataLoader(getProfessorByDepartmentId, {cache});
+class loaderGetFacultiesByDepartmentId{
+	constructor(){
+		this.GetFacultiesByDepartmentId = new DataLoader(getFacultiesByDepartmentId, {cache});
+	}
+	get(nr){
+		return this.GetFacultiesByDepartmentId.load(nr);
+	}
+}
+//const loaderGetFacultiesByDepartmentId = () => new DataLoader(getFacultiesByDepartmentId, {cache});
+
+class loaderGetFacultyById{
+	constructor(){
+		this.GetFacultyById = new DataLoader(getFacultyById, {cache});
+	}
+	get(nr){
+		return this.GetFacultyById.load(nr);
+	}
+}
+//const loaderGetFacultyById = () => new DataLoader(getFacultyById, {cache});
 
 module.exports={
 	loaderfacultyGetUndergraduatedegreeFrom,
@@ -139,5 +201,7 @@ module.exports={
 	loaderfacultyGetWorksfor,
 	loaderGetLecturerByDepartmentId,
 	loaderGetProfessorByDepartmentId,
-	loaderGetFacultiesByDepartmentId,loaderGetFacultyById
+	loaderGetFacultiesByDepartmentId,
+	loaderGetFacultyById,
+	loaderfacultyGetDoctordegreeFrom
 }

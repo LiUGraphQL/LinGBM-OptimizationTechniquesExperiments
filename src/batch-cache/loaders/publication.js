@@ -23,7 +23,7 @@ const getPublicationsByAuthorId = (authorIds) => {
 };
 
 
-// get publications by authorId
+// get publications
 const getAllPublications = (keys) => {
 
 	let query = con.select()
@@ -32,9 +32,24 @@ const getAllPublications = (keys) => {
 };
 
 
-const loaderGetPublicationByAuthorId = () => new DataLoader(getPublicationsByAuthorId, {cache})
-const loaderGetAllPublications = () => new DataLoader(getAllPublications, {cache})
-
+class loaderGetPublicationByAuthorId{
+	constructor(){
+		this.GetPublicationsByAuthorId = new DataLoader(getPublicationsByAuthorId, {cache});
+	}
+	get(nr){
+		return this.GetPublicationsByAuthorId.load(nr);
+	}
+}
+class loaderGetAllPublications{
+	constructor(){
+		this.GetAllPublications = new DataLoader(getAllPublications, {cache});
+	}
+	all(){
+		return this.GetAllPublications.load('all');
+	}
+}
+//const loaderGetPublicationByAuthorId = () => new DataLoader(getPublicationsByAuthorId, {cache})
+//const loaderGetAllPublications = () => new DataLoader(getAllPublications, {cache})
 
 module.exports = {
 	loaderGetPublicationByAuthorId,

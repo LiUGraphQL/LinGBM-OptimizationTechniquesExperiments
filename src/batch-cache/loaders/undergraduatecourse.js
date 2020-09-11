@@ -40,9 +40,25 @@ const getUndergraduateTakeCourses = (undergraduateStudentIds) => {
 	
 };
 
+class loaderGetUndergratudateCourseByTeacherIds{
+	constructor(){
+		this.GetUndergratudateCourseByTeacherIds = new DataLoader(getUndergratudateCourseByTeacherIds, {cache});
+	}
+	get(nr){
+		return this.GetUndergratudateCourseByTeacherIds.load(nr);
+	}
+}
+//const loaderGetUndergratudateCourseByTeacherIds = () => new DataLoader(getUndergratudateCourseByTeacherIds, {cache});
 
-const loaderGetUndergratudateCourseByTeacherIds = () => new DataLoader(getUndergratudateCourseByTeacherIds, {cache});
-const loaderUndergraduateTakeCourses = () => new DataLoader(getUndergraduateTakeCourses, {cache});
+class loaderUndergraduateTakeCourses{
+	constructor(){
+		this.GetUndergraduateTakeCourses = new DataLoader(getUndergraduateTakeCourses, {cache});
+	}
+	get(nr){
+		return this.GetUndergraduateTakeCourses.load(nr);
+	}
+}
+//const loaderUndergraduateTakeCourses = () => new DataLoader(getUndergraduateTakeCourses, {cache});
 
 module.exports = {
 	loaderGetUndergratudateCourseByTeacherIds,

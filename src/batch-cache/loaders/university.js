@@ -17,8 +17,15 @@ const getUniversityById = (universityId) => {
 };
 
 
-const loaderGetUniversityById = () => new DataLoader(getUniversityById, {cache});
-
+//const loaderGetUniversityById = () => new DataLoader(getUniversityById, {cache});
+class loaderGetUniversityById{
+	constructor(){
+		this.GetUniversityById = new DataLoader(getUniversityById, {cache});
+	}
+	get(nr){
+		return this.GetUniversityById.load(nr);
+	}
+}
 
 module.exports = {
 	loaderGetUniversityById

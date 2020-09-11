@@ -24,9 +24,25 @@ const getDepartmentbyResearchG= (nrs) =>{
 };
 
 
+class researchGroupLoader{
+	constructor(){
+		this.GetResearch = new DataLoader(getResearch, {cache});
+	}
+	get(nr){
+		return this.GetResearch.load(nr);
+	}
+}
 
-const researchGroupLoader = () => new DataLoader(getResearch, {cache})
-const loaderDepartmentByResearchGroup = () => new DataLoader(getDepartmentbyResearchG, {cache});
+class loaderDepartmentByResearchGroup{
+	constructor(){
+		this.GetDepartmentbyResearchG = new DataLoader(getDepartmentbyResearchG, {cache});
+	}
+	get(nr){
+		return this.GetDepartmentbyResearchG.load(nr);
+	}
+}
+//const researchGroupLoader = () => new DataLoader(getResearch, {cache})
+//const loaderDepartmentByResearchGroup = () => new DataLoader(getDepartmentbyResearchG, {cache});
 
 
 module.exports={

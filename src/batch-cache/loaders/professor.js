@@ -43,10 +43,36 @@ const getProfessorById = (professorId) => {
 	);
 };
 
-const professorLoaderDegreeFrom = () => new DataLoader(getDegreeFromById, {cache})
-const professorLoaderWorkFor = () => new DataLoader(getWorksFor, {cache})
-const loaderGetProfessorById = () => new DataLoader(getProfessorById, {cache})
 
+class professorLoaderDegreeFrom{
+	constructor(){
+		this.GetDegreeFromById = new DataLoader(getDegreeFromById, {cache});
+	}
+	get(nr){
+		return this.GetDegreeFromById.load(nr);
+	}
+}
+//const professorLoaderDegreeFrom = () => new DataLoader(getDegreeFromById, {cache})
+
+class professorLoaderWorkFor{
+	constructor(){
+		this.GetWorksFor = new DataLoader(getWorksFor, {cache});
+	}
+	get(nr){
+		return this.GetWorksFor.load(nr);
+	}
+}
+//const professorLoaderWorkFor = () => new DataLoader(getWorksFor, {cache})
+
+class loaderGetProfessorById{
+	constructor(){
+		this.GetProfessorById = new DataLoader(getProfessorById, {cache});
+	}
+	get(nr){
+		return this.GetProfessorById.load(nr);
+	}
+}
+//const loaderGetProfessorById = () => new DataLoader(getProfessorById, {cache})
 
 module.exports = {
 	professorLoaderDegreeFrom,

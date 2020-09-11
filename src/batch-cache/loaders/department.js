@@ -74,14 +74,56 @@ const getHeadOfDepartment = (nrs) => {
 	);
 };
 
-const loaderGetDepartmentsBySuborganizationId = () => new DataLoader(getDepartmentsBySuborganizationId, {cache})
-const loaderGetDepartmentsById = () => new DataLoader(getDepartmentsByid, {cache})
-const loaderGetUndergraduateStudentDepartmentsById = () => new DataLoader(getUndergraduateDepartmentsByid, {cache})
-const loaderGetGraduateStudentDepartmentsById = () => new DataLoader(getGraduateDepartmentsByid, {cache})
 
+class loaderGetDepartmentsBySuborganizationId{
+	constructor(){
+		this.GetDepartmentsBySuborganizationId = new DataLoader(getDepartmentsBySuborganizationId, {cache});
+	}
+	get(nr){
+		return this.GetDepartmentsBySuborganizationId.load(nr);
+	}
+}
+//const loaderGetDepartmentsBySuborganizationId = () => new DataLoader(getDepartmentsBySuborganizationId, {cache})
 
-const loaderGetHeadOfDepartment = () => new DataLoader(getHeadOfDepartment, {cache})
+class loaderGetDepartmentsById{
+	constructor(){
+		this.GetDepartmentsByid = new DataLoader(getDepartmentsByid, {cache});
+	}
+	get(nr){
+		return this.GetDepartmentsByid.load(nr);
+	}
+}
+//const loaderGetDepartmentsById = () => new DataLoader(getDepartmentsByid, {cache})
 
+class loaderGetUndergraduateStudentDepartmentsById{
+	constructor(){
+		this.GetUndergraduateDepartmentsByid = new DataLoader(getUndergraduateDepartmentsByid, {cache});
+	}
+	get(nr){
+		return this.GetUndergraduateDepartmentsByid.load(nr);
+	}
+}
+//const loaderGetUndergraduateStudentDepartmentsById = () => new DataLoader(getUndergraduateDepartmentsByid, {cache})
+
+class loaderGetGraduateStudentDepartmentsById{
+	constructor(){
+		this.GetGraduateDepartmentsByid = new DataLoader(getGraduateDepartmentsByid, {cache});
+	}
+	get(nr){
+		return this.GetGraduateDepartmentsByid.load(nr);
+	}
+}
+//const loaderGetGraduateStudentDepartmentsById = () => new DataLoader(getGraduateDepartmentsByid, {cache})
+
+class loaderGetHeadOfDepartment{
+	constructor(){
+		this.GetHeadOfDepartment = new DataLoader(getHeadOfDepartment, {cache});
+	}
+	get(nr){
+		return this.GetHeadOfDepartment.load(nr);
+	}
+}
+//const loaderGetHeadOfDepartment = () => new DataLoader(getHeadOfDepartment, {cache})
 
 
 

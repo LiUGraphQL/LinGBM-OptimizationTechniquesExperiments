@@ -5,11 +5,15 @@ const { ApolloServer } = require("apollo-server");
 
 const resolvers = require("./resolver");
 const typeDefs = require("./typeDefs");
+const context = require("./context");
 
 const server = new ApolloServer({ 
 	typeDefs,
 	resolvers,
-	tracing: true 
+	tracing: true,
+	context: () => {
+		return context();
+	}
 });
 
 server.listen().then(({ url }) => {

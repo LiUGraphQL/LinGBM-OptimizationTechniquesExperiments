@@ -71,12 +71,45 @@ const getundergraduateStudentByUniversityId = (universityId) => {
     
 };
 
-const loaderUndergraduateStudentSuperviosrById = () => new DataLoader(getUndergraduateStudentSuperviosr, {cache});
-const loaderUndergraduateStudentMemberofById = () => new DataLoader(getUndergraduateStudentMemberof, {cache});
+class loaderUndergraduateStudentSuperviosrById{
+	constructor(){
+		this.GetUndergraduateStudentSuperviosr = new DataLoader(getUndergraduateStudentSuperviosr, {cache});
+	}
+	get(nr){
+		return this.GetUndergraduateStudentSuperviosr.load(nr);
+	}
+}
+//const loaderUndergraduateStudentSuperviosrById = () => new DataLoader(getUndergraduateStudentSuperviosr, {cache});
 
-const loaderUndergraduateStudentById = () => new DataLoader(getUndergraduateStudentByIds, {cache});
-const loaderUndergetGraduateStudentByUniversityId = ()=> new DataLoader(getundergraduateStudentByUniversityId, {cache});
+class loaderUndergraduateStudentMemberofById{
+	constructor(){
+		this.GetUndergraduateStudentMemberof = new DataLoader(getUndergraduateStudentMemberof, {cache});
+	}
+	get(nr){
+		return this.GetUndergraduateStudentMemberof.load(nr);
+	}
+}
+//const loaderUndergraduateStudentMemberofById = () => new DataLoader(getUndergraduateStudentMemberof, {cache});
 
+class loaderUndergraduateStudentById{
+	constructor(){
+		this.GetUndergraduateStudentByIds = new DataLoader(getUndergraduateStudentByIds, {cache});
+	}
+	get(nr){
+		return this.GetUndergraduateStudentByIds.load(nr);
+	}
+}
+//const loaderUndergraduateStudentById = () => new DataLoader(getUndergraduateStudentByIds, {cache});
+
+class loaderUndergetGraduateStudentByUniversityId{
+	constructor(){
+		this.GetundergraduateStudentByUniversityId = new DataLoader(getundergraduateStudentByUniversityId, {cache});
+	}
+	get(nr){
+		return this.GetundergraduateStudentByUniversityId.load(nr);
+	}
+}
+//const loaderUndergetGraduateStudentByUniversityId = ()=> new DataLoader(getundergraduateStudentByUniversityId, {cache});
 
 
 

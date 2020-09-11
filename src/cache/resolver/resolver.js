@@ -20,182 +20,11 @@ const Professor = require('../model/professor')
 const UndergraduateTakeCourses  =require('../model/undergraduatestudenttakecourse')
 const GradudateCourse = require('../model/graduatecourse');
 
-
-  const getGraduateStudentbyUniversity = nrs => {
-	
-	let query = con.select().from('graduatestudent').where('graduatestudent.undergraduatedegreefrom',nrs);
-	let result = query.then(rows => rows.map(row => new GraduateStudent(row)));
-
-	return result;
-  };
-
-  const getGdStudentPlusAdvisor = () => {
-	
-	let query = con.select().from('graduatestudent').leftOuterJoin('professor','professor.nr','=','graduatestudent.advisor');
-	let result = query.then(rows => rows.map(row => new GraduateStudent(row)));
-
-	return result;
-  };
-
-  const getGdStudentPlusAdvisorByUniID = nrs => {
-	
-	let query = con.select().from('graduatestudent').leftOuterJoin('professor','professor.nr','=','graduatestudent.advisor').where('graduatestudent.undergraduatedegreefrom',nrs);
-	let result = query.then(rows => rows.map(row => new GraduateStudent(row)));
-
-	return result;
-  };
-
-  const getFacultyLecturer = facultyId => {
-	let query = con.select().from("faculty").innerJoin('lecturer','lecturer.nr' ,"=",'faculty.nr').where('faculty.nr',facultyId);
-	
-	return query.then(rows => (rows.length >0) ? new Lecturer(rows[0]):null);
-  };
-
-
-  const getFacultyProfessor = facultyId => {
-	let query = con.select().from("faculty").innerJoin('professor','professor.nr' ,"=",'faculty.nr').where('faculty.nr',facultyId);
-	 return query.then(rows => (rows.length >0) ? new Professor(rows[0]):null);
-  };
-  const getUnderGraduateStudent = nr => {
-	
-	let query = con
-				.select()
-				.from('department')
-				.innerJoin('undergraduatestudent','undergraduatestudent.memberof','=','department.nr').
-				where('department.nr',nr);
-	let result = query.then(rows => rows.map(row => new UndergraduateStudent(row)));
-
-	return result;
-  };
-
-  const getPublication = () =>{
-
-	let query = con.select().from('publication');
-	let result = query.then(rows => rows.map(row => new Publication(row)));
-	return result;
-  }
-
-
- const getPublicationByAuthor = (author) =>{
-	 console.log("memory")
-	let query = con.select().from('publication').where('mainauthor',author);
-	let result = query.then(rows => (rows.length>0) ? rows.map(row => new Publication(row)): null);
-	return result;
-  }
-
-
-const getGraduateStudentPublications = (publicationId) =>{
-	let query = con.select().from('coauthorofpublication')
-				.innerJoin('graduatestudent','graduatestudent.nr','=','coauthorofpublication.graduatestudentid')
-				.where('coauthorofpublication.publicationid',publicationId);
-	let result = query.then(rows => rows.map(row => new GraduateStudent(row)));
-	return result;
-}
-
-const getAllGraduateStudents = () =>{
-	let query = con.select().from('graduatestudent');
-	let result = query.then(rows => rows.map(row => new GraduateStudent(row)));
-	return result
-}
-
-
-const getUniversityById = (universityId) =>{
-	let query = con.select().from('university').where('nr',parseInt(universityId));
-	let result = query.then(rows => new University(rows[0]));
-	return result;
-}
-
-const getDoctoralDegreeById = (id) =>{
-	console.log('memory')
-	let query = con.select().from('faculty').where('doctoraldegreefrom',id);
-	let result = query.then(rows => rows.map(row => new Fa(row)));
-	return result;
-	
-}
-
-
-const getDoctoralDegreeByWorkFor = (id,worksFor) =>{
-	let query  = con.select().from('faculty').where('doctoraldegreefrom',id).andWhere('worksfor',parseInt(worksFor));
-	let result = query.then(rows => rows.map(row => new Fa(row)));
-	return result;
-}
-
-const getGraduateStudentTakeCourses = (studentId) =>{
-	let query = con.select().from("graduatestudenttakecourse").innerJoin('graduatecourse','graduatecourse.nr','=','graduatestudenttakecourse.graduatecourseid').where('graduatestudenttakecourse.graduatestudentid', studentId);
-	let result = query.then(rows => rows.map(row => new GradudateCourse(row)));
-	return result;
-}
-
-
-const getResearchGroupById = (id) =>{
-	let query = con.select().from('researchgroup').where('nr',id);
-	return query.then(rows => new RG(rows[0]))
-}
-
-
-const getDepartmentHeadById = (id) =>{
-	//let query = con.select().from("professor").innerJoin('faculty','faculty.worksfor','=','professor.headof').where('professor.nr',id);
-	let query = con.select().from("professor").innerJoin('faculty','faculty.nr','=','professor.nr').where('professor.headof',id);
-	return query.then(rows => (rows.length >0) ? new Professor(rows[0]):null); 
-}
-
-
-const getLecturerById = (id) =>{
-	let query = con.select().from("faculty").innerJoin('lecturer','lecturer.nr' ,"=",'faculty.nr').where('lecturer.nr',id);
-	return query.then(rows => (rows.length >0) ? new Lecturer(rows[0]):null);
-
-}
-
-const getGraduateStudentAdvisorById = (adviosrId) =>{
-	let query = con.select().from("faculty").innerJoin('professor','professor.nr' ,"=",'faculty.nr').where('professor.nr',adviosrId);
-	return query.then(rows => new Professor(rows[0]));
-
-}
-
-const getDepartmentById = (worksforId) =>{
-	let query = con.select().from('department').where('nr',worksforId);
-	let result = query.then(rows => new Department(rows[0]));
-	return result;
-}
-
-const getDepartmentByFacultyId = (departmentId) =>{
-	//let query = con.select().from("faculty").innerJoin('department','faculty.worksfor','=','department.nr').where('faculty.worksfor',departmentId);
-	let query = con.select().from("faculty").where('faculty.worksfor', departmentId);
-	return query.then(rows => rows.map(row => new Fa(row)));;
-}
-
-const getGraduateStudentMemberOf = (memberId) =>{
-	let query = con.select().from("department").where('nr', memberId);
-	return query.then(rows => new Department(rows[0]));
-}
-
-
-
-
-/// memorized function calling
-let memoizeGetGraduateStudentPlusAdvisor = memoize(getGdStudentPlusAdvisorByUniID);
-let memoizeGetGraduateStudent = memoize(getGraduateStudentbyUniversity);
-let memoizeGetPublication = memoize(getPublication);
-let memoizeGetAllGraduateStudent = memoize(getAllGraduateStudents);
-let memoizeGetUniversityById = memoize(getUniversityById);
-let memoizeGetDoctoralDegreeById = memoize(getDoctoralDegreeById);
-let memoizeGetDoctoralDegreeByWorkFor = memoize(getDoctoralDegreeByWorkFor);
-let memoizeGetPublicationByAuthor = memoize(getPublicationByAuthor);
-let memoizeGetGraduateStudentTakeCourses = memoize(getGraduateStudentTakeCourses);
-let memoizeGetUnderGraduateStudent = memoize(getUnderGraduateStudent);
-let memoizeGetResearchGroupById = memoize(getResearchGroupById);
-let memoizeGetDepartmentHeadById = memoize(getDepartmentHeadById);
-let memoizeGetLecturerById = memoize(getLecturerById);
-let memoizegGetGraduateStudentAdvisorById = memoize(getGraduateStudentAdvisorById);
-let memoizeGetDepartmentById  = memoize(getDepartmentById);
-let memoizeGetDepartmentByFacultyId = memoize(getDepartmentByFacultyId);
-let memoizeGetGraduateStudentMemberOf = memoize(getGraduateStudentMemberOf); 
-
-
-const resolvers = {	
+const resolvers = {
+		
 	Faculty:{
 		
-		__resolveType:(parent, context, info) => {
+		__resolveType:(parent, context, repository) => {
 			
 			if(parent.position)
 			{
@@ -212,7 +41,7 @@ const resolvers = {
 			
 		},
 		Professor:{
-			__resolveType(obj,context,info)
+			__resolveType(obj,context,repository)
 			{
 
 				console.log("obj:",obj);
@@ -220,7 +49,7 @@ const resolvers = {
 			}
 		},
 		Author:{
-			__resolveType(parent, context, info)
+			__resolveType(parent, context, repository)
 			{
 				
 				if(parent.position)
@@ -243,37 +72,37 @@ const resolvers = {
 		},
 		Query: {
 			
-			faculty: async ( _ , {nr} ) =>{
+			faculty: async ( _ , {nr}, {repository}) =>{
 			
-				let lecturer = await getFacultyLecturer(parseInt(nr));
-				let professor = await getFacultyProfessor(parseInt(nr));
+				let lecturer = await repository.memoizeGetFacultyLecturer.get(parseInt(nr));
+				let professor = await repository.memoizeGetFacultyProfessor.get(parseInt(nr));
 				let arr = (lecturer) ? lecturer: professor;
 				return  arr;
 			},
-			researchGroup:(_,{nr} ) => {
-				let result = memoizeGetResearchGroupById(nr)
+			researchGroup:(_,{nr}, {repository}) => {
+				let result = repository.memoizeGetResearchGroupById.get(nr)
 				return result
 			},
-			university(_,{nr}){
-				let result = memoizeGetUniversityById(parseInt(nr))
+			university(_,{nr}, {repository}){
+				let result = repository.memoizeGetUniversityById.get(parseInt(nr))
 				return result;
 			},
-			department(_,{nr}){
-				let result = memoizeGetDepartmentById(parseInt(nr))
+			department(_,{nr}, {repository}){
+				let result = repository.memoizeGetDepartmentById.get(parseInt(nr))
 				return result;
 			},
-			async publicationSearch(_,args  ){
+			async publicationSearch(_,args, {repository}){
 				
-				let publicaitons = await memoizeGetPublication()
+				let publicaitons = await repository.memoizeGetPublication.all()
 				let result = resolvePublication(publicaitons, args);
 				console.log("result : ",result)
 				
 				return result
 
 			},
-			async graduateStudents( parent,{ where,  limit , order } ){
+			async graduateStudents( parent,{ where,  limit , order }, {repository}){
 
-				let students = await memoizeGetAllGraduateStudent()
+				let students = await repository.memoizeGetAllGraduateStudent.all()
 
 				students = limit ? students.slice(0, limit) : students;
 				students = order ? _.orderBy(students, order) : students;
@@ -301,10 +130,10 @@ const resolvers = {
 				return students;
 				
 			},
-			lecturer(_,{nr}){
+			lecturer(_,{nr}, {repository}){
 
 				let lecturerId = parseInt(nr);				
-				let result = memoizeGetLecturerById(lecturerId)
+				let result = repository.memoizeGetLecturerById.get(lecturerId)
 				return result
 				
 			}
@@ -325,8 +154,7 @@ const resolvers = {
 				return result;
 			},
 			publications(parent, args, context, info){
-				
-				let result =  memoizeGetPublicationByAuthor(parent.id)
+				let result = context.repository.memoizeGetPublicationByAuthor.get(parent.id)
 				return result;
 			},
 			undergraduteDegreeFrom(parent, args, context, info){
@@ -391,8 +219,8 @@ const resolvers = {
 		Publication:{
 			async authors(parent, args, context, info){
 				
-				let professorPublications = await getFacultyProfessor(parent.mainauthor);
-				let lecturerPublications = await getFacultyLecturer(parent.mainauthor);
+				let professorPublications = await context.repository.memoizeGetFacultyProfessor.get(parent.mainauthor);
+				let lecturerPublications = await context.repository.memoizeGetFacultyLecturer.get(parent.mainauthor);
 				let graduateStudent = await getGraduateStudentPublications(parent.id)
 				let arr = [professorPublications,lecturerPublications,...graduateStudent]
 				 arr = arr.filter(function (el) {
@@ -416,25 +244,25 @@ const resolvers = {
 				let result = query.then(rows => rows.map(row => new Fa(row)));
 				return result;
 			},
-			doctoralDegreeObtainers(parent,{where}){
+			doctoralDegreeObtainers(parent,{where}, {repository}){
 				
 				let result = "";
 				if(where)
-					result = memoizeGetDoctoralDegreeByWorkFor(parent.id,where.worksFor.nr)
+					result = repository.memoizeGetDoctoralDegreeByWorkFor.get(parent.id,where.worksFor.nr)
 				else
-					result = memoizeGetDoctoralDegreeById(parent.id);
+					result = repository.memoizeGetDoctoralDegreeById.get(parent.id);
 				return result;
 			},
-			async undergraduateDegreeObtainedBystudent(parent,{ where , limit , offset }){
+			async undergraduateDegreeObtainedBystudent(parent,{ where , limit , offset }, {repository}){
 				
-				let students = await memoizeGetGraduateStudent(parent.id)
+				let students = await repository.memoizeGetGraduateStudent.get(parent.id)
 				
 				students = offset ? students.slice(offset) : students;
     			students = limit ? students.slice(0, limit) : students;
 				
 				// taking clauses
 				if(where){
-					let students = await memoizeGetGraduateStudentPlusAdvisor(parent.id)
+					let students = await repository.memoizeGetGraduateStudentPlusAdvisor.get(parent.id)
 					if(where.AND){
 						for(let i = 0; i< where.AND.length; i ++){
 							const {advisor, university, age} = where.AND[i] || {};
@@ -478,7 +306,7 @@ const resolvers = {
 			async graduateStudentConnection(parent, args, context, info)
 			{
 
-				let GraduteStudents = await memoizeGetGraduateStudent(parent.id);
+				let GraduteStudents = await context.repository.memoizeGetGraduateStudent.get(parent.id);
 				return GraduteStudents;
 			},
 			 departments(parent, args, context, info){
@@ -517,31 +345,27 @@ const resolvers = {
 				return Math.max(...parent.age);
 			},
 			min(parent, args, context, info){
-				
 				return Math.min(...parent.age);
 			},
 		},
 		Department:{
 			subOrganizationOf(parent, args, context, info){
-
 				return{
 					id: parent.subOrganizationOf,
 					departmentNo : parent.id
 				}
 			},
 			head(parent, args, context, info){
-				let result = memoizeGetDepartmentHeadById(parseInt(parent.id))
+				let result = context.repository.memoizeGetDepartmentHeadById.get(parseInt(parent.id))
 				return result
-
 			},
 			faculties(parent, args, context, info){
 				//let = departmentId = parent.id
 				//let result = memoizeGetDepartmentByFacultyId(departmentId)
-				let result = memoizeGetDepartmentByFacultyId(parent.id)
+				let result = context.repository.memoizeGetDepartmentByFacultyId.get(parent.id)
 				return result;
 			},
 			professors(parent, args, context, info){
-				
 				let query = con.select().from("faculty").innerJoin('professor','professor.nr','=','faculty.nr').where('faculty.worksfor',parseInt(parent.id));
 				let result = query.then(rows => rows.map(row => new Professor(row)));
 				return result;
@@ -577,21 +401,20 @@ const resolvers = {
 		},
 		GraduateStudent:{
 			memberOf(parent, args, context, info){
-				
-				let result =  getGraduateStudentMemberOf(parent.memberOf)
+				let result =  context.repository.memoizeGetGraduateStudentMemberOf.get(parent.memberOf);	
 				return result;
 			},
 			advisor(parent, args, context, info){
 				
 				// get professor data which are adviosr of graduate student
 				let adviosrId = parent.advisor
-				let result =  memoizegGetGraduateStudentAdvisorById(adviosrId)
+				let result =  context.repository.memoizegGetGraduateStudentAdvisorById.get(adviosrId)
 				return result
 			},
 			takeGraduateCourses(parent, args, context, info){
 
 				let studentId = parent.id;	
-				let result = memoizeGetGraduateStudentTakeCourses(studentId)
+				let result = context.repository.memoizeGetGraduateStudentTakeCourses.get(studentId)
 				return result;
 			},
 			assistCourses(parent, args, context, info){
@@ -637,7 +460,7 @@ const resolvers = {
 				return result;
 			},
 			worksFor(parent, args, context, info){
-				let result = memoizeGetDepartmentById(parent.worksFor)
+				let result = context.repository.memoizeGetDepartmentById.get(parent.worksFor)
 				return result;
 			},
 			teacherOfGraduateCourses(parent, args, context, info)
@@ -652,9 +475,9 @@ const resolvers = {
 				let result = query.then(rows => rows.map(row => new UndergraduateCourses(row)));
 				return result;
 			},
-			async publications(parent, {order}){
+			async publications(parent, {order}, {repository}){
 				
-				let publicaitons = await memoizeGetPublicationByAuthor(parent.id)
+				let publicaitons = await repository.memoizeGetPublicationByAuthor.get(parent.id)
 				
 				const{field,direction} = order 	
 				let directionLowCase
@@ -746,13 +569,13 @@ const resolvers = {
 	};
 
 	// resolve Publiaction
-	const resolvePublication = (publicaitons, args) =>{
+	const resolvePublication = (publicaitons, args, {repository}) =>{
 
 		if(args.field === "title"){
-			publicaitons = resolvePublicationTitleField(publicaitons,args)
+			publicaitons = repository.resolvePublicationTitleField(publicaitons,args)
 		}
 		else if(args.field === "abstract" ){
-			publicaitons = resolvePublicationAbstractField(publicaitons,args)
+			publicaitons = repository.resolvePublicationAbstractField(publicaitons,args)
 		}
 		return publicaitons;
 	}
@@ -802,3 +625,4 @@ const resolvers = {
 	};
 	
 module.exports = resolvers;
+

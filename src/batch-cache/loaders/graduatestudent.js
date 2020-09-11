@@ -146,15 +146,85 @@ const getGraduateStudentPublication = (publicationId) => {
 };
 
 
+class loaderGraduateStudentSuperviosrById{
+	constructor(){
+		this.GetGraduateStudentSuperviosr = new DataLoader(getGraduateStudentSuperviosr, {cache});
+	}
+	get(nr){
+		return this.GetGraduateStudentSuperviosr.load(nr);
+	}
+}
+//const loaderGraduateStudentSuperviosrById = () => new DataLoader(getGraduateStudentSuperviosr, {cache});
 
-const loaderGraduateStudentSuperviosrById = () => new DataLoader(getGraduateStudentSuperviosr, {cache});
-const loaderGraduateStudentMemberofById = () => new DataLoader(getGraduateStudentMemberof, {cache});
-const loaderGraduateStudentAdvisorById = () => new DataLoader(getGraduateStudentAdvisor, {cache});
-const loaderGetAllGraduateStudents = () => new DataLoader(getAllGraduateStudents, {cache});
-const loaderGetGraduateStudentById = () => new DataLoader(getGraduateStudentById, {cache});
-const loaderGetGraduateStudentByUniversityId = ()=> new DataLoader(getGraduateStudentByUniversityId, {cache});
-const loaderGetGraduateStudentPublication = ()=> new DataLoader(getGraduateStudentPublication, {cache});
-const loadergetGraduateStudentByUniIdPlusAdvisor = () => new DataLoader(getGraduateStudentByUniIdPlusAdvisor, {cache});
+class loaderGraduateStudentMemberofById{
+	constructor(){
+		this.GetGraduateStudentMemberof = new DataLoader(getGraduateStudentMemberof, {cache});
+	}
+	get(nr){
+		return this.GetGraduateStudentMemberof.load(nr);
+	}
+}
+//const loaderGraduateStudentMemberofById = () => new DataLoader(getGraduateStudentMemberof, {cache});
+
+class loaderGraduateStudentAdvisorById{
+	constructor(){
+		this.GetGraduateStudentAdvisor = new DataLoader(getGraduateStudentAdvisor, {cache});
+	}
+	get(nr){
+		return this.GetGraduateStudentAdvisor.load(nr);
+	}
+}
+//const loaderGraduateStudentAdvisorById = () => new DataLoader(getGraduateStudentAdvisor, {cache});
+
+class loaderGetAllGraduateStudents{
+	constructor(){
+		this.GetAllGraduateStudents = new DataLoader(getAllGraduateStudents, {cache});
+	}
+	all(){
+		return this.GetAllGraduateStudents.load('all');
+	}
+}
+//const loaderGetAllGraduateStudents = () => new DataLoader(getAllGraduateStudents, {cache});
+
+class loaderGetGraduateStudentById{
+	constructor(){
+		this.GetGraduateStudentById = new DataLoader(getGraduateStudentById, {cache});
+	}
+	get(nr){
+		return this.GetGraduateStudentById.load(nr);
+	}
+}
+//const loaderGetGraduateStudentById = () => new DataLoader(getGraduateStudentById, {cache});
+
+class loaderGetGraduateStudentByUniversityId{
+	constructor(){
+		this.GetGraduateStudentByUniversityId = new DataLoader(getGraduateStudentByUniversityId, {cache});
+	}
+	get(nr){
+		return this.GetGraduateStudentByUniversityId.load(nr);
+	}
+}
+//const loaderGetGraduateStudentByUniversityId = ()=> new DataLoader(getGraduateStudentByUniversityId, {cache});
+
+class loaderGetGraduateStudentPublication{
+	constructor(){
+		this.GetGraduateStudentPublication = new DataLoader(getGraduateStudentPublication, {cache});
+	}
+	get(nr){
+		return this.GetGraduateStudentPublication.load(nr);
+	}
+}
+//const loaderGetGraduateStudentPublication = ()=> new DataLoader(getGraduateStudentPublication, {cache});
+
+class loadergetGraduateStudentByUniIdPlusAdvisor{
+	constructor(){
+		this.GetGraduateStudentByUniIdPlusAdvisor = new DataLoader(getGraduateStudentByUniIdPlusAdvisor, {cache});
+	}
+	get(nr){
+		return this.GetGraduateStudentByUniIdPlusAdvisor.load(nr);
+	}
+}
+//const loadergetGraduateStudentByUniIdPlusAdvisor = () => new DataLoader(getGraduateStudentByUniIdPlusAdvisor, {cache});
 
 module.exports = {
 	loaderGraduateStudentSuperviosrById,

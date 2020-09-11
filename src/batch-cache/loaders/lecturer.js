@@ -41,9 +41,35 @@ const getLecturerById = (lecturerId) => {
 	);
 };
 
-const lecturerLoaderDegreeFrom = () => new DataLoader(getDegreeFromById, {cache})
-const lecturerLoaderWorkFor = () => new DataLoader(getWorksFor, {cache})
-const loaderGetLecturerById = () => new DataLoader(getLecturerById, {cache})
+class lecturerLoaderDegreeFrom{
+	constructor(){
+		this.GetDegreeFromById = new DataLoader(getDegreeFromById, {cache});
+	}
+	get(nr){
+		return this.GetDegreeFromById.load(nr);
+	}
+}
+//const lecturerLoaderDegreeFrom = () => new DataLoader(getDegreeFromById, {cache})
+
+class lecturerLoaderWorkFor{
+	constructor(){
+		this.GetWorksFor = new DataLoader(getWorksFor, {cache});
+	}
+	get(nr){
+		return this.GetWorksFor.load(nr);
+	}
+}
+//const lecturerLoaderWorkFor = () => new DataLoader(getWorksFor, {cache})
+
+class loaderGetLecturerById{
+	constructor(){
+		this.GetLecturerById = new DataLoader(getLecturerById, {cache});
+	}
+	get(nr){
+		return this.GetLecturerById.load(nr);
+	}
+}
+//const loaderGetLecturerById = () => new DataLoader(getLecturerById, {cache})
 
 //const lecturerLoaderMasterDegreeFrom = () => new DataLoader(getMasterDegreeFrom)
 //const lecturerLoaderMasterDegreeFrom = () => new DataLoader(getMasterDegreeFrom)
