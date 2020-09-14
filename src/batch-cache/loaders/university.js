@@ -16,17 +16,15 @@ const getUniversityById = (universityId) => {
 	return query.then(rows => simpleSortRows(rows, universityId, University));
 };
 
-
-//const loaderGetUniversityById = () => new DataLoader(getUniversityById, {cache});
-class loaderGetUniversityById{
+class university{
 	constructor(){
 		this.GetUniversityById = new DataLoader(getUniversityById, {cache});
 	}
-	get(nr){
+	loaderGetUniversityById(nr){
 		return this.GetUniversityById.load(nr);
 	}
 }
 
 module.exports = {
-	loaderGetUniversityById
+	university
 }

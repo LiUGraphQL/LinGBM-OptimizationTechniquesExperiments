@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rjkhan/graphql-2.git"
+    "url": "git+https://github.com/LiUGraphQL/LinGBM-OptimizationTechniquesExperiments.git"
   },
   "keywords": [],
   "author": "Rabnawaz jan Sher",
@@ -20,19 +20,19 @@
   "homepage": "https://github.com/rjkhan/graphql-2#readme",
   "dependencies": {
     "apollo-server": "^2.9.14",
-    "core-js": "^3.6.3",
+    "core-js": "^3.6.5",
     "dataloader": "^2.0.0",
     "dotenv": "^8.2.0",
     "fs": "0.0.1-security",
-    "graphql": "^14.5.8",
-    "knex": "^0.20.4",
+    "graphql": "^14.7.0",
+    "knex": "^0.20.15",
     "lodash": "^4.17.15",
-    "mysql": "^2.17.1",
-    "pg": "^7.15.1",
-    "request": "^2.88.0",
-    "request-promise": "^4.2.5"
+    "mysql": "^2.18.1",
+    "pg": "^8.0.3",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
   },
   "devDependencies": {
-    "nodemon": "^2.0.2"
+    "nodemon": "^2.0.4"
   }
 }

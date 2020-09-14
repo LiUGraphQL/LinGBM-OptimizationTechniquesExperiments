@@ -21,6 +21,7 @@ const { memoizeGetGraduateStudentPlusAdvisor,
 const repository = () =>{
 	return{
 		repository:{
+			memoizeGetGraduateStudentPlusAdvisor: new memoizeGetGraduateStudentPlusAdvisor(),
 			memoizeGetGraduateStudent: new memoizeGetGraduateStudent(),
 			memoizeGetPublication: new memoizeGetPublication(),
 			memoizeGetAllGraduateStudent: new memoizeGetAllGraduateStudent(),

@@ -57,38 +57,23 @@ const getGraduateStudentAssistCourses = (assistIds) => {
 	
 };
 
-class loaderGetGratudateCourseByTeacherIds{
+class graduateCourse{
 	constructor(){
 		this.GetGratudateCourseByTeacherIds = new DataLoader(getGratudateCourseByTeacherIds, {cache});
-	}
-	get(nr){
-		return this.GetGratudateCourseByTeacherIds.load(nr);
-	}
-}
-//const loaderGetGratudateCourseByTeacherIds = () => new DataLoader(getGratudateCourseByTeacherIds, {cache});
-
-class loaderGraduateTakeCourses{
-	constructor(){
 		this.GetGraduateStudentTakeCourses = new DataLoader(getGraduateStudentTakeCourses, {cache});
-	}
-	get(nr){
-		return this.GetGraduateStudentTakeCourses.load(nr);
-	}
-}
-//const loaderGraduateTakeCourses = () => new DataLoader(getGraduateStudentTakeCourses, {cache});
-
-class loaderGraduateAssistCourses{
-	constructor(){
 		this.GetGraduateStudentAssistCourses = new DataLoader(getGraduateStudentAssistCourses, {cache});
 	}
-	get(nr){
+	loaderGetGratudateCourseByTeacherIds(nr){
+		return this.GetGratudateCourseByTeacherIds.load(nr);
+	}
+	loaderGraduateTakeCourses(nr){
+		return this.GetGraduateStudentTakeCourses.load(nr);
+	}
+	loaderGraduateAssistCourses(nr){
 		return this.GetGraduateStudentAssistCourses.load(nr);
 	}
 }
-//const loaderGraduateAssistCourses = () => new DataLoader(getGraduateStudentAssistCourses, {cache});
 
 module.exports = {
-	loaderGetGratudateCourseByTeacherIds,
-	loaderGraduateTakeCourses,
-	loaderGraduateAssistCourses
+	graduateCourse
 }

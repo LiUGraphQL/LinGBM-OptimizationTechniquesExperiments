@@ -569,13 +569,13 @@ const resolvers = {
 	};
 
 	// resolve Publiaction
-	const resolvePublication = (publicaitons, args, {repository}) =>{
+	const resolvePublication = (publicaitons, args) =>{
 
 		if(args.field === "title"){
-			publicaitons = repository.resolvePublicationTitleField(publicaitons,args)
+			publicaitons = resolvePublicationTitleField(publicaitons,args)
 		}
 		else if(args.field === "abstract" ){
-			publicaitons = repository.resolvePublicationAbstractField(publicaitons,args)
+			publicaitons = resolvePublicationAbstractField(publicaitons,args)
 		}
 		return publicaitons;
 	}

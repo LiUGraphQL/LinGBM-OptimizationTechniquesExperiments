@@ -1,4 +1,3 @@
-
 // required modules
 const DataLoader = require('dataloader')
 const con = require("../database/db");
@@ -10,20 +9,25 @@ const University = require("../model/university");
 const Department = require("../model/department");
 const Lecturer = require("../model/lecturer");
 
-// degree ["doctoral","master","undergraduate"]
-const getDegreeFromById= (nrs) =>{
-	let query = con
-		.select()
-		.from('university')
-		.whereIn('nr',nrs);
-	return query.then(rows => simpleSortRows(rows, nrs, University));
-};
 
 const getWorksFor = (nrs) => {
 	let query = con.select()
 		.from('department')
 		.whereIn('nr',nrs);
 	return query.then(rows => simpleSortRows(rows, nrs, Department));
+};
+
+const getLecturerByDepartmentId = (worksFor) =>{
+	let query = con.select()
+		.from("faculty")
+		.innerJoin('lecturer','lecturer.nr','=','faculty.nr')
+		.whereIn('faculty.worksfor',worksFor);
+	
+	return query.then(rows =>
+		worksFor.map(nr =>
+			rows.filter(row => row.worksfor == nr).map(row => new Lecturer(row))
+		)
+	);
 };
 
 
@@ -41,44 +45,25 @@ const getLecturerById = (lecturerId) => {
 	);
 };
 
-class lecturerLoaderDegreeFrom{
-	constructor(){
-		this.GetDegreeFromById = new DataLoader(getDegreeFromById, {cache});
-	}
-	get(nr){
-		return this.GetDegreeFromById.load(nr);
-	}
-}
-//const lecturerLoaderDegreeFrom = () => new DataLoader(getDegreeFromById, {cache})
 
-class lecturerLoaderWorkFor{
+class lecturer{
 	constructor(){
 		this.GetWorksFor = new DataLoader(getWorksFor, {cache});
+		this.GetLecturerById = new DataLoader(getLecturerById, {cache});
+		this.GetLecturerByDepartmentId = new DataLoader(getLecturerByDepartmentId, {cache});
 	}
-	get(nr){
+	lecturerLoaderWorkFor(nr){
 		return this.GetWorksFor.load(nr);
 	}
-}
-//const lecturerLoaderWorkFor = () => new DataLoader(getWorksFor, {cache})
-
-class loaderGetLecturerById{
-	constructor(){
-		this.GetLecturerById = new DataLoader(getLecturerById, {cache});
-	}
-	get(nr){
+	loaderGetLecturerById(nr){
 		return this.GetLecturerById.load(nr);
 	}
+	loaderGetLecturerByDepartmentId(nr){
+		return this.GetLecturerByDepartmentId.load(nr);
+	}
 }
-//const loaderGetLecturerById = () => new DataLoader(getLecturerById, {cache})
-
-//const lecturerLoaderMasterDegreeFrom = () => new DataLoader(getMasterDegreeFrom)
-//const lecturerLoaderMasterDegreeFrom = () => new DataLoader(getMasterDegreeFrom)
-
 
 module.exports = {
-	lecturerLoaderDegreeFrom,
-	lecturerLoaderWorkFor,
-	loaderGetLecturerById
-
+	lecturer
 }
 

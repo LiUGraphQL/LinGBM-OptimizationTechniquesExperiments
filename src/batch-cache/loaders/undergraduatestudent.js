@@ -7,6 +7,32 @@ const cache = require('../config.js');
 const UndergraduateStudent = require('../model/undergraduatestudent');
 const Department = require('../model/department')
 
+const getUndergraduateStudentByIds = (undergraduateStudentIds) => {
+
+	let query = con.select()
+		.from('undergraduatestudent')
+		.whereIn('nr',undergraduateStudentIds);
+		// A loader needs to return items in the correct order, this sorts them.
+	return query.then(rows =>
+		undergraduateStudentIds.map(nr =>
+			rows.filter(row => row.nr == nr).map(row => new UndergraduateStudent(row))
+		)
+		);
+	
+	
+};
+
+const getUndergraduateDepartmentsByid= (departmentIds) =>{
+	let query = con
+		.select()
+		.from('undergraduatestudent')
+		.whereIn('memberof',departmentIds);
+	return query.then(rows =>
+		departmentIds.map(nr =>
+			rows.filter(row => row.memberof == nr).map(row => new UndergraduateStudent(row))
+		)
+	);
+};
 
 const getUndergraduateStudentSuperviosr = (superviosrIds) => {
 	
@@ -23,39 +49,6 @@ const getUndergraduateStudentSuperviosr = (superviosrIds) => {
 	
 };
 
-//undergraduate student is member of of department by depatment id
-const getUndergraduateStudentMemberof = (memberIds) => {
-	
- 
-	let query = con.select()
-		.from('department')
-		.whereIn('nr',memberIds);
-		// A loader needs to return items in the correct order, this sorts them.
-	return query.then(rows => simpleSortRows(rows, memberIds, Department));
-	
-};
-
-
-
-//undergraduate student by id
-const getUndergraduateStudentByIds = (undergraduateStudentIds) => {
-
-	let query = con.select()
-		.from('undergraduatestudent')
-		.whereIn('nr',undergraduateStudentIds);
-		// A loader needs to return items in the correct order, this sorts them.
-	return query.then(rows =>
-		undergraduateStudentIds.map(nr =>
-			rows.filter(row => row.nr == nr).map(row => new UndergraduateStudent(row))
-		)
-		);
-	
-	
-};
-
-
-
-//get all Undergraduate students by uiversity Id
 const getundergraduateStudentByUniversityId = (universityId) => {
 	
 	let query = con.select()
@@ -71,51 +64,29 @@ const getundergraduateStudentByUniversityId = (universityId) => {
     
 };
 
-class loaderUndergraduateStudentSuperviosrById{
+
+class undergraduateStudent{
 	constructor(){
+		this.GetUndergraduateDepartmentsByid = new DataLoader(getUndergraduateDepartmentsByid, {cache});
 		this.GetUndergraduateStudentSuperviosr = new DataLoader(getUndergraduateStudentSuperviosr, {cache});
-	}
-	get(nr){
-		return this.GetUndergraduateStudentSuperviosr.load(nr);
-	}
-}
-//const loaderUndergraduateStudentSuperviosrById = () => new DataLoader(getUndergraduateStudentSuperviosr, {cache});
-
-class loaderUndergraduateStudentMemberofById{
-	constructor(){
-		this.GetUndergraduateStudentMemberof = new DataLoader(getUndergraduateStudentMemberof, {cache});
-	}
-	get(nr){
-		return this.GetUndergraduateStudentMemberof.load(nr);
-	}
-}
-//const loaderUndergraduateStudentMemberofById = () => new DataLoader(getUndergraduateStudentMemberof, {cache});
-
-class loaderUndergraduateStudentById{
-	constructor(){
 		this.GetUndergraduateStudentByIds = new DataLoader(getUndergraduateStudentByIds, {cache});
-	}
-	get(nr){
-		return this.GetUndergraduateStudentByIds.load(nr);
-	}
-}
-//const loaderUndergraduateStudentById = () => new DataLoader(getUndergraduateStudentByIds, {cache});
-
-class loaderUndergetGraduateStudentByUniversityId{
-	constructor(){
 		this.GetundergraduateStudentByUniversityId = new DataLoader(getundergraduateStudentByUniversityId, {cache});
 	}
-	get(nr){
+	loaderGetUndergraduateStudentDepartmentsById(nr){
+		return this.GetUndergraduateDepartmentsByid.load(nr);
+	}
+	loaderUndergraduateStudentSuperviosrById(nr){
+		return this.GetUndergraduateStudentSuperviosr.load(nr);
+	}
+	loaderUndergraduateStudentById(nr){
+		return this.GetUndergraduateStudentByIds.load(nr);
+	}
+	loaderUndergetGraduateStudentByUniversityId(nr){
 		return this.GetundergraduateStudentByUniversityId.load(nr);
 	}
+
 }
-//const loaderUndergetGraduateStudentByUniversityId = ()=> new DataLoader(getundergraduateStudentByUniversityId, {cache});
-
-
 
 module.exports = {
-	loaderUndergraduateStudentSuperviosrById,
-	loaderUndergraduateStudentMemberofById,
-	loaderUndergraduateStudentById,
-	loaderUndergetGraduateStudentByUniversityId
+	undergraduateStudent
 }

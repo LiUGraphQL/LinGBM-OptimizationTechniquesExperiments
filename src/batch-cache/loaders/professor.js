@@ -12,23 +12,6 @@ const Professor = require("../model/professor");
 
 
 
-// degree ["doctoral","master","undergraduate"]
-const getDegreeFromById= (nrs) =>{
-	let query = con
-		.select()
-		.from('university')
-		.whereIn('nr',nrs);
-	return query.then(rows => simpleSortRows(rows, nrs, University));
-};
-
-const getWorksFor = (nrs) => {
-	let query = con.select()
-		.from('department')
-		.whereIn('nr',nrs);
-	return query.then(rows => simpleSortRows(rows, nrs, Department));
-};
-
-
 // get Professor by id
 const getProfessorById = (professorId) => {
 	let query = con.select()
@@ -43,41 +26,33 @@ const getProfessorById = (professorId) => {
 	);
 };
 
+const getProfessorByDepartmentId = (worksFor) =>{
+	let query = con.select()
+		.from("faculty")
+		.innerJoin('professor','professor.nr','=','faculty.nr')
+		.whereIn('faculty.worksfor',worksFor);
+	
+	return query.then(rows =>
+		worksFor.map(nr =>
+			rows.filter(row => row.worksfor == nr).map(row => new Professor(row))
+		)
+	);
+};
 
-class professorLoaderDegreeFrom{
-	constructor(){
-		this.GetDegreeFromById = new DataLoader(getDegreeFromById, {cache});
-	}
-	get(nr){
-		return this.GetDegreeFromById.load(nr);
-	}
-}
-//const professorLoaderDegreeFrom = () => new DataLoader(getDegreeFromById, {cache})
-
-class professorLoaderWorkFor{
-	constructor(){
-		this.GetWorksFor = new DataLoader(getWorksFor, {cache});
-	}
-	get(nr){
-		return this.GetWorksFor.load(nr);
-	}
-}
-//const professorLoaderWorkFor = () => new DataLoader(getWorksFor, {cache})
-
-class loaderGetProfessorById{
+class professor{
 	constructor(){
 		this.GetProfessorById = new DataLoader(getProfessorById, {cache});
+		this.GetProfessorByDepartmentId = new DataLoader(getProfessorByDepartmentId, {cache});
 	}
-	get(nr){
+	loaderGetProfessorById(nr){
 		return this.GetProfessorById.load(nr);
 	}
+	loaderGetProfessorByDepartmentId(nr){
+		return this.GetProfessorByDepartmentId.load(nr);
+	}
 }
-//const loaderGetProfessorById = () => new DataLoader(getProfessorById, {cache})
 
 module.exports = {
-	professorLoaderDegreeFrom,
-	professorLoaderWorkFor,
-	loaderGetProfessorById
-
+	professor
 }
 

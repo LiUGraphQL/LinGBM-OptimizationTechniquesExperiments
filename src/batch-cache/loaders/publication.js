@@ -3,7 +3,6 @@ const con = require("../database/db");
 const { simpleSortRows, allGeneric } = require('../helpers');
 const cache = require('../config.js');
 
-
 // load models
 const Publication = require('../model/publication');
 
@@ -31,27 +30,21 @@ const getAllPublications = (keys) => {
 	return query.then(rows => [rows.map(row => new Publication(row))]);
 };
 
-
-class loaderGetPublicationByAuthorId{
+class publication{
 	constructor(){
 		this.GetPublicationsByAuthorId = new DataLoader(getPublicationsByAuthorId, {cache});
-	}
-	get(nr){
-		return this.GetPublicationsByAuthorId.load(nr);
-	}
-}
-class loaderGetAllPublications{
-	constructor(){
+		this.GetPublicationsByAuthorId = new DataLoader(getPublicationsByAuthorId, {cache});
 		this.GetAllPublications = new DataLoader(getAllPublications, {cache});
 	}
-	all(){
+	loaderGetPublicationByAuthorId(nr){
+		return this.GetPublicationsByAuthorId.load(nr);
+	}
+	loaderGetAllPublications(){
 		return this.GetAllPublications.load('all');
 	}
+
 }
-//const loaderGetPublicationByAuthorId = () => new DataLoader(getPublicationsByAuthorId, {cache})
-//const loaderGetAllPublications = () => new DataLoader(getAllPublications, {cache})
 
 module.exports = {
-	loaderGetPublicationByAuthorId,
-	loaderGetAllPublications
+	publication
 }

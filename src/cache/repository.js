@@ -77,7 +77,6 @@ const getGraduateStudentbyUniversity = nrs => {
 
 
  const getPublicationByAuthor = (author) =>{
-	 console.log("memory")
 	let query = con.select().from('publication').where('mainauthor',author);
 	let result = query.then(rows => (rows.length>0) ? rows.map(row => new Publication(row)): null);
 	return result;
@@ -106,7 +105,6 @@ const getUniversityById = (universityId) =>{
 }
 
 const getDoctoralDegreeById = (id) =>{
-	console.log('memory')
 	let query = con.select().from('faculty').where('doctoraldegreefrom',id);
 	let result = query.then(rows => rows.map(row => new Fa(row)));
 	return result;

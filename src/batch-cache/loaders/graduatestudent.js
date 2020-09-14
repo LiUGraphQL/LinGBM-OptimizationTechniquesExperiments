@@ -24,44 +24,6 @@ const getGraduateStudentSuperviosr = (superviosrIds) => {
 };
 
 
-
-//graduate student is member of 
-const getGraduateStudentMemberof = (memberIds) => {
-	
-    let query = con.select()
-        .from('department')
-        .whereIn('nr',memberIds);
-        // A loader needs to return items in the correct order, this sorts them.
-    return query.then(rows => simpleSortRows(rows, memberIds, Department));
-    
-};
-
-
-//graduate student advisor
-const getGraduateStudentAdvisor = (advisorIds) => {
-	
-	let query = con.select()
-		.from("faculty")
-		.innerJoin('professor','professor.nr' ,"=",'faculty.nr')
-		.whereIn('professor.nr',advisorIds);
-        // A loader needs to return items in the correct order, this sorts them.
-    return query.then(rows => simpleSortRows(rows, advisorIds, Professor));
-    
-};
-
-//get all graduate students list
-const getAllGraduateStudents = (keys) => {
-	
-	let query = con
-		.select()
-		.from('graduatestudent');
-	// A loader needs to return items in the correct order, this sorts them.
-    return query.then(rows => [rows.map(row => new GraduateStudent(row))]);
-    
-};
-
-
-//get all graduate students byId
 const getGraduateStudentById = (keys) => {
 
 	let query = con
@@ -76,40 +38,40 @@ const getGraduateStudentById = (keys) => {
     
 };
 
-
-
-//get all graduate students by uiversity Id
-/*
-const getGraduateStudentByUniversityId = (universityId) => {
+//get all graduate students list
+const getAllGraduateStudents = (keys) => {
 	
-	let query = con.select()
-		.from('department')
-		.innerJoin('undergraduatestudent','undergraduatestudent.memberof','=','department.nr')
-		.whereIn('department.nr',universityId);
-
+	let query = con
+		.select()
+		.from('graduatestudent');
 	// A loader needs to return items in the correct order, this sorts them.
-    // A loader needs to return items in the correct order, this sorts them.
-	return query.then(rows =>
-		universityId.map(nr =>
-			rows.filter(row => row.nr == nr).map(row => new GraduateStudent(row))
-		)
-	);	
+    return query.then(rows => [rows.map(row => new GraduateStudent(row))]);
     
 };
-*/
+
 const getGraduateStudentByUniversityId = (universityId) => {
 	
 	let query = con.select()
 		.from('graduatestudent')
 		.whereIn('graduatestudent.undergraduatedegreefrom',universityId);
-	// A loader needs to return items in the correct order, this sorts them.
-    // A loader needs to return items in the correct order, this sorts them.
 	return query.then(rows =>
 		universityId.map(nr =>
 			rows.filter(row => row.undergraduatedegreefrom == nr).map(row => new GraduateStudent(row))
 		)
 	);	
     
+};
+
+const getGraduateDepartmentsByid= (departmentIds) =>{
+	let query = con
+		.select()
+		.from('graduatestudent')
+		.whereIn('memberof',departmentIds);
+	return query.then(rows => 
+		departmentIds.map(nr =>
+			rows.filter(row => row.memberof == nr).map(row =>  new GraduateStudent(row))
+		)
+	);
 };
 
 const getGraduateStudentByUniIdPlusAdvisor = (universityId) => {
@@ -118,8 +80,6 @@ const getGraduateStudentByUniIdPlusAdvisor = (universityId) => {
 		.from('graduatestudent')
 		.innerJoin('professor', 'professor.nr','=','graduatestudent.advisor')
 		.whereIn('graduatestudent.undergraduatedegreefrom',universityId);
-	// A loader needs to return items in the correct order, this sorts them.
-    // A loader needs to return items in the correct order, this sorts them.
 	return query.then(rows =>
 		universityId.map(nr =>
 			rows.filter(row => row.undergraduatedegreefrom == nr).map(row => new GraduateStudent(row))
@@ -127,6 +87,7 @@ const getGraduateStudentByUniIdPlusAdvisor = (universityId) => {
 	);	
     
 };
+
 
 
 
@@ -145,95 +106,40 @@ const getGraduateStudentPublication = (publicationId) => {
     
 };
 
-
-class loaderGraduateStudentSuperviosrById{
-	constructor(){
-		this.GetGraduateStudentSuperviosr = new DataLoader(getGraduateStudentSuperviosr, {cache});
-	}
-	get(nr){
-		return this.GetGraduateStudentSuperviosr.load(nr);
-	}
-}
-//const loaderGraduateStudentSuperviosrById = () => new DataLoader(getGraduateStudentSuperviosr, {cache});
-
-class loaderGraduateStudentMemberofById{
-	constructor(){
-		this.GetGraduateStudentMemberof = new DataLoader(getGraduateStudentMemberof, {cache});
-	}
-	get(nr){
-		return this.GetGraduateStudentMemberof.load(nr);
-	}
-}
-//const loaderGraduateStudentMemberofById = () => new DataLoader(getGraduateStudentMemberof, {cache});
-
-class loaderGraduateStudentAdvisorById{
-	constructor(){
-		this.GetGraduateStudentAdvisor = new DataLoader(getGraduateStudentAdvisor, {cache});
-	}
-	get(nr){
-		return this.GetGraduateStudentAdvisor.load(nr);
-	}
-}
-//const loaderGraduateStudentAdvisorById = () => new DataLoader(getGraduateStudentAdvisor, {cache});
-
-class loaderGetAllGraduateStudents{
-	constructor(){
-		this.GetAllGraduateStudents = new DataLoader(getAllGraduateStudents, {cache});
-	}
-	all(){
-		return this.GetAllGraduateStudents.load('all');
-	}
-}
-//const loaderGetAllGraduateStudents = () => new DataLoader(getAllGraduateStudents, {cache});
-
-class loaderGetGraduateStudentById{
+class graduateStudent{
 	constructor(){
 		this.GetGraduateStudentById = new DataLoader(getGraduateStudentById, {cache});
-	}
-	get(nr){
-		return this.GetGraduateStudentById.load(nr);
-	}
-}
-//const loaderGetGraduateStudentById = () => new DataLoader(getGraduateStudentById, {cache});
-
-class loaderGetGraduateStudentByUniversityId{
-	constructor(){
+		this.GetAllGraduateStudents = new DataLoader(getAllGraduateStudents, {cache});
 		this.GetGraduateStudentByUniversityId = new DataLoader(getGraduateStudentByUniversityId, {cache});
-	}
-	get(nr){
-		return this.GetGraduateStudentByUniversityId.load(nr);
-	}
-}
-//const loaderGetGraduateStudentByUniversityId = ()=> new DataLoader(getGraduateStudentByUniversityId, {cache});
-
-class loaderGetGraduateStudentPublication{
-	constructor(){
 		this.GetGraduateStudentPublication = new DataLoader(getGraduateStudentPublication, {cache});
-	}
-	get(nr){
-		return this.GetGraduateStudentPublication.load(nr);
-	}
-}
-//const loaderGetGraduateStudentPublication = ()=> new DataLoader(getGraduateStudentPublication, {cache});
-
-class loadergetGraduateStudentByUniIdPlusAdvisor{
-	constructor(){
+		this.GetGraduateDepartmentsByid = new DataLoader(getGraduateDepartmentsByid, {cache});
+		this.GetGraduateStudentSuperviosr = new DataLoader(getGraduateStudentSuperviosr, {cache});
 		this.GetGraduateStudentByUniIdPlusAdvisor = new DataLoader(getGraduateStudentByUniIdPlusAdvisor, {cache});
 	}
-	get(nr){
+	loaderGetGraduateStudentById(nr){
+		return this.GetGraduateStudentById.load(nr);
+	}
+	loaderGetAllGraduateStudents(){
+		return this.GetAllGraduateStudents.load('all');
+	}
+	loaderGetGraduateStudentByUniversityId(nr){
+		return this.GetGraduateStudentByUniversityId.load(nr);
+	}
+	loaderGetGraduateStudentPublication(nr){
+		return this.GetGraduateStudentPublication.load(nr);
+	}
+	loaderGetGraduateStudentDepartmentsById(nr){
+		return this.GetGraduateDepartmentsByid.load(nr);
+	}
+	loaderGraduateStudentSuperviosrById(nr){
+		return this.GetGraduateStudentSuperviosr.load(nr);
+	}
+	loadergetGraduateStudentByUniIdPlusAdvisor(nr){
 		return this.GetGraduateStudentByUniIdPlusAdvisor.load(nr);
 	}
+
 }
-//const loadergetGraduateStudentByUniIdPlusAdvisor = () => new DataLoader(getGraduateStudentByUniIdPlusAdvisor, {cache});
 
 module.exports = {
-	loaderGraduateStudentSuperviosrById,
-	loaderGraduateStudentMemberofById,
-	loaderGraduateStudentAdvisorById,
-	loaderGetAllGraduateStudents,
-	loaderGetGraduateStudentById,
-	loaderGetGraduateStudentByUniversityId,
-	loaderGetGraduateStudentPublication,
-	loadergetGraduateStudentByUniIdPlusAdvisor
-
+	graduateStudent
 }

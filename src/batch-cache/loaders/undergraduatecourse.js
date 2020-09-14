@@ -24,7 +24,6 @@ const getUndergratudateCourseByTeacherIds = (teacherIds) => {
 
 
 //undergraduate student taken courses
-
 const getUndergraduateTakeCourses = (undergraduateStudentIds) => {
 	let query = con.select()
 		.from("undergraduatestudenttakecourse")
@@ -40,27 +39,19 @@ const getUndergraduateTakeCourses = (undergraduateStudentIds) => {
 	
 };
 
-class loaderGetUndergratudateCourseByTeacherIds{
+class undergratudateCourse{
 	constructor(){
 		this.GetUndergratudateCourseByTeacherIds = new DataLoader(getUndergratudateCourseByTeacherIds, {cache});
-	}
-	get(nr){
-		return this.GetUndergratudateCourseByTeacherIds.load(nr);
-	}
-}
-//const loaderGetUndergratudateCourseByTeacherIds = () => new DataLoader(getUndergratudateCourseByTeacherIds, {cache});
-
-class loaderUndergraduateTakeCourses{
-	constructor(){
 		this.GetUndergraduateTakeCourses = new DataLoader(getUndergraduateTakeCourses, {cache});
 	}
-	get(nr){
+	loaderGetUndergratudateCourseByTeacherIds(nr){
+		return this.GetUndergratudateCourseByTeacherIds.load(nr);
+	}
+	loaderUndergraduateTakeCourses(nr){
 		return this.GetUndergraduateTakeCourses.load(nr);
 	}
 }
-//const loaderUndergraduateTakeCourses = () => new DataLoader(getUndergraduateTakeCourses, {cache});
 
 module.exports = {
-	loaderGetUndergratudateCourseByTeacherIds,
-	loaderUndergraduateTakeCourses
+	undergratudateCourse
 }
