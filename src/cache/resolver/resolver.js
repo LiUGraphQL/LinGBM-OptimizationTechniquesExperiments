@@ -269,7 +269,7 @@ const resolvers = {
 				
 				// taking clauses
 				if(where){
-					let students = await repository.graduateStudent.memoizeGetGraduateStudentPlusAdvisor(parent.id)
+					students = await repository.graduateStudent.memoizeGetGraduateStudentPlusAdvisor(parent.id)
 					if(where.AND){
 						for(let i = 0; i< where.AND.length; i ++){
 							const {advisor, university, age} = where.AND[i] || {};
@@ -400,9 +400,8 @@ const resolvers = {
 			
 			subOrgnizationOf(parent, args, context, info){
 				//return parent
-				return{
-					id: parent.subOrganizationOf
-				}
+				let result =  context.repository.researchGroup.memoizeGetResearchGroupById(parent.subOrganizationOf);	
+				return result; 
 			}
 		},
 		GraduateStudent:{
