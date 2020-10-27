@@ -147,8 +147,8 @@ const resolvers = {
 				let mainAuthorId = parent.id;
 				return context.repository.publication.loaderGetPublicationByAuthorId(mainAuthorId);
 			},
-			undergraduteDegreeFrom(parent, args, context, info){
-				return context.repository.university.loaderGetUniversityById(parent.undergraduteDegreeFrom);
+			undergraduatedegreeFrom(parent, args, context, info){
+				return context.repository.university.loaderGetUniversityById(parent.undergraduatedegreeFrom);
 			},
 			masterDegreeFrom(parent, args, context, info){
 				return context.repository.university.loaderGetUniversityById(parent.masterDegreeFrom);
@@ -220,7 +220,6 @@ const resolvers = {
     			students = limit ? students.slice(0, limit) : students;
 
     			if(where){
-    				//todo
 					students = await context.repository.graduateStudent.loadergetGraduateStudentByUniIdPlusAdvisor(parent.id);
 					if(where.AND){
 						for(let i = 0; i< where.AND.length; i ++){
@@ -340,7 +339,7 @@ const resolvers = {
 			}
 		},
 		ResearchGroup:{
-			subOrgnizationOf(parent, args, context, info){
+			subOrganizationOf(parent, args, context, info){
 				/*
 				return{
 					id: parent.subOrganizationOf
@@ -379,8 +378,8 @@ const resolvers = {
 			}
 		},
 		Professor:{
-			undergraduteDegreeFrom(parent, args, context, info){
-				return context.repository.university.loaderGetUniversityById(parent.undergraduteDegreeFrom);
+			undergraduatedegreeFrom(parent, args, context, info){
+				return context.repository.university.loaderGetUniversityById(parent.undergraduatedegreeFrom);
 			},
 			masterDegreeFrom(parent, args, context, info){
 				return context.repository.university.loaderGetUniversityById(parent.masterDegreeFrom);

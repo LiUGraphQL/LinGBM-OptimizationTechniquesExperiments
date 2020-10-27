@@ -332,9 +332,9 @@ const resolvers = {
 				let result =  memoizeGetPublicationByAuthor(parent.id)
 				return result;
 			},
-			undergraduteDegreeFrom(parent, args, context, info){
+			undergraduatedegreeFrom(parent, args, context, info){
 				
-				let query = con.select().from('university').where('nr',parent.undergraduteDegreeFrom);
+				let query = con.select().from('university').where('nr',parent.undergraduatedegreeFrom);
 				let result = query.then(rows => new University(rows[0]));
 				return result;
 			},
@@ -571,7 +571,7 @@ const resolvers = {
 		},
 		ResearchGroup:{
 			
-			subOrgnizationOf(parent, args, context, info){
+			subOrganizationOf(parent, args, context, info){
 				//return parent
 				//return parent.subOrganizationOf
 				return{
@@ -678,9 +678,9 @@ const resolvers = {
 				return profType
 			},
 
-			undergraduteDegreeFrom(parent, args, context, info){
+			undergraduatedegreeFrom(parent, args, context, info){
 				
-				let query = con.select().from('university').where('nr',parent.undergraduteDegreeFrom);
+				let query = con.select().from('university').where('nr',parent.undergraduatedegreeFrom);
 				let result = query.then(rows => new University(rows[0]));
 				return result;
 			},

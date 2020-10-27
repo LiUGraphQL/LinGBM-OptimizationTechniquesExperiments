@@ -159,8 +159,8 @@ const resolvers = {
 				let mainAuthorId = parent.id;
 				return context.loaderGetPublicationByAuthorId.load(mainAuthorId);
 			},
-			undergraduteDegreeFrom(parent, args, context, info){
-				return context.lecturerLoaderDegreeFrom.load(parent.undergraduteDegreeFrom);
+			undergraduatedegreeFrom(parent, args, context, info){
+				return context.lecturerLoaderDegreeFrom.load(parent.undergraduatedegreeFrom);
 			},
 			masterDegreeFrom(parent, args, context, info){
 				return context.lecturerLoaderDegreeFrom.load(parent.masterDegreeFrom);
@@ -401,7 +401,7 @@ const resolvers = {
 			}
 		},
 		ResearchGroup:{
-			subOrgnizationOf(parent, args, context, info){
+			subOrganizationOf(parent, args, context, info){
 				return context.loaderDepartmentByResearchGroup.load(parent.subOrganizationOf);
 			}
 		},
@@ -489,8 +489,8 @@ const resolvers = {
 				const {profType} = parent
 				return profType
 			},
-			undergraduteDegreeFrom(parent, args, context, info){
-				return context.professorLoaderDegreeFrom.load(parent.undergraduteDegreeFrom);
+			undergraduatedegreeFrom(parent, args, context, info){
+				return context.professorLoaderDegreeFrom.load(parent.undergraduatedegreeFrom);
 			},
 			masterDegreeFrom(parent, args, context, info){
 				return context.professorLoaderDegreeFrom.load(parent.masterDegreeFrom);

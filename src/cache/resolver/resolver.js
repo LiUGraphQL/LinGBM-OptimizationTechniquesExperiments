@@ -159,10 +159,10 @@ const resolvers = {
 				let result = context.repository.publication.memoizeGetPublicationByAuthor(parent.id)
 				return result;
 			},
-			undergraduteDegreeFrom(parent, args, context, info){
-				//let query = con.select().from('university').where('nr',parent.undergraduteDegreeFrom);
+			undergraduatedegreeFrom(parent, args, context, info){
+				//let query = con.select().from('university').where('nr',parent.undergraduatedegreeFrom);
 				//let result = query.then(rows => new University(rows[0]));
-				let result = context.repository.university.memoizeGetUniversityById(parent.undergraduteDegreeFrom);
+				let result = context.repository.university.memoizeGetUniversityById(parent.undergraduatedegreeFrom);
 				return result;
 			},
 			masterDegreeFrom(parent, args, context, info){	
@@ -398,7 +398,7 @@ const resolvers = {
 		},
 		ResearchGroup:{
 			
-			subOrgnizationOf(parent, args, context, info){
+			subOrganizationOf(parent, args, context, info){
 				//return parent
 				let result =  context.repository.researchGroup.memoizeGetResearchGroupById(parent.subOrganizationOf);	
 				return result; 
@@ -446,11 +446,11 @@ const resolvers = {
 			}
 		},
 		Professor:{
-			undergraduteDegreeFrom(parent, args, context, info){
+			undergraduatedegreeFrom(parent, args, context, info){
 				
-				//let query = con.select().from('university').where('nr',parent.undergraduteDegreeFrom);
+				//let query = con.select().from('university').where('nr',parent.undergraduatedegreeFrom);
 				//let result = query.then(rows => new University(rows[0]));
-				let result = context.repository.university.memoizeGetUniversityById(parent.undergraduteDegreeFrom);
+				let result = context.repository.university.memoizeGetUniversityById(parent.undergraduatedegreeFrom);
 				return result;
 			},
 			masterDegreeFrom(parent, args, context, info){

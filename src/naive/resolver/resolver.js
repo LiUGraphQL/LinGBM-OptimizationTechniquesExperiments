@@ -238,9 +238,9 @@ const resolvers = {
 				let result = query.then(rows => rows.map(row => new Publication(row)));
 				return result;
 			},
-			undergraduteDegreeFrom(parent, args, context, info){
+			undergraduateDegreeFrom(parent, args, context, info){
 				
-				let query = con.select().from('university').where('nr',parent.undergraduteDegreeFrom);
+				let query = con.select().from('university').where('nr',parent.undergraduatedegreeFrom);
 				let result = query.then(rows => new University(rows[0]));
 				return result;
 			},
@@ -469,7 +469,7 @@ const resolvers = {
 			}
 		},
 		ResearchGroup:{
-			subOrgnizationOf(parent, args, context, info){
+			subOrganizationOf(parent, args, context, info){
 				/*
 				return{
 					id: parent.subOrganizationOf
@@ -525,9 +525,9 @@ const resolvers = {
 			}
 		},
 		Professor:{
-			undergraduteDegreeFrom(parent, args, context, info){
+			undergraduateDegreeFrom(parent, args, context, info){
 				
-				let query = con.select().from('university').where('nr',parent.undergraduteDegreeFrom);
+				let query = con.select().from('university').where('nr',parent.undergraduatedegreeFrom);
 				let result = query.then(rows => new University(rows[0]));
 				return result;
 			},
