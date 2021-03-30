@@ -10,7 +10,7 @@ class Professor {
 		this.emailAddress = args.emailaddress
 		this.telephone = args.telephone
 		this.worksFor = args.worksfor
-		this.undergraduteDegreeFrom = args.undergraduatedegreefrom
+		this.undergraduateDegreeFrom = args.undergraduatedegreefrom
 		this.masterDegreeFrom = args.masterdegreefrom
 		this.doctoralDegreeFrom = args.doctoraldegreefrom
 	}

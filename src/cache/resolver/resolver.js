@@ -159,10 +159,10 @@ const resolvers = {
 				let result = context.repository.publication.memoizeGetPublicationByAuthor(parent.id)
 				return result;
 			},
-			undergraduatedegreeFrom(parent, args, context, info){
+			undergraduateDegreeFrom(parent, args, context, info){
 				//let query = con.select().from('university').where('nr',parent.undergraduatedegreeFrom);
 				//let result = query.then(rows => new University(rows[0]));
-				let result = context.repository.university.memoizeGetUniversityById(parent.undergraduatedegreeFrom);
+				let result = context.repository.university.memoizeGetUniversityById(parent.undergraduateDegreeFrom);
 				return result;
 			},
 			masterDegreeFrom(parent, args, context, info){	
@@ -446,11 +446,11 @@ const resolvers = {
 			}
 		},
 		Professor:{
-			undergraduatedegreeFrom(parent, args, context, info){
+			undergraduateDegreeFrom(parent, args, context, info){
 				
 				//let query = con.select().from('university').where('nr',parent.undergraduatedegreeFrom);
 				//let result = query.then(rows => new University(rows[0]));
-				let result = context.repository.university.memoizeGetUniversityById(parent.undergraduatedegreeFrom);
+				let result = context.repository.university.memoizeGetUniversityById(parent.undergraduateDegreeFrom);
 				return result;
 			},
 			masterDegreeFrom(parent, args, context, info){

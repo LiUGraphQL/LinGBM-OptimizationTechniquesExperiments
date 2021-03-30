@@ -147,8 +147,8 @@ const resolvers = {
 				let mainAuthorId = parent.id;
 				return context.repository.publication.loaderGetPublicationByAuthorId(mainAuthorId);
 			},
-			undergraduatedegreeFrom(parent, args, context, info){
-				return context.repository.university.loaderGetUniversityById(parent.undergraduatedegreeFrom);
+			undergraduateDegreeFrom(parent, args, context, info){
+				return context.repository.university.loaderGetUniversityById(parent.undergraduateDegreeFrom);
 			},
 			masterDegreeFrom(parent, args, context, info){
 				return context.repository.university.loaderGetUniversityById(parent.masterDegreeFrom);
@@ -378,8 +378,8 @@ const resolvers = {
 			}
 		},
 		Professor:{
-			undergraduatedegreeFrom(parent, args, context, info){
-				return context.repository.university.loaderGetUniversityById(parent.undergraduatedegreeFrom);
+			undergraduateDegreeFrom(parent, args, context, info){
+				return context.repository.university.loaderGetUniversityById(parent.undergraduateDegreeFrom);
 			},
 			masterDegreeFrom(parent, args, context, info){
 				return context.repository.university.loaderGetUniversityById(parent.masterDegreeFrom);

@@ -159,8 +159,8 @@ const resolvers = {
 				let mainAuthorId = parent.id;
 				return context.loaderGetPublicationByAuthorId.load(mainAuthorId);
 			},
-			undergraduatedegreeFrom(parent, args, context, info){
-				return context.lecturerLoaderDegreeFrom.load(parent.undergraduatedegreeFrom);
+			undergraduateDegreeFrom(parent, args, context, info){
+				return context.lecturerLoaderDegreeFrom.load(parent.undergraduateDegreeFrom);
 			},
 			masterDegreeFrom(parent, args, context, info){
 				return context.lecturerLoaderDegreeFrom.load(parent.masterDegreeFrom);
@@ -489,8 +489,8 @@ const resolvers = {
 				const {profType} = parent
 				return profType
 			},
-			undergraduatedegreeFrom(parent, args, context, info){
-				return context.professorLoaderDegreeFrom.load(parent.undergraduatedegreeFrom);
+			undergraduateDegreeFrom(parent, args, context, info){
+				return context.professorLoaderDegreeFrom.load(parent.undergraduateDegreeFrom);
 			},
 			masterDegreeFrom(parent, args, context, info){
 				return context.professorLoaderDegreeFrom.load(parent.masterDegreeFrom);

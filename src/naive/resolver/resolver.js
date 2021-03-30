@@ -240,7 +240,7 @@ const resolvers = {
 			},
 			undergraduateDegreeFrom(parent, args, context, info){
 				
-				let query = con.select().from('university').where('nr',parent.undergraduatedegreeFrom);
+				let query = con.select().from('university').where('nr',parent.undergraduateDegreeFrom);
 				let result = query.then(rows => new University(rows[0]));
 				return result;
 			},
@@ -527,7 +527,7 @@ const resolvers = {
 		Professor:{
 			undergraduateDegreeFrom(parent, args, context, info){
 				
-				let query = con.select().from('university').where('nr',parent.undergraduatedegreeFrom);
+				let query = con.select().from('university').where('nr',parent.undergraduateDegreeFrom);
 				let result = query.then(rows => new University(rows[0]));
 				return result;
 			},
