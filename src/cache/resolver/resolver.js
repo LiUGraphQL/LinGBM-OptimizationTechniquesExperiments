@@ -400,7 +400,7 @@ const resolvers = {
 			
 			subOrganizationOf(parent, args, context, info){
 				//return parent
-				let result =  context.repository.researchGroup.memoizeGetResearchGroupById(parent.subOrganizationOf);	
+				let result =  context.repository.department.GetDepartmentById(parent.subOrganizationOf);	
 				return result; 
 			}
 		},
