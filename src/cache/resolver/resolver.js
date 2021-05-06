@@ -356,10 +356,8 @@ const resolvers = {
 		},
 		Department:{
 			subOrganizationOf(parent, args, context, info){
-				return{
-					id: parent.subOrganizationOf,
-					departmentNo : parent.id
-				}
+				let result = context.repository.university.memoizeGetUniversityById(parent.subOrganizationOf);
+				return result;
 			},
 			head(parent, args, context, info){
 				let result = context.repository.professor.memoizeGetDepartmentHeadById(parent.id)
@@ -400,7 +398,7 @@ const resolvers = {
 			
 			subOrganizationOf(parent, args, context, info){
 				//return parent
-				let result =  context.repository.department.GetDepartmentById(parent.subOrganizationOf);	
+				let result =  context.repository.department.memoizeGetDepartmentById(parent.subOrganizationOf);
 				return result; 
 			}
 		},

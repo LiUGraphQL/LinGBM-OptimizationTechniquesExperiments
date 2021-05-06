@@ -305,11 +305,7 @@ const resolvers = {
 		},
 		Department:{
 			subOrganizationOf(parent, args, context, info){
-
-				return{
-					id: parent.subOrganizationOf,
-					departmentNo : parent.id
-				}
+				return context.repository.university.loaderGetUniversityById(parent.subOrganizationOf);
 			},
 			async head(parent, args, context, info){
 				//dataloader for head of department
