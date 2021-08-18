@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "shrugged"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

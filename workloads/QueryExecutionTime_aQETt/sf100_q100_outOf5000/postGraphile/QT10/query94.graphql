@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "wainscoting"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

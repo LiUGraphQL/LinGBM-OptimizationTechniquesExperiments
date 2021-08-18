@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"intersection") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

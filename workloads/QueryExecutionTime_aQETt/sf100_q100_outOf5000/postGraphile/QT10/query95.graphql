@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "persuasiveness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

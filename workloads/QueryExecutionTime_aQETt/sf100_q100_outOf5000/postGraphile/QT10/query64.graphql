@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "reincarnations"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

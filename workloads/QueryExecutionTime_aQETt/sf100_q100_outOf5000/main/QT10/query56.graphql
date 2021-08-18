@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"skiplanes") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

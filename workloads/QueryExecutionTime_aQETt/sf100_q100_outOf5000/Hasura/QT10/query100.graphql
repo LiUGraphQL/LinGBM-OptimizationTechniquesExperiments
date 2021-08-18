@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%ethicist%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

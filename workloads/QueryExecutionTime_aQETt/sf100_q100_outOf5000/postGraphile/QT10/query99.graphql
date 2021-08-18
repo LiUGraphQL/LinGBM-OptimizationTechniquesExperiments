@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "afterdecks"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

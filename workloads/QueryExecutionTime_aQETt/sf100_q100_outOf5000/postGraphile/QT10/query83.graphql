@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "slumberous"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

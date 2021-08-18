@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "tempore"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 
