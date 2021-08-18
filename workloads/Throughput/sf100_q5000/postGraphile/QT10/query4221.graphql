@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "genotypes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

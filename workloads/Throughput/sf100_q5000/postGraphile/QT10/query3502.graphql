@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "redoubtable"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

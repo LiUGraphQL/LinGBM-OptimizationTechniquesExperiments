@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "chatters"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

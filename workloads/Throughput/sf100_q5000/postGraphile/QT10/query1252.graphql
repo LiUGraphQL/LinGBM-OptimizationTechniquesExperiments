@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "duckbill"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

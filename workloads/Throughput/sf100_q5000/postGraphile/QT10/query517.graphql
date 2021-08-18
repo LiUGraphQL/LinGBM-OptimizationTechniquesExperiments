@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "aider"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

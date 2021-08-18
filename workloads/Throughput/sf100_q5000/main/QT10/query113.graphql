@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"semidesert") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "theftproof"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

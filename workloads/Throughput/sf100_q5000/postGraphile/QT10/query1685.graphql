@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "detonator"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

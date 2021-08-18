@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "industrializes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

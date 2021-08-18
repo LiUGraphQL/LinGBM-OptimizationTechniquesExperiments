@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "outwitting"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

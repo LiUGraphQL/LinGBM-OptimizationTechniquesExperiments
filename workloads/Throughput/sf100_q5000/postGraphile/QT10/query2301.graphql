@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unfitted"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

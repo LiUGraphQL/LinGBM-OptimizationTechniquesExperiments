@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "medially"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

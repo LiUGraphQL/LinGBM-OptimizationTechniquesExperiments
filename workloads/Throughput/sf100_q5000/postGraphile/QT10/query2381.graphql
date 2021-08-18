@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "vengefulness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

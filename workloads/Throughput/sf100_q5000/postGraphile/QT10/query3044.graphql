@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sleepless"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

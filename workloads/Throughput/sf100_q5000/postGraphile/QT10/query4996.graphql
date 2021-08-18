@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "easer"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

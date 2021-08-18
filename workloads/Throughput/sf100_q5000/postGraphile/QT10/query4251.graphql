@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "toluyl"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

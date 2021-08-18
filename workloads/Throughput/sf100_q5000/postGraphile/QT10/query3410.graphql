@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "shipwrights"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

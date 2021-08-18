@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unrelinquished"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

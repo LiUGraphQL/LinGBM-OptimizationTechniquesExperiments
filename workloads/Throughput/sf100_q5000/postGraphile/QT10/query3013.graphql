@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "extricates"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

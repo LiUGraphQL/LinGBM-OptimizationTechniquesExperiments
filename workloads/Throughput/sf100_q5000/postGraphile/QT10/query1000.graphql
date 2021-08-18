@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unappreciated"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

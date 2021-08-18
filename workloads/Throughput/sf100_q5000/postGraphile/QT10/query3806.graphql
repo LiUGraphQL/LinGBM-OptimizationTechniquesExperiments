@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "mesenteries"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "walkaway"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

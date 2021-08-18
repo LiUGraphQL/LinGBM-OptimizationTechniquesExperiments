@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "alignments"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

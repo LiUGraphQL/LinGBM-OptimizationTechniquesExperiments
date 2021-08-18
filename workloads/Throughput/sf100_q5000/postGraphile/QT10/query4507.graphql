@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "hotheaded"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,12 @@
+{
+  allGraduatestudents(condition: {undergraduatedegreefrom: 158}) {
+    nodes {
+      nr
+      professorByAdvisor {
+        nr
+      }
+    }
+  }
+}
+
+ 

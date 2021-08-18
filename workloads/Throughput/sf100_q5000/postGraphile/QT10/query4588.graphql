@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "ballasted"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

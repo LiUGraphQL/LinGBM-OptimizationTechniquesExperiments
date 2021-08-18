@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "hemiplegic"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

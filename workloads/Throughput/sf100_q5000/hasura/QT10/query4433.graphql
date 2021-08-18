@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%unabated%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

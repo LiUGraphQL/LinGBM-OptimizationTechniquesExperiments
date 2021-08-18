@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sickliest"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

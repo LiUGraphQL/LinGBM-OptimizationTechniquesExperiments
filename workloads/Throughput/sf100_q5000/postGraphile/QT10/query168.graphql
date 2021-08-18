@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "tumbrels"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

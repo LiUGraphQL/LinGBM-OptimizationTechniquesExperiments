@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "pens"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

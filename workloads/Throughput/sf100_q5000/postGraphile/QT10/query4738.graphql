@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "patronly"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

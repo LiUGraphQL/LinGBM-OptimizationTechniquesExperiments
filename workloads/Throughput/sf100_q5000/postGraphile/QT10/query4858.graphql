@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cablegrams"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

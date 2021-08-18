@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "averted"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

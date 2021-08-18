@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bodkins"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

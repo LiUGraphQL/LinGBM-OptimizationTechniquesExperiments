@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "moonlighters"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

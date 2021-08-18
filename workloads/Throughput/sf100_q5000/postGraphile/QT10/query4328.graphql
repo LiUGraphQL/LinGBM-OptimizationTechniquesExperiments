@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "condescending"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

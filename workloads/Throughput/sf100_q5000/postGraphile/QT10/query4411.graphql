@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "astonishing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

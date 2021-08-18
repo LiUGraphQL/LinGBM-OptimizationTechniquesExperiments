@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "reunites"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

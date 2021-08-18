@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "fulfillments"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

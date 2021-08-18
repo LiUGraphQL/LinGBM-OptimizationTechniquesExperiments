@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "layed"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "triggest"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

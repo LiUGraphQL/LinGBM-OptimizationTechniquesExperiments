@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "crowning"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

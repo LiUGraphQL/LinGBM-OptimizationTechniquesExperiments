@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"stratas") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

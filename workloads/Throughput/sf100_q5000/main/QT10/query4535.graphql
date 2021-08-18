@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"prehistory") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

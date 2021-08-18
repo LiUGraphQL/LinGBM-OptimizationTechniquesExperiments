@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "newsbreak"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

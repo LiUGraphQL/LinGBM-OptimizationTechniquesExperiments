@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"fuzzier") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

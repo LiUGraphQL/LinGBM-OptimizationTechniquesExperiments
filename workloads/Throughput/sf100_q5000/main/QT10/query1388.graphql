@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"riel") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

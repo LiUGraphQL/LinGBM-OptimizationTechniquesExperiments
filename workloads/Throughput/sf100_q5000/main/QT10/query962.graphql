@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"equivalency") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

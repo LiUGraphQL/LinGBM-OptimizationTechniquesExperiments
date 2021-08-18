@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "lariating"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

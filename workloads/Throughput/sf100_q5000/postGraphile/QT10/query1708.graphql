@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "travellers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

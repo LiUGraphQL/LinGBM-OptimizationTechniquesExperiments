@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sufficer"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

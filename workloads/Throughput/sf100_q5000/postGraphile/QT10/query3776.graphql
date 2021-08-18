@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "counterphobic"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

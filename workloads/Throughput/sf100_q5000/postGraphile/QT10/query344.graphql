@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "instinctive"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

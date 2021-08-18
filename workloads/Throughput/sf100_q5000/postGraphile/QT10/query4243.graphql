@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "garroted"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

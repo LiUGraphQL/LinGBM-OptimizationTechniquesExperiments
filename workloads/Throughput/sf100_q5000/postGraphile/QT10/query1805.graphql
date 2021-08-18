@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "crassness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"mangos") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

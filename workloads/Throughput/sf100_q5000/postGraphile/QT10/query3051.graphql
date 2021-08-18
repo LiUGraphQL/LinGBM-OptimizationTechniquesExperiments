@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "monodist"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "tahitian"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

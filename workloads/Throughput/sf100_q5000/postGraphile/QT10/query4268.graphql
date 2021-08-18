@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "limply"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

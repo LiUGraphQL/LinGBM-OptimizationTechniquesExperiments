@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "stooped"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

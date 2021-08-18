@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bedmate"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

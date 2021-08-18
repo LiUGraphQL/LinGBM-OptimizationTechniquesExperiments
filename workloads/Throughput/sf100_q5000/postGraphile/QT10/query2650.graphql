@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "stupefactive"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "loaner"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "anklebone"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

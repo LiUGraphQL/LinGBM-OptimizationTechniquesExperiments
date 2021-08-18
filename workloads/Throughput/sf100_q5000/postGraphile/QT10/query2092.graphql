@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "programers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "braggarts"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

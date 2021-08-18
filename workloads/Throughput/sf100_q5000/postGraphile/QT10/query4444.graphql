@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "undiagnosed"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

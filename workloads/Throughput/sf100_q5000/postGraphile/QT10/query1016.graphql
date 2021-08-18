@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cheetahs"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

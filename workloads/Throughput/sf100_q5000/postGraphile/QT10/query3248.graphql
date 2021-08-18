@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "grunion"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

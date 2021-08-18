@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "woosh"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

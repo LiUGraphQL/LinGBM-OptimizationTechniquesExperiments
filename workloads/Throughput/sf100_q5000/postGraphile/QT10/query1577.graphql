@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "mistrustingly"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

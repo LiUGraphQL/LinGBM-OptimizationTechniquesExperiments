@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "longhair"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

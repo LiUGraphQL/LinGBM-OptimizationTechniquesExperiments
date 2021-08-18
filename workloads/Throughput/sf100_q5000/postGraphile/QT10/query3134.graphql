@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "empirically"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

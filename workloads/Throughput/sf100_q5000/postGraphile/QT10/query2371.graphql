@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "overcomplacency"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

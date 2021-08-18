@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "chippers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

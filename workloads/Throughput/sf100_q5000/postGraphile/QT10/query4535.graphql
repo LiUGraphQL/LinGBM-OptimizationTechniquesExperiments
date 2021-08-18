@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "prehistory"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"attacked") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

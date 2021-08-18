@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "scientistic"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

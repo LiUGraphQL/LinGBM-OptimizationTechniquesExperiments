@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "woofing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

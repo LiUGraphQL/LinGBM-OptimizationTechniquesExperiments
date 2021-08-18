@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "kindly"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "alarmisms"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

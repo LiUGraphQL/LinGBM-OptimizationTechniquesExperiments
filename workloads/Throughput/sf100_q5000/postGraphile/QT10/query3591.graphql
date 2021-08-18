@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "moderner"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

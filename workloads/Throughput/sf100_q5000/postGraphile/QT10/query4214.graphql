@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "trickily"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "pentad"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "librarians"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

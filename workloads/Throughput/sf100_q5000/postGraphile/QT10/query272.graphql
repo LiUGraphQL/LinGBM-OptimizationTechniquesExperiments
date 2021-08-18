@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "panpipes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

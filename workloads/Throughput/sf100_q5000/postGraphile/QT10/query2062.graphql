@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "berber"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

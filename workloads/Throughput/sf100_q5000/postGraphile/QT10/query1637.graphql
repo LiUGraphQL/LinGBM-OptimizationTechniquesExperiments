@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "ballyhooing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

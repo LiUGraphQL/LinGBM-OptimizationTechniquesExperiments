@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"persevering") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

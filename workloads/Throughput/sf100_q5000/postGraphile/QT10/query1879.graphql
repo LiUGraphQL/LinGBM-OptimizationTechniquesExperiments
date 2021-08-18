@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "wildcats"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

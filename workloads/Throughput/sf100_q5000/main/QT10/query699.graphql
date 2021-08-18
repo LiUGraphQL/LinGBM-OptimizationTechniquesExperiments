@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"preconsiderations") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

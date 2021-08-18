@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "abducted"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

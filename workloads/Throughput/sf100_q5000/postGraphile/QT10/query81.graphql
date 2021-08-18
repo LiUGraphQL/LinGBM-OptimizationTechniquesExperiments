@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "razee"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

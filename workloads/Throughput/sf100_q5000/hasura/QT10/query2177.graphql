@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%muslims%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

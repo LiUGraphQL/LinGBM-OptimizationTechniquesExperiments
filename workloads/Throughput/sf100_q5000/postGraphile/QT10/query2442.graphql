@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "contuses"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

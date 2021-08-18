@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "windrowing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

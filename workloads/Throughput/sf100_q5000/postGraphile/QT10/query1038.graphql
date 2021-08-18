@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "arrhythmias"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

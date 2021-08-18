@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "administrants"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

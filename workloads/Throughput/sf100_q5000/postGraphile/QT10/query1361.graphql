@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cinematographic"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

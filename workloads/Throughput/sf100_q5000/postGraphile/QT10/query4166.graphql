@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "expiation"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

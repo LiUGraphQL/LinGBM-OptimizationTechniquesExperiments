@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "commencing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "paved"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

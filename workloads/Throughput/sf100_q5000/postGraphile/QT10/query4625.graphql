@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "concordantly"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

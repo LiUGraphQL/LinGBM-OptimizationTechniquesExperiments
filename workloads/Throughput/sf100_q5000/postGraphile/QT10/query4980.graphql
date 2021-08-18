@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "berlins"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

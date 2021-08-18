@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bargeman"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

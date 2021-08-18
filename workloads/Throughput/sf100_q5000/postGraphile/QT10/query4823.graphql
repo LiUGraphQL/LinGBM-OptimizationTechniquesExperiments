@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "doily"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"thanksgivings") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

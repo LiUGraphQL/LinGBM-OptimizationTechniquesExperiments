@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%reduplication%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

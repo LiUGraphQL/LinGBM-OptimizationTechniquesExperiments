@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "depopulate"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

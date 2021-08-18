@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unleashes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "ethicalness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

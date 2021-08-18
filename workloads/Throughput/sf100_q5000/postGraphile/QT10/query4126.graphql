@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unimpeded"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

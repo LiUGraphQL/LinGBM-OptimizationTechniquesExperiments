@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "loudlier"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

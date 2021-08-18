@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "wainwrights"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

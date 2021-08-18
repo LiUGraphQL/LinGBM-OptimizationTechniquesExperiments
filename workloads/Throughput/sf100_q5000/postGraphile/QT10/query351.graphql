@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "crumped"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

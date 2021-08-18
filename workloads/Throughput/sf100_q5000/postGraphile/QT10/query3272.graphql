@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "strewers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

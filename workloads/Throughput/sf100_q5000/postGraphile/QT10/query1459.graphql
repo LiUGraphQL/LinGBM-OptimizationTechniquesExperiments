@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "mollycoddled"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

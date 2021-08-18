@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "wildernesses"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

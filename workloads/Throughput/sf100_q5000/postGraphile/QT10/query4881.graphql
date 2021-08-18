@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "occupying"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "treading"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

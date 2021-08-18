@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "rondeau"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

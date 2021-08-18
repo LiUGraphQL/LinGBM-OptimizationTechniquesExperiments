@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "congeed"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

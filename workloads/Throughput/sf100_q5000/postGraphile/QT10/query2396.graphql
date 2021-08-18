@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "tailcoat"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

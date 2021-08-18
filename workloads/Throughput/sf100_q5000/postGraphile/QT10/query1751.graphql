@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "humdinger"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

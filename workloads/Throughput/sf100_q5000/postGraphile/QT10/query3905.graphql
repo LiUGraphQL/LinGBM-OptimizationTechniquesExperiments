@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "pipefish"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

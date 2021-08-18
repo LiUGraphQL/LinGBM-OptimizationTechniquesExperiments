@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "toads"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

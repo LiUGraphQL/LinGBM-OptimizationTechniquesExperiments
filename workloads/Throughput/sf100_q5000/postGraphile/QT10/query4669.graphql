@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "chondrite"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "injectant"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

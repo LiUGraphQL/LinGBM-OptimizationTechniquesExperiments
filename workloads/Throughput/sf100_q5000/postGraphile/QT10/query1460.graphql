@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "saturation"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "buckramed"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

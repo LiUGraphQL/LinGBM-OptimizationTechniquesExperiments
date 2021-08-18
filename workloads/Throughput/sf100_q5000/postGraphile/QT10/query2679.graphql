@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "twixt"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

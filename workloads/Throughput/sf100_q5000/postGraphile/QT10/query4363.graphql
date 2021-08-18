@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "snowballing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

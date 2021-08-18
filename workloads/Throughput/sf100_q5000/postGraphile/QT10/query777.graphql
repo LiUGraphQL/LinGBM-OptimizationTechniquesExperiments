@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "rhythmically"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

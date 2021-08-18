@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"disability") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

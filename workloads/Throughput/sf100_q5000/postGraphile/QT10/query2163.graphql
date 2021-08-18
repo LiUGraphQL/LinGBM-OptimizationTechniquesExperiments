@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "noster"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

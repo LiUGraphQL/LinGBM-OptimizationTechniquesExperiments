@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "czechoslovaks"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "kernelled"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

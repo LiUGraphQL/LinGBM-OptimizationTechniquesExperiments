@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "compromisers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

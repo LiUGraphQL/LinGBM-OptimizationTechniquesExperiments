@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "blurbs"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "fretsome"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

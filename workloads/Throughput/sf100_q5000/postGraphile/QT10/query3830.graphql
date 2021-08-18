@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "barnstormer"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

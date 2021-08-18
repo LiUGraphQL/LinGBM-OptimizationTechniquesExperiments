@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "discussions"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

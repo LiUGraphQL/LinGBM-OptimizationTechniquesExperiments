@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "rara"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

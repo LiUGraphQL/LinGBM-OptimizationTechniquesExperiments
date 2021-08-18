@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "alders"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

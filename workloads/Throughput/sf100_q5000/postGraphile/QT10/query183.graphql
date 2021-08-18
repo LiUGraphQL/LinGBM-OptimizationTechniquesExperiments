@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cubists"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

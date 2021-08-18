@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "overdoses"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

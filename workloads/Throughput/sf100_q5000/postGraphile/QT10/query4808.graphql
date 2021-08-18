@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "caparisoned"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

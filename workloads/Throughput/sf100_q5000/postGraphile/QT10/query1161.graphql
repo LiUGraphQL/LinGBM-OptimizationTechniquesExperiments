@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sauteing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

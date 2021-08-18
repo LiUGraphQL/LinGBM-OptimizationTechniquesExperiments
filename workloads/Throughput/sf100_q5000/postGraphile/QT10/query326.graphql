@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "mallei"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

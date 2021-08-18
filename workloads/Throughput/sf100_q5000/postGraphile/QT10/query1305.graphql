@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "muckraking"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

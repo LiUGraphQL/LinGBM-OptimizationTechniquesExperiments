@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "taxably"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

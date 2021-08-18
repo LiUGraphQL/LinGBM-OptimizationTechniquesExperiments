@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "seizers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

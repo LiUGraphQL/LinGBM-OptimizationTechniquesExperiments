@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "indurated"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

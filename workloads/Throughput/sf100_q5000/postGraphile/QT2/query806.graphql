@@ -1,0 +1,17 @@
+{
+  allUniversities(condition: {nr: 21}) {
+    nodes {
+      facultiesByDoctoraldegreefrom {
+        nodes {
+          publicationsByMainauthor {
+            nodes {
+              title
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+ 

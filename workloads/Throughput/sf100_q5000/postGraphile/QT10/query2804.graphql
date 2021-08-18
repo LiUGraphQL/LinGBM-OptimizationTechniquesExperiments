@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "agars"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

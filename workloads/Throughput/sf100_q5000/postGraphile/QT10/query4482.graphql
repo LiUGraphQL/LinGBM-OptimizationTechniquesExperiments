@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "attitudinizing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

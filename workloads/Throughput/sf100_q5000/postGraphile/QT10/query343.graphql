@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "rusticated"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

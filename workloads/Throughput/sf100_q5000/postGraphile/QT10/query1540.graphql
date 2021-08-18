@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "worthing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "panamanian"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

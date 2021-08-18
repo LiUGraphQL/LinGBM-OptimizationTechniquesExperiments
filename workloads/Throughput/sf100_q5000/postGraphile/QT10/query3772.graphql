@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "onerosities"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

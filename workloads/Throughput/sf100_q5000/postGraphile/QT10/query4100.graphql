@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "fishline"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

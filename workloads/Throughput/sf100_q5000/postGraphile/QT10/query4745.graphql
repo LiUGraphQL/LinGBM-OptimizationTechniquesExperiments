@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "pennames"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

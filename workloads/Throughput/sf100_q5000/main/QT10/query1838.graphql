@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"nictitated") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

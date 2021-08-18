@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"sarongs") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

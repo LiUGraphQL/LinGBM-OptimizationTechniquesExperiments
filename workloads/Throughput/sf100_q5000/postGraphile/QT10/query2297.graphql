@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "strawed"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

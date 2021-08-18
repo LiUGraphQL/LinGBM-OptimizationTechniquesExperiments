@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "datcha"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "blether"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

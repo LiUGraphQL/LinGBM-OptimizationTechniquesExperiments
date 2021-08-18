@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%circumnavigates%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

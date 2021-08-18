@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "discontentedly"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

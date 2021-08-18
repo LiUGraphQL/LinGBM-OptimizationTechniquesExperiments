@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "spikelets"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "juggled"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

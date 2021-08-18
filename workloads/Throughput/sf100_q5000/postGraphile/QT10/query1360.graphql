@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cupolaed"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

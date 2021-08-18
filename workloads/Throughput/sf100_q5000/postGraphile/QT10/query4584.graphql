@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "terminological"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

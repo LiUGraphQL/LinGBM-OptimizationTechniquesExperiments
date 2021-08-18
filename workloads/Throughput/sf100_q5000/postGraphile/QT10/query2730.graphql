@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "flexors"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

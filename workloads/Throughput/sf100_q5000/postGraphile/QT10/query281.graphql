@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "greenthumbed"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

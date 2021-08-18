@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "gained"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

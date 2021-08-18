@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cichlidae"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

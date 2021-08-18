@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "exocrine"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

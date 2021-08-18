@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "osmic"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

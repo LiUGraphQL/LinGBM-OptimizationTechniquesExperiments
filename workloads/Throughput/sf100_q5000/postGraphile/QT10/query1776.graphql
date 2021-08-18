@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "narcohypnoses"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

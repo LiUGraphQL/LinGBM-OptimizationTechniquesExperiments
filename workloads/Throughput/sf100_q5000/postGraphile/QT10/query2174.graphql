@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "fondles"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

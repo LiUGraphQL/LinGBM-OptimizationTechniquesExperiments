@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "chapeaux"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

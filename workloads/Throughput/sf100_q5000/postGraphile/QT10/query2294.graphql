@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "dittos"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

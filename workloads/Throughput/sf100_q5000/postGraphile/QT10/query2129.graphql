@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "displace"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

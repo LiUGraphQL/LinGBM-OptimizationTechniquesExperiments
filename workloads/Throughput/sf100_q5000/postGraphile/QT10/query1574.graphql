@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "nonrepresentational"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

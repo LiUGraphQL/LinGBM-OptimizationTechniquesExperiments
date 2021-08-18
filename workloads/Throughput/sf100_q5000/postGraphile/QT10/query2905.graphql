@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "waftage"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

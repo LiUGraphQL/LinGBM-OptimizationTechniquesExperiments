@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "seizins"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "undefended"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

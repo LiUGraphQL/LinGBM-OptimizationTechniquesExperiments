@@ -1,0 +1,19 @@
+{
+  allUniversities(condition: {nr: 199}) {
+    nodes {
+      graduatestudentsByUndergraduatedegreefrom {
+        nodes {
+          professorByAdvisor {
+            facultyByNr {
+              departmentByWorksfor {
+                nr
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+ 

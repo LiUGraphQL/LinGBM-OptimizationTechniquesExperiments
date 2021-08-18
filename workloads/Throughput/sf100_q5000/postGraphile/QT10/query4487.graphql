@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "undermines"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

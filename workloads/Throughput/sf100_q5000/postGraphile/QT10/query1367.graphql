@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "raggle"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "vapourers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

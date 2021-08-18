@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "reevaluate"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

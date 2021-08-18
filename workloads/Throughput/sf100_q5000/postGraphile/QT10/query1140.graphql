@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "siphonal"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

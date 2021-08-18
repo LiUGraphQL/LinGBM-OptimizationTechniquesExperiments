@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "recoups"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "readdress"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "skipped"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

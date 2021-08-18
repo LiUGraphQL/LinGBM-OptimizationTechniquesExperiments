@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"shires") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

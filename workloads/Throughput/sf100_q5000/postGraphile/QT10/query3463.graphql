@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "thetas"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

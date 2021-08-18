@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "drawstrings"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

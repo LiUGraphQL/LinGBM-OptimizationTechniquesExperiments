@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cassis"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

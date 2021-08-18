@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "resetters"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

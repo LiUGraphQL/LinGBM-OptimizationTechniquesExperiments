@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unsold"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "knotting"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

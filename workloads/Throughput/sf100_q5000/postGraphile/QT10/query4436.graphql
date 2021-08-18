@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "antepartum"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

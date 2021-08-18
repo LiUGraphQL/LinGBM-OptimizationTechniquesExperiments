@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "impenitence"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

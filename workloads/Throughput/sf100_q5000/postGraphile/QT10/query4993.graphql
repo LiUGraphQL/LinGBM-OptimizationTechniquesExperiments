@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "immigrated"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "adventurously"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

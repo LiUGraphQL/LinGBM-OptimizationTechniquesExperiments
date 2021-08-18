@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "moralistically"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

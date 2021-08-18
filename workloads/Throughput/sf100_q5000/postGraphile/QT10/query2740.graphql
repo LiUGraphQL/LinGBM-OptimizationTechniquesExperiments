@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "redcoats"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

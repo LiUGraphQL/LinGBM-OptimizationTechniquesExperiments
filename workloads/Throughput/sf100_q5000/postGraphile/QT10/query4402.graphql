@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "subacute"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

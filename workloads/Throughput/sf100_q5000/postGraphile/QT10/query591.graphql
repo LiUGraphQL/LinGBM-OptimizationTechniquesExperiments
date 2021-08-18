@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "epitheliums"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

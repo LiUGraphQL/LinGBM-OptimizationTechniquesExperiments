@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "isomerous"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "vanitied"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bribee"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "annuler"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

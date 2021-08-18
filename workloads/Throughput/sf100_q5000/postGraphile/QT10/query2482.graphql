@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "feloniously"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"ungrudgingly") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

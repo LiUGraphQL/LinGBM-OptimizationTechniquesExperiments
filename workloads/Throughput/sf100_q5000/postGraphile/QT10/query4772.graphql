@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "hustling"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

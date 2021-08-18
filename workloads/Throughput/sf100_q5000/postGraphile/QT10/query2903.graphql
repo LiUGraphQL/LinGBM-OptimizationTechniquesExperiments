@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "defamers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "interlocutor"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

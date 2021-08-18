@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "abided"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

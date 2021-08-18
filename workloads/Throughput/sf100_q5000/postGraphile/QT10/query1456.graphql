@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "spiracles"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

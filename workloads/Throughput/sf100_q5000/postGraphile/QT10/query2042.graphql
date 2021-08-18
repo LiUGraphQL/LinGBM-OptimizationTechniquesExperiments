@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cannonade"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "upraiser"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

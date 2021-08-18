@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unsheltered"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

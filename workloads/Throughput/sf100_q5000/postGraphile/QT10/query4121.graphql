@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "lowish"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

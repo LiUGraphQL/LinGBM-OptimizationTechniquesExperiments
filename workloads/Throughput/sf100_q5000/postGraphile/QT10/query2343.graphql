@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "makers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "dedications"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

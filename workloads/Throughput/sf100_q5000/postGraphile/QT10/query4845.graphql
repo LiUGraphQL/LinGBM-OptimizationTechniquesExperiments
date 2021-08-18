@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "fringy"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "appalachian"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

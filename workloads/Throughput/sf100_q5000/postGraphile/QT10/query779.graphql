@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "agendas"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

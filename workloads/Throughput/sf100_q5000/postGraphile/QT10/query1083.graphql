@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "mahouts"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

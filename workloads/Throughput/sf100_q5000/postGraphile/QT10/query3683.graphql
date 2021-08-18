@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "savageness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

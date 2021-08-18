@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "airworthiest"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

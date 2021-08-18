@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "friskets"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

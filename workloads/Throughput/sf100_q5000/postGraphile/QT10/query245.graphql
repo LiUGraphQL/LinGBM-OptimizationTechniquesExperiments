@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "roux"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

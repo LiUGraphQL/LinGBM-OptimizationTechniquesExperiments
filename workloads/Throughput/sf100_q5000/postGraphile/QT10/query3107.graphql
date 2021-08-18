@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "hopsacking"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

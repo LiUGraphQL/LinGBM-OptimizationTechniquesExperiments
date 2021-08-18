@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "suburban"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

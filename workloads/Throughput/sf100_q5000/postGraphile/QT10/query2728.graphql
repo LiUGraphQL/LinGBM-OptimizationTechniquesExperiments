@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "overmodifies"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

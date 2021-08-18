@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "collectivized"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

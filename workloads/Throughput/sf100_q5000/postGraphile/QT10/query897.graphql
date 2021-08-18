@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "tiled"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

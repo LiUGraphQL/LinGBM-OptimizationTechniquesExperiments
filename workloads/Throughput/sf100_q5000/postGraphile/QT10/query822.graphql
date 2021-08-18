@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "ennobles"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "tennesseans"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

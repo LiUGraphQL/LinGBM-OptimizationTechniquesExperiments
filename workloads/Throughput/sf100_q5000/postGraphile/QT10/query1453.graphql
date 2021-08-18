@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "metalaw"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

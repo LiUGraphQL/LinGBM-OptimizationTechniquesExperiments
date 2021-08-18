@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "straitjacket"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

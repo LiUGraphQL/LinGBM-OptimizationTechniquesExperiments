@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "kicking"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

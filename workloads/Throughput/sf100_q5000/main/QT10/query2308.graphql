@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"rightisms") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

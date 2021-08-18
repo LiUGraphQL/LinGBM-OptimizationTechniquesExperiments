@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "pyxis"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

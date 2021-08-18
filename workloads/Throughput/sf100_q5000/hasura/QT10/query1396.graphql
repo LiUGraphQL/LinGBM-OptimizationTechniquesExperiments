@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%bedmate%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

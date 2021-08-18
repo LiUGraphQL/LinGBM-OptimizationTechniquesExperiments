@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bens"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

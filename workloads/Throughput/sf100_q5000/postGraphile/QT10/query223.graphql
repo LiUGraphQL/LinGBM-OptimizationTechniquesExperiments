@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "disable"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

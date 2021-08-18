@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "locater"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

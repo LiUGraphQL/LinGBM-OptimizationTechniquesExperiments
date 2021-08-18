@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sashes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "instillers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

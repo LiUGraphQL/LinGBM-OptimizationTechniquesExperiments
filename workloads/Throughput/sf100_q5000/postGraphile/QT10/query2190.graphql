@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "consciousness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

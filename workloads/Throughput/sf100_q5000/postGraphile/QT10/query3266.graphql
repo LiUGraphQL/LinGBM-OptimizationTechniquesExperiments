@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "misconduct"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

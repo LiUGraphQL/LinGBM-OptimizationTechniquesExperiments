@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "molesting"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

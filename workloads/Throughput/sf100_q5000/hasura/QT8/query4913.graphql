@@ -1,0 +1,9 @@
+{ 
+	graduatestudent (limit:639, order_by:{telephone:asc, advisor:asc}){ 
+		nr 
+		telephone 
+		emailaddress 
+	} 
+} 
+
+ 

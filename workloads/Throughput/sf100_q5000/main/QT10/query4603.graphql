@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"download") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

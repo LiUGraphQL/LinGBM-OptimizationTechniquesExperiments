@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "constitutions"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

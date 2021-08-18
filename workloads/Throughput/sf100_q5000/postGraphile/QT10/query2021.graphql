@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "embarring"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

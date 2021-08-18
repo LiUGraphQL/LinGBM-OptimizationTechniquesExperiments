@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "formerly"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

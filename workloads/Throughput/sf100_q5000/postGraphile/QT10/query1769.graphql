@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "swordfishes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "umteenth"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "waitresses"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

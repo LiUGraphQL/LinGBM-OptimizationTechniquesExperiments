@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "fileted"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "foppery"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

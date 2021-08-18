@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "manifesting"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

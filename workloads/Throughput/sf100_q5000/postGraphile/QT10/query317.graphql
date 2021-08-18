@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "impecuniously"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

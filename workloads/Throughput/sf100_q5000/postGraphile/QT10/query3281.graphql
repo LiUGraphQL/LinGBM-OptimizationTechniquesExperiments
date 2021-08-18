@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "combatively"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

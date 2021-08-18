@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "oblongata"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

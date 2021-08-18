@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "splayfooted"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

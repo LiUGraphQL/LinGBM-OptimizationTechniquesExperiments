@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cuffs"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

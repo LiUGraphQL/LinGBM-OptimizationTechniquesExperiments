@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "leggiest"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

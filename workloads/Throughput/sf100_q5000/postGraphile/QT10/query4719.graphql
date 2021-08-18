@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "actively"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

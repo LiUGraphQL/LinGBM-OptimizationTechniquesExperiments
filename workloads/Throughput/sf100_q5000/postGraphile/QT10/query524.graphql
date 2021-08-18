@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "doublethink"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

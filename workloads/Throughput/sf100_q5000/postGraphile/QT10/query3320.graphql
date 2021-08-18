@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "quatorzes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

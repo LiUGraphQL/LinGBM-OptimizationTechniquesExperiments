@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "waylays"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

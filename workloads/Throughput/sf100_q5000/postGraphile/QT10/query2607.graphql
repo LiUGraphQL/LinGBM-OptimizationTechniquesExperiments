@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "espouser"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

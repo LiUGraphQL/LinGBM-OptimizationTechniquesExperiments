@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "ovals"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

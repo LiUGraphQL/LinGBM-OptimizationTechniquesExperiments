@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "irks"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

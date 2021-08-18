@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "onces"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

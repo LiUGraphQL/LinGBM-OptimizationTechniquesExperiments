@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "tardies"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

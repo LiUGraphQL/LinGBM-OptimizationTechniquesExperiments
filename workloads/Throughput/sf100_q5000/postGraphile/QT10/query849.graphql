@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "rockets"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

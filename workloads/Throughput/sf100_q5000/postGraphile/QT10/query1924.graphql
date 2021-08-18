@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "disharmonies"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

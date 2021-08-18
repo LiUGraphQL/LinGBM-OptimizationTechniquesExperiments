@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unperturbable"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

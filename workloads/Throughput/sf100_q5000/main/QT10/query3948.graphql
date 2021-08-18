@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"tinsmiths") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

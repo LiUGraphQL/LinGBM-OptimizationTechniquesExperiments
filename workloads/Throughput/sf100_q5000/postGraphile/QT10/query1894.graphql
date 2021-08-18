@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "installers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "individualizes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

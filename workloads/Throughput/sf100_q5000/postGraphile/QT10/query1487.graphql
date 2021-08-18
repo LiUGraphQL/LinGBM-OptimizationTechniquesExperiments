@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "churner"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"scullers") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

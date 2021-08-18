@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "reprised"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "seventies"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unforbidded"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

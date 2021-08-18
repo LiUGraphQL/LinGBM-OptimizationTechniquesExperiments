@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "monosyllabic"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

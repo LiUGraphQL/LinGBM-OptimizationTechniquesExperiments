@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "needlers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

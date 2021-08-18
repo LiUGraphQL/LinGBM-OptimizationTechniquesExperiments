@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "arroyos"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "pulsers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

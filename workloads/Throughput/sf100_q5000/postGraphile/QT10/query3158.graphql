@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "larders"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

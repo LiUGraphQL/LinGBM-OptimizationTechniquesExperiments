@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "outbursts"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

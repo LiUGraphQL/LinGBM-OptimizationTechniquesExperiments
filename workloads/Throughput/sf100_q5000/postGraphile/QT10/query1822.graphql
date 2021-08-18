@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "otiosity"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

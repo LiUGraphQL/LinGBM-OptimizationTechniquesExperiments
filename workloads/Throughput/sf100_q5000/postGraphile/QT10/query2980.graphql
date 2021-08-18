@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "merits"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

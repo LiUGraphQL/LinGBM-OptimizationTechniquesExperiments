@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sniping"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

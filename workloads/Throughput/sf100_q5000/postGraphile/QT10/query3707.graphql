@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unlivable"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

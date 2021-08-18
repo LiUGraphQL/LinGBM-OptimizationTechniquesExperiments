@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"nonathletic") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

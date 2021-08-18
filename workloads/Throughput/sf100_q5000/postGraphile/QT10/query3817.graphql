@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "concertize"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

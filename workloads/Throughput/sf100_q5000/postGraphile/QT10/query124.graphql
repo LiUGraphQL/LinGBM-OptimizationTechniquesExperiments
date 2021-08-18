@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "drinkable"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

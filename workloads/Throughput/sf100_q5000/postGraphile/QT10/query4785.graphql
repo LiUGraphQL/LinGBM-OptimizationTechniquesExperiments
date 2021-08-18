@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "warthogs"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

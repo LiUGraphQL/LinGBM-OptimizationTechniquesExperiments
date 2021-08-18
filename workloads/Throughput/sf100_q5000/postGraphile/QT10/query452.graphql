@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "defoliations"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

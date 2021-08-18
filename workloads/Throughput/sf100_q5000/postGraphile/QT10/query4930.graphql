@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "carrotiest"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

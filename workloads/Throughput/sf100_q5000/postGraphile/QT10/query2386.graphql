@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "imperiously"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

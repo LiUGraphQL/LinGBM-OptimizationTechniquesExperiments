@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "hennaed"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

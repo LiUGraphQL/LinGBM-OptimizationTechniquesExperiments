@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "boweling"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cloistering"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

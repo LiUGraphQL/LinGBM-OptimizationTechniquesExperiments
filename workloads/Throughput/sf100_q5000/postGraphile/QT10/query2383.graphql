@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "demanders"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

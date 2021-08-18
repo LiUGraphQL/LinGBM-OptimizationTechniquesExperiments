@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "paraffine"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

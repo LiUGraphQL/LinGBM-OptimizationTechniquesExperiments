@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "zombiism"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

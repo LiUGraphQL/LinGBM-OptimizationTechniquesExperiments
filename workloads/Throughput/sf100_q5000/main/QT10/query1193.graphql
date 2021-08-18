@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"springer") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

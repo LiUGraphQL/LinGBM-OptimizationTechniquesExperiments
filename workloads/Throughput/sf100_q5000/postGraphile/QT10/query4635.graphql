@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "ideations"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "tikes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

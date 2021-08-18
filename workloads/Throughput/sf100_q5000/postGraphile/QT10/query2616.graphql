@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cinques"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

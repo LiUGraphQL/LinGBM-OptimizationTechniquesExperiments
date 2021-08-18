@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "icings"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "twelfths"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

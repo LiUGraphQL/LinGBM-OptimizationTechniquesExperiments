@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "motile"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "streams"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "mishap"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

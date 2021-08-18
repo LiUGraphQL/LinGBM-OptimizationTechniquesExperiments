@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "ambergris"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "overheaped"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

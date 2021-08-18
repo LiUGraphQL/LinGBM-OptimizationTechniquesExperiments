@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unsalted"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

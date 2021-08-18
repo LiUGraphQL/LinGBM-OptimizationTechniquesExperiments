@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "surmounted"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

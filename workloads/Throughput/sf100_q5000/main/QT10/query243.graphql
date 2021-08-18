@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"resupplies") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

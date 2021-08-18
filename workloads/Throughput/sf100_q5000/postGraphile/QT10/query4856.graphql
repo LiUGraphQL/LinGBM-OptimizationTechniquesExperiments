@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "psychologized"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

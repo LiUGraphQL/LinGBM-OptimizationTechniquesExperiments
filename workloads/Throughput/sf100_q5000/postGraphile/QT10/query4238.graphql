@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "titling"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

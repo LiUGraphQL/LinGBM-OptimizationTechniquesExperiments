@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"pupa") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

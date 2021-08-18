@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "substantiality"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

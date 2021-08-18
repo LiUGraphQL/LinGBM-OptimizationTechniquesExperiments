@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "badinaged"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

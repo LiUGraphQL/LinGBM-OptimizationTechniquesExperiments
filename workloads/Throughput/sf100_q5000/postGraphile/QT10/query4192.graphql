@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "parameters"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

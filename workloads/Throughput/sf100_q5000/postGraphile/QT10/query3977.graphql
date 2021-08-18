@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "incarnadined"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "aerobatics"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

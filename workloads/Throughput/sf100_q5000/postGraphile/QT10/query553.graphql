@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "stereotyper"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

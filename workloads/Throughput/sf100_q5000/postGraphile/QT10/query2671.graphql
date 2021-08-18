@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "questor"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

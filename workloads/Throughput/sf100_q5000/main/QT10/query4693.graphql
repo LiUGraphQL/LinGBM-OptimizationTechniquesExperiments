@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"putridness") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

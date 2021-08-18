@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "acclimation"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

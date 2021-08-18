@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "passway"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

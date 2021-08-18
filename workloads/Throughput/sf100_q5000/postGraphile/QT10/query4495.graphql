@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "shnaps"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

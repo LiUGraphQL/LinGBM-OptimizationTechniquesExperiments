@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "pupates"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

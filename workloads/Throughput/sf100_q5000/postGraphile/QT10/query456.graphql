@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "tobacconist"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

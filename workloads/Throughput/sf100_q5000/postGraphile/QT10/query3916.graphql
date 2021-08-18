@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "draymen"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

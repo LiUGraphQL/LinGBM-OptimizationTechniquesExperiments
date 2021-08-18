@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "theoreticians"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

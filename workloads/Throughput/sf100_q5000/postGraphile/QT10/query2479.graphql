@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "palmer"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

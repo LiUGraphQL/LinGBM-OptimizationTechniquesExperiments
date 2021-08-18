@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "clenches"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

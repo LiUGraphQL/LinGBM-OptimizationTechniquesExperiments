@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "stereoed"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

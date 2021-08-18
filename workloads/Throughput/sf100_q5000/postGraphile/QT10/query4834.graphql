@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "hist"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

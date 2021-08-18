@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "wavey"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

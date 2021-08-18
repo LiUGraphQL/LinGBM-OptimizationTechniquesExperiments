@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "conditionality"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

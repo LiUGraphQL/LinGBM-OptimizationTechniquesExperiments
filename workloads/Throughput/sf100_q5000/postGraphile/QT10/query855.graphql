@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "stringier"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

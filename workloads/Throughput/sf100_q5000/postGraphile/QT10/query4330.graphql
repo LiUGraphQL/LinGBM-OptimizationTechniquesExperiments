@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sierras"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

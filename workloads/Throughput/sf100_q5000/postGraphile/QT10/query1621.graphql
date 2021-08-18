@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "middlings"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

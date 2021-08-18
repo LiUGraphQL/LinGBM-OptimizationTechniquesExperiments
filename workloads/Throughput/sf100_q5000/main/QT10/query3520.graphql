@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"electee") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

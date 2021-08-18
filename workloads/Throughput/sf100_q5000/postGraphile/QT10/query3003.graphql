@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "famishing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "tarsal"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

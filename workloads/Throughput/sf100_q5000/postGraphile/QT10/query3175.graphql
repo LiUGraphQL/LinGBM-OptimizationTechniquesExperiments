@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "smokiest"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

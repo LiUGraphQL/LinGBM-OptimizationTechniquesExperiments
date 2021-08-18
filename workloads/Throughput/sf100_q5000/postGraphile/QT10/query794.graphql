@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "goldurn"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

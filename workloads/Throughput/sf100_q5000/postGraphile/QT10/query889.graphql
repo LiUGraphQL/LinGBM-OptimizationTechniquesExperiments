@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "witnessable"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

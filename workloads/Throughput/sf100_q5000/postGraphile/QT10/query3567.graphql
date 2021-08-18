@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "linty"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

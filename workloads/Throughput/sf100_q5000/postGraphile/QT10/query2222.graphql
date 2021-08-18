@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "defying"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "perjures"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

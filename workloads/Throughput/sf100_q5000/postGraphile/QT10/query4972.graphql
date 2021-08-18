@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "backslap"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

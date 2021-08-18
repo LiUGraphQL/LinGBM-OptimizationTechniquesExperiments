@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "chunked"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

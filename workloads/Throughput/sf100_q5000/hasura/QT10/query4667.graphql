@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%nipponese%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

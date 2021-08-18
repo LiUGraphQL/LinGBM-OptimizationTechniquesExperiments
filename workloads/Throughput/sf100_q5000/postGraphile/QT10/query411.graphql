@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "imploring"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

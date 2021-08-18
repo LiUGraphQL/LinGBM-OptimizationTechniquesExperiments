@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "dillydallies"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

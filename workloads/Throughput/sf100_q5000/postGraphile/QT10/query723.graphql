@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "pales"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

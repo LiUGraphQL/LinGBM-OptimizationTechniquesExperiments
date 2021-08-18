@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "antiquarians"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

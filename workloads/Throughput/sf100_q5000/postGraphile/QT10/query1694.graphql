@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "postdigestive"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "boated"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

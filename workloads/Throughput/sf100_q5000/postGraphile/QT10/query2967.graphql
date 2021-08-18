@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "coquettishly"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

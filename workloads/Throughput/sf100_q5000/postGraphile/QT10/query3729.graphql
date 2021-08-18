@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "interiorly"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

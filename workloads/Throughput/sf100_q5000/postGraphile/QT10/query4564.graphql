@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "thermoplasticity"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

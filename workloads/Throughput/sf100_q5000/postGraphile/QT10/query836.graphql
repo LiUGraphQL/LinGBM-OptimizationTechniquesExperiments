@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "halyard"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

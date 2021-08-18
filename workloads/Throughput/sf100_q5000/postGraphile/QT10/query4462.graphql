@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "computerese"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

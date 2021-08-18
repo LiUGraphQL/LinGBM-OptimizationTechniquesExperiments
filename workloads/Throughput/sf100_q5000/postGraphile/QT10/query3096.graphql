@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cockroaches"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

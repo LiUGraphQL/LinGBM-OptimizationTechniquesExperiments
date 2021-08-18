@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sues"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

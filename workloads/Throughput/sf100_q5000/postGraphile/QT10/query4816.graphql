@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "stockpot"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

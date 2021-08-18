@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "teamaker"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

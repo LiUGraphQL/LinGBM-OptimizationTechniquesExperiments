@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "diddlers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

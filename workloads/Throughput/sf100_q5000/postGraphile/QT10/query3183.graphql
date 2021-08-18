@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "labiate"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

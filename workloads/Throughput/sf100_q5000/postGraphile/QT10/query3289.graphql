@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "diver"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

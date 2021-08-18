@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "perplexed"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "manipulatable"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

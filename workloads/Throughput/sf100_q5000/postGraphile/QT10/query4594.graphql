@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "gillnet"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

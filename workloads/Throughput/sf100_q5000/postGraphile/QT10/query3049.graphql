@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "barterers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

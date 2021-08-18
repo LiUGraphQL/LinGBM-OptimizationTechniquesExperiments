@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "lagers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

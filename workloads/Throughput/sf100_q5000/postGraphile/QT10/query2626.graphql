@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bulleting"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

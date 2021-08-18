@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "vialing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

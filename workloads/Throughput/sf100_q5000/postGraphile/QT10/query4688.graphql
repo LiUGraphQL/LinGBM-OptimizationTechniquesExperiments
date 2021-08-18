@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "mintage"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

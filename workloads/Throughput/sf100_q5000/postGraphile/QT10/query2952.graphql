@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "subrents"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

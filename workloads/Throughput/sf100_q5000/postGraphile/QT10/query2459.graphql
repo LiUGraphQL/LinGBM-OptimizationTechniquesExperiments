@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "flagman"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

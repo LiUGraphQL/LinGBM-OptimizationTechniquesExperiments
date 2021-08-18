@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "substage"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unwrinkle"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "wished"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "refuged"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

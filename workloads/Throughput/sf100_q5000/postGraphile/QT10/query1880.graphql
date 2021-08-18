@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "agamic"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

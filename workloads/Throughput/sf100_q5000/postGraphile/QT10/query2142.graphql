@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "torsoes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

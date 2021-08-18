@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"corbeled") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

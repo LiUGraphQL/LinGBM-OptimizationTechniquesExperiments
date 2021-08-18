@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "provokers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

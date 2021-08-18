@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "marshy"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

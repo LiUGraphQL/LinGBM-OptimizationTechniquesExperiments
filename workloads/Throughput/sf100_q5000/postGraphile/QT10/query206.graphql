@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unlovable"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

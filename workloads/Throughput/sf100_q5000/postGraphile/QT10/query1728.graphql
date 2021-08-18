@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "viceroyalty"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

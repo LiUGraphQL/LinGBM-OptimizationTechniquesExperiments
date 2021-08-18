@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "reveries"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

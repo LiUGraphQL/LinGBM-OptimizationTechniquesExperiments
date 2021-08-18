@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "pillories"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

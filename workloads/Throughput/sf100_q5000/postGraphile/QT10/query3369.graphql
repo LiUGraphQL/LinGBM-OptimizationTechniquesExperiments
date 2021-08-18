@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "toughish"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

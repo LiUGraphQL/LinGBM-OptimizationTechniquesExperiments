@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"dingey") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bushing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

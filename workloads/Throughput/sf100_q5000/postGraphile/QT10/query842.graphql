@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "colitis"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

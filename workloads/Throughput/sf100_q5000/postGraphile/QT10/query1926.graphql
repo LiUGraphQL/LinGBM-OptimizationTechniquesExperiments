@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "doublewidth"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

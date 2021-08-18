@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"curiums") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "childbirths"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

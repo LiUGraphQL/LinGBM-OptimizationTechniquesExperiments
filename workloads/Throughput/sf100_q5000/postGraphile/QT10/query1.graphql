@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bathyspheres"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

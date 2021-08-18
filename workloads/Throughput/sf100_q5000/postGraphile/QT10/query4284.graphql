@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bottler"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

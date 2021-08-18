@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "godmothers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

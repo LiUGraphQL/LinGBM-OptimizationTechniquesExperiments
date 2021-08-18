@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "roominess"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

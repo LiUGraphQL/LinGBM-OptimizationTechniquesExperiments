@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "volcanologists"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

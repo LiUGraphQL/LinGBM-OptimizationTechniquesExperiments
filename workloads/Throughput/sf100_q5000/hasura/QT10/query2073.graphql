@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%clearing%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

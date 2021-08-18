@@ -1,0 +1,27 @@
+{ 
+  department(nr:1413) {
+    id 
+    subOrganizationOf{ 
+      id
+      undergraduateDegreeObtainedBystudent {
+        id 
+        emailAddress 
+        memberOf{ 
+          id 
+          subOrganizationOf{
+            id 
+            undergraduateDegreeObtainedBystudent {
+              id 
+              emailAddress 
+              memberOf{ 
+                id
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+ 

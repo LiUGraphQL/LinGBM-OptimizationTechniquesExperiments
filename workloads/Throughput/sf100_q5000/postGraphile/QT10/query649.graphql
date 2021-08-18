@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "ignominiously"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

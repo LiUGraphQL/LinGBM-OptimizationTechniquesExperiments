@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "relatives"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

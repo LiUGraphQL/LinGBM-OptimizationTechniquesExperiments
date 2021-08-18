@@ -1,0 +1,22 @@
+{ 
+  lecturer(where:{ nr:{_eq: 8713044 }}) {
+    faculty {
+      universityByDoctoraldegreefrom { 
+        nr 
+        graduatestudents { 
+          nr 
+          emailaddress 
+          professor { 
+            nr
+            faculty {
+              emailaddress
+                department { nr }
+            }
+          } 
+        } 
+      }
+    }
+  } 
+} 
+
+ 

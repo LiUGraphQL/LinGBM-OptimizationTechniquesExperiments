@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sprinting"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "dictions"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "coparent"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

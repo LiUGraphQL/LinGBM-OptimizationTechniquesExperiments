@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "jawbones"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

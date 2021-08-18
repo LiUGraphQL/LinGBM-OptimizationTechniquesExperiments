@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bourne"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "actuating"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

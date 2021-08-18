@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "subvariety"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "vectored"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

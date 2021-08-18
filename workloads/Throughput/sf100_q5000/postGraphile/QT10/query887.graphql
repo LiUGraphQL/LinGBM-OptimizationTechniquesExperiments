@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "renominating"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

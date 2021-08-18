@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sceptred"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

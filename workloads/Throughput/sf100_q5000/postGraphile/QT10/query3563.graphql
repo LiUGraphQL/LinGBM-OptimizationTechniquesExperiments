@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "wrigglers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

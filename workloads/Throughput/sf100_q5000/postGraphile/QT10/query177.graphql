@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "outriggers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

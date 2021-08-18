@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%metaphysics%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

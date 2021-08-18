@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "pastorate"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

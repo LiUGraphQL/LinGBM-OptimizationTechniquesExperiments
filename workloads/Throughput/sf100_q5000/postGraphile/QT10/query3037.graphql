@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "taco"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

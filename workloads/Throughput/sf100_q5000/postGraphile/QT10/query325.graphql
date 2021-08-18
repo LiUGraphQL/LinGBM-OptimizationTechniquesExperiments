@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "outbalancing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

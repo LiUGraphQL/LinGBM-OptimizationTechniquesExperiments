@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "lysed"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

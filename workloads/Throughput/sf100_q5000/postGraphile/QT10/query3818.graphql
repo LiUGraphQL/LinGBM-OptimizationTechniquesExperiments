@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "martens"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

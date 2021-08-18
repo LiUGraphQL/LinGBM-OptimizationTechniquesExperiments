@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "minimize"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

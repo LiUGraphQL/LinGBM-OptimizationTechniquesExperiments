@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "demonizing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

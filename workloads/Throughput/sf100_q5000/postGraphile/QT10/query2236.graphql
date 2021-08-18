@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "fasted"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

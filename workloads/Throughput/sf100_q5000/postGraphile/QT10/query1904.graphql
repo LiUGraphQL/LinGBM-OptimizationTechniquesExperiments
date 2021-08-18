@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "furnished"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "vignettists"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

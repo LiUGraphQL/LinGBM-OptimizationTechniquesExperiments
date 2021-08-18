@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "immanence"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

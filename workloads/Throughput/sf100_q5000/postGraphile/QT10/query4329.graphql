@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "pastured"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

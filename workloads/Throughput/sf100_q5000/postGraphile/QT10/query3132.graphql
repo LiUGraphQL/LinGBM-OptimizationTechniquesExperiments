@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "adduced"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

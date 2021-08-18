@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "slugger"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

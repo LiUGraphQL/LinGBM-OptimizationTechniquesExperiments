@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "dimmed"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

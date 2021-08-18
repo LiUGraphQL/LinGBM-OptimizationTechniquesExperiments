@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "factorable"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

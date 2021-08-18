@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "vapidity"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

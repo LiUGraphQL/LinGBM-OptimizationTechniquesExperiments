@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%injector%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

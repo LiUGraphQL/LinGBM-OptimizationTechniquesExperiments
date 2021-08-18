@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "ironwares"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

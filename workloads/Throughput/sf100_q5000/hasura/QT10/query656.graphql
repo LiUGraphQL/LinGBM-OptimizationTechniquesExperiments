@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%mischarged%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

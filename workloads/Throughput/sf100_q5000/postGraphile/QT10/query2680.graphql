@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "terrines"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

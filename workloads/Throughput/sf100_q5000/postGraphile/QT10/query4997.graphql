@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "alyssums"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

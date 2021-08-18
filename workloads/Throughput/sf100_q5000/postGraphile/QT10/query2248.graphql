@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "metricates"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

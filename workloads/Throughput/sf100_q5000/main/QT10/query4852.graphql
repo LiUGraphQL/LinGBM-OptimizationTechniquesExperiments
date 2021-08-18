@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"hewers") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "crassly"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

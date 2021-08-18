@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "recall"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

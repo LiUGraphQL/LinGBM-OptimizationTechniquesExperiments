@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "immobilizes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

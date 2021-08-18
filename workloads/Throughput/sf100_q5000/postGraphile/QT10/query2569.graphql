@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "saddens"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

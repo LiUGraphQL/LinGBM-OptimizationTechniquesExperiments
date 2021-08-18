@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "laboriousness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

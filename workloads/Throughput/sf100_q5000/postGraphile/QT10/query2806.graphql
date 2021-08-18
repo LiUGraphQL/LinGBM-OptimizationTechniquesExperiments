@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bucktooth"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

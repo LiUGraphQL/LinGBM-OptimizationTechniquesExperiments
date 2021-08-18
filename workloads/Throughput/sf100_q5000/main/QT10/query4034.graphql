@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"spoonily") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

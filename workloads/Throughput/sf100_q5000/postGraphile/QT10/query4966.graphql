@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "editorializes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

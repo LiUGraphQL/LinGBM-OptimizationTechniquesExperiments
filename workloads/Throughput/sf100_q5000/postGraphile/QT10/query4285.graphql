@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "eradicates"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

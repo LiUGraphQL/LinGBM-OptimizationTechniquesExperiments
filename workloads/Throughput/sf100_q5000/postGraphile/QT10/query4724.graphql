@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "imperforate"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

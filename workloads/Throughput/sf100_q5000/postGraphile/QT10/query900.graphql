@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "skyhooks"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

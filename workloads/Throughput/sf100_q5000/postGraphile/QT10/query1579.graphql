@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "youthens"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

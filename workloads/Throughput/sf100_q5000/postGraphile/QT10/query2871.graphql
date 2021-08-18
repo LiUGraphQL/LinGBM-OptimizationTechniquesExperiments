@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unscriptural"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "grafting"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

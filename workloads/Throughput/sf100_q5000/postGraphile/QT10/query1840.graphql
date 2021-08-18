@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "atomically"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

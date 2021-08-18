@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "quartermasters"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

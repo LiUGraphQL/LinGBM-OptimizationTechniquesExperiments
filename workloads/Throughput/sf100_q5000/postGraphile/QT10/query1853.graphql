@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "ensheaths"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

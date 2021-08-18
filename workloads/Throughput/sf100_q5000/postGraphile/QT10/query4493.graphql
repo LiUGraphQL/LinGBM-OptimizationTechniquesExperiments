@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "exceptionality"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

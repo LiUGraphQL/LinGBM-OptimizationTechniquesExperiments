@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "dumper"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

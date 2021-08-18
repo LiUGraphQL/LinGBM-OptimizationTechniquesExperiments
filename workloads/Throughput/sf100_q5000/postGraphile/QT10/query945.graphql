@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "laboriously"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

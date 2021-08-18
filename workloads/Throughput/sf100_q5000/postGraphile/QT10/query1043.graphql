@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cardinalates"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

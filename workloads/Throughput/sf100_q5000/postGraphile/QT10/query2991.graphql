@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "pipit"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

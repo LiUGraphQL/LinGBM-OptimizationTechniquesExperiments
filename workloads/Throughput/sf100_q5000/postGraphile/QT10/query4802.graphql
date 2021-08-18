@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "thalamus"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

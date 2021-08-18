@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "scullers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "haywire"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

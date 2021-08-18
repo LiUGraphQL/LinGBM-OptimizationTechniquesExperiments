@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "anaemia"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

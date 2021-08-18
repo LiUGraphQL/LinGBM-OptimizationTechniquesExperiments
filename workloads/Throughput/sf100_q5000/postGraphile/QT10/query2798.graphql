@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "beiges"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

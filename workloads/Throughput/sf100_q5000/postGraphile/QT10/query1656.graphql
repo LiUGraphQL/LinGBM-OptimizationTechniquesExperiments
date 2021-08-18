@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "vestee"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

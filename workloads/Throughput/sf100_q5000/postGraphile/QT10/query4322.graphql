@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "fielder"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "urgingly"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bijou"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

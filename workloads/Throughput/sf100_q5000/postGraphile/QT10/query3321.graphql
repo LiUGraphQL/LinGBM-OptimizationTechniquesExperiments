@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sinicizing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

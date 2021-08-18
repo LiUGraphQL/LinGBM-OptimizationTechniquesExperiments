@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "salons"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

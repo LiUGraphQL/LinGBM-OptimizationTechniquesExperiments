@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "danes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

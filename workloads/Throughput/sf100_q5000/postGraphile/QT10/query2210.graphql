@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "kudus"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

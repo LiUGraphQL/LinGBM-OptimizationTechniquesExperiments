@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "floodplain"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

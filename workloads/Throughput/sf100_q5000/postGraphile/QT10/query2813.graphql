@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "trilobate"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

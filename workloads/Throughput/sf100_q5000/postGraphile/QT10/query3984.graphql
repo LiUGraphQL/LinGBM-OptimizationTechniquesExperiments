@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sitarists"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

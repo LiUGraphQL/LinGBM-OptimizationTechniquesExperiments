@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "effects"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

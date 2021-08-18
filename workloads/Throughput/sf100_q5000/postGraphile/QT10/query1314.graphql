@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "motorboat"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "reaver"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

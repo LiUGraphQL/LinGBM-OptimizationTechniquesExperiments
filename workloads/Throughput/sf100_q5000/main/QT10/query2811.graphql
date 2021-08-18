@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"bibles") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

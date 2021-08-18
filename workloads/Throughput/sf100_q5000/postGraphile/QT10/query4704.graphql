@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bunglers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

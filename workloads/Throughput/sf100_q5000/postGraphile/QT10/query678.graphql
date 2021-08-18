@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "coddles"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

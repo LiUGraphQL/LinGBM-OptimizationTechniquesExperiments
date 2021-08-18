@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "multiplications"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

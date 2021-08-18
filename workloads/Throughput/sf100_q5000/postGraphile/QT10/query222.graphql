@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "kakemonos"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

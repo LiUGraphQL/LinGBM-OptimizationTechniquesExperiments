@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "antidisestablishmentarian"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

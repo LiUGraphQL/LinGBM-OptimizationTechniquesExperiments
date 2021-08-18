@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "admonisher"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

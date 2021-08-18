@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "forcibly"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

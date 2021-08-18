@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "huntings"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

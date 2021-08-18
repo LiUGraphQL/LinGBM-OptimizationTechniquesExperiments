@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "infringing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

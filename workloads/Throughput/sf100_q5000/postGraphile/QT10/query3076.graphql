@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "encounter"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

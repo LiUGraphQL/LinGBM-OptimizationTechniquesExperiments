@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "reconsiders"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

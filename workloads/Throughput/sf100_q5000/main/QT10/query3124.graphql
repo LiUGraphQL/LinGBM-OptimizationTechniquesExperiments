@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"cheesecakes") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

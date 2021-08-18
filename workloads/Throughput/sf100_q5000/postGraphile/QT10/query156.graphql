@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "hackneying"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

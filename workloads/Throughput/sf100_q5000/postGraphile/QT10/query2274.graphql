@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "smallholder"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

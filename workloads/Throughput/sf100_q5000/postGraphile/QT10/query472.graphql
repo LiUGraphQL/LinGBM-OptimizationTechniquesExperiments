@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "crumpled"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

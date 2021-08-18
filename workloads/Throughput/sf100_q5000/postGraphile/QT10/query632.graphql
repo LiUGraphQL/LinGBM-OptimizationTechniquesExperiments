@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unforsaken"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "relegable"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

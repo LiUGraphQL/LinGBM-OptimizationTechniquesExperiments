@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "deploys"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

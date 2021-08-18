@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "planetologists"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

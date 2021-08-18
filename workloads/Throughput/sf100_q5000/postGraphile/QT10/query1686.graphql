@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "prized"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

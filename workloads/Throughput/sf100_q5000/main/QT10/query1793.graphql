@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"reconsign") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

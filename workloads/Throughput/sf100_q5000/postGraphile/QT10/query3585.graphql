@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "conditioner"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

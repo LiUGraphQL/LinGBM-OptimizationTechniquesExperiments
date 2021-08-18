@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "asseverates"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

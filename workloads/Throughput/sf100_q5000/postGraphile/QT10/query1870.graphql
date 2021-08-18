@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unloaders"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

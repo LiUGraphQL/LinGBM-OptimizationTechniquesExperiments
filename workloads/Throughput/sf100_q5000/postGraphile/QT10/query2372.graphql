@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "disconcertment"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

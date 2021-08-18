@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "restitutive"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

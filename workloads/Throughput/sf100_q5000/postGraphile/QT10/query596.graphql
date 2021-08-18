@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "crosiers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "chaffering"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

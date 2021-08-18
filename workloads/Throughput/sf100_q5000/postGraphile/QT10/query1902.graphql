@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "reprimanding"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

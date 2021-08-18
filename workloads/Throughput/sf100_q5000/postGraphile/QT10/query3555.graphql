@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "prepping"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

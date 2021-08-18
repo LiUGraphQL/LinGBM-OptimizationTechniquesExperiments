@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "legitimatize"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "handsomest"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

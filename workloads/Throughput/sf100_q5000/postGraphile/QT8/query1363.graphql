@@ -1,0 +1,11 @@
+{
+  allGraduatestudents(first:631, orderBy: [ MEMBEROF_ASC, EMAILADDRESS_ASC ]) {
+    nodes {
+      nr
+      telephone
+      emailaddress
+    }
+  }
+}
+
+ 

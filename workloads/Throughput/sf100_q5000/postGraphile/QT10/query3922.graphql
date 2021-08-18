@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "pumicer"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

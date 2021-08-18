@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "nefarious"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sectary"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

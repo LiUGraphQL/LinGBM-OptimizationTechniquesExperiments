@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"judges") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

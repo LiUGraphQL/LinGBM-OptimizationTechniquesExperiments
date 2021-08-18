@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"grandnieces") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

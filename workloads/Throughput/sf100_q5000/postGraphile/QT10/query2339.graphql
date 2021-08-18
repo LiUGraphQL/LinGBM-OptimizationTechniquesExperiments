@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "combustibles"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

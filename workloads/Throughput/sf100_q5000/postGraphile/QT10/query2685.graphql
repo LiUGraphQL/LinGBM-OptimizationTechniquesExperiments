@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "interorbitally"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

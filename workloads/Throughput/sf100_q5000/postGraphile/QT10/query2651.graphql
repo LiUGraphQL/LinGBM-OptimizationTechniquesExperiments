@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "impuissance"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

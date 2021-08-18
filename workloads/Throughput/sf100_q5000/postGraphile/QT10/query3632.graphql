@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "chests"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

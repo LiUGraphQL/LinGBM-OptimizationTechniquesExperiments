@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "crofts"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

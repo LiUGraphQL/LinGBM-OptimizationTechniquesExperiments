@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "beneficially"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

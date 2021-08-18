@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "overclouded"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

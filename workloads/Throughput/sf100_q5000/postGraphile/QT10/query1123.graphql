@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sodomite"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "wrothful"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

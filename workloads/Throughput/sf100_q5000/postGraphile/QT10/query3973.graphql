@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "hairs"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

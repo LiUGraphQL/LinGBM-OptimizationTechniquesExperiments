@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "wats"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

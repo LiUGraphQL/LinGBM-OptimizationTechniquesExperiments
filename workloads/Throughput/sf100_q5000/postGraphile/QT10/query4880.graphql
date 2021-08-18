@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "smears"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

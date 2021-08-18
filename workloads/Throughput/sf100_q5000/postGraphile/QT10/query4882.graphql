@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sparingly"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

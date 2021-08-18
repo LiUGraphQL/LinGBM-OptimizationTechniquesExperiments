@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "successorship"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

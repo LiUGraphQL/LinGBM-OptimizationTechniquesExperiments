@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "stymieing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "matriculates"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

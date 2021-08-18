@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "breadstuff"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "yelping"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

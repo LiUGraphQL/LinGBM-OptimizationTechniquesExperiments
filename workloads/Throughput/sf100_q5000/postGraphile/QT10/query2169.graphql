@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "ineducability"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

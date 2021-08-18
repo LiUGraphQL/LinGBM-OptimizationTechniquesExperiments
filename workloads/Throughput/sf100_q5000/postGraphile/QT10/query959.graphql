@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "gyps"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

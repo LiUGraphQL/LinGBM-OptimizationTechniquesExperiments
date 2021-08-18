@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "regicide"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

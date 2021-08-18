@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "dismortgage"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "baptismally"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

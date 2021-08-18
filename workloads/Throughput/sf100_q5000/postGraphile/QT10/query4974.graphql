@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "recentness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

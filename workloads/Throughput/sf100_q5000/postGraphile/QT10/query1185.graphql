@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "mustier"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

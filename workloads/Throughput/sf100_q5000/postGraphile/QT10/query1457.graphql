@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "vandalism"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

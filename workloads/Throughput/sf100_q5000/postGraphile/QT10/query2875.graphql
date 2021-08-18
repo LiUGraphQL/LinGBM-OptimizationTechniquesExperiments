@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "crosier"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

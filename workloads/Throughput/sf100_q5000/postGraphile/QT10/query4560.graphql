@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "auditoriums"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

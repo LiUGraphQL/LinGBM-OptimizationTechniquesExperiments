@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "recliners"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

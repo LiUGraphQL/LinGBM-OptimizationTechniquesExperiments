@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sterlings"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

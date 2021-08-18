@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "champs"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

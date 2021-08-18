@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "rushings"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

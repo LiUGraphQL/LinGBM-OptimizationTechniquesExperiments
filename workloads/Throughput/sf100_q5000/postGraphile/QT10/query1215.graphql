@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sergings"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

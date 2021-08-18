@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "relive"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

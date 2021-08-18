@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "dandies"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

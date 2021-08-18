@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "presumer"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

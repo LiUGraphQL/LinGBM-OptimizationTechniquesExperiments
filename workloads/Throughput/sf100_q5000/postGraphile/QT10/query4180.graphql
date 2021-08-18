@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "flattering"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

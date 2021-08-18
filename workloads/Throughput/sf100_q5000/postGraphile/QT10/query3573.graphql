@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "chronological"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

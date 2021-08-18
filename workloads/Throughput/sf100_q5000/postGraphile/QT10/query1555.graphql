@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "affiant"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

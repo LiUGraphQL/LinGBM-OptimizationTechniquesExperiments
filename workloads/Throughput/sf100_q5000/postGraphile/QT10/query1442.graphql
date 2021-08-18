@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "manifests"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

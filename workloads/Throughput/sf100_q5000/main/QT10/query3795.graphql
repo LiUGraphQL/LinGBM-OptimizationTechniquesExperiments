@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"cigarettes") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

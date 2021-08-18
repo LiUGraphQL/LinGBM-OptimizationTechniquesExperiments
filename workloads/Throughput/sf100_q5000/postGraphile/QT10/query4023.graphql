@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "kerbing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

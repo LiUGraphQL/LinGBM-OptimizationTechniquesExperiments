@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unauthentic"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

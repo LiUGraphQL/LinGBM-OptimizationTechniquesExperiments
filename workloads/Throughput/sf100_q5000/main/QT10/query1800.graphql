@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"sumo") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

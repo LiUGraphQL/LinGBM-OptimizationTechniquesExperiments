@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "crimpy"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

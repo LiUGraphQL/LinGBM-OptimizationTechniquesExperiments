@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "adjure"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

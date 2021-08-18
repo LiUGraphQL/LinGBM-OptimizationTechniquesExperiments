@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unlading"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

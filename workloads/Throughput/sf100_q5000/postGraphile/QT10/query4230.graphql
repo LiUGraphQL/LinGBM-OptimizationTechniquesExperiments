@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "approbations"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

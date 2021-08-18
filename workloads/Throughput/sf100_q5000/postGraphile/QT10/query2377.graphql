@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "frontager"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

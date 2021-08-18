@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "beduins"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

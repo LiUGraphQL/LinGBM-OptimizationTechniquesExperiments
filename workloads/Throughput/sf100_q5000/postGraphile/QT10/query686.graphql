@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "nonintoxicants"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

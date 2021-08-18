@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "pone"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

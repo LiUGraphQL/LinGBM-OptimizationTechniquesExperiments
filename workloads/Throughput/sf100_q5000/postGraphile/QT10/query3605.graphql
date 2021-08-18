@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "reduplication"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

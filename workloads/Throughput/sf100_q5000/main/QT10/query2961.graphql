@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"reassuring") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

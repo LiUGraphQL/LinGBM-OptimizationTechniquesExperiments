@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "impersonalized"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

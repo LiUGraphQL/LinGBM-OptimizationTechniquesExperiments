@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cutpurse"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

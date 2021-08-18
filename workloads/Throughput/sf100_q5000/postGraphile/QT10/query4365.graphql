@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "adjudged"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

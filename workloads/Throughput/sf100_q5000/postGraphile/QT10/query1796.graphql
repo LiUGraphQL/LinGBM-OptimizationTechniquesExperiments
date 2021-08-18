@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "pawers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

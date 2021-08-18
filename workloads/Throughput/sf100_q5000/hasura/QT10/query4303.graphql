@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%unauthentic%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

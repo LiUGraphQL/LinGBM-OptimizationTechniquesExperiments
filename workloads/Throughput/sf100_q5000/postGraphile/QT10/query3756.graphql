@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "horses"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "raptors"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

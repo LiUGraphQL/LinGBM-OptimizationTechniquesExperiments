@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "surfable"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

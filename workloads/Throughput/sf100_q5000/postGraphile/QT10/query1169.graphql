@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unrepealed"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

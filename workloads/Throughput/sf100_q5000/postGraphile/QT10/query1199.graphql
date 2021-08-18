@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "boldfaced"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

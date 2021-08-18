@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "biosatellite"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

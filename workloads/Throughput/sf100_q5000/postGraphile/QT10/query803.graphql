@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bags"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

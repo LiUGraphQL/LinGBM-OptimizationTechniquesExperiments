@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "mashie"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

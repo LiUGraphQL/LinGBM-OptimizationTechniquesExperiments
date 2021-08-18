@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "lacking"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

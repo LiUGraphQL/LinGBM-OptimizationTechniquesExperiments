@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "renter"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "deviations"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

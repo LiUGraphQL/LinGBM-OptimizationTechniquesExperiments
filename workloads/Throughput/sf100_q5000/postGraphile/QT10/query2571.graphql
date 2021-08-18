@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "microcosmical"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

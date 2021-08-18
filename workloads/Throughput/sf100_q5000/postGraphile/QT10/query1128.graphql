@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "adapting"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

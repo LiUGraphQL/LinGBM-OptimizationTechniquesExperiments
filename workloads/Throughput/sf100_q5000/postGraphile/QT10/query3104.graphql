@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "gorier"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

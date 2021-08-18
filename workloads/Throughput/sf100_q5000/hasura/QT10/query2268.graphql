@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%bluepoints%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "conductivities"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

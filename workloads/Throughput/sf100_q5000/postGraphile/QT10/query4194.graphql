@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unlawful"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

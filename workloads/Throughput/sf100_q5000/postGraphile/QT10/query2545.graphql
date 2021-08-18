@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "swinges"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

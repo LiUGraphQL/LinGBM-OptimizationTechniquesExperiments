@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "headrest"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

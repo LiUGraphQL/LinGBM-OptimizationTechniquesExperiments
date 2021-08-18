@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "gongs"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

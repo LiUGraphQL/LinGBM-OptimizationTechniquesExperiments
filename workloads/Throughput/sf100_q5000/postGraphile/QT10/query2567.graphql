@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "gunrunning"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,13 @@
+{ 
+	university (where:{ nr:{ _eq: 969 }}) { 
+		graduatestudents { 
+			professor { 
+				faculty {
+                    department {nr}
+                }
+			} 
+		} 
+	} 
+} 
+
+ 

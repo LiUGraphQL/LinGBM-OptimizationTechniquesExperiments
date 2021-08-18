@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "clubman"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

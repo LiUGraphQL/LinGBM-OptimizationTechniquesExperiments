@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "jaggier"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

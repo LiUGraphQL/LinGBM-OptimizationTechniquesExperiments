@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "fastened"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

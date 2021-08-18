@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "nonlethal"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

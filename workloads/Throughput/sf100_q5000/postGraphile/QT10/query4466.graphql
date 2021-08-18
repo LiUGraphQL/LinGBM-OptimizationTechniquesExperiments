@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "servicewomen"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

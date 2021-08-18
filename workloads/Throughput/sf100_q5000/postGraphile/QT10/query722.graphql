@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "lathed"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

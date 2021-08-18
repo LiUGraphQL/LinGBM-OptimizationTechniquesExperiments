@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "undercapitalized"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

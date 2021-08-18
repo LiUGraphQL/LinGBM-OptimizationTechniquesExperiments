@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "rupturable"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

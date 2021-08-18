@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "throating"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "leisured"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

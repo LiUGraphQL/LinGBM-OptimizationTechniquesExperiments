@@ -1,0 +1,11 @@
+{ 
+	university(nr:477){ 
+		graduateStudentConnection{ 
+			aggregate { 
+				count 
+			} 
+		} 
+	} 
+}
+
+ 

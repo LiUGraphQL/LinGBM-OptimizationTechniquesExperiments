@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"sacroiliacs") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

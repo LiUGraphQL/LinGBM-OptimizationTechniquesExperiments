@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "mayoresses"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

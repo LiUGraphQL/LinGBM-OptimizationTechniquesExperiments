@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "mousses"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

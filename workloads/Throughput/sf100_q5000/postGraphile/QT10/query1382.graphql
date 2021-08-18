@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "wickerwork"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

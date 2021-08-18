@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "interdicted"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

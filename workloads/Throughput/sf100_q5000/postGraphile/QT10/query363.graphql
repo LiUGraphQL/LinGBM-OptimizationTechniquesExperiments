@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cypriotes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "gutty"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

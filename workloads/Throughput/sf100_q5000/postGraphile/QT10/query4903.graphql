@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "squalor"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "torching"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

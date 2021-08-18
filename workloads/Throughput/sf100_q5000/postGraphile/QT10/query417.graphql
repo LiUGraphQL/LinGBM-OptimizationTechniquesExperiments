@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "smouldered"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

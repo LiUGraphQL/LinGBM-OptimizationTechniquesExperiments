@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "frets"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

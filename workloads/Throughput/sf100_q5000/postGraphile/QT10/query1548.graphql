@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "erotization"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

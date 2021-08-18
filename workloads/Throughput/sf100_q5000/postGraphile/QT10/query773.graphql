@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bucketfuls"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

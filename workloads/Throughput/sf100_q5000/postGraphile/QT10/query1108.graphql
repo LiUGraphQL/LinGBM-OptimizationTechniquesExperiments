@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sarongs"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

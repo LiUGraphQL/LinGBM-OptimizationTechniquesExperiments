@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"lunaria") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

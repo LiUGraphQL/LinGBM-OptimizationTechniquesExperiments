@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "gargoyled"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

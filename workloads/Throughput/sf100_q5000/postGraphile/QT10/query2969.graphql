@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "reclaimant"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

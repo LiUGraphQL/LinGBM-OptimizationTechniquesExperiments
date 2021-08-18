@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "demographer"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

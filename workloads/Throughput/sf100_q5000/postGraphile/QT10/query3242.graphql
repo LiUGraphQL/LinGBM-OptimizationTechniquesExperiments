@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "slapdash"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

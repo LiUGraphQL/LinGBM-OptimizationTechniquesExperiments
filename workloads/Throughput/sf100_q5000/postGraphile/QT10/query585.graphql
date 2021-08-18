@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "noticing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

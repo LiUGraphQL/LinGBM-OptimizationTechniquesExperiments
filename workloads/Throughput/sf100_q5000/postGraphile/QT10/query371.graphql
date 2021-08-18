@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "caballero"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

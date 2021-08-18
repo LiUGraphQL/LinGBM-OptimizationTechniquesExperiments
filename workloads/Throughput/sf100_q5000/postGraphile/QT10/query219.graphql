@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "hates"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

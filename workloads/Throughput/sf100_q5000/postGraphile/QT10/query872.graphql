@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "busier"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "seawalls"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

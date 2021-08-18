@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cartomancies"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

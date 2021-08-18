@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "uses"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

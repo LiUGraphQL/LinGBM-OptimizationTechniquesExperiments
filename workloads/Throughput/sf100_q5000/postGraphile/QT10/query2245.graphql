@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "closes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

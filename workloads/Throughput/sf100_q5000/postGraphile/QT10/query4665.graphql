@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unacclaimed"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

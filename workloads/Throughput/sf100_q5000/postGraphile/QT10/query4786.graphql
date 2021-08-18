@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "yolked"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

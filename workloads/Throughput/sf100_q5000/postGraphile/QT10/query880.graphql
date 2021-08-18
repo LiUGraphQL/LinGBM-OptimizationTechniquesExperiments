@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cygnets"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

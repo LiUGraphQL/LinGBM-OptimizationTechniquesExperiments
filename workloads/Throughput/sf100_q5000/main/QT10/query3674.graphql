@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"neckband") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

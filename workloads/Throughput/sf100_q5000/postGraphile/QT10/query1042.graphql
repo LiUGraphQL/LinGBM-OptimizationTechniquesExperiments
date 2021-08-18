@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cellarets"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

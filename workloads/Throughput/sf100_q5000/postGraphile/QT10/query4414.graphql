@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "uberties"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

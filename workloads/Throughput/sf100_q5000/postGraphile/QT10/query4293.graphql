@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unabashed"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

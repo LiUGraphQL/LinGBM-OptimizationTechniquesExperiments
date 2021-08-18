@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "jointuring"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%persevering%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

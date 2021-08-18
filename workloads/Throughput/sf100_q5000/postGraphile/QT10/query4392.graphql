@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "habituality"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

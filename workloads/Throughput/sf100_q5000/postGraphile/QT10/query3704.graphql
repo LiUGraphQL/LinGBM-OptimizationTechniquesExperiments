@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bloomy"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

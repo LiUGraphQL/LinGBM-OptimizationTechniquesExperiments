@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "quadrennium"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

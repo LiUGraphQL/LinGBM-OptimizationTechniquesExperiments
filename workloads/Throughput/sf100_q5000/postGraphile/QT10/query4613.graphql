@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "gaminess"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

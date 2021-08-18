@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "tatterdemalion"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "regauge"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

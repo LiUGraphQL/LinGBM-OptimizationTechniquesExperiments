@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"administrants") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

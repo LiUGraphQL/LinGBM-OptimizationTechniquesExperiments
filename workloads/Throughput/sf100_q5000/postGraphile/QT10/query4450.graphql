@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "beckons"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

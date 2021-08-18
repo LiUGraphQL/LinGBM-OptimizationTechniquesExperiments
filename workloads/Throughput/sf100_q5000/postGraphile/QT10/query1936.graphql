@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "frilled"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "smarmy"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

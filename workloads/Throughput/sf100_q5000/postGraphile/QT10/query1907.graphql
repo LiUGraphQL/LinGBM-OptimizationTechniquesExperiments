@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "willy"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

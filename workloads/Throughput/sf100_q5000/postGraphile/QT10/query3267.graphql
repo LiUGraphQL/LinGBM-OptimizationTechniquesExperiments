@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "adapters"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

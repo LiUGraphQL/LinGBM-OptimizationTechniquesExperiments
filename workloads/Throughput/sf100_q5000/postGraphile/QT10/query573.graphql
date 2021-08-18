@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "overindustrialize"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

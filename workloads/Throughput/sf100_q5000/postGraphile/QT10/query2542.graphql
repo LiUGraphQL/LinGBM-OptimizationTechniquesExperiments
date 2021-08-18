@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "colanders"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,32 @@
+{
+  allDepartments(condition: {nr: 6011}) {
+    nodes {
+      universityBySuborganizationof {
+        nr
+        graduatestudentsByUndergraduatedegreefrom {
+          nodes {
+            nr
+            emailaddress
+            departmentByMemberof {
+              nr
+              universityBySuborganizationof {
+                nr
+                graduatestudentsByUndergraduatedegreefrom {
+                  nodes {
+                    nr
+                    emailaddress
+                    departmentByMemberof {
+                      nr
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+ 

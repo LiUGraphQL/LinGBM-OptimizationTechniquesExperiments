@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "educationally"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

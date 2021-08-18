@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "uncircumcised"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

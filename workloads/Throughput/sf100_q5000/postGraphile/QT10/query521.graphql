@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "ophthalmoscope"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

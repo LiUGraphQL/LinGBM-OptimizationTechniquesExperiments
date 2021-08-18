@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "vowed"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

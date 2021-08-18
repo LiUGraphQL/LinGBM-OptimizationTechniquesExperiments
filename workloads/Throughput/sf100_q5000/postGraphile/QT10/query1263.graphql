@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "remodeled"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

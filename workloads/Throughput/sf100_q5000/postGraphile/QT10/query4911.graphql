@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "propping"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

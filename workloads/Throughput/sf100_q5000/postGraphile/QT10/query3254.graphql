@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "tracking"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "homoerotism"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

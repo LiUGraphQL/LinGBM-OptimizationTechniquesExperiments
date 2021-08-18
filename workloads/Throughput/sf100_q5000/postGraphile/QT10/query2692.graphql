@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "ungrudgingly"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

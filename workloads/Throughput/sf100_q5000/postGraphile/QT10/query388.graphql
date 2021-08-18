@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "compartmentally"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

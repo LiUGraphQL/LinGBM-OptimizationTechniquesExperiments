@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "decliner"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

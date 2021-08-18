@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"thundering") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

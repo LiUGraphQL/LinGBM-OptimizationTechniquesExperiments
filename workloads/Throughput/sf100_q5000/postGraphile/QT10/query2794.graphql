@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "boogyman"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "fluidizes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

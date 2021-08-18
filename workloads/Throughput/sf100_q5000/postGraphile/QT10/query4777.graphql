@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "loafs"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

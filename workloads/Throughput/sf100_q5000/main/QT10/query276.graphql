@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"plotties") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

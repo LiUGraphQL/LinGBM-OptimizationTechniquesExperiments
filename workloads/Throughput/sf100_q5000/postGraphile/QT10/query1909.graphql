@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "gassing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

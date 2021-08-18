@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "revises"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

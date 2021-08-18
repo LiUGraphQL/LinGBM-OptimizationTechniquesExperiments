@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "kilting"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

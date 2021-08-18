@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "homesite"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

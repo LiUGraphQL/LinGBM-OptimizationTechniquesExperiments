@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "helplessly"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

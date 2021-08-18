@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "knaveries"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

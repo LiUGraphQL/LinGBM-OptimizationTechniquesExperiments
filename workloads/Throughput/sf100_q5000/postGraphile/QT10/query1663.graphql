@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "seatmates"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

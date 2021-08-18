@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "promilitary"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

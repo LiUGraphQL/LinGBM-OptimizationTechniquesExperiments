@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "painless"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

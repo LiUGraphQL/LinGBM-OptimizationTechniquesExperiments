@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "physicks"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

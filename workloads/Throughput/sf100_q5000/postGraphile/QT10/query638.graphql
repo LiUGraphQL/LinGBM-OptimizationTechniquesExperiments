@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "expounders"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

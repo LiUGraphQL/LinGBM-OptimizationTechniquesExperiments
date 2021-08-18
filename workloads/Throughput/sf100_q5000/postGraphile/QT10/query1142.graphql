@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "septuagenarians"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

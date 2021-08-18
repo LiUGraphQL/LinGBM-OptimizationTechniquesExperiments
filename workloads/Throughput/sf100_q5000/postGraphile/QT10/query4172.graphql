@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "embrocate"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

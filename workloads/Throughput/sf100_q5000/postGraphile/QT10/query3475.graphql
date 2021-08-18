@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "rheumiest"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "compliments"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

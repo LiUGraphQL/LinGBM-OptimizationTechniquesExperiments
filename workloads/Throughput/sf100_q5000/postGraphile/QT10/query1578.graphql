@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "hues"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

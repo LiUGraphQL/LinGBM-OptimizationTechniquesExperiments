@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"doodler") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

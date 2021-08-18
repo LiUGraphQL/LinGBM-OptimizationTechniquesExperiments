@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "overawes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

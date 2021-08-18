@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "shamefacedness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

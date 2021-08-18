@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bashfulness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

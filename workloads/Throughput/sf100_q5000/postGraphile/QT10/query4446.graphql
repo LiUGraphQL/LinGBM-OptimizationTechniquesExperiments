@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "nonflowering"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

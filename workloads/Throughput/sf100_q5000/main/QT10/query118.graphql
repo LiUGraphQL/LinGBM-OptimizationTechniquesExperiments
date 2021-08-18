@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"bursting") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

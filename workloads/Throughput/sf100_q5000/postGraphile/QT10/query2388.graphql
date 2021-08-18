@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "tufter"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

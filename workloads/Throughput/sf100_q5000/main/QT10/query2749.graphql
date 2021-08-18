@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"dundee") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

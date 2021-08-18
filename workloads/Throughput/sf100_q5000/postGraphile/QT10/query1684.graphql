@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "twirled"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

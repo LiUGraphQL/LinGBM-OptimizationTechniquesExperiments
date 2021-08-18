@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "pogroming"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

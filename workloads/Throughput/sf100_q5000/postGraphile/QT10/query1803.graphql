@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "relocates"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

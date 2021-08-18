@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "calvinists"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

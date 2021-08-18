@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "idolizer"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

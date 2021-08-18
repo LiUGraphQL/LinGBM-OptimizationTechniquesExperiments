@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "comestibles"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "balmier"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

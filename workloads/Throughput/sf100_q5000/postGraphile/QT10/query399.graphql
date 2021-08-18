@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "effeminately"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

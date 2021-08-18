@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "prostrating"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

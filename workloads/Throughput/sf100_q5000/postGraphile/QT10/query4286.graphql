@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "chaffy"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

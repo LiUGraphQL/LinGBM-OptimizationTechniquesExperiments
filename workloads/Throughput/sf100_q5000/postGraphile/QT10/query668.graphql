@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "consecutively"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

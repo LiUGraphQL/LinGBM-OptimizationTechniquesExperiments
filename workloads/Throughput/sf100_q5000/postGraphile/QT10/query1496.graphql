@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "religionists"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

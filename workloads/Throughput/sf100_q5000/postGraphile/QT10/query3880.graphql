@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "frighteningly"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

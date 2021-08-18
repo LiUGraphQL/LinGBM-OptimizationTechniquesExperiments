@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "stammered"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

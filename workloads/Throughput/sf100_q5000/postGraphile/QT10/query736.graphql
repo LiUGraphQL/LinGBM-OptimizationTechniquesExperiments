@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "showboats"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

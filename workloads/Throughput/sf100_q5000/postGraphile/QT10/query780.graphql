@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "inspecting"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

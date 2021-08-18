@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "durative"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

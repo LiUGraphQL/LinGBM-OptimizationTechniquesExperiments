@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "spends"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

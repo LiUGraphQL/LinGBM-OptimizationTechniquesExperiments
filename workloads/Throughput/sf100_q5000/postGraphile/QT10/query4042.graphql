@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "aglet"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

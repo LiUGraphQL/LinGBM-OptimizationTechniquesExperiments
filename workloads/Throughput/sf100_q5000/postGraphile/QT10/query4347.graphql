@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "slated"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

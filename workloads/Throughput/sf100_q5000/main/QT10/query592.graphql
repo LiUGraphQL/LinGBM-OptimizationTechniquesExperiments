@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"assumptiveness") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

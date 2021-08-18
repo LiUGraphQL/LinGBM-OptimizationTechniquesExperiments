@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "noninstinctive"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

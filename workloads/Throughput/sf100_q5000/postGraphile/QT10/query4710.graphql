@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "scrambles"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

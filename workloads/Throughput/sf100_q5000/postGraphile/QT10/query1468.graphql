@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "laureating"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

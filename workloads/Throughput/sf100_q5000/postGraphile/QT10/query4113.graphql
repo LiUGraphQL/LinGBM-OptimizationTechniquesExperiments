@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "ossifications"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

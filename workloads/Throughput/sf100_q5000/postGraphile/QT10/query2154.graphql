@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "shacklers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

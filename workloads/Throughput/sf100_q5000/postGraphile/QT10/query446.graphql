@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "drosses"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

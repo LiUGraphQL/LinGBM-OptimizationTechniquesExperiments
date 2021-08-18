@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%merchantability%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

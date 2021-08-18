@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "winegrower"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

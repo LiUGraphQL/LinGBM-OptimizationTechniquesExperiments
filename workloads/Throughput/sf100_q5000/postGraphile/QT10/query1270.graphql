@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "vendibly"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "plucked"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

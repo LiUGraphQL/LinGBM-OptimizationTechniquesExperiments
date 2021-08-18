@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"fobbed") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

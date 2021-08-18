@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "retrain"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"vialing") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

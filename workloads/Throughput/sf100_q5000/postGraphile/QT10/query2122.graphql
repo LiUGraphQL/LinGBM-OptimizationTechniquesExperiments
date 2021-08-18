@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "halts"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

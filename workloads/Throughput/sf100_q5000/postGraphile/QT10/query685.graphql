@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "evils"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

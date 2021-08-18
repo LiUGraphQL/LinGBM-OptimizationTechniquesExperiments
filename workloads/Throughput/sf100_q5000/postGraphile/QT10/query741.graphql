@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "fusser"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

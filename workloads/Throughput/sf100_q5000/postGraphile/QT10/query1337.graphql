@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "polyandries"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

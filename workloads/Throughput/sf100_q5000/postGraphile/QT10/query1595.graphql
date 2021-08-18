@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cleavers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

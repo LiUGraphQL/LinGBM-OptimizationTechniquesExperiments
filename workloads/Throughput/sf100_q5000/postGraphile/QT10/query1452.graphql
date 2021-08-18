@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "copycats"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "fervid"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

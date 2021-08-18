@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "chalking"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

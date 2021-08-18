@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "moves"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

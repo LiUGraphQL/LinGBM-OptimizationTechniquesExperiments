@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "grabby"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

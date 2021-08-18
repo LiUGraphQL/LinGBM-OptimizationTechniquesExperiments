@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "coarsely"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

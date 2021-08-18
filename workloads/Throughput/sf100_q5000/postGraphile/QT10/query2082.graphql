@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "dalesmen"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

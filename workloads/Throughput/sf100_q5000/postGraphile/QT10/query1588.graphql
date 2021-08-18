@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unsoiled"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

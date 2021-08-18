@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "geophytes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "barks"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

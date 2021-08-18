@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "equalizes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

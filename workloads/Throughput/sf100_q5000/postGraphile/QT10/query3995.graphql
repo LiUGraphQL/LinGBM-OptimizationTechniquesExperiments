@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "numbed"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

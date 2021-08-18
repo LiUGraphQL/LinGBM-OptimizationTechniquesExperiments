@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "complying"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

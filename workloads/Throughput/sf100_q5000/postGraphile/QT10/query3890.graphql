@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "jawed"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "maunders"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

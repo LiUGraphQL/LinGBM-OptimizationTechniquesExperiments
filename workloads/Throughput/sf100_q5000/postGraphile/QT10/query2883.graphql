@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "nunnery"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

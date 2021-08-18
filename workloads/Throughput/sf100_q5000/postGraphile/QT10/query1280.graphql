@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "deports"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

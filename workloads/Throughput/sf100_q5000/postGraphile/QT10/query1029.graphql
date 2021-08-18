@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "kenned"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

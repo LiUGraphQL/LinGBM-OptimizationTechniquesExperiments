@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "keynoting"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

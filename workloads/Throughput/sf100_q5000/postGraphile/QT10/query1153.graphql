@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cryobiologically"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

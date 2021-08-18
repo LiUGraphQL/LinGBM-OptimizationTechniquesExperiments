@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "incandescently"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "vouchers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

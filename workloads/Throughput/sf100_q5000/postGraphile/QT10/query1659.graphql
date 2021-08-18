@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "overbuying"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

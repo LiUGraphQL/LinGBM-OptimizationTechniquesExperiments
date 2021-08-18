@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "inflictor"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

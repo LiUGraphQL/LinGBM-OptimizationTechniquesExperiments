@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "rooters"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "pranks"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

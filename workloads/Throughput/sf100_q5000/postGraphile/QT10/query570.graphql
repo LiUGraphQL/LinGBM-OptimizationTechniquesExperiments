@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "exonerates"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "nicer"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

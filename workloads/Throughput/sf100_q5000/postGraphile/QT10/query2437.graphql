@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "calabashes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

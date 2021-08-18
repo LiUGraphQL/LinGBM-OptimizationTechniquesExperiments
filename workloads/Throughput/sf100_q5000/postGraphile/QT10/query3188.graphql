@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "reshuffle"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

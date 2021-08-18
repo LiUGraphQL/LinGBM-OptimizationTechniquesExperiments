@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "ravelling"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

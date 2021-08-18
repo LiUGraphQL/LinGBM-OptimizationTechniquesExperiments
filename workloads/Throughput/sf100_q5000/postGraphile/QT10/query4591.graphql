@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "orienting"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

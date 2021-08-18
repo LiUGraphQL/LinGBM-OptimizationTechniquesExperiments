@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%hist%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

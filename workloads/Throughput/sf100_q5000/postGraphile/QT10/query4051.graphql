@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "stationeries"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "gamine"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

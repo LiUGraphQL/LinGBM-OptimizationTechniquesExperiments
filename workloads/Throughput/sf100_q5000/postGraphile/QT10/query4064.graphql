@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "canned"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

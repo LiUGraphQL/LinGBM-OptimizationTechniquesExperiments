@@ -1,0 +1,27 @@
+{ 
+  department(where:{ nr:{ _eq: 1916 }}) { 
+    nr
+    university {
+      nr 
+      graduatestudents { 
+        nr 
+        emailaddress 
+        department{ 
+          nr
+          university {
+            nr 
+            graduatestudents { 
+              nr 
+              emailaddress 
+              department{ 
+                nr 
+              }
+            }
+          }
+        } 
+      } 
+    }
+  } 
+} 
+
+ 

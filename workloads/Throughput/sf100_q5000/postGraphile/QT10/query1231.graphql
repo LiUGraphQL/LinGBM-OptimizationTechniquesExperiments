@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "agog"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

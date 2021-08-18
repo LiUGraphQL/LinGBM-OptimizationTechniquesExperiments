@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sexology"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

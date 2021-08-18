@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "trowel"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

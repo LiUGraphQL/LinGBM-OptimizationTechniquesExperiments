@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "clodhopping"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

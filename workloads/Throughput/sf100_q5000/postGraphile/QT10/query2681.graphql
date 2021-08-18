@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "smelling"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

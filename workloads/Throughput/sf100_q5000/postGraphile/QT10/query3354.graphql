@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "maximizes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "radiologic"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

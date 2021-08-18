@@ -1,0 +1,9 @@
+{ 
+	university(nr:956){ 
+		doctoralDegreeObtainers{ 
+			publications{title} 
+		} 
+	} 
+}
+
+ 

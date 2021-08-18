@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "reburial"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

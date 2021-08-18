@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "thermoregulatory"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

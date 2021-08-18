@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cosmists"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

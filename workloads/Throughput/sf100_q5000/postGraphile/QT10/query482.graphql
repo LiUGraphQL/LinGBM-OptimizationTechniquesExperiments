@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "shakeouts"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

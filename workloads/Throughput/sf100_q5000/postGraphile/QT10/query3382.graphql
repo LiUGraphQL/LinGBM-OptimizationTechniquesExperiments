@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "fawning"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "lovelies"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "swagging"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

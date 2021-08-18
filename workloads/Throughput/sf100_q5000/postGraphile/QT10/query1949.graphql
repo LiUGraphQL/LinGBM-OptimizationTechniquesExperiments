@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "matriarchies"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

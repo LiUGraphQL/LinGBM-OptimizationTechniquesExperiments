@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "tieclasps"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

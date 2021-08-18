@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "dong"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

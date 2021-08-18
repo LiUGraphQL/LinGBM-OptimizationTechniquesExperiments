@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "welshmen"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

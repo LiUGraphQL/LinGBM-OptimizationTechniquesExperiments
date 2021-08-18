@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "brigantines"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"installers") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

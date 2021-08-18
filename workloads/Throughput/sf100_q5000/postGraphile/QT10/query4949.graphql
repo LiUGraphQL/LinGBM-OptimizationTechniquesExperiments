@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "prohibitions"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

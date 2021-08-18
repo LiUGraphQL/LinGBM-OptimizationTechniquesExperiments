@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "gents"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

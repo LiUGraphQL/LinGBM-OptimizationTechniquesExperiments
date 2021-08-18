@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"japanners") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

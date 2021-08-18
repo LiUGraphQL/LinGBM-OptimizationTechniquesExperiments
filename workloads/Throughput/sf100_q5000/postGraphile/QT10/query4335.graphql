@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "underclerks"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

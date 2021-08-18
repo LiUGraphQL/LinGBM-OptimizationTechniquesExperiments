@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "recalcitrancy"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

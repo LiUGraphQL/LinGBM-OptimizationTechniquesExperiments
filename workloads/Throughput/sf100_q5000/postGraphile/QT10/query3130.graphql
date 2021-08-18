@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "interestingly"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

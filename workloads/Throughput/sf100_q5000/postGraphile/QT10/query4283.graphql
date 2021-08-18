@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "evades"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

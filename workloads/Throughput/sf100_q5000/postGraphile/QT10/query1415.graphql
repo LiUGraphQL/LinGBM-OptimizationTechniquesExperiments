@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "isles"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

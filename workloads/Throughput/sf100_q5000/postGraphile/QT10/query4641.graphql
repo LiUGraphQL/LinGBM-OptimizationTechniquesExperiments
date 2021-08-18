@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "retrenched"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

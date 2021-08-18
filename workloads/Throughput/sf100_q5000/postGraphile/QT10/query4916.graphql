@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "crashes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

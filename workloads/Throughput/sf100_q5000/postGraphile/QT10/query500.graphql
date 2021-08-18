@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "columbines"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

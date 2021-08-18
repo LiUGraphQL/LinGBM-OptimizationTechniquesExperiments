@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "remittable"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "monomaniacs"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

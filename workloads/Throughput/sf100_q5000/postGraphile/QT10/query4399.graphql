@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "geometrically"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

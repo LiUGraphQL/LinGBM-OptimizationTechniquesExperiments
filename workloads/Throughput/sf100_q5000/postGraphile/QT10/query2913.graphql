@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "pursuance"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

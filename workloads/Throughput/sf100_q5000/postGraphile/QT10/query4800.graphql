@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "inerrant"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

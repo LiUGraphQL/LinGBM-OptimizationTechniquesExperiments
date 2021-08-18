@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "airs"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

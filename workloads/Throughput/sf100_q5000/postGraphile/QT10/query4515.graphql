@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "degeneracies"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

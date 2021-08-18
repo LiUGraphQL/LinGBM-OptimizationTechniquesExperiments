@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"jewing") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

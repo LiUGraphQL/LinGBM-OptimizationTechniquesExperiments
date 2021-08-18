@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "classers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

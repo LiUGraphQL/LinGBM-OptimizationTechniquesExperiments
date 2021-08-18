@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "turbulently"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

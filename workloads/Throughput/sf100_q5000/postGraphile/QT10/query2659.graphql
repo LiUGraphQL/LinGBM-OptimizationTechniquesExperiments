@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "spears"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "adaptometer"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

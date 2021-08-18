@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "brassieres"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "fishhook"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "swaybacked"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "countian"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

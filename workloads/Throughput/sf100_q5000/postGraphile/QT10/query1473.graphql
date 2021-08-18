@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "jargonize"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

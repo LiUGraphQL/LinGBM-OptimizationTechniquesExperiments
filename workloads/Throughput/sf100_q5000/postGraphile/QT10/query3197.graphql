@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bespoken"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

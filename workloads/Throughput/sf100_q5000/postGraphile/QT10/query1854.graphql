@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "rebaptize"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

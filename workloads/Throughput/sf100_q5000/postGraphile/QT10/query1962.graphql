@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "crabbed"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

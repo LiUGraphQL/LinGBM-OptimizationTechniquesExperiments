@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "judaical"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

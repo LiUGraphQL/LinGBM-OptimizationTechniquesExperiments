@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "pharisaically"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

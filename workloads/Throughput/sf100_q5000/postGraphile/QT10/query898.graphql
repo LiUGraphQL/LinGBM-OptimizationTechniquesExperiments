@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "orangs"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

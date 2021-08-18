@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "kremlinologist"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

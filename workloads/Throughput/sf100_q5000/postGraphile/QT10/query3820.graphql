@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "isms"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

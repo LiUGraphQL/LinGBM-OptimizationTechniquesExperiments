@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "impassivity"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

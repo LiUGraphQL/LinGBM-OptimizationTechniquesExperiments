@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"phantasmagorical") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

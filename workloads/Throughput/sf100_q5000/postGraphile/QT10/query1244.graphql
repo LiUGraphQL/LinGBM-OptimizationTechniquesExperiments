@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "massagists"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

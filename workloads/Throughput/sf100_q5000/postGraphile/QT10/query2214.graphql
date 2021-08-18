@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "wicks"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

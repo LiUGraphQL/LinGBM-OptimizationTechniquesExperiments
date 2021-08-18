@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "mandril"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

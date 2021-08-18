@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "fornicatrices"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

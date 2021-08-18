@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "ruminatingly"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

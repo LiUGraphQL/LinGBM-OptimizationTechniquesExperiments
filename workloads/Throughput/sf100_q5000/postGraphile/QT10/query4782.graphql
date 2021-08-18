@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "triadisms"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

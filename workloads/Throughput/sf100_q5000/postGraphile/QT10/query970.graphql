@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cumulating"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

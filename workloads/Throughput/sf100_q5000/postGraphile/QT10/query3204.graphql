@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cliffhanging"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

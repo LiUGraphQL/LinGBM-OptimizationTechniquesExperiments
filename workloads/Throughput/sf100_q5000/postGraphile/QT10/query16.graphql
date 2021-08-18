@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "nonenforceable"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

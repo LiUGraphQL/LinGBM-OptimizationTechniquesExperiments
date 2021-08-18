@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sufflates"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

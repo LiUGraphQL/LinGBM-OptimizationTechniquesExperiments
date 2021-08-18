@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "linchpin"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

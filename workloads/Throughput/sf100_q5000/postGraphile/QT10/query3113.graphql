@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "pickers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

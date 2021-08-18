@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%capitalizes%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

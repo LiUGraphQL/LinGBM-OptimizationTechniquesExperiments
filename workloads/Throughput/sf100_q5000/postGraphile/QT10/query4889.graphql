@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "hubbies"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

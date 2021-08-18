@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cuttling"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

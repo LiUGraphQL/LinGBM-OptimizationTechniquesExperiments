@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "milliards"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

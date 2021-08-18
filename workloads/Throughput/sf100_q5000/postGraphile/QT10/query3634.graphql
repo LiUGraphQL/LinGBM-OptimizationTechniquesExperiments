@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "convexity"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

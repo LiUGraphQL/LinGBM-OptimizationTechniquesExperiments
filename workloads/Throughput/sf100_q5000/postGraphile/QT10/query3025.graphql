@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sexily"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

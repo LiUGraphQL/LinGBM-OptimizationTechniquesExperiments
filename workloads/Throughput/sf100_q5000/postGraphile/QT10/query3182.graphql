@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "tartrate"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

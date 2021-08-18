@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sallying"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

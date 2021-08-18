@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "untied"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

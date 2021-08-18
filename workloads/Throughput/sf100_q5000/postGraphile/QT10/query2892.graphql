@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "upholstering"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

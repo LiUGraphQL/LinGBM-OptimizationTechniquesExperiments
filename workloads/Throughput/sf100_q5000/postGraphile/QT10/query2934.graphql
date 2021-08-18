@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "pulsejet"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

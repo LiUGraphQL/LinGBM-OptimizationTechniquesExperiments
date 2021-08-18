@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "toluol"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

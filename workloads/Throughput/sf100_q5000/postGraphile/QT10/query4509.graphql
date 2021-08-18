@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "streptococcal"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

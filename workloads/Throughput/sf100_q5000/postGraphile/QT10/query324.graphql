@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "debasement"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "awarder"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "dognaped"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

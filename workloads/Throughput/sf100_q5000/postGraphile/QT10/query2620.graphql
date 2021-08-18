@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "ruinable"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

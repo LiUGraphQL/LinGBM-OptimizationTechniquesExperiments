@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "soling"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

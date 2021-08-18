@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "pussyfoot"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

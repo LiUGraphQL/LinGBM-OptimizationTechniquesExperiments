@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "easiest"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

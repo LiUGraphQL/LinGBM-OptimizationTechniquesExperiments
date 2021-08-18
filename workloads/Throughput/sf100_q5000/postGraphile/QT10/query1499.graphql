@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "turreted"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

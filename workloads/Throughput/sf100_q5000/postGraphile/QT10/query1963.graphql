@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "intervener"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

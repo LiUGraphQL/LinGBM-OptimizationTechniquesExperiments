@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "wireworms"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

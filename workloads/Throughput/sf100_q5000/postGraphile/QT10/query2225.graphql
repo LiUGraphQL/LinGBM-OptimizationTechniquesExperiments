@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "procreator"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

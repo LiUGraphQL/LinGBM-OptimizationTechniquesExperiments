@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "puking"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

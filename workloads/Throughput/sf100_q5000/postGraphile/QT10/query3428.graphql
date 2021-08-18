@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "pointes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

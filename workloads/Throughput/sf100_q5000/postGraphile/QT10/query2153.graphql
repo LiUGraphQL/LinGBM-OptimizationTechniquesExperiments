@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "redeemable"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

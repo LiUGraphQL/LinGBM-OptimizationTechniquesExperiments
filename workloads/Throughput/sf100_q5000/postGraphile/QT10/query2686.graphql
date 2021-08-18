@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "milliammeter"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "pricer"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

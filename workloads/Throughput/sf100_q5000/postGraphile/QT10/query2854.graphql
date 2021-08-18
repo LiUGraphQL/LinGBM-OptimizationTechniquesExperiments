@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "infecund"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

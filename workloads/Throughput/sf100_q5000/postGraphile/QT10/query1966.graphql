@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "nosed"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

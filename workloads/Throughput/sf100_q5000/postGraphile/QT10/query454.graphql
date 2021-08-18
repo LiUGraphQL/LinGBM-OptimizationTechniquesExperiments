@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "steepness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

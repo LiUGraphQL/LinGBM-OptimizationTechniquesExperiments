@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unlock"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

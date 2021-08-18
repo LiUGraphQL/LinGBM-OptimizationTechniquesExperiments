@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "ruralist"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

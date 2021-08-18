@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "overprotect"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

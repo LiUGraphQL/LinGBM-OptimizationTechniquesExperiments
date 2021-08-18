@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "photoengravers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

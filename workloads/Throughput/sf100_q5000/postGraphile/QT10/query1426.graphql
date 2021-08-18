@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unsophisticatedly"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

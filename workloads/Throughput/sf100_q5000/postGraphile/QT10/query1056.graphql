@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "fastbacks"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

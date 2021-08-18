@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "insisters"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

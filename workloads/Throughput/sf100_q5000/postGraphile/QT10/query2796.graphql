@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "encyclopedia"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

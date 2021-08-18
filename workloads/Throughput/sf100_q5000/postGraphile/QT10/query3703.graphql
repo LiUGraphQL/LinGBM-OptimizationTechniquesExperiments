@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "ingeniously"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

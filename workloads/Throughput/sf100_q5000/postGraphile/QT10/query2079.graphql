@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bandaging"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

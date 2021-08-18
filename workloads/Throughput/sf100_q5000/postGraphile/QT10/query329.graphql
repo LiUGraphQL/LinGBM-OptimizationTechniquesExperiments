@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "padded"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

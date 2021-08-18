@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "groups"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

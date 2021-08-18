@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"dissents") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "conformably"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

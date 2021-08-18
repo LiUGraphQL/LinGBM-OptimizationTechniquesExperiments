@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%heterodox%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

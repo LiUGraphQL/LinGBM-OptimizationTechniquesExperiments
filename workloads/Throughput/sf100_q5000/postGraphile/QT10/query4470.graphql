@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "gastropod"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

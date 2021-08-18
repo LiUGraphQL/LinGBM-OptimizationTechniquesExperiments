@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "assonants"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

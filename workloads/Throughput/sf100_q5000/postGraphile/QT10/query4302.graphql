@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "dishtowels"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

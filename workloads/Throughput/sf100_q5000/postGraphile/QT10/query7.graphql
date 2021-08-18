@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "crisply"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

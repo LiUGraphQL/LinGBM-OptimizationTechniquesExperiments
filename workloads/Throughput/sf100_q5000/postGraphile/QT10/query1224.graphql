@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "confiding"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

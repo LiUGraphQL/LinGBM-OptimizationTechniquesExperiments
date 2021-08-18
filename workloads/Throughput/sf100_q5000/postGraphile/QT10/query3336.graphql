@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "ironist"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

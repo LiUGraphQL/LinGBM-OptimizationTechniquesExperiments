@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "satisfying"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

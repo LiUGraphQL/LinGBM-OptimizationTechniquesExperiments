@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "reaccrediting"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "blockaded"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

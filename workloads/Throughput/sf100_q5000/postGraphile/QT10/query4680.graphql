@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "padishah"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

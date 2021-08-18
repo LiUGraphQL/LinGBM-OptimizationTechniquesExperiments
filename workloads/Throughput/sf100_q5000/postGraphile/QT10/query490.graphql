@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "armouries"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

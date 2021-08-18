@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sneaked"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

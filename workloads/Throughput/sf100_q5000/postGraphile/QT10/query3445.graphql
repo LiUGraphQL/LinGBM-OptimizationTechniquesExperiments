@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "noteworthily"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

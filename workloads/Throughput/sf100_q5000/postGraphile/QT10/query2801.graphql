@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "vialled"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

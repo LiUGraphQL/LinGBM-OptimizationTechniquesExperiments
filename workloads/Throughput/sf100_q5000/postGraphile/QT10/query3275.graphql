@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "wooziness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "redolently"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

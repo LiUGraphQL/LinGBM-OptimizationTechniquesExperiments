@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "thanksgivings"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

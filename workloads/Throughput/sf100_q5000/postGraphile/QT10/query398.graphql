@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "regluing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

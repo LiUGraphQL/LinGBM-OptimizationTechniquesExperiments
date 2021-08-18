@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"dawned") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "abdicated"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

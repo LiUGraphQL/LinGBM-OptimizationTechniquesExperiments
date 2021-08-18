@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "jewed"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

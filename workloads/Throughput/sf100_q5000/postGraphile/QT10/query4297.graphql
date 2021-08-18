@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "quoit"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

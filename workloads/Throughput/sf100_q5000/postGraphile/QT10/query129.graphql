@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "radioisotopes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

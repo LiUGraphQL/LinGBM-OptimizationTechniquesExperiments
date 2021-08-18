@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "insinuators"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

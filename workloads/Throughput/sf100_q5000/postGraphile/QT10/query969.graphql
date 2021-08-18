@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "fanaticized"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

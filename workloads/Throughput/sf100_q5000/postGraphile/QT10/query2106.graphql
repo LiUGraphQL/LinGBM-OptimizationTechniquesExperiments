@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "masquer"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

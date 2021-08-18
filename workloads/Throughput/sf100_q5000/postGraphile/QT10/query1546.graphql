@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "moorage"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

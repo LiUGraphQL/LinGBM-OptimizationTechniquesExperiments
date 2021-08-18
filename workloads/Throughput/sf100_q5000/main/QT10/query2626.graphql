@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"bulleting") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

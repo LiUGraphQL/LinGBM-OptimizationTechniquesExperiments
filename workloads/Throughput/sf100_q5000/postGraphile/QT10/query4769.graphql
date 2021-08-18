@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "huguenot"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

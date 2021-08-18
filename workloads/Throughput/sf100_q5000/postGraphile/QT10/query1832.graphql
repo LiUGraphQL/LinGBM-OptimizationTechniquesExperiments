@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "reaccustoms"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

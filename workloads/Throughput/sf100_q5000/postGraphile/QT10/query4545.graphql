@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "crapping"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "scantiness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

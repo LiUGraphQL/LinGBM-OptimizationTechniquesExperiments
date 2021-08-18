@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "macula"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

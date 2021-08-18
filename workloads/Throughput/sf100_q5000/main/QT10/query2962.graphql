@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"laws") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

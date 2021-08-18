@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "recks"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

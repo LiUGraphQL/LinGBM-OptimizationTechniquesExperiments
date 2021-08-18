@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "axeman"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

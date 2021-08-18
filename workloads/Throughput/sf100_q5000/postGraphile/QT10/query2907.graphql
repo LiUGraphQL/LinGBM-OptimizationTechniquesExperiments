@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "niter"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

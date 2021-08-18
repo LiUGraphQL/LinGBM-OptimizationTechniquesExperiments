@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "drudged"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "petitioning"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

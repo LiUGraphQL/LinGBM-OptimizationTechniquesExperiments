@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "milkmaids"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

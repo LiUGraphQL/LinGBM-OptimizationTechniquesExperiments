@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "pupa"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

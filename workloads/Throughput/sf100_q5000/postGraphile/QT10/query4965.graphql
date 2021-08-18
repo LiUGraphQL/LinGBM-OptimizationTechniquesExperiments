@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sweetened"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

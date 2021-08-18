@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "lucked"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

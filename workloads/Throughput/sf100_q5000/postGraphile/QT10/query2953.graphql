@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cyan"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

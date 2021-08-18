@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "rattails"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

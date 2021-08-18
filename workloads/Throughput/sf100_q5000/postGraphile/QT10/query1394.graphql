@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "wariness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

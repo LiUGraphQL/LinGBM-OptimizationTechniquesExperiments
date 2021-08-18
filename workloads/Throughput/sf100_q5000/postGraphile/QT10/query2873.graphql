@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sightless"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

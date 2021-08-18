@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "shodden"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

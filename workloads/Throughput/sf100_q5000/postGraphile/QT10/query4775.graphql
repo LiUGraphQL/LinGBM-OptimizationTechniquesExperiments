@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "swearers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

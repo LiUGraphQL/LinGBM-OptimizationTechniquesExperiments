@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "netlike"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

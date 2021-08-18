@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "motionless"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

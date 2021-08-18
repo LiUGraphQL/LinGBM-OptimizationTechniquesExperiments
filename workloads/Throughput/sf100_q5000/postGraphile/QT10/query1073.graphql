@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "eyeliners"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "noncontradictory"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

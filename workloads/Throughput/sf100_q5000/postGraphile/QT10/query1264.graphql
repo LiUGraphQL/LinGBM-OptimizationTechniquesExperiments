@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "oxidizable"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

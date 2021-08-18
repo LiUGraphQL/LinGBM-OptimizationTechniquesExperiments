@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "assignor"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

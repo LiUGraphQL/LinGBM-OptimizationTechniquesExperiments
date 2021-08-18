@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "serialization"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "stability"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

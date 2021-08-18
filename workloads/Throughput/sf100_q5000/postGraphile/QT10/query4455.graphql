@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "arrangers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "reinserts"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

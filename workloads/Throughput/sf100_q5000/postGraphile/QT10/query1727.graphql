@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "syncing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

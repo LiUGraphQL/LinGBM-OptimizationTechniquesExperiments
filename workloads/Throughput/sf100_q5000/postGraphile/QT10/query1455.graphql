@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cultists"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

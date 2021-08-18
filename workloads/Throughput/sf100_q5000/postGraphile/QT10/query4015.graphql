@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "evokers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

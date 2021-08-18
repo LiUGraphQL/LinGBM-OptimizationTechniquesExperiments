@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "interdictory"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

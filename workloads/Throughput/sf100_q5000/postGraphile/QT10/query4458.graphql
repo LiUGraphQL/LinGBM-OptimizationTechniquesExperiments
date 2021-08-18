@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "redeveloping"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

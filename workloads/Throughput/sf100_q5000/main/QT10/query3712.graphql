@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"constituently") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

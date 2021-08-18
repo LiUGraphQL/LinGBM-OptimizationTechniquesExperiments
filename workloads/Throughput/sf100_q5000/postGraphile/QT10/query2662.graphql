@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "contestable"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

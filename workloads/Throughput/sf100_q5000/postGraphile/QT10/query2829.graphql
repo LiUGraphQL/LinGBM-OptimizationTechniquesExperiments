@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "winiest"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

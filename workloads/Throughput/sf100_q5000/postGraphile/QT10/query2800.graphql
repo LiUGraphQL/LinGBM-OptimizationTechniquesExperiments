@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "encamped"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

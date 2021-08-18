@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "stroganoff"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

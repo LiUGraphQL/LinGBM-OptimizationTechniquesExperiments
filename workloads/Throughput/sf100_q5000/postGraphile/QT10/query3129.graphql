@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "prevailingly"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

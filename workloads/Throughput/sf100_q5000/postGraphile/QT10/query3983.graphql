@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "pointlessness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

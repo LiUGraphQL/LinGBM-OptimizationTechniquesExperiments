@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "fattener"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

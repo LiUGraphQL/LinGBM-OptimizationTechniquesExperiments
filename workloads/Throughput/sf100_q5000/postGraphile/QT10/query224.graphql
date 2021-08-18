@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cob"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

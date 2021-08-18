@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "hyperons"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

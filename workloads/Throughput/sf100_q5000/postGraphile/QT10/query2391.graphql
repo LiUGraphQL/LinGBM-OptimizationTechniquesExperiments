@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sportscaster"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "reconsign"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

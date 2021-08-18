@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "abnormals"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

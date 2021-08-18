@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "rebutton"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

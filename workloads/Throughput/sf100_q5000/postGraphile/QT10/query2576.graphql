@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unawed"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

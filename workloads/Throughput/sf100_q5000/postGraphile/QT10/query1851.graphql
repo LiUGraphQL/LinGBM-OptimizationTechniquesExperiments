@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "nictitates"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

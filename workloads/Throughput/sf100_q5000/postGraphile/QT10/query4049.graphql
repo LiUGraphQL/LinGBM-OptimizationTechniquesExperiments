@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "ingression"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

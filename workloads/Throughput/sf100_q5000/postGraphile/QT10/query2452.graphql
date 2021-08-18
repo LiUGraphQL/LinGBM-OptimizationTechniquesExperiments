@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "viaducts"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

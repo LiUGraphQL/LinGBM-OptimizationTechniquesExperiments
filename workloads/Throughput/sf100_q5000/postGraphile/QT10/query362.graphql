@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "coffees"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

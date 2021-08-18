@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "jetsams"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

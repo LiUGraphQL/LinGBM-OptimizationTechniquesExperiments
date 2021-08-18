@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "tatters"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

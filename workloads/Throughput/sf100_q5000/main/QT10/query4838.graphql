@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"fusils") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

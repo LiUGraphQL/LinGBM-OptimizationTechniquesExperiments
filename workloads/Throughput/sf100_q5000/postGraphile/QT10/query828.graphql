@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "aliquant"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "shingly"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "corruptor"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bunchiest"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

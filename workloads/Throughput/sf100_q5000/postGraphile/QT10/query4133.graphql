@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "winterizing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

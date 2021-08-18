@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "prefects"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

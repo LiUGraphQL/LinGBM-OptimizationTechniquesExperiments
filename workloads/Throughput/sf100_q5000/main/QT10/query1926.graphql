@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"doublewidth") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

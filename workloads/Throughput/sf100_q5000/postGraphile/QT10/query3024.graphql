@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unselfishly"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

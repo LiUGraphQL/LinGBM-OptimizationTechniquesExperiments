@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "coppersmith"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

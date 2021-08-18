@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "ferryboats"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

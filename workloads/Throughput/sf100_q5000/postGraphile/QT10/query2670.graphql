@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "homebred"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

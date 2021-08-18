@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "potty"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

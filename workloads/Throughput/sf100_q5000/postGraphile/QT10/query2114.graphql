@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "atomizing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

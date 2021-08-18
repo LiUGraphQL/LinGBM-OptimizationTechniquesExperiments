@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "malteds"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

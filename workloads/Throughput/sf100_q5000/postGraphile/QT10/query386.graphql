@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "weakener"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

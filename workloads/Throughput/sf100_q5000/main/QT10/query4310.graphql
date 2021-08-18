@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"sphincters") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

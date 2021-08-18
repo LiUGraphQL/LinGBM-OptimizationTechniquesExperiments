@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "vetoing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

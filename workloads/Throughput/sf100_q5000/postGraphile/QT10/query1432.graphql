@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "patterning"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

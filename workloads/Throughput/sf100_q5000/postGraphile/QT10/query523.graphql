@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "agoraphobic"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

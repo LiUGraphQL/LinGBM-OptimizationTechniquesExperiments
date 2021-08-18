@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "astrobiologically"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

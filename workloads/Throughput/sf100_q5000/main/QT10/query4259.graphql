@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"antimilitarism") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

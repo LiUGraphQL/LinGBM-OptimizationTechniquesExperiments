@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "rapporteur"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%revetting%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

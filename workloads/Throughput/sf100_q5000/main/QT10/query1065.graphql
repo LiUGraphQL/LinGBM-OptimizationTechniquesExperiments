@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"gambians") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

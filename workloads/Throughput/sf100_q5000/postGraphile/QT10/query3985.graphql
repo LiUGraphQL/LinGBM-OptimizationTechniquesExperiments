@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "begrimmed"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

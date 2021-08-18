@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "knowers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

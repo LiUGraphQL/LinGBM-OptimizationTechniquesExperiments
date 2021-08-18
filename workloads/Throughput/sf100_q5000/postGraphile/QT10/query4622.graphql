@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "comprises"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

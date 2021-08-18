@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "rigour"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "willed"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

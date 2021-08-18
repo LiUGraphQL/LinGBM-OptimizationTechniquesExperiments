@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "vizor"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

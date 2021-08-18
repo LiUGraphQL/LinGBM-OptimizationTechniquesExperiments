@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "skilling"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

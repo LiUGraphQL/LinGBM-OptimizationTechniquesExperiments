@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "hips"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

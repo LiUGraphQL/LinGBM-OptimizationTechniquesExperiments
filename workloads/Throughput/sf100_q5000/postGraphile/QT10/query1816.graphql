@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "savagisms"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

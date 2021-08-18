@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unpent"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

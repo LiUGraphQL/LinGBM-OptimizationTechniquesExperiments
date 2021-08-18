@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "uptowners"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

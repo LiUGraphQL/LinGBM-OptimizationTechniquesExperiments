@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "nitrites"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

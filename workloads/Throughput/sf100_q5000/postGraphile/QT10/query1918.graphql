@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "djellaba"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "spiff"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

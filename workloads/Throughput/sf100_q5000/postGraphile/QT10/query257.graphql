@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "whelmed"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

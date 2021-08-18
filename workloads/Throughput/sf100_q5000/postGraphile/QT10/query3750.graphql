@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "accommodates"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

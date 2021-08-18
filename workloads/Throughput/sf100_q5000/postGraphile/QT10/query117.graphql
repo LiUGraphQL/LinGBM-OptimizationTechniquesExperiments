@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "patrolwoman"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

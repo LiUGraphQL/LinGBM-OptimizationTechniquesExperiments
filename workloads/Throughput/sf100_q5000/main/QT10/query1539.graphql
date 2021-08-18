@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"harmonization") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

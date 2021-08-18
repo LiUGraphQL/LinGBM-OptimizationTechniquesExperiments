@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "proselytism"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

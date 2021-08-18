@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "parsimoniously"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

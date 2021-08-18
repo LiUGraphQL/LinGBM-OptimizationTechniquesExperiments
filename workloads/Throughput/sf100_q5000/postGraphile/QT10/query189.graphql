@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bebops"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

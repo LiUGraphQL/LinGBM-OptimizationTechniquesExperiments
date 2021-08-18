@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "canzones"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

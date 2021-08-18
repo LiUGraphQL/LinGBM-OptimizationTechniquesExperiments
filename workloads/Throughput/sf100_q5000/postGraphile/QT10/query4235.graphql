@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "demagog"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

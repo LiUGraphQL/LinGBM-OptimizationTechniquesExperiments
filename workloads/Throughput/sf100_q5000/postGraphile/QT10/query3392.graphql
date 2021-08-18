@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "revetting"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

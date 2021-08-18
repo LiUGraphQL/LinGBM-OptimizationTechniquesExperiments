@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "optimisms"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

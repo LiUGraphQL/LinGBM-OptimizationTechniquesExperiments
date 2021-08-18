@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "extremely"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

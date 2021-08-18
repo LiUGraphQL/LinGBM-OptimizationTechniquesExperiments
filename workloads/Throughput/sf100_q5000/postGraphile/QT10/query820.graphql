@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "competed"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

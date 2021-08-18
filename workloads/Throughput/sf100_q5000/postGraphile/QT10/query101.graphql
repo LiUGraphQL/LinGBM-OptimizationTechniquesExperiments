@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "receptivity"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

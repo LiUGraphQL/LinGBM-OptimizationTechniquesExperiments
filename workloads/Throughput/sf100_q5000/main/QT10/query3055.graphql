@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"infarction") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bullhorns"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

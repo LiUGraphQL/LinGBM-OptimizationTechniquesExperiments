@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "transcriptions"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

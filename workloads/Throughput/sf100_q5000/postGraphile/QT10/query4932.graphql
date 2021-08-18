@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "readable"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

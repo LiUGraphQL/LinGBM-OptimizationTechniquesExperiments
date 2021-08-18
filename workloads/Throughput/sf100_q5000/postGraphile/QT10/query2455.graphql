@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "disequilibrium"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

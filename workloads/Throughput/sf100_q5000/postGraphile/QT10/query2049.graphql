@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "psychopathology"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "snarled"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

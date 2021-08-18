@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "radiances"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "biogeographer"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

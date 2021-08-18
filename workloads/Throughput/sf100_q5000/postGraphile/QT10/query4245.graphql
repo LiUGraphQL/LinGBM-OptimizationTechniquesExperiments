@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "pompons"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

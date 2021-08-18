@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "veered"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "gumless"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

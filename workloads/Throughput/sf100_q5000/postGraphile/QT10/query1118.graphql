@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "crags"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

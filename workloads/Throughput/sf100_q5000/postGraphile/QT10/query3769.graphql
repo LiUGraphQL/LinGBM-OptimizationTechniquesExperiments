@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "building"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

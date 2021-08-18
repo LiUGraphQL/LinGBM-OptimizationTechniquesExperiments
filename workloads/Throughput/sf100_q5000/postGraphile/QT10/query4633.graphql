@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "quintuplicate"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

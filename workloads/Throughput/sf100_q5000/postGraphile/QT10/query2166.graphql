@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sacroiliacs"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

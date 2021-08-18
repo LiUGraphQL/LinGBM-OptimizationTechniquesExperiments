@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "buffier"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

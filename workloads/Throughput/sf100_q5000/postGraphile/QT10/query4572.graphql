@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "exactors"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

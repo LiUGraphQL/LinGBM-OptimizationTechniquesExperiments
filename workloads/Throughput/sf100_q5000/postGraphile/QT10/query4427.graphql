@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "governorate"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

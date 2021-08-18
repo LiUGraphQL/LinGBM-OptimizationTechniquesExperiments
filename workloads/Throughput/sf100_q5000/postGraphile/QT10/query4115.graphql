@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "pregnancy"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

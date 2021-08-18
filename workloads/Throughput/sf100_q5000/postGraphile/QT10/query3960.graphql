@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "aslant"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "indiscriminantly"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

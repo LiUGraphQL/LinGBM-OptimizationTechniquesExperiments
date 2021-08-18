@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "reptilians"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

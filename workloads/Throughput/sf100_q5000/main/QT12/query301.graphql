@@ -1,0 +1,11 @@
+{ 
+  university(nr:316) { 
+    doctoralDegreeObtainers (where: {worksFor: {nr:9108} } ){ 
+      id 
+      emailAddress 
+      publications {id } 
+    } 
+  } 
+} 
+
+ 

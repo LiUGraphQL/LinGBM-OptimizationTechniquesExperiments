@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "preservations"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

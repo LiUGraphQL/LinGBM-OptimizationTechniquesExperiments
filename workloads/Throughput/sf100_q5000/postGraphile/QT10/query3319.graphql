@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "recommit"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

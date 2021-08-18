@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "tactlessly"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

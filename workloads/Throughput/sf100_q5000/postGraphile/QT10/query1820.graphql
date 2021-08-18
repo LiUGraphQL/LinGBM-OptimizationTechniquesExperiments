@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "demagogies"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

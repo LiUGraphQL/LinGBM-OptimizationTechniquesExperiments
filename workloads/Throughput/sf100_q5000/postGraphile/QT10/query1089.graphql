@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "pillager"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

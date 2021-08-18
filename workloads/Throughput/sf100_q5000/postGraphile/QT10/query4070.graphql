@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "spinnery"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

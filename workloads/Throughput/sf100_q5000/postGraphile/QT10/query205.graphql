@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "palefaces"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

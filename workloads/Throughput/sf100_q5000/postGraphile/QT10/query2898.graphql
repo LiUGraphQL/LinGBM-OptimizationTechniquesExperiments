@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "vilely"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

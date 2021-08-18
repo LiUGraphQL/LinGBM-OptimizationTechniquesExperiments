@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "intwisted"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

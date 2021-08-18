@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "aflatoxin"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

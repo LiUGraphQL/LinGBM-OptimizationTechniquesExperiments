@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "mutagenesis"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"linchpin") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

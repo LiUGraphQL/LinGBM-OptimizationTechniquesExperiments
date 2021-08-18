@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "ecrus"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

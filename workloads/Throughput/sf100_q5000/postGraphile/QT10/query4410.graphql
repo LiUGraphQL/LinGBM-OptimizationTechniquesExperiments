@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "atomizers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

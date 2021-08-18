@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "snowsuits"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

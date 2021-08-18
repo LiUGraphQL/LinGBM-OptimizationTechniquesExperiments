@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "quaintness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

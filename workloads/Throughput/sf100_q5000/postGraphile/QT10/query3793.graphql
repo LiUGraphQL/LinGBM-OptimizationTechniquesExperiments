@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "fuhrer"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

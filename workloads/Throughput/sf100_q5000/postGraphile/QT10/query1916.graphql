@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "tromping"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

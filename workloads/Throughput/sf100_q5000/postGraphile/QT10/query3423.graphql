@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "embossment"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

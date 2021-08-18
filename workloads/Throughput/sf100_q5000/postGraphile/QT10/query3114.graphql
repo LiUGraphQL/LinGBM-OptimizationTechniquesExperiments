@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "docksides"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

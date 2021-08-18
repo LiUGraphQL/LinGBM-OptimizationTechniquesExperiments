@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cringing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

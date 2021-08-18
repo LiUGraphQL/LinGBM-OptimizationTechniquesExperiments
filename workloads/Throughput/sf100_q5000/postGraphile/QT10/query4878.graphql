@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "audiometries"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

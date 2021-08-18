@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "propagandizes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

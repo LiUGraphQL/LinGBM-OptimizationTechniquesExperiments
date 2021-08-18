@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "mangos"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

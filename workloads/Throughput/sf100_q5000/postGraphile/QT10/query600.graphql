@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sicilians"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "uneconomical"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

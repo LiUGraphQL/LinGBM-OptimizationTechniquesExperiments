@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "despises"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

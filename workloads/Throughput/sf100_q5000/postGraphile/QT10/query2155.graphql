@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "memorials"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "oilway"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

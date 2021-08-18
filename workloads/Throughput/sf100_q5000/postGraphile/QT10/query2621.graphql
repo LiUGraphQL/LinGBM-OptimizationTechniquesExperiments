@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "brunettes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

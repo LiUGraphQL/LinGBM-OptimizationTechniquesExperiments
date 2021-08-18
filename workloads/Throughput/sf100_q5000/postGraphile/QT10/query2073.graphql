@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "clearing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

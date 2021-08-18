@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "prenatal"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

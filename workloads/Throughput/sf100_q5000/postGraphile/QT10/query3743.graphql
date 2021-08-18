@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "heaviest"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

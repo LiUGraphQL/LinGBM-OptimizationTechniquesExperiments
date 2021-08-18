@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"pettifogs") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

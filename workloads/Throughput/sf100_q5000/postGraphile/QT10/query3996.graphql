@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "gainable"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

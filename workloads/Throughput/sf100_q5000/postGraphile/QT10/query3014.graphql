@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "campers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "syntactical"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

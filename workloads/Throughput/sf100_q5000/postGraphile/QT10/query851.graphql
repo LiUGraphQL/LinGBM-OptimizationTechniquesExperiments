@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cambism"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

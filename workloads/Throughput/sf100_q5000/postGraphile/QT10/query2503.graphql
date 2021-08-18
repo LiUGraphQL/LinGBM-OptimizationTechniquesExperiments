@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "acceptability"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

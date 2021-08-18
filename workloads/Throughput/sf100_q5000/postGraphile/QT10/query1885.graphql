@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unsupervised"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

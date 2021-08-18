@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "brevets"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

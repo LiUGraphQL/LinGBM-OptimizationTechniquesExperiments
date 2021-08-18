@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "pubescence"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

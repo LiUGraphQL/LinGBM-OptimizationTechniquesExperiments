@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "hutzpah"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

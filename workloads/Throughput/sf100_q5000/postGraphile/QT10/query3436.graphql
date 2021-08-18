@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "buckeroos"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

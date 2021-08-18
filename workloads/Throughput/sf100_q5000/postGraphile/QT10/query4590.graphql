@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "playbacks"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

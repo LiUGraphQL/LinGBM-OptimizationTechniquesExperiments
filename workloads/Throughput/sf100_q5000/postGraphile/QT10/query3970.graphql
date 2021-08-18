@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "codgers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "inkstand"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

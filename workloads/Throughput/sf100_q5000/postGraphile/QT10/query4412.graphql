@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "consults"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "tarpapers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

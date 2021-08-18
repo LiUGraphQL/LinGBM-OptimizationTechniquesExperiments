@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "vineries"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

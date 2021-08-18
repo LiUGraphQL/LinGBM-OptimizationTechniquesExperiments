@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "omittance"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

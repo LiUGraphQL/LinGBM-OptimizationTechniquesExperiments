@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "thankfulness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "aeroliths"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

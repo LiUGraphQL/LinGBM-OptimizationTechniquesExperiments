@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sicklily"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

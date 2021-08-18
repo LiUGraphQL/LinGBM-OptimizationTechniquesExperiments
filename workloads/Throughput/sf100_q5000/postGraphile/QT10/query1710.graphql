@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "inoffensively"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

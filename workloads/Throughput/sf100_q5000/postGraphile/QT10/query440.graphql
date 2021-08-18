@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "shoplifts"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

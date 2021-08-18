@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "concealers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

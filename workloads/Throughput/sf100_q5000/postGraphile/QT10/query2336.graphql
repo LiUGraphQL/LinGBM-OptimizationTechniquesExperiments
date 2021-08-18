@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "overcapitalized"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

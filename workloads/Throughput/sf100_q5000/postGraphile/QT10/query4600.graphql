@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "fourteenths"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

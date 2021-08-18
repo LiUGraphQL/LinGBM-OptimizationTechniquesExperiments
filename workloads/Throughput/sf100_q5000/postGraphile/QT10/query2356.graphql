@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "mistakenly"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

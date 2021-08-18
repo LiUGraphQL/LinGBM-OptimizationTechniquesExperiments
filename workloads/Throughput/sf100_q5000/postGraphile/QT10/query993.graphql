@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bodiless"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

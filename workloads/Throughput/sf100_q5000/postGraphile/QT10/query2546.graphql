@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "wraths"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

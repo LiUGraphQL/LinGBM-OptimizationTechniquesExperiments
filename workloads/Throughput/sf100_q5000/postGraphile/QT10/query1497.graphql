@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "frantically"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

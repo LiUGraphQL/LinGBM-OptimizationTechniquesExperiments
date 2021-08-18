@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "burdened"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

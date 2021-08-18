@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bemata"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

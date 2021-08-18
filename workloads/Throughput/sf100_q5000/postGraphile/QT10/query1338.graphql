@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "denominated"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

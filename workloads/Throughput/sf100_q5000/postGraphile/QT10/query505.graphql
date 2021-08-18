@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "hyacinths"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

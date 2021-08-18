@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "picturesquely"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

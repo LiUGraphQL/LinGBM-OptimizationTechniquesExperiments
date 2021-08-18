@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "taperers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

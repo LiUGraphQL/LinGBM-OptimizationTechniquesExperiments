@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%thalamus%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "chayotes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

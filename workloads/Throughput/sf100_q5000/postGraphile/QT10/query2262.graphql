@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "barbarianism"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

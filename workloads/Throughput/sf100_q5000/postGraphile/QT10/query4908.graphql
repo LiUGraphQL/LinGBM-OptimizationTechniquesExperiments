@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bracero"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

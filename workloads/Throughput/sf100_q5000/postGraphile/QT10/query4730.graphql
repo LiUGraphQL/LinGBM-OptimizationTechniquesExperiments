@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "manager"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

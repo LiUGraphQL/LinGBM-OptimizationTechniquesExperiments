@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "accompanying"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

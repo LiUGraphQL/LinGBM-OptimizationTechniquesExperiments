@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "issuances"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

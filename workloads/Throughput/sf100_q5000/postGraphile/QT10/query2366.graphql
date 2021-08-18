@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "endowing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

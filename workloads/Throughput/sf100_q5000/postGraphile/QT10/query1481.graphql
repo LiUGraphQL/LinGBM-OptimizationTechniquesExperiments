@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "wooed"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

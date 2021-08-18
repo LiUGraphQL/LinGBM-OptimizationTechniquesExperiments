@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "ensheathed"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

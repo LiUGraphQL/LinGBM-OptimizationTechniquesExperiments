@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "servicing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

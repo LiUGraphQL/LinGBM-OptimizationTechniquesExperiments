@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sphygmomanometers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

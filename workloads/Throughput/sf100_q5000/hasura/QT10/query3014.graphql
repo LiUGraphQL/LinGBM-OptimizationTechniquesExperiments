@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%campers%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

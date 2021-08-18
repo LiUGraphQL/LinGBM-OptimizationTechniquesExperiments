@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bibulosity"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

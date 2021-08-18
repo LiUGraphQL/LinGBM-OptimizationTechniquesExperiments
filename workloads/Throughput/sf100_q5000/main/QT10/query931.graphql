@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"gambits") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

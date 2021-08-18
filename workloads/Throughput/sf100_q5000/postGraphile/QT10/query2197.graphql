@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "nationalization"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

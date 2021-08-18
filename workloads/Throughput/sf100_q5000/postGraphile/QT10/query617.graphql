@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "radiophones"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

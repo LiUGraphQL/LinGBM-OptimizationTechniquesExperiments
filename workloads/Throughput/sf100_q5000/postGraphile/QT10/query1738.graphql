@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "inpouring"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

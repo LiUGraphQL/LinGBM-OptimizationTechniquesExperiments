@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%furbishing%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

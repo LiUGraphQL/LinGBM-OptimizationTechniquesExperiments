@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"snatchiest") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

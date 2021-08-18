@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "caladium"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

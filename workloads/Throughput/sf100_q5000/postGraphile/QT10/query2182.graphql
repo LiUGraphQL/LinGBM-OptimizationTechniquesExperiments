@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "playgirls"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

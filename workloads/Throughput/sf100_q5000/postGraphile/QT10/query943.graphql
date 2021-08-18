@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "landlessness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

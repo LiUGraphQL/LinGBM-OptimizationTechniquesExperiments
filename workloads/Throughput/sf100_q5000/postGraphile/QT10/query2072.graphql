@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "paganism"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

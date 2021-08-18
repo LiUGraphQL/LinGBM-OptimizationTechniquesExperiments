@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "pretention"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

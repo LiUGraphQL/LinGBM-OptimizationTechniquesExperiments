@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"pronating") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

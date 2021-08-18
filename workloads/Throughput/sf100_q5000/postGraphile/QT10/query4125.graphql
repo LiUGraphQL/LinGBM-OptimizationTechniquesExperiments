@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "imitating"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

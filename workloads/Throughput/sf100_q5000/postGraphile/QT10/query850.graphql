@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "contingence"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

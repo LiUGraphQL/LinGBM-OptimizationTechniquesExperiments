@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "outfights"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

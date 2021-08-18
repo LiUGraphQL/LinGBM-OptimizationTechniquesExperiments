@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sheaved"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

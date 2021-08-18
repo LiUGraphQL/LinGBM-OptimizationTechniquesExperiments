@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "wired"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

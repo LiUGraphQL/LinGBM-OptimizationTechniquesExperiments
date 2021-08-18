@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "trenches"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

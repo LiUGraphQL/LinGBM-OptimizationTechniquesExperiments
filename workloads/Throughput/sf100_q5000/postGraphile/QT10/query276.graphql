@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "plotties"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

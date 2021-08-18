@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "preestablish"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

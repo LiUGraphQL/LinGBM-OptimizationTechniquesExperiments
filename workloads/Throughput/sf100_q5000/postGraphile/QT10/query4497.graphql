@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "recreantly"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

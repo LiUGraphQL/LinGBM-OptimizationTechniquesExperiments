@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "terminated"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

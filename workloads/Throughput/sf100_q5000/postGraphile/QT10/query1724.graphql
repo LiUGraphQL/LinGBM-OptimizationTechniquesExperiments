@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "searchers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

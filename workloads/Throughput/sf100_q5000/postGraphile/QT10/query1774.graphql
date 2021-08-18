@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "perspicuously"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

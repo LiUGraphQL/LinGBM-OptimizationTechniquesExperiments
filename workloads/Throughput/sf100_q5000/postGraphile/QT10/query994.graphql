@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "angelus"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

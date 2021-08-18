@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "photospheres"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

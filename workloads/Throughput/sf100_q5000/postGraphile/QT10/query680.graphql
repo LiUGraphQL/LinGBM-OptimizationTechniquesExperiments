@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "omnipotently"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

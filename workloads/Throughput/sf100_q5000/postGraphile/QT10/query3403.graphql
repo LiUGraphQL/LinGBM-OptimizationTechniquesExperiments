@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "regulation"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

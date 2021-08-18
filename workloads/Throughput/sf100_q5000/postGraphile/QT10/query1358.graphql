@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "happens"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

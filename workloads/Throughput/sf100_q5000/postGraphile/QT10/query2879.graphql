@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "debarked"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

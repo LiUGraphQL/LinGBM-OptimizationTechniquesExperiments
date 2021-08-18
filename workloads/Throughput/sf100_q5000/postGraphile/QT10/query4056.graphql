@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "preferments"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

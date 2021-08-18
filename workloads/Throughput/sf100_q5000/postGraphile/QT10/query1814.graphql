@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "chalcedonies"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

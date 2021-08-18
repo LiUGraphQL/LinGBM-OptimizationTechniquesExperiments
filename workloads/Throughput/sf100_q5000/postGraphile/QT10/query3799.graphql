@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "ninths"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

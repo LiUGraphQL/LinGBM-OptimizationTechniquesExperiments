@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "flatulence"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

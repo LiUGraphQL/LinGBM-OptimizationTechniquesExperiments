@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "officiation"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

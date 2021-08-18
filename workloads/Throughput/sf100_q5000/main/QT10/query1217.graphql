@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"remarque") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

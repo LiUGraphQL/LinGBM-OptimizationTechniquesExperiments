@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sockets"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

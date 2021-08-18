@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "roasters"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

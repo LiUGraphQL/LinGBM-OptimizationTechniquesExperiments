@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "popedom"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

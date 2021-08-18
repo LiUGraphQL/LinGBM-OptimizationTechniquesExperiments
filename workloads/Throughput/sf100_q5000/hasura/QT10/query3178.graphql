@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%bookstores%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

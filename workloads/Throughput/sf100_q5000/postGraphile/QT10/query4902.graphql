@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "collocating"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

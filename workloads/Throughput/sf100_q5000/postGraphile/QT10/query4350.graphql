@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "thermodynamic"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

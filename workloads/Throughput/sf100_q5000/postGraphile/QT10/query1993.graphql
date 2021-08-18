@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "pulverizing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

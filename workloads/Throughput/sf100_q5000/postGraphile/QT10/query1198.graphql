@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "chaoses"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

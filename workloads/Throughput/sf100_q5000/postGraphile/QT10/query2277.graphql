@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "retarded"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "boozily"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

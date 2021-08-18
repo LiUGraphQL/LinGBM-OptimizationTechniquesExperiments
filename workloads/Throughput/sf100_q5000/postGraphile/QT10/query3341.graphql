@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "rehash"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

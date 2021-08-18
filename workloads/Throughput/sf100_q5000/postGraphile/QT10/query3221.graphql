@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "nonapplicable"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

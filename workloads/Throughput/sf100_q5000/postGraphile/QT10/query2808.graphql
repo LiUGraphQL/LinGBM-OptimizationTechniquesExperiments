@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "marred"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

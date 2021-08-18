@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "fledges"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

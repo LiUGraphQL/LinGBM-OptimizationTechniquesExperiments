@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "prefabricates"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "evacuators"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

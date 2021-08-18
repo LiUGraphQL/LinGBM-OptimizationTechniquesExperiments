@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "transposed"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

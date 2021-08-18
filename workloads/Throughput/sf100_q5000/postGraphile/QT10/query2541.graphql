@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "grenades"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

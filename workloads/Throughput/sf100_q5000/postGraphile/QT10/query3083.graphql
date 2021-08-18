@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cyclicly"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

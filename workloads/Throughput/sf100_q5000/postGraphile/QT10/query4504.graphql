@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "slushily"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

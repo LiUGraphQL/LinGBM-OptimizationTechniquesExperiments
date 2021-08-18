@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "powerless"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

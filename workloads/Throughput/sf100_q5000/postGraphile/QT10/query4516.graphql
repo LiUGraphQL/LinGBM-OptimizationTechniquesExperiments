@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "nations"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

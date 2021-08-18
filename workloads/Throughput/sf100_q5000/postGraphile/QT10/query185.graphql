@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "poorer"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

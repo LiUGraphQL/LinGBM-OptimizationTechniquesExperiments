@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "rosinous"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

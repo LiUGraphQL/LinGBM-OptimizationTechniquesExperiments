@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "pepsine"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "compounder"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

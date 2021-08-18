@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "trammed"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

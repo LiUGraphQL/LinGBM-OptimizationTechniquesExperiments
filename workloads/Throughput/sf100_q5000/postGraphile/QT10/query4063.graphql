@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "butanes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "serials"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

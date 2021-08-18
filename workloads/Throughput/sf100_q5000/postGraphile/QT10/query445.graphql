@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "vomitive"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

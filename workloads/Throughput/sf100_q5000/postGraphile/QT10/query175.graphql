@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "chills"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

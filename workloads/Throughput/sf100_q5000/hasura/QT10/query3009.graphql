@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%countersinking%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "interfirm"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

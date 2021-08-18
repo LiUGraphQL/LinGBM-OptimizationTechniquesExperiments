@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "ruffed"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

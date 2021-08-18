@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cowhides"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

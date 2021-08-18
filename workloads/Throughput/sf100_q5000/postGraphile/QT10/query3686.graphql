@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "folksily"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "tuberculoses"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

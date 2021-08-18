@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "blear"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

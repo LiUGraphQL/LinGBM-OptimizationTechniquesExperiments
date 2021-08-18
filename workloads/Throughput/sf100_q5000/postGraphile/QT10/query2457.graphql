@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "virologies"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

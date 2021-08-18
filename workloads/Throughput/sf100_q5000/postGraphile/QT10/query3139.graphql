@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "yamens"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

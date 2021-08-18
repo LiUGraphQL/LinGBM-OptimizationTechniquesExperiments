@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"throating") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

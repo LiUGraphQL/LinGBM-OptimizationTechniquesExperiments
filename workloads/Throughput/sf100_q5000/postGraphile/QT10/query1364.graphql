@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "rebill"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

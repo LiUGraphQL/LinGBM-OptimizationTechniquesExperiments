@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "fractures"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

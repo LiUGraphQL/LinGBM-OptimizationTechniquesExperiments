@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "tolyls"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

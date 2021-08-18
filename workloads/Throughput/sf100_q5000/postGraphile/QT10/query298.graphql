@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "assentors"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

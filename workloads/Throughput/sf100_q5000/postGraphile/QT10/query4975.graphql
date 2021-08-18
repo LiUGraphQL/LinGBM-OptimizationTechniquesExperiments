@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "upstarts"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

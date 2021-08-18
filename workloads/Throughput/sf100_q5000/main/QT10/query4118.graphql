@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"fluidizes") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

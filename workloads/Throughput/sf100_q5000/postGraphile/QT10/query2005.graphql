@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "prosthodontics"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

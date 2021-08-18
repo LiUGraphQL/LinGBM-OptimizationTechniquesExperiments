@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "soldiering"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

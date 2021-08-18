@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "creaks"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

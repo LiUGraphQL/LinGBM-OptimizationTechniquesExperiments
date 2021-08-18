@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "appreciator"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

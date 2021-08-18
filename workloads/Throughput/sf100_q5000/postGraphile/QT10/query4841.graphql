@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unpinning"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "hah"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

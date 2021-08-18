@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cartwheels"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

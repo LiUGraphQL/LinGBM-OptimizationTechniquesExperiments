@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sureness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

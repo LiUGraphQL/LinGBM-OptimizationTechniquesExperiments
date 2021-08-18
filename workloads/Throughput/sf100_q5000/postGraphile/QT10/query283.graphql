@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "myrrhic"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

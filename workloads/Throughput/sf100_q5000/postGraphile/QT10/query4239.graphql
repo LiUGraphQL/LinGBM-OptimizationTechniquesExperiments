@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "croquettes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

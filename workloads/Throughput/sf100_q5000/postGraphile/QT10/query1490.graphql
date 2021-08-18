@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "fended"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

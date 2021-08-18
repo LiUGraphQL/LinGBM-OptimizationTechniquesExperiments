@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "subheadings"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

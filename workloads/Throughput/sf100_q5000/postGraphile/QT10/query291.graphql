@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "kilohertz"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

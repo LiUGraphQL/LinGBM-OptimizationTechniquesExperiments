@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "infarction"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

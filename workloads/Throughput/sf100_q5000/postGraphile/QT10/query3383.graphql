@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "quetzals"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "nipponese"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

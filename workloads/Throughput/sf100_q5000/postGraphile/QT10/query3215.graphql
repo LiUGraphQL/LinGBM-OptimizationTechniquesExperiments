@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "lapboard"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

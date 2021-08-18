@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "superciliousness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "inheritable"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

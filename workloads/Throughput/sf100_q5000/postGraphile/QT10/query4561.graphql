@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "muleteer"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

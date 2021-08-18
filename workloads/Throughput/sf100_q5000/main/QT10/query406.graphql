@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"easiest") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

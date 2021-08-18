@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "disowning"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "eardrop"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

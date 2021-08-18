@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"federated") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

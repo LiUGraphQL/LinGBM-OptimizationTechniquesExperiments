@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "delightfulness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "psychophysics"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

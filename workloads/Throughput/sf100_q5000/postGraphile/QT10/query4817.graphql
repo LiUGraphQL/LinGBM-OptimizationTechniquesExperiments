@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "murderousness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

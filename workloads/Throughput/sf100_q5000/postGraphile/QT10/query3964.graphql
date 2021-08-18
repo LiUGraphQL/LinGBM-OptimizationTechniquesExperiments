@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "dissents"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

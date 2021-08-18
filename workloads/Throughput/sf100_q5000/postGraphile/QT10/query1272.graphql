@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "monorails"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

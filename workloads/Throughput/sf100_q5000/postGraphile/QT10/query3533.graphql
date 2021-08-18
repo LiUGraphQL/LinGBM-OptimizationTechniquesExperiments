@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "acrobatically"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

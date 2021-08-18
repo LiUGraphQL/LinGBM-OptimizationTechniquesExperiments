@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bks"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

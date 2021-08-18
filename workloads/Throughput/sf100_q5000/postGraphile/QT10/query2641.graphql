@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "spouters"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

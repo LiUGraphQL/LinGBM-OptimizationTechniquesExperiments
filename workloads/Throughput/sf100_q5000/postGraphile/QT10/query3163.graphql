@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "kafirs"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

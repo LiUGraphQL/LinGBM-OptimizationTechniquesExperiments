@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "attacked"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

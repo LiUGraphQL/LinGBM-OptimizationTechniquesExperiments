@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cableway"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

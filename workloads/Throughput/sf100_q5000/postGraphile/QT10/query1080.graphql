@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "genitourinary"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

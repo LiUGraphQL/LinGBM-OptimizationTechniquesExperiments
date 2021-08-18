@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "withouts"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

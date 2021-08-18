@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "comprehensively"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "plurality"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "janitors"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

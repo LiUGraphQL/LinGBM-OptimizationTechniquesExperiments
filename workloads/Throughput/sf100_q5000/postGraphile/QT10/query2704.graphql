@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "prisons"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

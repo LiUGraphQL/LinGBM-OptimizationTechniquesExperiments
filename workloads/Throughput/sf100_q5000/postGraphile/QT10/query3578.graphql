@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "rectangles"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

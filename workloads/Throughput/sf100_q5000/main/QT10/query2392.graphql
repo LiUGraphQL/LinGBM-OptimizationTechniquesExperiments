@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"trickling") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

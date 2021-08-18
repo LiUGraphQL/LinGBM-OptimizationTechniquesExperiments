@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "hepatic"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "midsts"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

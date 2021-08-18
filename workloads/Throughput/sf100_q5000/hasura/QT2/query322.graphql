@@ -1,0 +1,9 @@
+{ 
+	university(where: {nr: {_eq: 236 }}){ 
+		facultiesByDoctoraldegreefrom { 
+			publications{title} 
+		} 
+	} 
+} 
+
+ 

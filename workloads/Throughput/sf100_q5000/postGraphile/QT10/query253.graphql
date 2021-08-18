@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "crullers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

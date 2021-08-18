@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "jacklegs"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

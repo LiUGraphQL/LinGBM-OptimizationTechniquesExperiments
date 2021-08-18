@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "atmans"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

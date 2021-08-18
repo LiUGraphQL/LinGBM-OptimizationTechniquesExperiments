@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "valuating"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

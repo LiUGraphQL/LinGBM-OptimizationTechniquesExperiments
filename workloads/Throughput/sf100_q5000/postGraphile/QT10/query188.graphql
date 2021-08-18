@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "litre"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

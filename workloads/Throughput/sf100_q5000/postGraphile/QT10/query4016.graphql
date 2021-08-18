@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unquenched"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

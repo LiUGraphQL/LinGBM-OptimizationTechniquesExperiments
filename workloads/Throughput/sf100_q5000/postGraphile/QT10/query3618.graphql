@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "novelette"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

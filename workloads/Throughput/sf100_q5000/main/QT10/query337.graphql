@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"nettable") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

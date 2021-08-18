@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "listeners"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

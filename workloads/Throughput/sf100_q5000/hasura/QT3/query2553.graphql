@@ -1,0 +1,15 @@
+{ 
+  researchgroup(where:{ nr:{ _eq: 70706 }}) { 
+    department { 
+      professors {
+        faculty {
+          nr 
+          emailaddress 
+          universityByDoctoraldegreefrom {nr}
+        }
+      } 
+    } 
+  } 
+} 
+
+ 

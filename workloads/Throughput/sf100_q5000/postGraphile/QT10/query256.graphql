@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "mystifying"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

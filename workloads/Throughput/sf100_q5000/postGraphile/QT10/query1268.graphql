@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "disparaging"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

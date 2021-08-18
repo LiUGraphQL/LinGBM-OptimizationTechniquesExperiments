@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "nonmalignant"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

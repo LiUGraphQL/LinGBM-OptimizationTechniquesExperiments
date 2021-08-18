@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "egads"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

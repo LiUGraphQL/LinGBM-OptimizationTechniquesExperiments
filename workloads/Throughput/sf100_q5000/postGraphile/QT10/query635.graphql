@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "giveaways"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "tantrums"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

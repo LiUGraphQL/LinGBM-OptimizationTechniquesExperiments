@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "lumina"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

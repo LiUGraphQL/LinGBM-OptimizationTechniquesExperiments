@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "casava"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

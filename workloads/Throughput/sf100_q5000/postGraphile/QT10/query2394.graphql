@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "moneybag"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

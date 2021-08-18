@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bulked"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

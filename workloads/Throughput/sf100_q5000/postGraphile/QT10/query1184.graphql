@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "counsellor"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

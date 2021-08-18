@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "fistfuls"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

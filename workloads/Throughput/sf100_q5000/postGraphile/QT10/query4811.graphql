@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "codeine"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

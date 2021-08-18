@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "danegelds"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

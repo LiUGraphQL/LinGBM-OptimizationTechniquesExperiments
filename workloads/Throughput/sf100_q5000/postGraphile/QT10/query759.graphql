@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "larding"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cruse"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

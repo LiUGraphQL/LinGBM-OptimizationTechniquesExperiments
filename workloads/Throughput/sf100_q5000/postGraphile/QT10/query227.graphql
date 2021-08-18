@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "pima"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

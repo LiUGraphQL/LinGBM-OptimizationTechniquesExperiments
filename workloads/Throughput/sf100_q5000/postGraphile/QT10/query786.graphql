@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "survivable"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

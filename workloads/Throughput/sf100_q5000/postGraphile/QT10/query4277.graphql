@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "apprehensible"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cashiered"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "krona"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

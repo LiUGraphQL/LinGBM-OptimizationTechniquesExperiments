@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%quadruplications%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

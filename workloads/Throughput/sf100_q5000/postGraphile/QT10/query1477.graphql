@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "tumulus"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "overshoes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

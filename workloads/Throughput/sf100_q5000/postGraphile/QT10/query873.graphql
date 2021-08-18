@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "beholders"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

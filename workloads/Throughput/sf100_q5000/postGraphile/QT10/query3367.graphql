@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "designation"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

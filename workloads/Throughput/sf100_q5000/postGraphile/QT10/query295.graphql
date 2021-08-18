@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "superiorities"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

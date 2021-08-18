@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "adenoids"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

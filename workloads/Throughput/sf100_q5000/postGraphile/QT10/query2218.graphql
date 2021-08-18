@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "readerships"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

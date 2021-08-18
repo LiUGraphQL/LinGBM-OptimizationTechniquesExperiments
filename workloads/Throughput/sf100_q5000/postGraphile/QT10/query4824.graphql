@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "skirter"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

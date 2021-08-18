@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "lilted"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

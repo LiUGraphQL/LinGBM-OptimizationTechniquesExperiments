@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "gastronomically"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

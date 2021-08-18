@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "assumptiveness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

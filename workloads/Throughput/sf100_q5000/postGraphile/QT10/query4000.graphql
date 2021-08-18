@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "reformating"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

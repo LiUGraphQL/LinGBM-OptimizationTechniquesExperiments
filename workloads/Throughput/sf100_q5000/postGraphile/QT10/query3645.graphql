@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "boundless"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

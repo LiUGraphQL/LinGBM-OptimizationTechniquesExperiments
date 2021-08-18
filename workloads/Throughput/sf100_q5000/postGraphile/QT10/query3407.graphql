@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "reobtainable"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

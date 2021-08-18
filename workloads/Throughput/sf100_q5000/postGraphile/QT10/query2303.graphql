@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "gat"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

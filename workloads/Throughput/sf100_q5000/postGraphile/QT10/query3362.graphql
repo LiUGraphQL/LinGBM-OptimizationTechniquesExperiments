@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "proteges"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

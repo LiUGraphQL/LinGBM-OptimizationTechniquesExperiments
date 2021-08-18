@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cozie"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

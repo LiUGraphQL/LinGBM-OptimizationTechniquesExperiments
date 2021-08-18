@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "papuan"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

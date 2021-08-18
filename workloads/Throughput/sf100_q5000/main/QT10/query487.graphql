@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"rabbiters") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

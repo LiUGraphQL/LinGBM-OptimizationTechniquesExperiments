@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "haircutter"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

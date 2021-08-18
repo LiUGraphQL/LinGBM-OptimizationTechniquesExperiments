@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "intimation"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

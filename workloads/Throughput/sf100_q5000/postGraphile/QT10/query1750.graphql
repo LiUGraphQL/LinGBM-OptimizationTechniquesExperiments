@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "baronets"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "vaunted"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

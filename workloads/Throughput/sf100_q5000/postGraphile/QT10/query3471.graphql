@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "fatting"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

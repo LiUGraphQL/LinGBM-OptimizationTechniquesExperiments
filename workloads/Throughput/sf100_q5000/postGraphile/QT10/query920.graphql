@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bisexualism"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

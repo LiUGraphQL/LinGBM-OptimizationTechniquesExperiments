@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"martians") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

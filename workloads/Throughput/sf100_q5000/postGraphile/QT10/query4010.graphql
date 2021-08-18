@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "semipetrified"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

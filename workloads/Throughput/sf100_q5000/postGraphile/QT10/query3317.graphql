@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "hamburgers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

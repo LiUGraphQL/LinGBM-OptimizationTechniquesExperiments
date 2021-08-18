@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "southwester"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

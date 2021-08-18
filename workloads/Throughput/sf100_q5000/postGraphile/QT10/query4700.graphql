@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "chides"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

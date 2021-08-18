@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "fledgy"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

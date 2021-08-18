@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "charlatan"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

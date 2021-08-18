@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "admonitions"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

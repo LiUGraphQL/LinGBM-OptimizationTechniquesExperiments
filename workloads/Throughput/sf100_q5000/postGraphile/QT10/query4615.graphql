@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "caviling"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

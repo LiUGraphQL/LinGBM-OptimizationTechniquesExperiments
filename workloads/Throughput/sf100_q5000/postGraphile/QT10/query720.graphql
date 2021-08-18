@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "gossoon"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

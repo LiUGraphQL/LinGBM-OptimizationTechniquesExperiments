@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "importuning"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

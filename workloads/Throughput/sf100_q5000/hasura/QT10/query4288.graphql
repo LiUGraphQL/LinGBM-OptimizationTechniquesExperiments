@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%zippiest%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

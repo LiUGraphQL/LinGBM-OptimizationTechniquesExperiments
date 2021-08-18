@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "abstractedly"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

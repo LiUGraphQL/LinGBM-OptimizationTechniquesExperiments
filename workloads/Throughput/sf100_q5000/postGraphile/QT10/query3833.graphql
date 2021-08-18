@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "thicknesses"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

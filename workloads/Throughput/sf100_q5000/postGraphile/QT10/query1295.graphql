@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "immorally"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

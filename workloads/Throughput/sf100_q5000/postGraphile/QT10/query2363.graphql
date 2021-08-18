@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "swamies"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

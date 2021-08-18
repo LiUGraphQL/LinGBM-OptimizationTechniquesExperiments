@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "diapers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

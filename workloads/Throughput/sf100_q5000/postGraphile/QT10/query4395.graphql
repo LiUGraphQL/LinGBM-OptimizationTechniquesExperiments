@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "plighters"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

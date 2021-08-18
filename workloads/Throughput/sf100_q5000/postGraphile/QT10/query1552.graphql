@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "verifying"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"videotaping") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

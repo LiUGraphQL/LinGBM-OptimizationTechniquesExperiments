@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "niggler"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

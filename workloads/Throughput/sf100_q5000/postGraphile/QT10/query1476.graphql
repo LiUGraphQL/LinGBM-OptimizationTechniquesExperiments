@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unfashionable"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

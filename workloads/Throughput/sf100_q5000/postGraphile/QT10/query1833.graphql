@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "corrosives"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "dismals"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

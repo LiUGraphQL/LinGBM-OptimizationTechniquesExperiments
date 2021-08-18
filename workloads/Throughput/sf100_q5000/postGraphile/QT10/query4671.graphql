@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "vocalism"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

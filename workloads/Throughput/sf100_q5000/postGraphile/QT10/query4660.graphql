@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "ferrymen"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

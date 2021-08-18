@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%conductivities%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

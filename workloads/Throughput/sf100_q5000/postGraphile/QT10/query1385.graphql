@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "corbeled"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

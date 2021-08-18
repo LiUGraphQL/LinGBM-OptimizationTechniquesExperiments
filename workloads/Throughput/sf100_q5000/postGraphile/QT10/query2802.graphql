@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "disoblige"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "aunthood"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

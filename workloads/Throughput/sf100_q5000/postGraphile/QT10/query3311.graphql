@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "grumpiest"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

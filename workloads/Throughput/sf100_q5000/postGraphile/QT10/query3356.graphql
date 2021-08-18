@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "openhearted"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

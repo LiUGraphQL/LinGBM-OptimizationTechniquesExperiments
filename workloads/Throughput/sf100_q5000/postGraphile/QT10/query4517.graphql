@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unreeled"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

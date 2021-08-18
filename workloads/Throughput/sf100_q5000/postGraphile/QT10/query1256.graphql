@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "floundering"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

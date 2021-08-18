@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "earshots"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

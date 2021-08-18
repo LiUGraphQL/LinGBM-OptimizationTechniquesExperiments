@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "richer"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

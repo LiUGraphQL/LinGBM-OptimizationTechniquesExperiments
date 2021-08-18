@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "intoner"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

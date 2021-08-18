@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "validation"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

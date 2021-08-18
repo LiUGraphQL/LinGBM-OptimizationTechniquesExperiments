@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"kilorad") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

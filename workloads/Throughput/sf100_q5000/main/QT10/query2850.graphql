@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"ironsides") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

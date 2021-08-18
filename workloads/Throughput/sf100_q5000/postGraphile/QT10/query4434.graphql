@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "suspiciousness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

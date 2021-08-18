@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"uneconomical") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

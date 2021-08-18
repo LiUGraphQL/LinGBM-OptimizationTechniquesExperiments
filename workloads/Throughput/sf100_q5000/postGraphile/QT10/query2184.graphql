@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "humbugs"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

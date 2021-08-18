@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "showcasing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

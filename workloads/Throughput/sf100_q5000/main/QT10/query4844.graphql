@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"vivisectionist") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

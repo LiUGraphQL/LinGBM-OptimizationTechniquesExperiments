@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "lutherans"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

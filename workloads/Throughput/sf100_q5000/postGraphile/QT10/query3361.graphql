@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "corporations"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "neology"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

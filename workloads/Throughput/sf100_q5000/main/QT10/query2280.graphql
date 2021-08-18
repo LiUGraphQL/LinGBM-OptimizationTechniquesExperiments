@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"deaconry") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

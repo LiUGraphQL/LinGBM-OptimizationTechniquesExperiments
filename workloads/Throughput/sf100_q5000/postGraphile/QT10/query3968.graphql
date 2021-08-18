@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "rivederci"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

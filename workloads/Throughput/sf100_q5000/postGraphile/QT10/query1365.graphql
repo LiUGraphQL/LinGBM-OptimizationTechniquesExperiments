@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "riff"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

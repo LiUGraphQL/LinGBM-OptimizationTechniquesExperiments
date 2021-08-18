@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bedizening"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"birthrates") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

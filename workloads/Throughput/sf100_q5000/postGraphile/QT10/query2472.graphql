@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "pulmotor"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

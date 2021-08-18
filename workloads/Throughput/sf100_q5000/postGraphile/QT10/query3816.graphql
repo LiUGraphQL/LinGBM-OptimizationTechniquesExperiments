@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "vituperations"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

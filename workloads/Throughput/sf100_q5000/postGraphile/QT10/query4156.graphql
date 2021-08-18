@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "flintlike"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

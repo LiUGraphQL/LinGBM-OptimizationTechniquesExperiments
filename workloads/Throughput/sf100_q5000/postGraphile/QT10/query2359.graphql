@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "guildry"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

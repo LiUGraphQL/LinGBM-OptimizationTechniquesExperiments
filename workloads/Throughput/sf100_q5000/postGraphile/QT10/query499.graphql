@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "poetizers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

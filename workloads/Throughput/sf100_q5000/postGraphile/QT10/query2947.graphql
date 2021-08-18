@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "speciously"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

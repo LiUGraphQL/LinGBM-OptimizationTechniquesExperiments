@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "semisatirically"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

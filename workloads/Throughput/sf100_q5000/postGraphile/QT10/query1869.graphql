@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "perimetry"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

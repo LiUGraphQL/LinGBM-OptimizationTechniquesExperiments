@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "lingams"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "gently"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

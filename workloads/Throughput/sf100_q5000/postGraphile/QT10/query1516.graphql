@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "walkable"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

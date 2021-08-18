@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "commie"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

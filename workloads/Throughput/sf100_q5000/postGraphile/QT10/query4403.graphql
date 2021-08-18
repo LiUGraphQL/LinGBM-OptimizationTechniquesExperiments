@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "nonchalantly"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

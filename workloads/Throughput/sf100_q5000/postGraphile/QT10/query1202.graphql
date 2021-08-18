@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "reshape"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

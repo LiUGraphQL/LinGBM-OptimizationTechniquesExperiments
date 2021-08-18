@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "frays"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

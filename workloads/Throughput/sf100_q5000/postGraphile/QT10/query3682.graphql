@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "vicinities"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

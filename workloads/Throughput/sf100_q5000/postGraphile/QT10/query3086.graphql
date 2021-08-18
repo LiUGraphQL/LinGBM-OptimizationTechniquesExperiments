@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "pontoon"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

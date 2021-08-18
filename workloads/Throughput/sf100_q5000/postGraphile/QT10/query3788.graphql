@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "shaving"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "wharfinger"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

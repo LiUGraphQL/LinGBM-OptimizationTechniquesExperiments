@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cubby"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

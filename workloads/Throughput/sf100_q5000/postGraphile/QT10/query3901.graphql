@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "production"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

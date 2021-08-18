@@ -1,0 +1,19 @@
+{ 
+	university(where:{ nr:{ _eq: 379 }}){ 
+		graduatestudents_aggregate{ 
+			aggregate { 
+				avg{
+                    age
+				}
+                max {
+                    age
+                }
+                min {
+                    age
+                }
+			} 
+		} 
+	} 
+}
+
+ 

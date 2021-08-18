@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bolus"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

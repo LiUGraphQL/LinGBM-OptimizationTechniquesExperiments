@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cavalryman"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

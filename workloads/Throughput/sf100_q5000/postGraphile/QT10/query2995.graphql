@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "walkouts"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

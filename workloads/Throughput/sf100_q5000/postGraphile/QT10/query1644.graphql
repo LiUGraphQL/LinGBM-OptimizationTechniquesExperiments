@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "representatively"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

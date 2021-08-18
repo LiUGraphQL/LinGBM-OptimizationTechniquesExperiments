@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "anaesthetist"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

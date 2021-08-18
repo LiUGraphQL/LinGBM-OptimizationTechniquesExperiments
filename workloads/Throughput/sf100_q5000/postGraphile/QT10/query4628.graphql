@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "spearing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

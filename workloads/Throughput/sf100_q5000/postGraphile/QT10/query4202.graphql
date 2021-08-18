@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "caprices"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

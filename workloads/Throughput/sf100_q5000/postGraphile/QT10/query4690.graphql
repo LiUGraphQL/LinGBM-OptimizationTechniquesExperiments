@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "insanely"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

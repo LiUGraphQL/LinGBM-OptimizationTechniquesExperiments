@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "rehanging"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

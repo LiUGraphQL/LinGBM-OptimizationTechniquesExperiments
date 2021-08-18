@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "ess"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

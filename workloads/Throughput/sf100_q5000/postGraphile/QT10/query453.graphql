@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "furzes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "furbishing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

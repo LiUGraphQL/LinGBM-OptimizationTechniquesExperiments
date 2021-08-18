@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"irreducibly") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "skylights"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

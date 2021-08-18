@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "streaks"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

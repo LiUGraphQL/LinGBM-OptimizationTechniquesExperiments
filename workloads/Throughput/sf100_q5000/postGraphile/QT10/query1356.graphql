@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "foments"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

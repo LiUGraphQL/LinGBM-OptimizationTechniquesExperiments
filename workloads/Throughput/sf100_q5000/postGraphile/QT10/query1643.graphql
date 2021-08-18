@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "yeti"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

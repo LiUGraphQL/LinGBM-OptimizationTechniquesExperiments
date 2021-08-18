@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sticking"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

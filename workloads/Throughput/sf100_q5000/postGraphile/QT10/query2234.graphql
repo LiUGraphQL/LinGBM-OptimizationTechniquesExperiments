@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "precentors"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

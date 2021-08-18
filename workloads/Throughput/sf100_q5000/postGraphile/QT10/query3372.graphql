@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cognises"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

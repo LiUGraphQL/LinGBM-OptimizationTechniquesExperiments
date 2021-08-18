@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "deserted"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "ordonnance"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

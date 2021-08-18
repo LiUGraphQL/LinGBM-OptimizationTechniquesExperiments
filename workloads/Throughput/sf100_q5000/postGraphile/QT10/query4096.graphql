@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "howdie"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

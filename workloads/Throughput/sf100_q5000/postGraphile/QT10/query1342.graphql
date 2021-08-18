@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "tomahawked"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

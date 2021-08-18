@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "solvating"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

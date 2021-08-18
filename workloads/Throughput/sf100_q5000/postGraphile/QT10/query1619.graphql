@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "discommodes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

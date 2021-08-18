@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"viaducts") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

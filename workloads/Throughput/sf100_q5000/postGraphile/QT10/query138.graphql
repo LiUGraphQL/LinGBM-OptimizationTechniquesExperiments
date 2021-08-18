@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "screeching"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

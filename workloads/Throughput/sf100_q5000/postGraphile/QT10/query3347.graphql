@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "honorarily"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

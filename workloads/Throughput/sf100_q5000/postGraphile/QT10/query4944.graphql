@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "jonah"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

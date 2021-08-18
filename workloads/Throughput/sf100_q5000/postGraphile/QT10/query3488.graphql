@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "prestressed"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sporozoa"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

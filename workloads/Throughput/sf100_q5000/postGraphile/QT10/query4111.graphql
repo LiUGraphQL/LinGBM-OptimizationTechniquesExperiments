@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "wirepulling"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

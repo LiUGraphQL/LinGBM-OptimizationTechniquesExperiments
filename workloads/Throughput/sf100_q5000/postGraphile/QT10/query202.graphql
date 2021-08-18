@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "secularly"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

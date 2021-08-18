@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "piastres"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

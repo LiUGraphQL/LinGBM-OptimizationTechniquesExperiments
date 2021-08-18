@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "admiralship"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

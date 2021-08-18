@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "ridged"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

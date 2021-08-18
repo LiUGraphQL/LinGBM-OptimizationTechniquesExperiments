@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "vegetating"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

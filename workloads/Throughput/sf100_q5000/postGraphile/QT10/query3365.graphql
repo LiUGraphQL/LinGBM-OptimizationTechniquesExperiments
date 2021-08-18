@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "leaning"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

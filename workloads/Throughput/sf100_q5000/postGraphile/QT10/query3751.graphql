@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "redirecting"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "fineries"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

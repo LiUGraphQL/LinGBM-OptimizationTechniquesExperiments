@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "nephritis"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

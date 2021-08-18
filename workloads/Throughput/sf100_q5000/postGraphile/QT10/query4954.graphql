@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "insurgences"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "patly"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "gluts"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

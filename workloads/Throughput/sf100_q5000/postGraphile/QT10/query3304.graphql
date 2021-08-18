@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "butts"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

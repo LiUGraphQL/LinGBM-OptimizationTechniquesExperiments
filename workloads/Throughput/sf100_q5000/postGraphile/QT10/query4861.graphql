@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "phrenologically"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

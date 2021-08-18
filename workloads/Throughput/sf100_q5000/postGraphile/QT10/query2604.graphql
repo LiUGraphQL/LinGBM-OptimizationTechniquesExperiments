@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "trundling"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

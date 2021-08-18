@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "ophthalmologists"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

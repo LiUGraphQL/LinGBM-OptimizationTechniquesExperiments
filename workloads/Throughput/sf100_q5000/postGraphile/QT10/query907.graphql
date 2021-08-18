@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "electroscopes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

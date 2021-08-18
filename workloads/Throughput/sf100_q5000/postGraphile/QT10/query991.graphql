@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "beehives"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

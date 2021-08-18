@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "counselable"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

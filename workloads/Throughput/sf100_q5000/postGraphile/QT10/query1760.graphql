@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "trickishness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

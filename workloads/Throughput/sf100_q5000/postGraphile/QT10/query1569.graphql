@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "glaring"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

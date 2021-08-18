@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "spoils"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

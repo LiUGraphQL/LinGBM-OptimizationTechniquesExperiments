@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "muslims"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "lumbago"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

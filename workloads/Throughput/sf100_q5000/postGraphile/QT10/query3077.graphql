@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "rehire"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

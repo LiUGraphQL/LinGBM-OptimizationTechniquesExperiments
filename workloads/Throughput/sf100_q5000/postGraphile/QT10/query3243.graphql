@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "starvers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "evert"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

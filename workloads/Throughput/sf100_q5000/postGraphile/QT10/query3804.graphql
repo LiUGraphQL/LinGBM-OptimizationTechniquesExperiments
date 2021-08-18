@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "antimicrobial"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

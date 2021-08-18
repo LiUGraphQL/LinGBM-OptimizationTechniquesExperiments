@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cricketer"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

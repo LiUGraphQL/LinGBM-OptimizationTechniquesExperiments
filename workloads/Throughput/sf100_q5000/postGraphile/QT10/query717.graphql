@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "hamstringing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

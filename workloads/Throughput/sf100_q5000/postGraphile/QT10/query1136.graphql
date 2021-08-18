@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "pigweed"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

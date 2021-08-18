@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "fading"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

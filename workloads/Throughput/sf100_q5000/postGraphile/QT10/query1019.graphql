@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "incommunicado"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

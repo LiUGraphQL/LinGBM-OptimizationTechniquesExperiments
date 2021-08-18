@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "impounds"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

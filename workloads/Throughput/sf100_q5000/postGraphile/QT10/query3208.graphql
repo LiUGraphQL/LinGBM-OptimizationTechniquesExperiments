@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "disproved"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

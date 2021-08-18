@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "anginas"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

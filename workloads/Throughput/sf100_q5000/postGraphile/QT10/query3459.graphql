@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "figurativeness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

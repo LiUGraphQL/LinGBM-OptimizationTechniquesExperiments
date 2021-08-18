@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "underdresses"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

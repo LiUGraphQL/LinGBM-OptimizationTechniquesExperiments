@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "animo"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

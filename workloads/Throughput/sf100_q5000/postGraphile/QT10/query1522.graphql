@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "exams"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "divorcer"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

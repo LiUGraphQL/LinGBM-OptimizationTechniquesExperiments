@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "meshed"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

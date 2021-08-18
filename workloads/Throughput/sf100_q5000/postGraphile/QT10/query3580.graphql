@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "forevermore"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

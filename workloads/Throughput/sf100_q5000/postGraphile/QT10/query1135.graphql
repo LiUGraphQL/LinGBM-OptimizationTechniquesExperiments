@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "infundibular"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

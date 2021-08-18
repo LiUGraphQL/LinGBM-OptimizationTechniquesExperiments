@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "auditives"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

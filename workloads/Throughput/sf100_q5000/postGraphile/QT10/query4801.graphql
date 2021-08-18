@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "prototypical"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

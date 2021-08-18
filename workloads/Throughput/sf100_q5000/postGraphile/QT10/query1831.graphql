@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "walkways"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

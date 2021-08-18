@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "genitalic"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

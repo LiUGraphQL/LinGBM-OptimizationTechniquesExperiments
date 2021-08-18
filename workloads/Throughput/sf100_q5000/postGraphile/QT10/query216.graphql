@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "occupational"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

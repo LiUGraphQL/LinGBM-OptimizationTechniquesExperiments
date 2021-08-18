@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "concatenations"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

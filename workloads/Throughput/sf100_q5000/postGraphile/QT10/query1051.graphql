@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "nigglings"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

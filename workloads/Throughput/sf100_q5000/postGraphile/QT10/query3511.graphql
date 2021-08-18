@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "baselines"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

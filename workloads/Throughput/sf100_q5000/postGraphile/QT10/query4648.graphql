@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "melancholically"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

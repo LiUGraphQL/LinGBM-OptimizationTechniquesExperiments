@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "valorizations"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "origins"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "relay"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

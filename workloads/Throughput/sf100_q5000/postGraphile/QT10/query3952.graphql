@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "formalin"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

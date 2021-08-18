@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "tinsmiths"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

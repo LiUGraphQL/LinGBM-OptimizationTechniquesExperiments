@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sporadically"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

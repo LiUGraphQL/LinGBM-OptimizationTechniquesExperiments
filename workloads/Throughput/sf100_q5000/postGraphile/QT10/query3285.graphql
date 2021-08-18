@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "improprieties"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

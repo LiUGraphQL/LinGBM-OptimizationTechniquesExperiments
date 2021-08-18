@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "dogfights"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

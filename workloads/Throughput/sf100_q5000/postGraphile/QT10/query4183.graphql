@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "thuggish"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

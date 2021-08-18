@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "synagogues"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

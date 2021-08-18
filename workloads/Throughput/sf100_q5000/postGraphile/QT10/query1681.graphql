@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "apparelled"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

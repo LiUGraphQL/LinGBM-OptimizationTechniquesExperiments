@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "clarioning"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

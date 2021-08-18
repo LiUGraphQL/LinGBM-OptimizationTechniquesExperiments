@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "plumiest"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

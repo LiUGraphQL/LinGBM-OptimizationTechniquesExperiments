@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "transferrers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

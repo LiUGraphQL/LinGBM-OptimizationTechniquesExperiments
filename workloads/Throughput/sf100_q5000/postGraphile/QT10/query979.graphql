@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "clearness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"cartomancies") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "tectonics"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "glycols"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"bedouin") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

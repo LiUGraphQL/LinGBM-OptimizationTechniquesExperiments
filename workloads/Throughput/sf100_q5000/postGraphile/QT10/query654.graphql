@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cubs"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

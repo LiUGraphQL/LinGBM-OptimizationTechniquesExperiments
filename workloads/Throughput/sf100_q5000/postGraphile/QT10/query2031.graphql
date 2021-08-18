@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "caudate"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

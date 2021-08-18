@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "vivifier"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

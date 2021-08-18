@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "dispatches"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

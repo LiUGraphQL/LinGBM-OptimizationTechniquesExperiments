@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "daylights"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

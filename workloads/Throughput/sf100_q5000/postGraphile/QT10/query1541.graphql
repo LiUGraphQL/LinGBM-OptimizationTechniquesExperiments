@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "ingrained"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

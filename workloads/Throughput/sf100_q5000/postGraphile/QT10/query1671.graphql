@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "smutch"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

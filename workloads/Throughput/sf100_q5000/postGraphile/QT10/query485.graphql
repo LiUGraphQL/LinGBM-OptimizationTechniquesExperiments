@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "evzones"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

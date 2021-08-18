@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cavorting"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

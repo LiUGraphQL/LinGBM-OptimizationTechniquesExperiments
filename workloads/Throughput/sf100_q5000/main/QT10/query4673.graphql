@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"freakiest") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

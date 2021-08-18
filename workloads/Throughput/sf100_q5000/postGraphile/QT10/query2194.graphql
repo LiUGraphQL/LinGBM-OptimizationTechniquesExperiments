@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unconfessed"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

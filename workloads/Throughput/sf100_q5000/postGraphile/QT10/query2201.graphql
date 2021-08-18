@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "limberness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

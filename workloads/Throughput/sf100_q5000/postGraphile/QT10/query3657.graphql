@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "miscut"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

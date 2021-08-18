@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"gassing") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

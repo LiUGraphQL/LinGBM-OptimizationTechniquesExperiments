@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "amicability"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

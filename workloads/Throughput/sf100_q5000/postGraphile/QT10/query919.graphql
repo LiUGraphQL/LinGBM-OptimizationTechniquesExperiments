@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "wagers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

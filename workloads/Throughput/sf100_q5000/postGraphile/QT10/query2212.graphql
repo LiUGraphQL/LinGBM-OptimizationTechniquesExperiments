@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "moping"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

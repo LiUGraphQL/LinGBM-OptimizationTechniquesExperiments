@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "adjurors"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

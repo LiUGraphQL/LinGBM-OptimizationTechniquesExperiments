@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "adrenals"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

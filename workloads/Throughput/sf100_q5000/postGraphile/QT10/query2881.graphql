@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "preexists"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

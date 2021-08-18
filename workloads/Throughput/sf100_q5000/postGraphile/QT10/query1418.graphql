@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "footers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "reassuring"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

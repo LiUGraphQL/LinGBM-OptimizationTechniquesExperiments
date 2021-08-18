@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "fantasies"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

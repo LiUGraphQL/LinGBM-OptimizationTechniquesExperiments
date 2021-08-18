@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "estoppels"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

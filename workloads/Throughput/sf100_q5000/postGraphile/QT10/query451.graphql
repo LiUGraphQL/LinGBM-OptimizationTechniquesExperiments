@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "laparotomies"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

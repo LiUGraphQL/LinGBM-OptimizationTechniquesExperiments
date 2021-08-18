@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"desalinate") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

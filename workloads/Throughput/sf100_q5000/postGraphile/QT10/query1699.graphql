@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "alpaca"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

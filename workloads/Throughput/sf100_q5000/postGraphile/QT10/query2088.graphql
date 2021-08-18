@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "administratively"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

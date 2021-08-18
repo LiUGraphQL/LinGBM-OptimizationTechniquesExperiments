@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "majora"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

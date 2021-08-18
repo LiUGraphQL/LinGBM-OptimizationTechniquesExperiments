@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "nonperishables"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

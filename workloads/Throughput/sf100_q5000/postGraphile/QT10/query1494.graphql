@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "ruefulness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "folkway"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

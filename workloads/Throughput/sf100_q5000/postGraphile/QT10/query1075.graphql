@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "flavorful"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

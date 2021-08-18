@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "maizes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

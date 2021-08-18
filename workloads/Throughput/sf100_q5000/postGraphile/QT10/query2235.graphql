@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "poleward"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

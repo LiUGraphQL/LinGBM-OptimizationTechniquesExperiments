@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sniffish"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "commensuration"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

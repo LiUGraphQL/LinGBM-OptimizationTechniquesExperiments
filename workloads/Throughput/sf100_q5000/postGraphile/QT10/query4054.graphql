@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "heliographs"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

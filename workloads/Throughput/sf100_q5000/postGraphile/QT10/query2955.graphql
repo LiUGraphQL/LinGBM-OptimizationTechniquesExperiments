@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "biophysicists"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

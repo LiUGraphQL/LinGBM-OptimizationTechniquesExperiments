@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "spinneys"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

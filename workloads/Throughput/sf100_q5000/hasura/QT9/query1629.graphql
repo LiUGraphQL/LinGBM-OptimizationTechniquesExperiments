@@ -1,0 +1,15 @@
+{ 
+  university(where:{ nr:{ _eq: 527 }}) { 
+    graduatestudents (limit:50) { 
+      professor {
+        faculty {
+          publications (order_by:{ abstract: desc}){ 
+            nr
+          }
+        }
+      } 
+    } 
+  } 
+} 
+
+ 

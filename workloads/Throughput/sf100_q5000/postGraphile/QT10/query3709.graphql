@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "filagree"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

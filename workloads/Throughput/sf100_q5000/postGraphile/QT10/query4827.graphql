@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "arbitrament"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

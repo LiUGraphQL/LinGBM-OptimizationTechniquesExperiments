@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "pilothouses"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

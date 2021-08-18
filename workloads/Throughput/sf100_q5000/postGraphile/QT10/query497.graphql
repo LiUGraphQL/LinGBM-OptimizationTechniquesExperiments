@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sartor"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

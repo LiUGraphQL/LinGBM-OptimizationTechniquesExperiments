@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unreasonableness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

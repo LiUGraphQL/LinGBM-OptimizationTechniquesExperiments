@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "trysted"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "pungently"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

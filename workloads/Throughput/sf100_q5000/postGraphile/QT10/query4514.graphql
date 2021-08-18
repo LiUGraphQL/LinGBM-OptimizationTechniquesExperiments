@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "repose"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

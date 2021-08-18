@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "ropiness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

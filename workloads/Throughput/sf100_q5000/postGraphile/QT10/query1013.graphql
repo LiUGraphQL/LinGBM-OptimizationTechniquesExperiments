@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "colombian"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

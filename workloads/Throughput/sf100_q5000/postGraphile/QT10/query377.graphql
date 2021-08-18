@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "trichlorethylenes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

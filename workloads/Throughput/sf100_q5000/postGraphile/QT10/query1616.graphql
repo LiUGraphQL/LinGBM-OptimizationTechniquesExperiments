@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "birched"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%surfable%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "czarisms"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

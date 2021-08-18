@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "drams"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

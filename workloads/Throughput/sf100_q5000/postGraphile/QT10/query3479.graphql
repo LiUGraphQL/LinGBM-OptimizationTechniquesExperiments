@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "subtracted"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cowskin"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

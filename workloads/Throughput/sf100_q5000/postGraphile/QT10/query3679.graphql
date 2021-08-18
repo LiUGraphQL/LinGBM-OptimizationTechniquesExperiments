@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "debauches"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

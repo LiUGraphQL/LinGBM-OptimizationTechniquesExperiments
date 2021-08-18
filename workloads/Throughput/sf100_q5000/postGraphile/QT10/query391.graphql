@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "brayer"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

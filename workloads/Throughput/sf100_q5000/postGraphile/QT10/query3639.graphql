@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "monitions"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

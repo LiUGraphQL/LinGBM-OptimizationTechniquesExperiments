@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "misappropriating"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

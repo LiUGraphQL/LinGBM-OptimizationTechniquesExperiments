@@ -1,0 +1,15 @@
+{
+  allUniversities(condition: {nr: 618}) {
+    nodes {
+      graduatestudentsByUndergraduatedegreefrom(first: 10, offset: 20) {
+        nodes {
+          professorByAdvisor {
+            nr
+          }
+        }
+      }
+    }
+  }
+}
+
+ 

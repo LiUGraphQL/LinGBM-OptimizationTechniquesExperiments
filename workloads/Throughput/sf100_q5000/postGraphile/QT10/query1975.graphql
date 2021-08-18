@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "teary"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

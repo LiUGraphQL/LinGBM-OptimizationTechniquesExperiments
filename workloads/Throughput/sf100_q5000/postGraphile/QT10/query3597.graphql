@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "misdemeanors"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

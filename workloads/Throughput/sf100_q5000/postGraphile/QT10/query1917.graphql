@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "nonsymbolic"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

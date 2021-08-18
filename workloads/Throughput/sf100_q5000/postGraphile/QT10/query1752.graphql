@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "insolvencies"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

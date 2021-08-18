@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "inventer"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

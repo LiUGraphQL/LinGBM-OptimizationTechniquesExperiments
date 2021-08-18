@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "understate"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "tearoom"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "traveled"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

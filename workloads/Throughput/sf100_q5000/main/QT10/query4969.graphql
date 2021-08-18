@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"ladlers") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"birded") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

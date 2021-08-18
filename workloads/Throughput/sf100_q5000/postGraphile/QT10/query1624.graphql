@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "houses"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

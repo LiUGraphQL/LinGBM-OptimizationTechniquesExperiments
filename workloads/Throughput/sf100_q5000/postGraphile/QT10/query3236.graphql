@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "admitters"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

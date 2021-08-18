@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "womaned"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

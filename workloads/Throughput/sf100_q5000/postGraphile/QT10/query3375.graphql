@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "tousling"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

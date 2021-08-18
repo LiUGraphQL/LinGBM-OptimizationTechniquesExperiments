@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "outrigger"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

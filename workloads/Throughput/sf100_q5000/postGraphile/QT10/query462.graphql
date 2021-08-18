@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "transliterations"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

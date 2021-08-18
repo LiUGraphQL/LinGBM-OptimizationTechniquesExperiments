@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "lairs"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

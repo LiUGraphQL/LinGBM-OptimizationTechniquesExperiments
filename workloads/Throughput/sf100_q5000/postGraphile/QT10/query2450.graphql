@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "boastfulness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%microbes%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

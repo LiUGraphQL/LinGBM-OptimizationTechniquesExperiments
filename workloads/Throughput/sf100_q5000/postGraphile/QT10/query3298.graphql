@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "dullard"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

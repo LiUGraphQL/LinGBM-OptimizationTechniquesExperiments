@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "tomboys"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

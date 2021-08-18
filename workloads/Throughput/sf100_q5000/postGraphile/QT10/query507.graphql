@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "jujutsu"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

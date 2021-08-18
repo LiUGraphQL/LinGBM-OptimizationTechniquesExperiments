@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cosmo"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

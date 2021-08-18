@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "boatyards"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "xviii"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

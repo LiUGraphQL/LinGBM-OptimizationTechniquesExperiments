@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "inversions"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

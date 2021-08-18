@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%variational%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "intonations"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

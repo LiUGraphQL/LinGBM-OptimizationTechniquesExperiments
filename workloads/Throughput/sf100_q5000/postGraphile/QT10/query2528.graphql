@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bacteriologically"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

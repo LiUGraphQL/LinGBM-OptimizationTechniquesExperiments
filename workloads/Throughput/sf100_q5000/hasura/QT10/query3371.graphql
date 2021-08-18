@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%successional%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

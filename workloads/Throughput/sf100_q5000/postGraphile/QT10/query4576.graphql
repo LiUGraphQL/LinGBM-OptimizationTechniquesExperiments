@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "stoking"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

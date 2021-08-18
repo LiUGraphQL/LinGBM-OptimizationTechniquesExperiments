@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "overpriced"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

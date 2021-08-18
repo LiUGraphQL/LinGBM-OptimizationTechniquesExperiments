@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "femmes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

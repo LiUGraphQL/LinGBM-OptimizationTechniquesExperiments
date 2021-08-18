@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "shredder"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

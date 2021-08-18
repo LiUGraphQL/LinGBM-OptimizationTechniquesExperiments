@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "detainee"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

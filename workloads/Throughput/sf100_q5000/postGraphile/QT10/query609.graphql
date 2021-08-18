@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "arbalests"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

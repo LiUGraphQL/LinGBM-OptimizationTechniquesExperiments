@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "padlocked"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "poult"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

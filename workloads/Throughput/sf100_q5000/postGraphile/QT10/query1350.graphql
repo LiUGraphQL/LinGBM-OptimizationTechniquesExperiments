@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "weirdness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

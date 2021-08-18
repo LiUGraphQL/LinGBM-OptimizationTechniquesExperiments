@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "mistiest"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

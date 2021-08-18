@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "swishing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "conics"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

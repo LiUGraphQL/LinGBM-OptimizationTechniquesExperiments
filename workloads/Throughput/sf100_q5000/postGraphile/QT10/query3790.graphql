@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "fortuities"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

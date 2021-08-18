@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "hance"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

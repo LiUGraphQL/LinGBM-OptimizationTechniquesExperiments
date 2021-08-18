@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "placks"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

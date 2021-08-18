@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bathing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

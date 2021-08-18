@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "overdiversity"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

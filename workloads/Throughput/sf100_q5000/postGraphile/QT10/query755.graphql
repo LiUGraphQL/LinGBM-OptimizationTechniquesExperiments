@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bureaux"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "chained"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

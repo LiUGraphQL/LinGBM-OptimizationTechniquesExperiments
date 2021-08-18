@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "palpators"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

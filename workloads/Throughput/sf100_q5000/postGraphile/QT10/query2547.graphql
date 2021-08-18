@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "boosted"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

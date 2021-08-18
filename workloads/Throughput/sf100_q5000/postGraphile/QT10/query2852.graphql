@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "positiveness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

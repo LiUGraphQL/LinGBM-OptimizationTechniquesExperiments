@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "fatso"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

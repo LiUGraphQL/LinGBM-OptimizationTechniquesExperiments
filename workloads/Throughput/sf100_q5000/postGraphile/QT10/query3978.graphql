@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "loadable"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

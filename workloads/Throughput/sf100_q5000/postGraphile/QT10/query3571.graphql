@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "nonclerically"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

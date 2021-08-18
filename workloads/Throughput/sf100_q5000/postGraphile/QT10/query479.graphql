@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "macaroons"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

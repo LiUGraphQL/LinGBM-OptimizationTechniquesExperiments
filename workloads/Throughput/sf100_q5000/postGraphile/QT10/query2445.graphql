@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "jingoist"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

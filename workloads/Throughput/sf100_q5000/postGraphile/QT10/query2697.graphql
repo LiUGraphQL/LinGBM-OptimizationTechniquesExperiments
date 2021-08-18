@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "dibbers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

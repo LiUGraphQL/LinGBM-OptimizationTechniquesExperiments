@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unlimited"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

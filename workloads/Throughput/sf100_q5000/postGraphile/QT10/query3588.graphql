@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sooey"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

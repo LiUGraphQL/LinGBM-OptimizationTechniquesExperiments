@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "supines"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

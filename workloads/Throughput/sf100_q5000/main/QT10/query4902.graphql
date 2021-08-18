@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"collocating") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

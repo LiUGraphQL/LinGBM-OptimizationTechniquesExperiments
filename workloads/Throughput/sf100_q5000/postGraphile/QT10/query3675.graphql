@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "zingier"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

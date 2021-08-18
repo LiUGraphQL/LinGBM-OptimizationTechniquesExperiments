@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "slopwork"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "scoffing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "holistic"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

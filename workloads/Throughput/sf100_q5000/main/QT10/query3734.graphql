@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"antechambers") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

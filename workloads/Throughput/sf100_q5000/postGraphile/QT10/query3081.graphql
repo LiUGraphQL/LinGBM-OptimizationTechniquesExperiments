@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "asphyxiates"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

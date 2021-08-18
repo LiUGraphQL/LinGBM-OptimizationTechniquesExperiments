@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%disaffiliations%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

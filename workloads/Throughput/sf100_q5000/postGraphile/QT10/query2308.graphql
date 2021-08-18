@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "rightisms"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

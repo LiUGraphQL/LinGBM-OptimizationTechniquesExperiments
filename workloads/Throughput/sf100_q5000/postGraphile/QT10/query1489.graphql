@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "raininess"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

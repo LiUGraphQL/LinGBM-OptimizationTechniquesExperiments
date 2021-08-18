@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "curdled"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

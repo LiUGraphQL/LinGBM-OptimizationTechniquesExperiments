@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "midterms"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

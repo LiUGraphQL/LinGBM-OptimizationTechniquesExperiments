@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "antiprohibition"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

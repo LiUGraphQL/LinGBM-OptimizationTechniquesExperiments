@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "boysenberry"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

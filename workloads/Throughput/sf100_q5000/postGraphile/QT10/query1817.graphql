@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "scallion"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

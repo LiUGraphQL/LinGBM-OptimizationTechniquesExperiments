@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "imposters"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

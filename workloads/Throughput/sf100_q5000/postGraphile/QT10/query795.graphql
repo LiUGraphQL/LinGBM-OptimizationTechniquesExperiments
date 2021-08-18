@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "slowworms"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

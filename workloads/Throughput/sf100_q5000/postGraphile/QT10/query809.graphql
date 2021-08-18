@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "goateed"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

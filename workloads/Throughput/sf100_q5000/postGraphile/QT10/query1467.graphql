@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "entrance"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

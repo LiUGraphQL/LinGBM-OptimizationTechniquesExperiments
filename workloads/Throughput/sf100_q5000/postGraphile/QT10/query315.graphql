@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "philippines"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

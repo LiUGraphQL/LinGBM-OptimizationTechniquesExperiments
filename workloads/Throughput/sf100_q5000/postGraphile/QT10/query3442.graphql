@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bulldozes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

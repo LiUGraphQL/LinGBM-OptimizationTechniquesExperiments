@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "airmanship"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

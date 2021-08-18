@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "partiality"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

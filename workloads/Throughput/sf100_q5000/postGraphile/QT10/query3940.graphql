@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "fucked"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

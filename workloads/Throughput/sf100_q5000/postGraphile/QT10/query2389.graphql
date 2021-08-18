@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "collating"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

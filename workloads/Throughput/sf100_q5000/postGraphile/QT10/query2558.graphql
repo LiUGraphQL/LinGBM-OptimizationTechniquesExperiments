@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "strettos"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

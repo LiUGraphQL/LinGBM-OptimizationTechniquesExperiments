@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "humbugged"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

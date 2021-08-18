@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "guerre"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "fertilizable"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

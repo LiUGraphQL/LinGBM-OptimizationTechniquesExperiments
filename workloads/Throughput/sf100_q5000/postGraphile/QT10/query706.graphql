@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "scrabbling"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "jeerer"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

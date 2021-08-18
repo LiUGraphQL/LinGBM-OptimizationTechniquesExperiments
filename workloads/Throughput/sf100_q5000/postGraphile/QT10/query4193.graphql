@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unrewarding"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

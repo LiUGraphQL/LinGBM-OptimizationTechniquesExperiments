@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cardamum"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

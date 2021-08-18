@@ -1,0 +1,8 @@
+{ 
+	graduatestudent (where: {university: {nr: { _eq: 101 }} } ) { 
+		nr 
+		professor {nr} 
+	} 
+}
+
+ 

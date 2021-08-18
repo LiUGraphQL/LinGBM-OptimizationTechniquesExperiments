@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "caponizing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

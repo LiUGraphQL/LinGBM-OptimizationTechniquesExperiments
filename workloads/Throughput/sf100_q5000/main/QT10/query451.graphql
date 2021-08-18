@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"laparotomies") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

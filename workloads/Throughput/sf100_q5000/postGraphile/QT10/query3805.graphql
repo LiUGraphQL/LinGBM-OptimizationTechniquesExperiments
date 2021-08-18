@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "ridiculed"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

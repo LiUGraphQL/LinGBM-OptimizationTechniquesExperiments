@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "fellas"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

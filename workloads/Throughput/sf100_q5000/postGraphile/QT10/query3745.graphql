@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "trumpeting"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "brutify"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

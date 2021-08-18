@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "irreducibly"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

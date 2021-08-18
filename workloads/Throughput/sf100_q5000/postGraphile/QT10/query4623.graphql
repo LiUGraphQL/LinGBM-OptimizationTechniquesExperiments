@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "applicator"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

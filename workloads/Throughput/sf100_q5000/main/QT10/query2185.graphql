@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"idolise") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

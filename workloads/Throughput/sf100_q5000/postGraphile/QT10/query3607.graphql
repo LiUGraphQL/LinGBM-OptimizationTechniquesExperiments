@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "keesters"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

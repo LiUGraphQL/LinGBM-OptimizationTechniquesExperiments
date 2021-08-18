@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "affectionately"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

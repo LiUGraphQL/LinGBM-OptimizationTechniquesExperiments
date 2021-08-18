@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "winders"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

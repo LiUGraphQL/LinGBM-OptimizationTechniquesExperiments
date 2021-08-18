@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unsew"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

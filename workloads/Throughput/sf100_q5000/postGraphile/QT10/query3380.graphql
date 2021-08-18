@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "persevering"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

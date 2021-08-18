@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "whimsies"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

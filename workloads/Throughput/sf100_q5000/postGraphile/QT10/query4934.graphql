@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "proboscis"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

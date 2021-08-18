@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "flameout"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,21 @@
+{
+  allUniversities(condition: {nr: 975}) {
+    nodes {
+      graduatestudentsByUndergraduatedegreefrom(first: 50) {
+        nodes {
+          professorByAdvisor {
+            facultyByNr {
+              publicationsByMainauthor(orderBy: ABSTRACT_DESC) {
+                nodes {
+                  nr
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "steaded"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

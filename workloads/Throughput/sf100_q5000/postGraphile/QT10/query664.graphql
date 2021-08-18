@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "remounted"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

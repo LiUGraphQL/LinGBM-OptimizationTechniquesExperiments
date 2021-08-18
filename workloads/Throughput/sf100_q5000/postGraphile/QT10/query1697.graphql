@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "fullbacks"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

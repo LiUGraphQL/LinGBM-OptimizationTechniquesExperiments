@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unswathing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

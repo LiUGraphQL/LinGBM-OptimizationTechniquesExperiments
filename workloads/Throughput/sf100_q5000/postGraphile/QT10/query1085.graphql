@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cayuses"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

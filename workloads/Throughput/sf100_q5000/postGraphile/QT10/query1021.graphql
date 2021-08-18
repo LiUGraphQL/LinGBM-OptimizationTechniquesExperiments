@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "holeproof"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

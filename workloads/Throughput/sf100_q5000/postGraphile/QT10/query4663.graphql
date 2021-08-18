@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "maudlinly"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

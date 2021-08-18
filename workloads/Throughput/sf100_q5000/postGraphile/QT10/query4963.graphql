@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "lutes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

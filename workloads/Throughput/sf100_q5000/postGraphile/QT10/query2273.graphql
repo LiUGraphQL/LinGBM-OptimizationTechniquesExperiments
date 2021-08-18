@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "intellectualizing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

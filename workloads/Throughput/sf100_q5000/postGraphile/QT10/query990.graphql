@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "soused"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

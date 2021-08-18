@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "czarist"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

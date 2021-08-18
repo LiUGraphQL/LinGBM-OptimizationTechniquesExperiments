@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "remarque"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

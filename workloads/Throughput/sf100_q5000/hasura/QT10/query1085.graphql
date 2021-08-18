@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%cayuses%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

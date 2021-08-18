@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "etched"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

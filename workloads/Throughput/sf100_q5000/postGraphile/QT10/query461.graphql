@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "slabbering"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

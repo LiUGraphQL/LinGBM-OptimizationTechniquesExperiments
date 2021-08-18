@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%sharpshooter%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

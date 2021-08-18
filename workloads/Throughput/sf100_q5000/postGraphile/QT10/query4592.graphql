@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "firming"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

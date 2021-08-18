@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "imbrication"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

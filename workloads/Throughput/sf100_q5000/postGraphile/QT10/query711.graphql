@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "fencibles"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

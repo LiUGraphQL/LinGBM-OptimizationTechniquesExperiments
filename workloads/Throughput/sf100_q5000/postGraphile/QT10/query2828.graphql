@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "roiling"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

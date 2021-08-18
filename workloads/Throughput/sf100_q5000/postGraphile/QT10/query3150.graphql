@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sherif"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

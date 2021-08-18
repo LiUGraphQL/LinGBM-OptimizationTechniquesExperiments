@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "muzzlers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "hullabaloo"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "murmurs"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

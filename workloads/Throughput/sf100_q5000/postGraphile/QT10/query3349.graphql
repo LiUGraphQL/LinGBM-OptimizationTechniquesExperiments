@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "surrendering"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

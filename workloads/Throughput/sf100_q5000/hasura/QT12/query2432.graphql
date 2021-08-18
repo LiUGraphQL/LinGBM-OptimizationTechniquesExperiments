@@ -1,0 +1,11 @@
+{ 
+  university(where: { nr: { _eq: 716 }}) { 
+    facultiesByDoctoraldegreefrom (where: {worksfor: { _eq: 1910 } } ){ 
+      nr 
+      emailaddress 
+      publications {nr } 
+    } 
+  } 
+} 
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "fungicidal"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

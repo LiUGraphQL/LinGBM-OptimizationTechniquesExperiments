@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "radioactively"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

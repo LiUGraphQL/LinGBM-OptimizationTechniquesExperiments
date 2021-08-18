@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "addax"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

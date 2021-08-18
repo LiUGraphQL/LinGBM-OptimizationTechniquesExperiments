@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "torsional"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

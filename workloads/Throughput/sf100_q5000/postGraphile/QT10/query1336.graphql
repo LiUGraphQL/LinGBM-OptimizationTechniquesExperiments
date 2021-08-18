@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "flightiness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

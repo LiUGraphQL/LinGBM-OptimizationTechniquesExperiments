@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "zinged"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

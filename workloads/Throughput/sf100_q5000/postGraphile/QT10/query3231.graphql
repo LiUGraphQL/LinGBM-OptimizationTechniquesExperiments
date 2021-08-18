@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "tomfoolery"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "tumblings"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

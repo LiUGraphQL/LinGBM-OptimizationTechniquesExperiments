@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "invalidation"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

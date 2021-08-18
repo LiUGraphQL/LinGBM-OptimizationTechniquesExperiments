@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "assuagable"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

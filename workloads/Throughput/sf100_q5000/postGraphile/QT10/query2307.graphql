@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "vestibular"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

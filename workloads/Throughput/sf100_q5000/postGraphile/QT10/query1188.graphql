@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "coseys"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "turnovers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

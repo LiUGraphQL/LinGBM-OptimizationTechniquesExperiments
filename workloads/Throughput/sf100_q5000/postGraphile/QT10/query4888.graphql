@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bandsman"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "laxness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

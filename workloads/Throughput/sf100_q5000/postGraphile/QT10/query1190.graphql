@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "lithos"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

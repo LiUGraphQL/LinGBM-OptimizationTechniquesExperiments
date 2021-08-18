@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "repatriates"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

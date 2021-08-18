@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "griddles"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "decapitation"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "tuberoid"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

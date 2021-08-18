@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "buncoing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

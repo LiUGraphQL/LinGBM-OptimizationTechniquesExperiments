@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "uncrate"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

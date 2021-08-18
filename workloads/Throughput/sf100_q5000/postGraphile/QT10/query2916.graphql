@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "embays"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cigarettes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

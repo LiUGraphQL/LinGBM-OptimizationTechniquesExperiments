@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "fluidness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

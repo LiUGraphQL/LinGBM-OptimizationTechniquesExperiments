@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"semisatirically") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

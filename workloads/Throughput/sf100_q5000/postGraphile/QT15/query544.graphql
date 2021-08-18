@@ -1,0 +1,11 @@
+{
+  allUniversities(condition: {nr: 748}) {
+    nodes {
+      graduatestudentsByUndergraduatedegreefrom {
+        totalCount
+      }
+    }
+  }
+}
+
+ 

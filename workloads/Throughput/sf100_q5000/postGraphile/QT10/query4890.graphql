@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "gymnastics"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

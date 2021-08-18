@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%radiologic%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "stethoscopy"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

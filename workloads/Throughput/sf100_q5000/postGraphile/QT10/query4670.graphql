@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "reversibility"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

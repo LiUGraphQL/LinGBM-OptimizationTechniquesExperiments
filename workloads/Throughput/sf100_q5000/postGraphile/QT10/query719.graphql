@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "states"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

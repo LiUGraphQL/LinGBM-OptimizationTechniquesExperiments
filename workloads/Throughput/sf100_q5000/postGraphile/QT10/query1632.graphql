@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "damselflies"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

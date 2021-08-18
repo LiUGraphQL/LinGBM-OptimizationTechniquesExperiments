@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "advancer"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

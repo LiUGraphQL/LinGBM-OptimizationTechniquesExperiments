@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "kinsfolk"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

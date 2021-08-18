@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "onery"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

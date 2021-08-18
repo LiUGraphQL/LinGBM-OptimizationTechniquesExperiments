@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "phoned"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

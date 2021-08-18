@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "hunger"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

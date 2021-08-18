@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "refold"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

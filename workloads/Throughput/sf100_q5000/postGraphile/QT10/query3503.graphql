@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "endangers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

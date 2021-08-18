@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "pawnees"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

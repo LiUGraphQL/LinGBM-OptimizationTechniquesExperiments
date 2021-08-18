@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "calkers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

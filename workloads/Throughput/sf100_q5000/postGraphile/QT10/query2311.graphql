@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "scuffling"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

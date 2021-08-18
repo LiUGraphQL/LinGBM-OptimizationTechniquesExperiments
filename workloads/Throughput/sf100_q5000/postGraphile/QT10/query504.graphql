@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "readmission"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

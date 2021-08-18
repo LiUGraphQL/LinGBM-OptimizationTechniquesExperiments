@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "redoubts"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

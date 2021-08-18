@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "calamities"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

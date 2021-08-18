@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "helpfulness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

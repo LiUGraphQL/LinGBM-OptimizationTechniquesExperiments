@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"mitigator") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

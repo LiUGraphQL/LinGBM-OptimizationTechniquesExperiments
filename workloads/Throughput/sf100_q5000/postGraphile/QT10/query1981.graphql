@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "reweaving"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

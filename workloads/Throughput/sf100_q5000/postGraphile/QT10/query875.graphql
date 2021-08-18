@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "flunkers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

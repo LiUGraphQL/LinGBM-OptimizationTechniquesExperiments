@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "retirees"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

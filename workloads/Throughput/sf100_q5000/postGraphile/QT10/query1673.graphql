@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "futures"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

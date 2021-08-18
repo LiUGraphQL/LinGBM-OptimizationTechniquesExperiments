@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "quadruplications"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

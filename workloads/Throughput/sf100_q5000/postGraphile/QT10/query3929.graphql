@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "dialyzer"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

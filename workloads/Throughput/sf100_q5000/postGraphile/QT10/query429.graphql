@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "delimits"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

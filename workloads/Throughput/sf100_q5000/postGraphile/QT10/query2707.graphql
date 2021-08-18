@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "chorea"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

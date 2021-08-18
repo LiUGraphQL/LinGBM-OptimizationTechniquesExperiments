@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "ultrasonic"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

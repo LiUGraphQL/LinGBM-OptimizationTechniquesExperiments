@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "overcame"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

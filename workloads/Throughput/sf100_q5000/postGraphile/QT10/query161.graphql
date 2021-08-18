@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "subassemblies"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

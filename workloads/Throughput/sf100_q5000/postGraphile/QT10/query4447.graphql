@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "mameyes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

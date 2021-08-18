@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "idyllist"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

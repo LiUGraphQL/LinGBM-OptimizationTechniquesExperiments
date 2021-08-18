@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "emboldening"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

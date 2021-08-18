@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "homesteads"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

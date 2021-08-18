@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "threshed"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

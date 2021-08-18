@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "voiceful"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

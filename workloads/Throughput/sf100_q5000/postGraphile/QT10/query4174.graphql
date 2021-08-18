@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "beretta"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

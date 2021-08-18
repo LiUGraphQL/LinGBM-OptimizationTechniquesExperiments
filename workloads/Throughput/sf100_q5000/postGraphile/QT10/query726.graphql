@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "featherless"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

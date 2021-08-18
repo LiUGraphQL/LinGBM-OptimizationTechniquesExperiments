@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "miter"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

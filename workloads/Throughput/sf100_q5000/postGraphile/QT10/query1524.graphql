@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "anchorites"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

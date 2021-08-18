@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "meeter"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

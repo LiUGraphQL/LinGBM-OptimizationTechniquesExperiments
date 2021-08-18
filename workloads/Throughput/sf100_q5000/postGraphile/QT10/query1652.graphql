@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "ontogenetically"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

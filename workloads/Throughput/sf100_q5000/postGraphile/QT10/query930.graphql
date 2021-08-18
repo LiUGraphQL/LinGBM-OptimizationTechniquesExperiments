@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "twinkly"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "subsoils"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

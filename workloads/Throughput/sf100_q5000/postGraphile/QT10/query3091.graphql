@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sirree"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%microsurgery%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

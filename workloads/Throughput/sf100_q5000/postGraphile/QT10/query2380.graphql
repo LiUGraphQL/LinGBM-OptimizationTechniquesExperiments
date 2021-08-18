@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "enrapture"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

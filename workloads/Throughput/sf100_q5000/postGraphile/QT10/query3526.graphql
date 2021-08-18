@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "puling"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

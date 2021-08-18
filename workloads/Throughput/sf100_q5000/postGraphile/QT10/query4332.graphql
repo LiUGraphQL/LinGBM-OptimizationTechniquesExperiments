@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "axonic"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

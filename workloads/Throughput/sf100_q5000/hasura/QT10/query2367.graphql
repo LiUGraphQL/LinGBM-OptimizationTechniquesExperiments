@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%locater%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "musses"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

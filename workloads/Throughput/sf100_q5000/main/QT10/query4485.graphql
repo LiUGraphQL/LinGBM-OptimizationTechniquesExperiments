@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"harped") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

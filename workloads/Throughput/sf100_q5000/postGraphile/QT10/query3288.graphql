@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "incurability"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

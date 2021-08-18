@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "thrower"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

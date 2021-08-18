@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "vouched"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "spiked"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

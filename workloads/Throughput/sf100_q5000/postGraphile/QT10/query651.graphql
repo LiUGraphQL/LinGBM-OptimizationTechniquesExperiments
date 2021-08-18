@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "lockers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

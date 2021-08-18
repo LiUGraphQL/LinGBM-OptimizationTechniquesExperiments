@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "acrostically"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "punctilios"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

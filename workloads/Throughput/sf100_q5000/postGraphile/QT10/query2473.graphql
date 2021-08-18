@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "mimical"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

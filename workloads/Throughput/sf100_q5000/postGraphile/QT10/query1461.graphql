@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "airwaves"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

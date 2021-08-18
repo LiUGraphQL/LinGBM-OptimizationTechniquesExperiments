@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "capitation"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

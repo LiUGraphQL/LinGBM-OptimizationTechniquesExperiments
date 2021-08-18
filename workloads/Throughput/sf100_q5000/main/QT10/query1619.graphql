@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"discommodes") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

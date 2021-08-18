@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "whomps"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

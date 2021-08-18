@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "chrysanthemums"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

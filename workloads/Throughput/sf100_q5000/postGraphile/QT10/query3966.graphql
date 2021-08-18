@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "grails"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

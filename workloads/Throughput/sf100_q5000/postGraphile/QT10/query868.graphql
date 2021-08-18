@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "haring"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

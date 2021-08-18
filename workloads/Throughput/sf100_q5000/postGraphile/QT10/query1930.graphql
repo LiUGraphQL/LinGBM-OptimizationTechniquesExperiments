@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "millennial"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

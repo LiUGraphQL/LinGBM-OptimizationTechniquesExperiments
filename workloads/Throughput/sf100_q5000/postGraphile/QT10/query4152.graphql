@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "kittened"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "boggier"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

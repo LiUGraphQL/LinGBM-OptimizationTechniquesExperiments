@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "substantiating"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

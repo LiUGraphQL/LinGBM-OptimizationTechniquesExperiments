@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "outproducing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

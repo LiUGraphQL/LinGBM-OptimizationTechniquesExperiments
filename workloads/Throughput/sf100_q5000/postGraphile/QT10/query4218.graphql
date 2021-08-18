@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "glossologies"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

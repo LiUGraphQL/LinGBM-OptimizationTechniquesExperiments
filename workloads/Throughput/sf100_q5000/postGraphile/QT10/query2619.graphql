@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "releasible"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

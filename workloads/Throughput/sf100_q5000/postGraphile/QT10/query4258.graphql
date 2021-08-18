@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "fittingness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

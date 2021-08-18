@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"autobuses") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "pioneering"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "feticides"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "gemmologist"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

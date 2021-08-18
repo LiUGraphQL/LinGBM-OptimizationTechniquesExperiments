@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "emptying"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

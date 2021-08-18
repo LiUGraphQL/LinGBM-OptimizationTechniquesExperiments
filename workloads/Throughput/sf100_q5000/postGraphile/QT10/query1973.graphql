@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "contortions"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "brooklet"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"estimations") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

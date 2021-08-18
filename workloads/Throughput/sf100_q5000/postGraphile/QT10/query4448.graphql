@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "tetanal"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "imbalmed"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

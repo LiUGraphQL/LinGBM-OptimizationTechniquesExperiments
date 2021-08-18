@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unaware"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

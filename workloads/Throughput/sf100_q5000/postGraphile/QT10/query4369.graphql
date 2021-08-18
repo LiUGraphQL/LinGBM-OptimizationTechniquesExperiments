@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "upsweep"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

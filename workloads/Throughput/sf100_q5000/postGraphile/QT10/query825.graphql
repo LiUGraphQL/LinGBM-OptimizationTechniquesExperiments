@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "policewoman"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

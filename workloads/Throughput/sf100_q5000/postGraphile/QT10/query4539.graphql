@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "christly"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

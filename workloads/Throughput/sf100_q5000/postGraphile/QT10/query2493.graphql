@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bocks"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"moistful") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

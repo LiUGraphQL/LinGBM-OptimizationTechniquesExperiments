@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "undoubtedly"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

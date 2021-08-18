@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bighorn"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "poetaster"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

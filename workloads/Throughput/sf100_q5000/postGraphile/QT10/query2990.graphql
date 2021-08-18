@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "hushedly"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

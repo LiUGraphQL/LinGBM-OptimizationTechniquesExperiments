@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "populating"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

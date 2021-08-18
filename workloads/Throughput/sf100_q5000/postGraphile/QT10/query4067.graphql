@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "energizes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

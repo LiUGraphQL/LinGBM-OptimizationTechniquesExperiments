@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "recontest"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

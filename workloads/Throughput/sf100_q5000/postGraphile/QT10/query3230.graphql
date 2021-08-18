@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "conciliates"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

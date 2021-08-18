@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "whelps"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

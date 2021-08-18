@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "monologs"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

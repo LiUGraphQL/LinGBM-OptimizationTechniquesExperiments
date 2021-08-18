@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "parodying"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

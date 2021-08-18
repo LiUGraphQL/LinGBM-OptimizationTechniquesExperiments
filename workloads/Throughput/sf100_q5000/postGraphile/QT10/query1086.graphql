@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "ecclesiastical"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

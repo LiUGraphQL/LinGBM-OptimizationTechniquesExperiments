@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "ems"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

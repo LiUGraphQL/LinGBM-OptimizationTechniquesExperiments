@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "divans"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

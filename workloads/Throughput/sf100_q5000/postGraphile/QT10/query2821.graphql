@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "landed"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

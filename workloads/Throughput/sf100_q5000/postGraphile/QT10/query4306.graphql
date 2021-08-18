@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "mischief"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

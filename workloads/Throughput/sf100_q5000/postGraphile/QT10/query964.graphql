@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "snatchiest"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

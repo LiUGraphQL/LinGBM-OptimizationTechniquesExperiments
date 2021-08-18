@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "darned"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "handcraft"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

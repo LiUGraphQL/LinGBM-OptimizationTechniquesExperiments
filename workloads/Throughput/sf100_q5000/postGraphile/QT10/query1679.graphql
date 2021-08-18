@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "reneger"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

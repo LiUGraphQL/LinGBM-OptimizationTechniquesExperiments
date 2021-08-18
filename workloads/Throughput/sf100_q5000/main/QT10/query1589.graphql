@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"withdrawable") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

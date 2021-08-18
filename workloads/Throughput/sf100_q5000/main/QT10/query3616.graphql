@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"unsatisfactorily") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

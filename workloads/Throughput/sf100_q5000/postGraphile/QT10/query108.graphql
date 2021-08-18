@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "arranger"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

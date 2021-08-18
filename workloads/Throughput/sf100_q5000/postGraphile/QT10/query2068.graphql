@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "turndowns"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

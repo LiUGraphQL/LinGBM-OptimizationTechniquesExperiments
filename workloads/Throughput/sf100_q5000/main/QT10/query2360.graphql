@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"peculiarity") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

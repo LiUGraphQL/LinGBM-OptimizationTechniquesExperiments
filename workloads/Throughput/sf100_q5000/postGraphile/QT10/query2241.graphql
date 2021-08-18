@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "strainer"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

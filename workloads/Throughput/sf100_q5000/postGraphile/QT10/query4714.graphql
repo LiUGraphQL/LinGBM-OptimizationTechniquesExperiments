@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "universalizes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "reobtains"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

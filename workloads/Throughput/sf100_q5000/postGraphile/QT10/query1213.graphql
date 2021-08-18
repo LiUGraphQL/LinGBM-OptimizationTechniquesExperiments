@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sumachs"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

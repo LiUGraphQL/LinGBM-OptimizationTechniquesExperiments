@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "weirdies"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

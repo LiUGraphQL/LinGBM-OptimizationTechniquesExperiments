@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sharesmen"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

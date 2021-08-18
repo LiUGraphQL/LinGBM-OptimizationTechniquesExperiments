@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "weaselly"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "moated"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "mountebank"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

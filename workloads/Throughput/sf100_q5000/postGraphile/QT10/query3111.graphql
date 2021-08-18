@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "disseminates"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

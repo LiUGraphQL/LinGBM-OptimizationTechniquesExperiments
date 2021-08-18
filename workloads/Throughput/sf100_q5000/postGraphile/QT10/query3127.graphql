@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "pericardia"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

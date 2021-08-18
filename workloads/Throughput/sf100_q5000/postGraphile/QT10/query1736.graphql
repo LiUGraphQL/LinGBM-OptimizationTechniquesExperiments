@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "pines"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

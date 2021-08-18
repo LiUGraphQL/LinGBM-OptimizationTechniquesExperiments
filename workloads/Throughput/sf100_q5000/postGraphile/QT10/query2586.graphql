@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "gastritis"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

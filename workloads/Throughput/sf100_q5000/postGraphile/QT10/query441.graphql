@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "naiveties"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

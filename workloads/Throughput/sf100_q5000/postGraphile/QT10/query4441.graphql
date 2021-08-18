@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "iguanas"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "veterinarians"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

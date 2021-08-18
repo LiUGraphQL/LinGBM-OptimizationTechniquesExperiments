@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "attacher"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

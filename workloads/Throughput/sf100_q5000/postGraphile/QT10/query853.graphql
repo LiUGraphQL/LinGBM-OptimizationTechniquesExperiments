@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "proslavery"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

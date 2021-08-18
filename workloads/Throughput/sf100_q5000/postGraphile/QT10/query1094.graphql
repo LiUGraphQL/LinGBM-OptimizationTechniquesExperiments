@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "fictionalized"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "contradistinctive"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 
