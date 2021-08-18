@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "apoplexy"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

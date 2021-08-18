@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "faeries"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

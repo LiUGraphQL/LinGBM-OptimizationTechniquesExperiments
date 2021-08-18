@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "nonidiomatic"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

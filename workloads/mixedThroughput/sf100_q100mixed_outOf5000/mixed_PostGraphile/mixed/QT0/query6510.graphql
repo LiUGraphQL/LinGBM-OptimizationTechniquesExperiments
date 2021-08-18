@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "falters"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

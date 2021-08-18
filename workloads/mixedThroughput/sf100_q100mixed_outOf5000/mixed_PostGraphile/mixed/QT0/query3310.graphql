@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "canted"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

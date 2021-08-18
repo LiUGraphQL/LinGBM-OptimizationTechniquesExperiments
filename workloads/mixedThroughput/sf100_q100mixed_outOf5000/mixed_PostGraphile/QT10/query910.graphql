@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bearable"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

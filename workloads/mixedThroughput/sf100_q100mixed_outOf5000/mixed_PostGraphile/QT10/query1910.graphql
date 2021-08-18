@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bearably"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

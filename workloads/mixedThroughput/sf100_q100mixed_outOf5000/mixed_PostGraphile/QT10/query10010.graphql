@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "ethicist"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

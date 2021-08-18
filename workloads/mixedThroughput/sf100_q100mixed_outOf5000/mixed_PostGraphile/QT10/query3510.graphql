@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "laude"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

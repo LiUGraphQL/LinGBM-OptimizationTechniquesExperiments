@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "hobnobbing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

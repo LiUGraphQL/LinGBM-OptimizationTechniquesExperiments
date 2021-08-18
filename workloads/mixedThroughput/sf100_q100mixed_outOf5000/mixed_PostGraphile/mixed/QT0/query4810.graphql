@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "virally"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

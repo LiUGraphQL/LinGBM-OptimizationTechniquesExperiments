@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "anopheles"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "escrows"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "stargazer"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

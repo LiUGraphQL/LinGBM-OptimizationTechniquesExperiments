@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "forevers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "gastight"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

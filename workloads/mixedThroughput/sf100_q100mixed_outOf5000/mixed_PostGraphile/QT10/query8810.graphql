@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "forwardest"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

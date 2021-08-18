@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "downed"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

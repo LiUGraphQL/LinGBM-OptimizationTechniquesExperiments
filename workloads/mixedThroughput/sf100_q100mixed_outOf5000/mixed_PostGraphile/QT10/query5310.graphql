@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "samites"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

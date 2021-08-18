@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "reclines"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 
