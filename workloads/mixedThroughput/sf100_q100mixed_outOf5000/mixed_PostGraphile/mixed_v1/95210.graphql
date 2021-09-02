@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "squeezed"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

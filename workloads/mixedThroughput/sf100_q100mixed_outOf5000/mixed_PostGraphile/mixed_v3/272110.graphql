@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "slapsticks"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

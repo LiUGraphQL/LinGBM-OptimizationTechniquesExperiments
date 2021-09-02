@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "servilely"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

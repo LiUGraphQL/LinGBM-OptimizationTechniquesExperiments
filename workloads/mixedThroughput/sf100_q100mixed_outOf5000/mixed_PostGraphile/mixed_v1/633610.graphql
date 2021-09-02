@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "guiling"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

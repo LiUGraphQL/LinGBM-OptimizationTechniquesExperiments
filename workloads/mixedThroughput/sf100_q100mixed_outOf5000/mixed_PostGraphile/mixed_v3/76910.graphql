@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "encages"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

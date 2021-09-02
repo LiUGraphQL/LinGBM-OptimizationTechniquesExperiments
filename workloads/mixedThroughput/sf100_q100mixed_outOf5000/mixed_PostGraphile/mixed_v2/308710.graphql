@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "feedboxes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

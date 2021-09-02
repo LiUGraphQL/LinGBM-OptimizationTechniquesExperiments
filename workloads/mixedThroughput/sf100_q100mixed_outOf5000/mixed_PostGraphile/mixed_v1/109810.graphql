@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "tuskers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

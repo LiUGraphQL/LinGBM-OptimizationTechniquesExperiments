@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "nympho"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

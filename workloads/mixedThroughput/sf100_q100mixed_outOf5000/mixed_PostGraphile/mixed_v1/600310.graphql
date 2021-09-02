@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "housefuls"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

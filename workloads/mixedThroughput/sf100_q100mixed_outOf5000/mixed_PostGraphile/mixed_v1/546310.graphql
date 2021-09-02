@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "catalogs"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

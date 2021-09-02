@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "wavelets"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

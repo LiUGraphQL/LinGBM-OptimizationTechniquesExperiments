@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "appellees"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

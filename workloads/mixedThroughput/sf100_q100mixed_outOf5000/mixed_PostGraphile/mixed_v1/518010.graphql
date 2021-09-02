@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "nunnish"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

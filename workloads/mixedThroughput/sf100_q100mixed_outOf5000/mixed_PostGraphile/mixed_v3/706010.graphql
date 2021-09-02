@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "boldly"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"gallnuts") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

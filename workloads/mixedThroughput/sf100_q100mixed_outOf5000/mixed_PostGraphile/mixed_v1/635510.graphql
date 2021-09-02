@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "disabuses"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "parring"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "assassinations"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

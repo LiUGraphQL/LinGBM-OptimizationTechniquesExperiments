@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"drivels") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

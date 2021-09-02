@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "doped"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

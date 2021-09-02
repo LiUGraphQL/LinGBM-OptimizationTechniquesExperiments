@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "fairing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

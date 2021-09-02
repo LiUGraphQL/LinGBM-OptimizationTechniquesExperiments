@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%unendingly%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

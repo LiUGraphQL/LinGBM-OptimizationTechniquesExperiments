@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "gallnuts"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

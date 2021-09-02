@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "loathings"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

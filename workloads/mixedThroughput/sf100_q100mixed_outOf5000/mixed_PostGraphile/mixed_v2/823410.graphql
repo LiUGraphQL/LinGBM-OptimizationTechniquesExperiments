@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "posology"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

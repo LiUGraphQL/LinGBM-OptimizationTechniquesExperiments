@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "shaman"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

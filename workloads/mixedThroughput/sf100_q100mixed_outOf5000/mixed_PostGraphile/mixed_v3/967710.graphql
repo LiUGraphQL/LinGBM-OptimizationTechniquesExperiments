@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "reinvokes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

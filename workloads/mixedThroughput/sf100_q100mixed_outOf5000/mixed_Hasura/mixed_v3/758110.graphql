@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%diplomas%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

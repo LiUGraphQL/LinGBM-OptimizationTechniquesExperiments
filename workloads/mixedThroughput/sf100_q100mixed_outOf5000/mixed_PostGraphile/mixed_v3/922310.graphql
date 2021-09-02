@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sumatran"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

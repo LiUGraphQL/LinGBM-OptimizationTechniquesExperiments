@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "tis"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

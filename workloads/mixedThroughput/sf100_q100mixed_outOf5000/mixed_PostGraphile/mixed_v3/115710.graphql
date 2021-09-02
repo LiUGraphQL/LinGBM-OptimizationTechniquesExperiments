@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "tho"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

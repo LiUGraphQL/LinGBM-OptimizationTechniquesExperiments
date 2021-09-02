@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "disassociating"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

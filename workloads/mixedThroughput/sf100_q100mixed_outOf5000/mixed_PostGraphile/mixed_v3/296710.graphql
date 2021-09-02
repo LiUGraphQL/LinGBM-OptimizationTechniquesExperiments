@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "enigmas"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

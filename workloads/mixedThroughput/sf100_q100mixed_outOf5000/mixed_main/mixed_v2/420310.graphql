@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"shaman") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

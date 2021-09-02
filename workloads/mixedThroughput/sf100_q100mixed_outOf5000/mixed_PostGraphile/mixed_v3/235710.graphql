@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "porting"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

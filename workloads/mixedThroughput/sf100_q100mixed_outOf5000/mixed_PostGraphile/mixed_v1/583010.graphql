@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "certifier"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

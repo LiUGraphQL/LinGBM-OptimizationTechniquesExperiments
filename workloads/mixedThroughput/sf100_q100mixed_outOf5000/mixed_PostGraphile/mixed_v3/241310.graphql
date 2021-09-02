@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "tsarisms"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

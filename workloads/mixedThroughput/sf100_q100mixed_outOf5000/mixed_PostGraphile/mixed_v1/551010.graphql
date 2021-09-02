@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "haughtiness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

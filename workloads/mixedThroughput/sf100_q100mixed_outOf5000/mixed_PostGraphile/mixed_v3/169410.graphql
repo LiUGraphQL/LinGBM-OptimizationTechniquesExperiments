@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "otolith"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

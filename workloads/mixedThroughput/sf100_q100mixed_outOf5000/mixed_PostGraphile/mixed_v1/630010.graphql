@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "savourer"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 
