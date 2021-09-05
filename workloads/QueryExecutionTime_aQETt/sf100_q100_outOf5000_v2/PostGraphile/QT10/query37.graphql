@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "corrals"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

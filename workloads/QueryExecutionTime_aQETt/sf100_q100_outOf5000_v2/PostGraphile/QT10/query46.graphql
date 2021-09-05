@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "blandness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

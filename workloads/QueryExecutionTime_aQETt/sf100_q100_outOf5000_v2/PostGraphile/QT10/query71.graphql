@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "frugalities"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

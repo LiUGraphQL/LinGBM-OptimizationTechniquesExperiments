@@ -1,0 +1,11 @@
+{ 
+	university(where:{ nr:{ _eq: 209 }}){ 
+		graduatestudents_aggregate{ 
+			aggregate { 
+				count 
+			} 
+		} 
+	} 
+}
+
+ 

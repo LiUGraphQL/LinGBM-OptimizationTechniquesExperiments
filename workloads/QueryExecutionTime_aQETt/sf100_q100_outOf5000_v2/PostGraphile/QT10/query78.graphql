@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "apostatizing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

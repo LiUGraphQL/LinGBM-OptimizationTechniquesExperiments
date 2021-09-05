@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "proems"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

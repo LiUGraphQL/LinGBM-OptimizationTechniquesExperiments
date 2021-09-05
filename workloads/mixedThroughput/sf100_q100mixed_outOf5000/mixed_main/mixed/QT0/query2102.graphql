@@ -1,9 +1,0 @@
-{ 
-	university(nr:810){ 
-		doctoralDegreeObtainers{ 
-			publications{title} 
-		} 
-	} 
-}
-
- 

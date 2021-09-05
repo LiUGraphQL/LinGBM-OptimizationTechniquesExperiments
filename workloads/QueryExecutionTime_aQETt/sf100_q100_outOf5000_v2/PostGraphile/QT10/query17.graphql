@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "enkindled"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

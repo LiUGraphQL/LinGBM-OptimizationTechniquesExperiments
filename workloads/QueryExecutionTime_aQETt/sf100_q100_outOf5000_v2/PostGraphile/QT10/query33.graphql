@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "partible"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 
