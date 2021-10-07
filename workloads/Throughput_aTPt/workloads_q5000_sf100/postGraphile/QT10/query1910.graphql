@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "archipelagoes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

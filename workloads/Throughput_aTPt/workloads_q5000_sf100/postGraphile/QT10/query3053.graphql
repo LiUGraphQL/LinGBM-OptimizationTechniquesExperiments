@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "besieged"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

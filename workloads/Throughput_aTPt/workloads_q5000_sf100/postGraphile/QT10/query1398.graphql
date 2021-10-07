@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "abhors"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

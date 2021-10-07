@@ -1,0 +1,13 @@
+{ 
+	university(where:{ nr:{ _eq:674 }}) { 
+		graduatestudents(where: { _and: {age: { _gt: 24 }, professor:{ researchinterest:{ _like:"%transsexuals%"}}}}) { 
+			nr 
+			emailaddress 
+			graduatestudenttakecourses {graduatecourseid} 
+		} 
+	} 
+}
+
+
+
+ 

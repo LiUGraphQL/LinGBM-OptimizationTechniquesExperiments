@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "groundmass"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

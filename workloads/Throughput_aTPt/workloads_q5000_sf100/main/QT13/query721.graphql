@@ -1,0 +1,11 @@
+{ 
+  university(nr:273) { 
+    undergraduateDegreeObtainedBystudent(where: {advisor: {researchInterest:{criterion:CONTAINS, pattern:"stunsail"}}}){ 
+      id 
+      emailAddress 
+      takeGraduateCourses {id } 
+    } 
+  } 
+} 
+
+ 

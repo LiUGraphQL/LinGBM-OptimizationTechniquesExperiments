@@ -1,0 +1,11 @@
+{ 
+  university(nr:199) { 
+    undergraduateDegreeObtainedBystudent(where: {advisor: {researchInterest:{criterion:CONTAINS, pattern:"determinism"}}}){ 
+      id 
+      emailAddress 
+      takeGraduateCourses {id } 
+    } 
+  } 
+} 
+
+ 

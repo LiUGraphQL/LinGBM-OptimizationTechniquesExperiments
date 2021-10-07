@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "monotones"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

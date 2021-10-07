@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cooperators"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

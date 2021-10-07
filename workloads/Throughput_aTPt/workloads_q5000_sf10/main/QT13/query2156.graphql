@@ -1,0 +1,11 @@
+{ 
+  university(nr:800) { 
+    undergraduateDegreeObtainedBystudent(where: {advisor: {researchInterest:{criterion:CONTAINS, pattern:"plastering"}}}){ 
+      id 
+      emailAddress 
+      takeGraduateCourses {id } 
+    } 
+  } 
+} 
+
+ 

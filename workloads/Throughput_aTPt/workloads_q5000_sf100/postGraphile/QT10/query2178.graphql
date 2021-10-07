@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "untrimming"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

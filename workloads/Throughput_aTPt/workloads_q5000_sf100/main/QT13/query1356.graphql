@@ -1,0 +1,11 @@
+{ 
+  university(nr:799) { 
+    undergraduateDegreeObtainedBystudent(where: {advisor: {researchInterest:{criterion:CONTAINS, pattern:"smoking"}}}){ 
+      id 
+      emailAddress 
+      takeGraduateCourses {id } 
+    } 
+  } 
+} 
+
+ 

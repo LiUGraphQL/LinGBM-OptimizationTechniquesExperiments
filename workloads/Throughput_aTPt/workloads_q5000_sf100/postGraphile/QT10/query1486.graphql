@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "rehearsing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

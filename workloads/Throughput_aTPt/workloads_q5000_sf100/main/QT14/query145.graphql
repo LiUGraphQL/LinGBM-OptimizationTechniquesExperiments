@@ -1,0 +1,11 @@
+{ 
+	university(nr:478) { 
+		undergraduateDegreeObtainedBystudent(where: { AND:{age:{pattern:25,criterion: MORETHAN}, advisor:{researchInterest:{criterion:CONTAINS, pattern:"waspily"}}}}) { 
+			id 
+			emailAddress 
+			takeGraduateCourses {id} 
+		} 
+	} 
+}
+
+ 

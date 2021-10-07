@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "accommodational"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

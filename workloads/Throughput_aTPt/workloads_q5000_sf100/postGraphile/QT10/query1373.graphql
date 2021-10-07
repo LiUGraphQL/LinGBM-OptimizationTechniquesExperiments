@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "chemisms"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

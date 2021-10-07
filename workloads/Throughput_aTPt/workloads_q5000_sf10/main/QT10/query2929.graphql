@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"despatchers") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

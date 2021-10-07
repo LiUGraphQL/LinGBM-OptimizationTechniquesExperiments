@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "metallurgists"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

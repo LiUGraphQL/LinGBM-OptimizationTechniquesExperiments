@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "truantry"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

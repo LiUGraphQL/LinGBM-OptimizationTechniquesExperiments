@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"penetrative") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

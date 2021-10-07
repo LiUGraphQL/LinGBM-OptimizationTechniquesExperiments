@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "moroseness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

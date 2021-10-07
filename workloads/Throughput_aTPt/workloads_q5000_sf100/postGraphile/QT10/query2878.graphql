@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "querier"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

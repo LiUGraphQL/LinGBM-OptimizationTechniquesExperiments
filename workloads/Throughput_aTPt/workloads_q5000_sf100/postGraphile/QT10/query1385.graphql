@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "hoppers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

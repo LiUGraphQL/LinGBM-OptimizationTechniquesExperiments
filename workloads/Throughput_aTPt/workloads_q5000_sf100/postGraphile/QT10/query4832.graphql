@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "plopping"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

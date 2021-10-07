@@ -1,0 +1,11 @@
+{ 
+	university(nr:715) { 
+		undergraduateDegreeObtainedBystudent(where: { AND:{age:{pattern:20,criterion: MORETHAN}, advisor:{researchInterest:{criterion:CONTAINS, pattern:"fluids"}}}}) { 
+			id 
+			emailAddress 
+			takeGraduateCourses {id} 
+		} 
+	} 
+}
+
+ 

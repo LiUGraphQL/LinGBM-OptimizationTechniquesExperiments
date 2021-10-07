@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "litheness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

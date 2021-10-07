@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "alienabilities"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "blowzy"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

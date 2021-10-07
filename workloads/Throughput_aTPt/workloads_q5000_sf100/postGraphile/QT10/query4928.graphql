@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "stereoisomeric"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "pilasters"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

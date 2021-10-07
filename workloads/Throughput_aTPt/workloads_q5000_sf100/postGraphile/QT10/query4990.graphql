@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "carbonize"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

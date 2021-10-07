@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "swooner"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "chivies"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

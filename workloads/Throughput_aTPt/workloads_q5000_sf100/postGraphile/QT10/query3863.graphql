@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "tenderers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

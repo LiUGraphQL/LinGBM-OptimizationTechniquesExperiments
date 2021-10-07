@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "inculcated"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

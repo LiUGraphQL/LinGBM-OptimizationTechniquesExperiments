@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "chaser"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

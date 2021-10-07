@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "absentees"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

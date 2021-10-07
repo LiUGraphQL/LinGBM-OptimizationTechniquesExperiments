@@ -1,0 +1,11 @@
+{ 
+	university (nr:105) { 
+		undergraduateDegreeObtainedBystudent{ 
+			advisor { 
+				worksFor{id} 
+			} 
+		} 
+	} 
+} 
+
+ 

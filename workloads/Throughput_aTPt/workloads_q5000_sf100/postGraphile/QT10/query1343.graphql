@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "slackness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

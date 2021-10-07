@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "swigger"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

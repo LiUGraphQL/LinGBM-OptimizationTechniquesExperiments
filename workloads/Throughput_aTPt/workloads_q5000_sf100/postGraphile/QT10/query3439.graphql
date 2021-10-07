@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "befouled"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

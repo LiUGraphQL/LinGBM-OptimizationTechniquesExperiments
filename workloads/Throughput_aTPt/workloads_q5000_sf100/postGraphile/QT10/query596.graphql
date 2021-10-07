@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "stretti"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

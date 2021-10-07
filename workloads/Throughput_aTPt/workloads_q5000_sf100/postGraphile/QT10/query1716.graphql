@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sapphics"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

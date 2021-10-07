@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "phren"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

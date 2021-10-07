@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "frivoling"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

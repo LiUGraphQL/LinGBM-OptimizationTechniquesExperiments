@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "enwrap"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

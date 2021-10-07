@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "obdurated"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

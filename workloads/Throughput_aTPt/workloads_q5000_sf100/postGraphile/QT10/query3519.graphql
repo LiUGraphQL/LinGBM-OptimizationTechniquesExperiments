@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "coaxing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

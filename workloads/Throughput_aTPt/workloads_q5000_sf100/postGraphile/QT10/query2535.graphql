@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "inwardly"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

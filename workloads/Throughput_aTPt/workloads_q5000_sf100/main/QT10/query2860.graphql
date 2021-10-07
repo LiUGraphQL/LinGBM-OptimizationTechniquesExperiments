@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"bigotedly") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

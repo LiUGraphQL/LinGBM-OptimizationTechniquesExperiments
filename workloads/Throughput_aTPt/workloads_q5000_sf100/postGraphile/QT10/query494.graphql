@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "renege"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

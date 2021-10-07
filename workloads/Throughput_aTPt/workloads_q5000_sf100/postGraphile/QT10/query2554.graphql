@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "pragmatically"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "watercourses"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

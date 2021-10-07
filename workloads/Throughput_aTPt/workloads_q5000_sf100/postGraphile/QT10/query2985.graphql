@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "burier"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

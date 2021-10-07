@@ -1,0 +1,18 @@
+{ 
+  lecturer(nr:3213024) { 
+    doctoralDegreeFrom { 
+      id 
+      undergraduateDegreeObtainedBystudent { 
+        id 
+        emailAddress 
+        advisor { 
+          id 
+          emailAddress  
+          worksFor {id} 
+        } 
+      } 
+    } 
+  } 
+} 
+
+ 

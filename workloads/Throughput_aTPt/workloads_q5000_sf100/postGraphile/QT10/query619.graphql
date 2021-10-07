@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "canthi"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

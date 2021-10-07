@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%effulgence%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

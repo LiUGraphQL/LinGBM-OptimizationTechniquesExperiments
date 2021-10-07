@@ -1,0 +1,16 @@
+{ 
+	allFaculties(condition: { nr:7808052 }){
+        nodes {
+		    universityByDoctoraldegreefrom { 
+			    graduatestudentsByUndergraduatedegreefrom{
+                    nodes {
+                        nr
+                        emailaddress
+                    }
+                }
+	    	} 
+    	} 
+    }
+}
+
+ 

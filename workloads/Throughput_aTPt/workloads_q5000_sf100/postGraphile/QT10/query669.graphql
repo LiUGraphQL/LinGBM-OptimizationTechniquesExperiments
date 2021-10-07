@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "purdas"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

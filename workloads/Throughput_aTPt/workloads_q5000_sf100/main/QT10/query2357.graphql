@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"compadres") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%bronzier%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

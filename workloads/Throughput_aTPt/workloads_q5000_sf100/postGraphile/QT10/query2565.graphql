@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "triply"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

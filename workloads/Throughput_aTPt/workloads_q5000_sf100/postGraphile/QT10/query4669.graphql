@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "subdued"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

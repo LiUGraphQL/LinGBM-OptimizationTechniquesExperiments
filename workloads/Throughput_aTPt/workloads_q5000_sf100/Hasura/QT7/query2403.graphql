@@ -1,0 +1,9 @@
+{ 
+	university(where: {nr: {_eq: 629 }}) { 
+		graduatestudents (limit:10, offset: 11) { 
+			professor {nr} 
+		} 
+	} 
+} 
+
+ 

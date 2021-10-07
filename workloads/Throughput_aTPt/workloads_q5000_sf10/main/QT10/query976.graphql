@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"westered") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

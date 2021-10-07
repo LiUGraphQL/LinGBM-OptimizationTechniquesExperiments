@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "plighted"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

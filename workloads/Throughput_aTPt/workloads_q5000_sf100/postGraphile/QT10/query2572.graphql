@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "shinleafs"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

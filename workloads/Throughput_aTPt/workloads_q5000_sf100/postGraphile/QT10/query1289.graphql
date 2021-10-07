@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cooption"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

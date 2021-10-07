@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unprotesting"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

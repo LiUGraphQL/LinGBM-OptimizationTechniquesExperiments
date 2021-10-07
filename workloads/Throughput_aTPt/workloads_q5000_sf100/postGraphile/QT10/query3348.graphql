@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "subconsciously"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

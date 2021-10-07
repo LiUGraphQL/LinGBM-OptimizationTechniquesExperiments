@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "constitutionality"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

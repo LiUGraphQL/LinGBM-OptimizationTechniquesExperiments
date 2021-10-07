@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "roadrunners"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

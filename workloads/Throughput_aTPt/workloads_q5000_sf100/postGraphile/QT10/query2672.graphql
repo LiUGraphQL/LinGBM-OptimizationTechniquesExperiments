@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "demobilize"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

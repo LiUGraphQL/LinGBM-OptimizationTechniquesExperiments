@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "disruptions"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

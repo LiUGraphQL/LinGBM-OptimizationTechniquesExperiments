@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "eared"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

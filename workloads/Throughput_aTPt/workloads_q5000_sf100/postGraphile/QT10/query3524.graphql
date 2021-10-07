@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "spermatozoan"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

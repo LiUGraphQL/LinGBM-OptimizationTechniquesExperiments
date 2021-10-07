@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"foreswore") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

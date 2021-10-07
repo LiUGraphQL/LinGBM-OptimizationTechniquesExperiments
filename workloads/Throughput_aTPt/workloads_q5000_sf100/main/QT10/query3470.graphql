@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"surreptitiously") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"reapportioning") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

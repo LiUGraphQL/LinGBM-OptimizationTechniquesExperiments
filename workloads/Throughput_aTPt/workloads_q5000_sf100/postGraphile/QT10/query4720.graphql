@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unprejudiced"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

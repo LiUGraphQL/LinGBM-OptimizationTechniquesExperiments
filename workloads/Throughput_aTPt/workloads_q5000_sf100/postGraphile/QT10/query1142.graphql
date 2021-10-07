@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "frizzliest"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

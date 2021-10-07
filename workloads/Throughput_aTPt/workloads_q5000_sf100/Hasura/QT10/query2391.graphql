@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%superannuity%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

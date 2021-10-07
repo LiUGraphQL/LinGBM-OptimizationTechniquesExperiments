@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "enunciates"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

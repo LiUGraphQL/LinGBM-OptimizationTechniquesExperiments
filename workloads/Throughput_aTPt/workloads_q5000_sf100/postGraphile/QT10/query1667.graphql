@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "ingestive"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

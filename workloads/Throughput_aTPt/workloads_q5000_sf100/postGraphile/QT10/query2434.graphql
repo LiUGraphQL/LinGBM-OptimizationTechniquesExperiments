@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "nonstructurally"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

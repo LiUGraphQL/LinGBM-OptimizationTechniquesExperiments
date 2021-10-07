@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unsuitability"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

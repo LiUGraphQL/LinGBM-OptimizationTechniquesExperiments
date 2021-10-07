@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "leafworms"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

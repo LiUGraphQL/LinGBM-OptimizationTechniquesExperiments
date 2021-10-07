@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "flaxy"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

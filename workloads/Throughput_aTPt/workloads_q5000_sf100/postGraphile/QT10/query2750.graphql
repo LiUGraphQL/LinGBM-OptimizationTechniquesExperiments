@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "presumptuously"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

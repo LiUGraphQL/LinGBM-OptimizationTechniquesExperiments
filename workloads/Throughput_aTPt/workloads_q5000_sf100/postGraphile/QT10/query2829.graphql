@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "deprecating"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{ 
+	university(nr:647) { 
+		undergraduateDegreeObtainedBystudent(where: { AND:{age:{pattern:21,criterion: MORETHAN}, advisor:{researchInterest:{criterion:CONTAINS, pattern:"hypertrophies"}}}}) { 
+			id 
+			emailAddress 
+			takeGraduateCourses {id} 
+		} 
+	} 
+}
+
+ 

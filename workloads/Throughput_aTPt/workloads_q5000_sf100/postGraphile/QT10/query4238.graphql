@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "hawse"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

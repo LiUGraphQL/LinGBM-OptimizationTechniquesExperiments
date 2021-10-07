@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sorbet"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

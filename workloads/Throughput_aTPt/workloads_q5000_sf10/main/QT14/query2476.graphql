@@ -1,0 +1,11 @@
+{ 
+	university(nr:634) { 
+		undergraduateDegreeObtainedBystudent(where: { AND:{age:{pattern:22,criterion: MORETHAN}, advisor:{researchInterest:{criterion:CONTAINS, pattern:"diastrophism"}}}}) { 
+			id 
+			emailAddress 
+			takeGraduateCourses {id} 
+		} 
+	} 
+}
+
+ 

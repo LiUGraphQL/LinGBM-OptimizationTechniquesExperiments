@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"reaction") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

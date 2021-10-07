@@ -1,0 +1,11 @@
+{ 
+	university(nr:232) { 
+		undergraduateDegreeObtainedBystudent(where: { AND:{age:{pattern:22,criterion: MORETHAN}, advisor:{researchInterest:{criterion:CONTAINS, pattern:"incarcerations"}}}}) { 
+			id 
+			emailAddress 
+			takeGraduateCourses {id} 
+		} 
+	} 
+}
+
+ 

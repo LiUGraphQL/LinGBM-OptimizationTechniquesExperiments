@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "interorbital"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

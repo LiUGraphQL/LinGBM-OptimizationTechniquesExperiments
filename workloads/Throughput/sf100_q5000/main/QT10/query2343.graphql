@@ -1,9 +1,0 @@
-{ 
-	publicationSearch(field:title, criterion:CONTAINS, pattern:"makers") { 
-		id 
-		title 
-		abstract 
-	} 
-} 
-
- 

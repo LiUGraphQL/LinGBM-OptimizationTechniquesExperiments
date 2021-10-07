@@ -1,0 +1,11 @@
+{ 
+	university(nr:470) { 
+		undergraduateDegreeObtainedBystudent(where: { AND:{age:{pattern:23,criterion: MORETHAN}, advisor:{researchInterest:{criterion:CONTAINS, pattern:"rebroadcasting"}}}}) { 
+			id 
+			emailAddress 
+			takeGraduateCourses {id} 
+		} 
+	} 
+}
+
+ 

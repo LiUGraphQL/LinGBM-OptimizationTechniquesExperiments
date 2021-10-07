@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "eddying"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

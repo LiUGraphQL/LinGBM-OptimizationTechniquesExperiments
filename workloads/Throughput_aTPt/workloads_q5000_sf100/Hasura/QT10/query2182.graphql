@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%antineoplastic%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

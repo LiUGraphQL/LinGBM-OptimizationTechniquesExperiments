@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "aliener"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

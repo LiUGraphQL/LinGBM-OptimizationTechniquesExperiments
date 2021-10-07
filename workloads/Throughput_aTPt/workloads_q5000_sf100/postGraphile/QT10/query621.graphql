@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "hydrating"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

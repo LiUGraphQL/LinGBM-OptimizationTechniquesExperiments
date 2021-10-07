@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "subduals"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

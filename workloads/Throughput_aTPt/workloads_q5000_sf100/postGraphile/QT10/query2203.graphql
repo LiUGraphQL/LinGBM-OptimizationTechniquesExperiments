@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "distributee"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

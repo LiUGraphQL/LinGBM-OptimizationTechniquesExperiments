@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "rededicated"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

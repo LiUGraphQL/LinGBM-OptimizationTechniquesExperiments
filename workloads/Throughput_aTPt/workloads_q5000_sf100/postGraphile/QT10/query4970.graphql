@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "businesswomen"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

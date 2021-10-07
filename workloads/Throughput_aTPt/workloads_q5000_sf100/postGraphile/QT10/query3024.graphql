@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "forehanded"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

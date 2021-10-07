@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "injuriously"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

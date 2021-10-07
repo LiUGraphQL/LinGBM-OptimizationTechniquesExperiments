@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"lotuses") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

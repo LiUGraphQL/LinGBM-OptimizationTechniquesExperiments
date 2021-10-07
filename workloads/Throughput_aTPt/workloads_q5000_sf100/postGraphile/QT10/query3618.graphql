@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "overdoing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

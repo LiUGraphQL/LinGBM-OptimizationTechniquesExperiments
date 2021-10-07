@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%pervasively%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

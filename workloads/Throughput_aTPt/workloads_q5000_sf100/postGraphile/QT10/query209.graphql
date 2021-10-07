@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "larky"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

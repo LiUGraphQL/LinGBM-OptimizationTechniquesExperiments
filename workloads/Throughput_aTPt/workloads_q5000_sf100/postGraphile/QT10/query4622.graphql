@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "disease"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

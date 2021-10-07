@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "replying"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"locker") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

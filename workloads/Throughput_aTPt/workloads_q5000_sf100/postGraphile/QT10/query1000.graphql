@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "brunet"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

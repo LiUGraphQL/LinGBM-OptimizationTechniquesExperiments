@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"trackless") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

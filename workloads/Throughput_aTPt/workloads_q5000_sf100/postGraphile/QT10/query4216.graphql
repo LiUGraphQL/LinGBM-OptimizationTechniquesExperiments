@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "disheartening"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

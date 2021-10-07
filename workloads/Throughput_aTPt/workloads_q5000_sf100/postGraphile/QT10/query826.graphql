@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "fiber"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

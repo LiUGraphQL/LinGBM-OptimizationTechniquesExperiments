@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "shelves"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "honeybees"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

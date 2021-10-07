@@ -1,0 +1,11 @@
+{ 
+	university(nr:444) { 
+		undergraduateDegreeObtainedBystudent(where: { AND:{age:{pattern:22,criterion: MORETHAN}, advisor:{researchInterest:{criterion:CONTAINS, pattern:"throbbers"}}}}) { 
+			id 
+			emailAddress 
+			takeGraduateCourses {id} 
+		} 
+	} 
+}
+
+ 

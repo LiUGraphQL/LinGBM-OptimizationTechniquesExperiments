@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%reinstated%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

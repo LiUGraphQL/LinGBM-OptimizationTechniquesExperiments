@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "isogamy"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{ 
+	university(nr:773) { 
+		undergraduateDegreeObtainedBystudent(where: { AND:{age:{pattern:21,criterion: MORETHAN}, advisor:{researchInterest:{criterion:CONTAINS, pattern:"stabilities"}}}}) { 
+			id 
+			emailAddress 
+			takeGraduateCourses {id} 
+		} 
+	} 
+}
+
+ 

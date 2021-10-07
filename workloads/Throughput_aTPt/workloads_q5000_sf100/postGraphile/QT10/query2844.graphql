@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "diminishment"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "libidinal"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

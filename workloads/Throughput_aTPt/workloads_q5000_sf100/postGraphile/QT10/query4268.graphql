@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "wising"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

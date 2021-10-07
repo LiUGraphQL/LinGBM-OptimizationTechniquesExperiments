@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "theatergoers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

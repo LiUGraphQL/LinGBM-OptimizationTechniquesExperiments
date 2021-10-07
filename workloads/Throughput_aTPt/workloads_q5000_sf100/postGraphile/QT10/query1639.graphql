@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "interposed"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

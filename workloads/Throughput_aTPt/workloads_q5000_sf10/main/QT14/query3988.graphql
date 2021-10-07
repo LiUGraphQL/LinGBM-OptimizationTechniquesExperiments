@@ -1,0 +1,11 @@
+{ 
+	university(nr:964) { 
+		undergraduateDegreeObtainedBystudent(where: { AND:{age:{pattern:26,criterion: MORETHAN}, advisor:{researchInterest:{criterion:CONTAINS, pattern:"deathlessly"}}}}) { 
+			id 
+			emailAddress 
+			takeGraduateCourses {id} 
+		} 
+	} 
+}
+
+ 

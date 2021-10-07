@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "clays"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

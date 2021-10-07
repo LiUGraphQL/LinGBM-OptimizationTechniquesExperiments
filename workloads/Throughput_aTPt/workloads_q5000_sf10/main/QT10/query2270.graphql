@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"immensest") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "dehydrogenates"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

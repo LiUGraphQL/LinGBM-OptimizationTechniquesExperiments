@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "conjunction"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

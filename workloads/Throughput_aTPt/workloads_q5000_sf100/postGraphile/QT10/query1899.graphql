@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "lupuses"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

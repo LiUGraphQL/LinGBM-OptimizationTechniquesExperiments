@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "managership"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

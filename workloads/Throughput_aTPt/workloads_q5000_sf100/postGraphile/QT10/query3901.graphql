@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "videlicet"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

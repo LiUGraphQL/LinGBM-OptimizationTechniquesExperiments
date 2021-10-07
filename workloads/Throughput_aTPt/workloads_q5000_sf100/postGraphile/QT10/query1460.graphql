@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "amateurishly"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "drogues"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "nutlet"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

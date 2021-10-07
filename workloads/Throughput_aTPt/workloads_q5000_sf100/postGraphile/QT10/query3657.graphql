@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "springes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

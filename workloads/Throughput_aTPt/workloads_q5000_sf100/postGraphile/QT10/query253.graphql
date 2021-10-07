@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "flosses"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

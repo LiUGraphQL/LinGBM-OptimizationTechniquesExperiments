@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "tainted"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

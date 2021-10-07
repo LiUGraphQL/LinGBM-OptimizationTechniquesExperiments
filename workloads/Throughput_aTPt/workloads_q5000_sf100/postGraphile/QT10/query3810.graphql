@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "monish"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

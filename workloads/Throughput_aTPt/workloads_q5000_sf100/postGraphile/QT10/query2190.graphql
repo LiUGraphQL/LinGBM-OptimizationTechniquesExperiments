@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "quintuplets"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "antihypertensives"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

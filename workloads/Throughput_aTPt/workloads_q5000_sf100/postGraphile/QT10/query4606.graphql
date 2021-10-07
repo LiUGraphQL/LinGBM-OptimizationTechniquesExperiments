@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "breechcloths"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

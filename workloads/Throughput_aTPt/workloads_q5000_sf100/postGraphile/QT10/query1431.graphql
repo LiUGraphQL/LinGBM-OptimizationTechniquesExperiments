@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "gelees"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

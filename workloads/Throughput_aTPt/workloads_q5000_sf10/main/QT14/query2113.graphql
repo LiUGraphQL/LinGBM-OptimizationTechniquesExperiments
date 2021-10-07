@@ -1,0 +1,11 @@
+{ 
+	university(nr:633) { 
+		undergraduateDegreeObtainedBystudent(where: { AND:{age:{pattern:27,criterion: MORETHAN}, advisor:{researchInterest:{criterion:CONTAINS, pattern:"toxicologic"}}}}) { 
+			id 
+			emailAddress 
+			takeGraduateCourses {id} 
+		} 
+	} 
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "biocides"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

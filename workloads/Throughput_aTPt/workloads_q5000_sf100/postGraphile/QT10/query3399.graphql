@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "decreases"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

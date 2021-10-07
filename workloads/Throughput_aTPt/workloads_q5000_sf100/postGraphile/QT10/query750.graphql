@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "decompressing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

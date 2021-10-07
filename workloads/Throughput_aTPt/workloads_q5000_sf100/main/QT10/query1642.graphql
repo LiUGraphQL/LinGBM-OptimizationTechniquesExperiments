@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"dvorak") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

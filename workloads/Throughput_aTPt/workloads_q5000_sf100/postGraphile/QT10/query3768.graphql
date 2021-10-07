@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "foolisher"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

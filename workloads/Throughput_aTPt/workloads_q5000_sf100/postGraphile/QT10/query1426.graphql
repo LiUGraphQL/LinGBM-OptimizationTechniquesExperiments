@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "kilogram"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

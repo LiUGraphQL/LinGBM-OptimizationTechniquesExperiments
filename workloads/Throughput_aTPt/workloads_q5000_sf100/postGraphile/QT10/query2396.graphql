@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "operative"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

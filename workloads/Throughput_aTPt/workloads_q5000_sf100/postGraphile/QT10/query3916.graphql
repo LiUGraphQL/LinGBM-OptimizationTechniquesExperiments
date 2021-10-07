@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "artistries"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

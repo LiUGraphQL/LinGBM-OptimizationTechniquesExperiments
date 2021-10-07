@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"cerements") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

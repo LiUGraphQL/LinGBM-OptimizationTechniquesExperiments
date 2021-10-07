@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"hibernator") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

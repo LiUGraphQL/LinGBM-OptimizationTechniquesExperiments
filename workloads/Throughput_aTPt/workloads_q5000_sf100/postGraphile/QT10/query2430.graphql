@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "statuaries"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

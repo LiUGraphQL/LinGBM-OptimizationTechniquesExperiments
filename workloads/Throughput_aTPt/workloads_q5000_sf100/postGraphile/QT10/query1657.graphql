@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "outdodged"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

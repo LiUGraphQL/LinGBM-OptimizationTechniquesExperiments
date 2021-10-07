@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "jambs"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

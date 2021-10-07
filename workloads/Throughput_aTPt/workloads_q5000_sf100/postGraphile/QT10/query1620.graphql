@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "uneasiness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

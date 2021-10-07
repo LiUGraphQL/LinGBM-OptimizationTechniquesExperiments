@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "dvorak"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

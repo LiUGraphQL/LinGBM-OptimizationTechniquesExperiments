@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "warship"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

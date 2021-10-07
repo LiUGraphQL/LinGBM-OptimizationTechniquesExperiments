@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "repugnantly"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "teethings"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "legibleness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

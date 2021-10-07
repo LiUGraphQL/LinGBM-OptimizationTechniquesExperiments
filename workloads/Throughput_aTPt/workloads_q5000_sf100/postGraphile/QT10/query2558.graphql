@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "metazoan"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

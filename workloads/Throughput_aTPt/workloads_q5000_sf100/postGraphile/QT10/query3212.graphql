@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "germinated"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

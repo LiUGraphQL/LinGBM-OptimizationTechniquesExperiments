@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cupbearers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "planetoids"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

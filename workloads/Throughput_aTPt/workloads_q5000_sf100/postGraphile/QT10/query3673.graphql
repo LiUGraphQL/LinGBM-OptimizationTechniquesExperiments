@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "lobsters"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

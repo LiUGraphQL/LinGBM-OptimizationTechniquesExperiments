@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "syndication"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

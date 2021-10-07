@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "puns"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"flagships") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

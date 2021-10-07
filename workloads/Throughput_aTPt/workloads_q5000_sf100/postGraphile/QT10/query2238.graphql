@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "tressed"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

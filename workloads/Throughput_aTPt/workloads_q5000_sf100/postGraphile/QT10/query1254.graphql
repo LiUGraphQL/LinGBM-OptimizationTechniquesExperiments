@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "lindens"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

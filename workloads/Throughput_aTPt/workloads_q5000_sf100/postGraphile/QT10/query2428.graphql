@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "foreyard"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

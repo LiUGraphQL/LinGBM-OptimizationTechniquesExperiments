@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"avengers") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

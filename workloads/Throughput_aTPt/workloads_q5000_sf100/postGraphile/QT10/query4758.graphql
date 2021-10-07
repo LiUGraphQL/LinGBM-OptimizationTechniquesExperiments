@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "palliatively"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

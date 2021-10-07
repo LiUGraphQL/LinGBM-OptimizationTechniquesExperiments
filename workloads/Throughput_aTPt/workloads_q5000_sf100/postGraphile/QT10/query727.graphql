@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "foeman"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

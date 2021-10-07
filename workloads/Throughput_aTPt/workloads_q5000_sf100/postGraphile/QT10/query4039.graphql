@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "deciphers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

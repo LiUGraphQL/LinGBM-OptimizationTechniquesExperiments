@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "azaleas"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

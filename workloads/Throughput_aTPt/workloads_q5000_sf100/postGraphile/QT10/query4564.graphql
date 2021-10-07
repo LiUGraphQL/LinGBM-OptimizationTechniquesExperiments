@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "intensifies"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

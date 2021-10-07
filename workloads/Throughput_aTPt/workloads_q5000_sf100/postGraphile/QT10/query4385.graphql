@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "hierophants"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

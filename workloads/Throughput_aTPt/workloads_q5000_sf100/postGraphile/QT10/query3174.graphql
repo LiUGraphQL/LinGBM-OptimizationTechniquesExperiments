@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "videocassette"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

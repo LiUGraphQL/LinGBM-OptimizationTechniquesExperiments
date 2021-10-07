@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "fruiterer"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

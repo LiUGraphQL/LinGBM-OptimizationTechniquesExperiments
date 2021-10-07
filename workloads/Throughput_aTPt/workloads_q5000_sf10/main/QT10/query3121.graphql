@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"devourers") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

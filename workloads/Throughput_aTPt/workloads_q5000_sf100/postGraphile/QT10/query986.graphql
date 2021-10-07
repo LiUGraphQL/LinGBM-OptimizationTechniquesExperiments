@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "tolbutamide"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

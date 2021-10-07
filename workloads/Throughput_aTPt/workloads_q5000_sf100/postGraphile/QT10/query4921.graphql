@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sluices"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

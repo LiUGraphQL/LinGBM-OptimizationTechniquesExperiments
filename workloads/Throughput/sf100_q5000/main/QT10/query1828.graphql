@@ -1,9 +1,0 @@
-{ 
-	publicationSearch(field:title, criterion:CONTAINS, pattern:"heisters") { 
-		id 
-		title 
-		abstract 
-	} 
-} 
-
- 

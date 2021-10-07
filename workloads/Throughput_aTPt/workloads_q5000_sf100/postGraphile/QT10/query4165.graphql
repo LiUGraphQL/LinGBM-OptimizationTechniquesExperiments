@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "distressing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

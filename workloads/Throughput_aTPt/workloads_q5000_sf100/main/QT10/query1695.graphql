@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"crated") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

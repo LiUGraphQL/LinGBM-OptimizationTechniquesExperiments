@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "almightily"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

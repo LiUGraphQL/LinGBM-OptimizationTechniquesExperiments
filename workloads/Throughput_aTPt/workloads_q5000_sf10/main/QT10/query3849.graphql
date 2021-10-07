@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"chancellorships") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

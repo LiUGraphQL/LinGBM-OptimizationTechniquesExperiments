@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "overate"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

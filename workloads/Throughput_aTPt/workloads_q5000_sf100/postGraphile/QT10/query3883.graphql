@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "alarming"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

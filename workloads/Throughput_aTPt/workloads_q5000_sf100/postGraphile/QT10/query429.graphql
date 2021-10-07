@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "giros"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

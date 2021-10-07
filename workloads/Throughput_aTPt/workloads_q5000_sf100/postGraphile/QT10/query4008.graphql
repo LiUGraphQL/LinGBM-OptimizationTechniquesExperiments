@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "scrutinizingly"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

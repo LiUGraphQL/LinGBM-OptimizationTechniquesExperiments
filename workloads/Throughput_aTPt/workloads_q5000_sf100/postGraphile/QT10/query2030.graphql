@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "archaistic"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

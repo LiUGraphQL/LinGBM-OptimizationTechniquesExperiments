@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "klutzier"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

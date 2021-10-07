@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "toupee"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

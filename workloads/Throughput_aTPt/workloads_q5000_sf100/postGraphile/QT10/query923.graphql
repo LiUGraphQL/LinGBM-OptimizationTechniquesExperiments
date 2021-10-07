@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "caucusing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

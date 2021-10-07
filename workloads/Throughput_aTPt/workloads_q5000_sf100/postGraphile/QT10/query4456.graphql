@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "burgs"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

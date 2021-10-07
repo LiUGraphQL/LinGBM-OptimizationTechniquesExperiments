@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%subverted%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

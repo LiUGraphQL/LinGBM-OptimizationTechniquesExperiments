@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "oboists"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

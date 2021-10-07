@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "keystrokes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "convulsively"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

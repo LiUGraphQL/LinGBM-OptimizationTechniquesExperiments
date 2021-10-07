@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"ketches") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

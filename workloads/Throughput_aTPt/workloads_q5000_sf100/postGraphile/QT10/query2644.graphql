@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "preventively"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

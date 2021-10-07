@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"hindgut") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

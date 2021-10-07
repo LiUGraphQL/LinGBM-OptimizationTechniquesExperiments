@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "laborers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

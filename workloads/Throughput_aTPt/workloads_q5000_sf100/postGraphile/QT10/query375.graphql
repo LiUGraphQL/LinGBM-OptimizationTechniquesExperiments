@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "avouch"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

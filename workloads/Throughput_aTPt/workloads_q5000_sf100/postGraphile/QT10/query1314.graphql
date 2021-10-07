@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "neutralize"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

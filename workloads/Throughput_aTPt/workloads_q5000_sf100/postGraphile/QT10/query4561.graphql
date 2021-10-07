@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unreturned"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

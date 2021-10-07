@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "symbolizations"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

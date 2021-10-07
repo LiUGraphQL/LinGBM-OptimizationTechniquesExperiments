@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "founded"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

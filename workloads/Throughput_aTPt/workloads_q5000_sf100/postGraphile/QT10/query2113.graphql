@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "trimesters"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

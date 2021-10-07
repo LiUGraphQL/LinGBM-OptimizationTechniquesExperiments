@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "ferrying"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

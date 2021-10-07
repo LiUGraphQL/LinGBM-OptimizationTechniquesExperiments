@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "revivified"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

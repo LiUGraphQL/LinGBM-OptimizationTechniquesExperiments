@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "galactoscope"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

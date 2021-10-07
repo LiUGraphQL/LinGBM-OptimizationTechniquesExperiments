@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "probably"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

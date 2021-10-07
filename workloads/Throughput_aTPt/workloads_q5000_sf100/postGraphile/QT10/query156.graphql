@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "angularity"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

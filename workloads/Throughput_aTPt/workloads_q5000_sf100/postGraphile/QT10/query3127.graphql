@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "disregards"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

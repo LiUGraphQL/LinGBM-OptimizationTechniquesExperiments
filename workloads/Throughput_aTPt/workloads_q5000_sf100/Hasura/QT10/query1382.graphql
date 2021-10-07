@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%adoptively%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "dextrins"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

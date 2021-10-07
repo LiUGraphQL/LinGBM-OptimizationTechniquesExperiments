@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"parqueted") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

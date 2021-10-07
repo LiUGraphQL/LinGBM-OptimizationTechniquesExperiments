@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "misadministration"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

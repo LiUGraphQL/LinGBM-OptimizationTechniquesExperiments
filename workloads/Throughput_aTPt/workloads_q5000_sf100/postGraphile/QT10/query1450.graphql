@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "heparin"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

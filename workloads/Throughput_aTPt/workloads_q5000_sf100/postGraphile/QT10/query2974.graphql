@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "legionaries"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

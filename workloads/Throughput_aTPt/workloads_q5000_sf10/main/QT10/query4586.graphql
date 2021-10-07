@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"recombination") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

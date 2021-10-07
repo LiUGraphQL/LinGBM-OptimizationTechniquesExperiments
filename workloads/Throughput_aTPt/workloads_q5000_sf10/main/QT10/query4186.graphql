@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"sockmen") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "admits"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

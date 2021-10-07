@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%occurrence%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

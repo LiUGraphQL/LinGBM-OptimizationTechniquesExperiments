@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sectionizing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

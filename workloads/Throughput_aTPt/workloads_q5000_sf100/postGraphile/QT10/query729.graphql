@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bookmaking"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

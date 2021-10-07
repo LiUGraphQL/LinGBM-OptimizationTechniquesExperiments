@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "iceboat"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "stalwartly"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

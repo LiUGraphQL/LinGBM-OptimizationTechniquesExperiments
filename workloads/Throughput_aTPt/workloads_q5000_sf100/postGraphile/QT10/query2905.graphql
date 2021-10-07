@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "whetter"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

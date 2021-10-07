@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "accelerating"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

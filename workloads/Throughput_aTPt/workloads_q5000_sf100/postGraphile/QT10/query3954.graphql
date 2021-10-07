@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "pars"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%multichannel%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "internationally"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

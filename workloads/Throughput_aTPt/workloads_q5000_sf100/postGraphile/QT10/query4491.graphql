@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "lucres"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

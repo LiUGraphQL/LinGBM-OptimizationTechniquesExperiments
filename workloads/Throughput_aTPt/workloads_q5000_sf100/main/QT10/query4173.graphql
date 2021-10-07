@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"helicoids") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

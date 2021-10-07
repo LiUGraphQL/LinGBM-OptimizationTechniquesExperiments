@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "significance"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

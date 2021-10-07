@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cavies"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

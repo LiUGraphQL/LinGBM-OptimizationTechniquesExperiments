@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "thumbscrew"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

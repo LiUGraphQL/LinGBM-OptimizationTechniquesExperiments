@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"guttersnipe") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

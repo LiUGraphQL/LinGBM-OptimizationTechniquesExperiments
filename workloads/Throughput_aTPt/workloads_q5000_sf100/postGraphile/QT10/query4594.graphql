@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "kowtows"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

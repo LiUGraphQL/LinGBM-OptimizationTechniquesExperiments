@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "prevailers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

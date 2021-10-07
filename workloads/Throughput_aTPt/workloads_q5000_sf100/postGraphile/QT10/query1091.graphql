@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "componential"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

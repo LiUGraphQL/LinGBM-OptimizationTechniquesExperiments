@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "spinets"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

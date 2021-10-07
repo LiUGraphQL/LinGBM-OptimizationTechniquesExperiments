@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "thwarting"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

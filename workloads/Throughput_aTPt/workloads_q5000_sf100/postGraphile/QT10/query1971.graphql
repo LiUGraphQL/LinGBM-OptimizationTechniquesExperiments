@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "notabilities"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

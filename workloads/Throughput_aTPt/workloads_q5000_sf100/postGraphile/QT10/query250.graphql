@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "initialized"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

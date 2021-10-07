@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "minesweepers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

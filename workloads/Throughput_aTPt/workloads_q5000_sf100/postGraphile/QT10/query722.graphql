@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "lbs"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

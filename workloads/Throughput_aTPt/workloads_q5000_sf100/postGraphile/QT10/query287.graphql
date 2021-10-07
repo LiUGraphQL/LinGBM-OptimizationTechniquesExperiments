@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "octuply"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

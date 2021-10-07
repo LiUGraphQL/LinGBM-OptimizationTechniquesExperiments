@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "tammies"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

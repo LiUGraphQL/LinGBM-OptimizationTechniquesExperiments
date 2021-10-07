@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sadly"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

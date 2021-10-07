@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "principalities"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

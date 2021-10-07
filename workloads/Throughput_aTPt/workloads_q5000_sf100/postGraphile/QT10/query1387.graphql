@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "renograms"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

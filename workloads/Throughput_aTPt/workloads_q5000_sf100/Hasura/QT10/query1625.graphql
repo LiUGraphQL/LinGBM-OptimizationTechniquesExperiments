@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%consonantly%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

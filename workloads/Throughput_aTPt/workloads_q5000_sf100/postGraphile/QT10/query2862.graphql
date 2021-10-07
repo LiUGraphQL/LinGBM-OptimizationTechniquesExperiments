@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "slatternly"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "nonhabitable"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "preservatives"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

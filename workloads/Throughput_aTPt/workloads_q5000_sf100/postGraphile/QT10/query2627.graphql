@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "tabulation"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

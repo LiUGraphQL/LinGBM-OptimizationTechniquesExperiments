@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"grants") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

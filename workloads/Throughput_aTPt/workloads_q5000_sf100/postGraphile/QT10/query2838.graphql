@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "diarrhea"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

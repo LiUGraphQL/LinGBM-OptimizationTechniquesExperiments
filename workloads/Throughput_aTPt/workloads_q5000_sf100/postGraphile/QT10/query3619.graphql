@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "fords"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

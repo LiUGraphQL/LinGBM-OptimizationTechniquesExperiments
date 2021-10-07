@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "declaratively"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

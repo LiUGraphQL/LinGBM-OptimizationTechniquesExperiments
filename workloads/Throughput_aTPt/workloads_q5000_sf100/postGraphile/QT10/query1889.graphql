@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "solitaires"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

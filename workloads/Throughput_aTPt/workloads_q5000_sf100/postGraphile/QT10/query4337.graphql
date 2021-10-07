@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "entraps"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

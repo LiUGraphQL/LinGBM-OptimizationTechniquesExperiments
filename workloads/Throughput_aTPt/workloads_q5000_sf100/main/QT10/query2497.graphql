@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"moonlights") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

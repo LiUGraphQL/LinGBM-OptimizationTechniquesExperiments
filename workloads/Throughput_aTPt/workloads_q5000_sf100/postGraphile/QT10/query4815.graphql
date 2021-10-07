@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "strikeouts"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

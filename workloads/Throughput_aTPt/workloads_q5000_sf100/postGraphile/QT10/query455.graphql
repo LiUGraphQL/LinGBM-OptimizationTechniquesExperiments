@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "germaneness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

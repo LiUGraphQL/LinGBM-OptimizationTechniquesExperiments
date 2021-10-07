@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "potentiality"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

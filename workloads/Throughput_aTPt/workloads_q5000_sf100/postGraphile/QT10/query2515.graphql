@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "subjacent"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

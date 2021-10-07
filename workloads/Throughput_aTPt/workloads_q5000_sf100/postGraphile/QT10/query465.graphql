@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "carotids"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

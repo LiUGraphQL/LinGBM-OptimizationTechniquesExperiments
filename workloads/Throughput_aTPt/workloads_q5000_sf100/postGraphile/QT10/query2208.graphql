@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "babied"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "myopes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

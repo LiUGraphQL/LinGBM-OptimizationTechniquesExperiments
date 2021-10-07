@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "impressibility"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

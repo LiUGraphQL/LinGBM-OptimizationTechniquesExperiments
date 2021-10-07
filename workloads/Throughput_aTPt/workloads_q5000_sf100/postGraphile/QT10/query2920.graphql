@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "plainsmen"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

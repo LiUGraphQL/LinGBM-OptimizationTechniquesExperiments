@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "enfranchisements"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

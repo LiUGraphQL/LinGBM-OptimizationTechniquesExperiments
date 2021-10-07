@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%moonscapes%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"pushcarts") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

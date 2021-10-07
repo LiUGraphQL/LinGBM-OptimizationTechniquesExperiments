@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "knitters"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

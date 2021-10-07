@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"incapacitator") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

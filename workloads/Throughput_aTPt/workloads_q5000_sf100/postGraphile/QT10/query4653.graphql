@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "youd"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,15 @@
+{ 
+	university(nr:598){ 
+		graduateStudentConnection{ 
+			aggregate { 
+				age{ 
+					avg 
+					max 
+					min 
+				} 
+			} 
+		} 
+	} 
+}
+
+ 

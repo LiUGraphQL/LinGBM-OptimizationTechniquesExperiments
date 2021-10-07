@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"wellborn") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

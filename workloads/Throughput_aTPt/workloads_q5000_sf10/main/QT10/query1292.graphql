@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"audiologies") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

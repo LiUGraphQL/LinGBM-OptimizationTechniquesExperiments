@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"cirrostratus") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

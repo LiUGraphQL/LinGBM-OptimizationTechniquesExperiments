@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "ranked"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

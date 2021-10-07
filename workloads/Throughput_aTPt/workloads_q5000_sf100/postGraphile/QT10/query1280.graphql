@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "subscriptions"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "hypoing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

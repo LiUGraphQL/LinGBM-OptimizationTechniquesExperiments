@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "reassorted"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

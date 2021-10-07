@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "outargue"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

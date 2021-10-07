@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "savvied"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

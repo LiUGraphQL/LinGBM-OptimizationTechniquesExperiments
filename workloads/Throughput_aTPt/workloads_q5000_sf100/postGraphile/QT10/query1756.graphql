@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "intimated"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

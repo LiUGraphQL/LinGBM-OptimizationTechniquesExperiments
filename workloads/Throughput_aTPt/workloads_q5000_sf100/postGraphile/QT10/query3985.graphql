@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "tailings"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

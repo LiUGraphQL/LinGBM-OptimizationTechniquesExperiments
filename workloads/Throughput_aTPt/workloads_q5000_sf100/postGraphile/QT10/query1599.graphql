@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "affirmer"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

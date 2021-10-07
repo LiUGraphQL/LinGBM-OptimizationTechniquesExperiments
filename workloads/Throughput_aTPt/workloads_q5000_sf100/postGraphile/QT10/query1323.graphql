@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "weekended"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

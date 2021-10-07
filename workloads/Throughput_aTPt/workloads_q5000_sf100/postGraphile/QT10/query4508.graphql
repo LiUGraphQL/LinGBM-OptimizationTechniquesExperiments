@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "deficiently"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

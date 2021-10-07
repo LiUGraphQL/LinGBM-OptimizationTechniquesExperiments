@@ -1,0 +1,11 @@
+{ 
+	university(nr:248) { 
+		undergraduateDegreeObtainedBystudent(where: { AND:{age:{pattern:24,criterion: MORETHAN}, advisor:{researchInterest:{criterion:CONTAINS, pattern:"ablatival"}}}}) { 
+			id 
+			emailAddress 
+			takeGraduateCourses {id} 
+		} 
+	} 
+}
+
+ 

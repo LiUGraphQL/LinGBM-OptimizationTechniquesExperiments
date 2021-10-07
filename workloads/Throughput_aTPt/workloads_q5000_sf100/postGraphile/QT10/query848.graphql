@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "howbeit"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

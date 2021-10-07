@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "warlock"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

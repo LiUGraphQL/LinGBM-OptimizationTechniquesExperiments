@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "rigidify"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

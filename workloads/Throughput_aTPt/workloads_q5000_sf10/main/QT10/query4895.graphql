@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"touzled") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

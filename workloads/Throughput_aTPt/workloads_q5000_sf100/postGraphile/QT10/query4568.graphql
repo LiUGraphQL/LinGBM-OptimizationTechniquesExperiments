@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "desiccants"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

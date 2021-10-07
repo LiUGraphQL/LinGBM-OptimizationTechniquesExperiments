@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "waisters"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

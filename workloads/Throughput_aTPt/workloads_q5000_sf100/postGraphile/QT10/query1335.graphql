@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "medicare"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

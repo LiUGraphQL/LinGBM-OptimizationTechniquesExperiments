@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "expending"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

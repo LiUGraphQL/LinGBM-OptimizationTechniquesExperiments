@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "misdirections"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

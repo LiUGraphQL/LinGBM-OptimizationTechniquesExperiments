@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "openers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

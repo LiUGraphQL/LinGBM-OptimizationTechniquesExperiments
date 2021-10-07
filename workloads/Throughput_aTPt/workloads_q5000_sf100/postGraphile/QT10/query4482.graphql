@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "hones"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

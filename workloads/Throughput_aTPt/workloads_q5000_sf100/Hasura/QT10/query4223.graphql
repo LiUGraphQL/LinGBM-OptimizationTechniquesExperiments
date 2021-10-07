@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%replying%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

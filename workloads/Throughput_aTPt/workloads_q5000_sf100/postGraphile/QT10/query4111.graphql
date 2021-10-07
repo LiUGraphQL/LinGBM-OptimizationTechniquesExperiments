@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "interchange"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

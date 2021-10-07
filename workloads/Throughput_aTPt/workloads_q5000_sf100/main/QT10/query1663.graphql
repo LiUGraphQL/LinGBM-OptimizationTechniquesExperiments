@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"labouring") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

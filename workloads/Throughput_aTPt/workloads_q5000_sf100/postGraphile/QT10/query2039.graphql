@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "summing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "brandies"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

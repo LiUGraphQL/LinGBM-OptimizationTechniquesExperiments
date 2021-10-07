@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "termitic"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

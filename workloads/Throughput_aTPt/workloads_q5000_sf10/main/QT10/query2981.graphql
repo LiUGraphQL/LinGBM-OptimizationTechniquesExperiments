@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"tunneled") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

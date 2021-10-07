@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "stickier"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

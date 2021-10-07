@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"womanish") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

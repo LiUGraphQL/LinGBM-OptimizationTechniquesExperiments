@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "empoisoned"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

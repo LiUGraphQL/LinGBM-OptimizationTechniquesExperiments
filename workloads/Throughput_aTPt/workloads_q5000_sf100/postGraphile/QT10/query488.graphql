@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "tegument"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

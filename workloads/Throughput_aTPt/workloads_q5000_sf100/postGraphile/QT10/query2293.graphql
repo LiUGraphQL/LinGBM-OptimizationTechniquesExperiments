@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "motherboard"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

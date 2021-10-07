@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"frescoed") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

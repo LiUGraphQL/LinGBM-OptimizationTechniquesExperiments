@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "shearers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "snot"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

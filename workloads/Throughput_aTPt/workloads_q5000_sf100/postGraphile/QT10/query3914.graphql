@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bickerer"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

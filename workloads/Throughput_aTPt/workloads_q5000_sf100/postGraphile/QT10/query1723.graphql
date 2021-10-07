@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "mensurability"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

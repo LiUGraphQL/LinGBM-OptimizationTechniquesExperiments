@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"arnica") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

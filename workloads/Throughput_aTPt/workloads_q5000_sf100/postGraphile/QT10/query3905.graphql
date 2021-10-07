@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "upbraids"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

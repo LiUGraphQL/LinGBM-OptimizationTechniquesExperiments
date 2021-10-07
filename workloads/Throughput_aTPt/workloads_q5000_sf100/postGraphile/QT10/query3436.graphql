@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "gazetteer"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

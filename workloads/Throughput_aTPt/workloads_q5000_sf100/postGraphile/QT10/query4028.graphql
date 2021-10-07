@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bangles"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

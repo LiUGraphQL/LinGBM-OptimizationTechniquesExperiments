@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "meridiem"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

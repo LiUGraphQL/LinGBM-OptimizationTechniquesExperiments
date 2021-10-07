@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"hermaphroditically") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

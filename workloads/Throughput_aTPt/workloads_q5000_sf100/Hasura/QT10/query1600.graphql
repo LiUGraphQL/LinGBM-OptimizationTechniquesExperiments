@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%bifid%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

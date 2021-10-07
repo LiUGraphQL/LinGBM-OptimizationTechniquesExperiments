@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "zoogeographies"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

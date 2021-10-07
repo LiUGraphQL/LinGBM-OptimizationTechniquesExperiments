@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "comparisons"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "geegaw"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "implorations"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

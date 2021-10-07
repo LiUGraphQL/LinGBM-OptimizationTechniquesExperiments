@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"rondos") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

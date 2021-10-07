@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "turmoiling"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

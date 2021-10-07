@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "uncomfortably"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

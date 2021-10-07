@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "himalayan"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

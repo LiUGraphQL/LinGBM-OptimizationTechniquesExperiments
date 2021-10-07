@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "oolong"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "grouter"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

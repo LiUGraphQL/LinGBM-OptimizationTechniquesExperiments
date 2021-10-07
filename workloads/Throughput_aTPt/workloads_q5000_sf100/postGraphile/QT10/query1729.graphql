@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "feckless"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

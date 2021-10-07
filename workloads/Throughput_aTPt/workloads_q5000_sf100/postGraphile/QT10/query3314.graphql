@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bindles"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

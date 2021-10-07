@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cowardly"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

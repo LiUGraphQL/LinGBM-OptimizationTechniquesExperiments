@@ -1,0 +1,21 @@
+{
+  allResearchgroups(condition: {nr: 561906}) {
+    nodes {
+      departmentBySuborganizationof {
+        professorsByHeadof {
+          nodes {
+            facultyByNr {
+              nr
+              emailaddress
+              universityByDoctoraldegreefrom {
+                nr
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+ 

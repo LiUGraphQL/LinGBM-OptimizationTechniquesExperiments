@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "nepotisms"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

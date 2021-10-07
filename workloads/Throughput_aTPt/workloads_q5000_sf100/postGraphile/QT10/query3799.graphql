@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "faces"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

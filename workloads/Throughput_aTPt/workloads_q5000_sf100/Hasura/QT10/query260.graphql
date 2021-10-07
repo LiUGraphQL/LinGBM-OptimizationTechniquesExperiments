@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%charted%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "heroizing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

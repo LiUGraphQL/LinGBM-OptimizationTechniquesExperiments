@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"sepulchers") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

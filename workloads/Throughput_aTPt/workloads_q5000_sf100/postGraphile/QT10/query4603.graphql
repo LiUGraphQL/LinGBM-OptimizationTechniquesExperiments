@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "dehydrogenating"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

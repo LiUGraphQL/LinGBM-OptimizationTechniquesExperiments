@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "coirs"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

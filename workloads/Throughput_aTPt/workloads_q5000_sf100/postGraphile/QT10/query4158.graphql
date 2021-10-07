@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "pudginess"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

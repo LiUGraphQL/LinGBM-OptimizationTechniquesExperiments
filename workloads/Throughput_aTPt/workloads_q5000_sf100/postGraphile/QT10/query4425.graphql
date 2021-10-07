@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "disloyally"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

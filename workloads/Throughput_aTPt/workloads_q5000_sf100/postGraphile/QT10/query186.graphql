@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "transfrontier"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "imbalmer"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

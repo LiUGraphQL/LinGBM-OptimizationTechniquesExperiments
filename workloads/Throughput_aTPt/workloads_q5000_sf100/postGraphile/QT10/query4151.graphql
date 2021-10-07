@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "ambushers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

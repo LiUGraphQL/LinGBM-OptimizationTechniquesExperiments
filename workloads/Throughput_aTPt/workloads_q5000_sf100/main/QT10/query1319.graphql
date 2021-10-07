@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"peeve") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

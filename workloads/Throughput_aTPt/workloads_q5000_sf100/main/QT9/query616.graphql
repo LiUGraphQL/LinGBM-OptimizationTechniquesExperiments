@@ -1,0 +1,13 @@
+{ 
+  university(nr:132) { 
+    undergraduateDegreeObtainedBystudent (limit:50) { 
+      advisor { 
+        publications (order:{field:title, direction:DESC}){ 
+          id 
+        } 
+      } 
+    } 
+  } 
+} 
+
+ 

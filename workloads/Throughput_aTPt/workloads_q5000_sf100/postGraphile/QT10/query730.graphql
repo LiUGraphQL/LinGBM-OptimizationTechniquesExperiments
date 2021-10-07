@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "javelined"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

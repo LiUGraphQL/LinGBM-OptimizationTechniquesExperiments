@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "harboring"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

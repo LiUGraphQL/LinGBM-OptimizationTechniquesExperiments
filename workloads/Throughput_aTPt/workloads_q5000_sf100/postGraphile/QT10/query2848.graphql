@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "paddles"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

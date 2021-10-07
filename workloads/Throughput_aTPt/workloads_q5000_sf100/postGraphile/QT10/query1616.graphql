@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "hermits"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

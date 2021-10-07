@@ -1,9 +1,0 @@
-{ 
-	publication(where: {title: {_like: "%relist%"}}) { 
-		nr 
-		title 
-		abstract 
-	} 
-} 
-
- 

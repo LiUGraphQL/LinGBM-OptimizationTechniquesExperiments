@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "civies"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

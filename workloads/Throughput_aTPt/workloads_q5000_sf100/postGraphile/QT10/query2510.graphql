@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bankbook"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

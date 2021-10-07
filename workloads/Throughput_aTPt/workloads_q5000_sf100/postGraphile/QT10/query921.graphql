@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "carracks"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

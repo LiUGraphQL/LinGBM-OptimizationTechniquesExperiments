@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cleaners"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "misadvising"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "tarsier"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

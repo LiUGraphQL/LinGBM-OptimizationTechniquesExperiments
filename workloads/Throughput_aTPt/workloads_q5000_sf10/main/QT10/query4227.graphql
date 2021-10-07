@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"misdoings") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

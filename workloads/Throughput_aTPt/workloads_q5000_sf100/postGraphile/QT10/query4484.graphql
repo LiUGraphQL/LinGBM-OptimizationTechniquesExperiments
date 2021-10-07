@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "removals"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "outstations"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

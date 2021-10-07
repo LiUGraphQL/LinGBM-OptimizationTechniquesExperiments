@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sachems"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"hussies") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

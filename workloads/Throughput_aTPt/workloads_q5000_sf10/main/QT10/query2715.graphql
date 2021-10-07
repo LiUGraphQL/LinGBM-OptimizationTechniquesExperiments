@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"diphtheric") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

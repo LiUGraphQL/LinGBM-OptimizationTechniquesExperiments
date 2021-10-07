@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "deriver"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

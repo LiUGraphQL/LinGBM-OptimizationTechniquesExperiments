@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"berries") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

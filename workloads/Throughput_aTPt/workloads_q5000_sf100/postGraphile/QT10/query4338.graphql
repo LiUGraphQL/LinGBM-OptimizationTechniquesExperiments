@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "nonofficially"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "redyed"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

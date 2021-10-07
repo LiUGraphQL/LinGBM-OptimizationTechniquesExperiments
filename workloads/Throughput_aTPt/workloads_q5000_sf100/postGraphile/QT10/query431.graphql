@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "colloquiums"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

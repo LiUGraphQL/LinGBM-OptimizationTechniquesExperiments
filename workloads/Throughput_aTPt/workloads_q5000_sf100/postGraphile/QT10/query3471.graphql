@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "anklet"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

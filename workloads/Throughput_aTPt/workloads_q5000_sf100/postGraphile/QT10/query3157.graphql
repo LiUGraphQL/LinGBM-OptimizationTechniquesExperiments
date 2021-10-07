@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "libyans"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"tymbal") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

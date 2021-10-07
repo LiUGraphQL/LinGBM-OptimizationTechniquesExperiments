@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "legislatively"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

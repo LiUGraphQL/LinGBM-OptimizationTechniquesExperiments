@@ -1,9 +1,0 @@
-{ 
-	publication(where: {title: {_like: "%bourne%"}}) { 
-		nr 
-		title 
-		abstract 
-	} 
-} 
-
- 

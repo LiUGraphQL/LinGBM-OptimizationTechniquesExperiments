@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "regenerates"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "funiculus"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

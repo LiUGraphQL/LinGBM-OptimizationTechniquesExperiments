@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "nourishes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

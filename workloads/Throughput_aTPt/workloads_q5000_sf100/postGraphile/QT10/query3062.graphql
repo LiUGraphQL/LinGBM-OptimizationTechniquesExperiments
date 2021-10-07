@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "reproducer"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

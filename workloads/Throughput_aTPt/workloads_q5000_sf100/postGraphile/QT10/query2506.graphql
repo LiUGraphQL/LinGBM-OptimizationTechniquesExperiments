@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "alveolate"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

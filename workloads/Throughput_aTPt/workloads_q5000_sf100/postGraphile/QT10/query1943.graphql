@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "solemnest"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "tzetze"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

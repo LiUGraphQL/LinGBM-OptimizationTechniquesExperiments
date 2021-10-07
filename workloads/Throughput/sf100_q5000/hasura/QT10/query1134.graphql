@@ -1,9 +1,0 @@
-{ 
-	publication(where: {title: {_like: "%perfectionism%"}}) { 
-		nr 
-		title 
-		abstract 
-	} 
-} 
-
- 

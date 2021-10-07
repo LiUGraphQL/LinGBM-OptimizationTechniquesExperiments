@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "hatchery"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

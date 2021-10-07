@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "pugged"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

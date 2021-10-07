@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "rebuilt"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

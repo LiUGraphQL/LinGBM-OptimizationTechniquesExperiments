@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"vibratos") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

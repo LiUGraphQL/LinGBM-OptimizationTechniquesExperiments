@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "maligning"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "linebackers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

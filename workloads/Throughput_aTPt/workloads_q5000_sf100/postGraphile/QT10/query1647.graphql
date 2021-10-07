@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "materfamilias"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "crematoriums"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

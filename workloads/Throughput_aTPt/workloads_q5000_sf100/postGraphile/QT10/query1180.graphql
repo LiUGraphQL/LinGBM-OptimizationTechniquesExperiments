@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "memsahibs"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

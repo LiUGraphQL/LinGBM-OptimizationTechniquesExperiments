@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "stickiness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

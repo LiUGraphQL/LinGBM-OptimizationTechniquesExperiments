@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "deviator"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

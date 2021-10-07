@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"adulated") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "censurers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

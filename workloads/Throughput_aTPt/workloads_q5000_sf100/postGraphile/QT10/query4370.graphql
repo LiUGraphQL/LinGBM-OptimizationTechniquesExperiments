@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "spars"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

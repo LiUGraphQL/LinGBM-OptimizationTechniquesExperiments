@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "tokonomas"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"nephrites") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

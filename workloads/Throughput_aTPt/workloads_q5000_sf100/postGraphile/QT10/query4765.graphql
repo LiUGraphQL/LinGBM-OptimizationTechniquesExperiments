@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unknowable"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"rehinge") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

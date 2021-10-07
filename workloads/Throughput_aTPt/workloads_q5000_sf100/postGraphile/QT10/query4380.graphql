@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "makeups"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

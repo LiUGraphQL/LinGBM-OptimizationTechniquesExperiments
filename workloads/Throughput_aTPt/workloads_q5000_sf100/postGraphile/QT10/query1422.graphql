@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "alphorn"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

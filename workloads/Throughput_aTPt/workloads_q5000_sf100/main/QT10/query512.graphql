@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"draping") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "augustinian"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

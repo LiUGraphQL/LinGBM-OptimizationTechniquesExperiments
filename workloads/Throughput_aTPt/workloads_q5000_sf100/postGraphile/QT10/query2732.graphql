@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "semitropical"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

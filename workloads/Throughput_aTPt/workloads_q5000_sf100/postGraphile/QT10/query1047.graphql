@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "conked"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

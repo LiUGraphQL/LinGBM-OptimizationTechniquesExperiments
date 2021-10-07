@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "taximen"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

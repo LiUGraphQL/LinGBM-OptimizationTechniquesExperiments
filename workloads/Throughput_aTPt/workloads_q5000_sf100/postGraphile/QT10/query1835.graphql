@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "caseworker"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

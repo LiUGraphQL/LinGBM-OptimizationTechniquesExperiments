@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "anterooms"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

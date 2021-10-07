@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "overdiversifies"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "immoveable"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

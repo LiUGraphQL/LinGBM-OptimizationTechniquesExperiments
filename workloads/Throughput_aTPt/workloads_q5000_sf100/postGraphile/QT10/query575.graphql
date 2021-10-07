@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "debitable"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "apricots"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

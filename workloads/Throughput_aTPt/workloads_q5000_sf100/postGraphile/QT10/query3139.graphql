@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "fertility"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

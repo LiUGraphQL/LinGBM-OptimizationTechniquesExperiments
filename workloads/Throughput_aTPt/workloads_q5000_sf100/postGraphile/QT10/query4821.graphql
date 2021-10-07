@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "devices"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

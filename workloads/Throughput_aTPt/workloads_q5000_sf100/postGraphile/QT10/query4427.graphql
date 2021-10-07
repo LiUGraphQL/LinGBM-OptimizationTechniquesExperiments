@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bunching"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

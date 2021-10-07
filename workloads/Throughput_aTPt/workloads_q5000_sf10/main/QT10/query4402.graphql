@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"performers") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

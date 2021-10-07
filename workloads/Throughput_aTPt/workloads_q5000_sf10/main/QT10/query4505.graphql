@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"cajolery") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

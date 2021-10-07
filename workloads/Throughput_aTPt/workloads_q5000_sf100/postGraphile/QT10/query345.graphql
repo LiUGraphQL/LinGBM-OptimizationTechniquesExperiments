@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "childbed"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

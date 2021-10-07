@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unordained"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "officiant"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

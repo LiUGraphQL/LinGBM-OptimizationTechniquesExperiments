@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"trapeziums") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

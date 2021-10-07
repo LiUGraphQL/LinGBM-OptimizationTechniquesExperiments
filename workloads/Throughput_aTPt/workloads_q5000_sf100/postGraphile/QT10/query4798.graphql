@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "infixed"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

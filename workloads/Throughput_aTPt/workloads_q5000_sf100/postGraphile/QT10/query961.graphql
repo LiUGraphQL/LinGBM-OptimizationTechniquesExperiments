@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "annat"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

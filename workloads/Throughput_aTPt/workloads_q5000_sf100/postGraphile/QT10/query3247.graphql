@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "narrates"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%undersize%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

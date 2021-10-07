@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"autodidacts") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"ultraism") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

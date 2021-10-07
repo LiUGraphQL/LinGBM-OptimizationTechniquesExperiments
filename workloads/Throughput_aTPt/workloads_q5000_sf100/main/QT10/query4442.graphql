@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"swigger") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

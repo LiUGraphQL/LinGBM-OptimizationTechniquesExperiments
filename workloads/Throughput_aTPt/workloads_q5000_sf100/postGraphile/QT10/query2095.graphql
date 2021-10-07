@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "persuasively"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "coving"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "classier"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

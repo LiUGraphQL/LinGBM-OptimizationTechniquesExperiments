@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "immaterially"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "liturgists"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

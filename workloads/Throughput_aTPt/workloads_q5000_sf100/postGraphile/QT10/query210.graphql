@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "landscapes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

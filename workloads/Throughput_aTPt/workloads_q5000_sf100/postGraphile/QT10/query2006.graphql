@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "lithesome"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

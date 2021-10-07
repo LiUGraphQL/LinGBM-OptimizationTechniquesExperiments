@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "fleshing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

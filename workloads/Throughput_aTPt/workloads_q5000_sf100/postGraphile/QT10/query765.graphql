@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "faintish"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

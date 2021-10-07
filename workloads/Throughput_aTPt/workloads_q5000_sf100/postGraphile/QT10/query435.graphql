@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "summery"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "changeful"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

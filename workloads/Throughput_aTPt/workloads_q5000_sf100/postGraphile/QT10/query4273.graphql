@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "queering"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

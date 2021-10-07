@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "mulier"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

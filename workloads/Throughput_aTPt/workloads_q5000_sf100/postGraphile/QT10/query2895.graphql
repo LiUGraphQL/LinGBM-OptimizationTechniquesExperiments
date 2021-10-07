@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "allayed"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

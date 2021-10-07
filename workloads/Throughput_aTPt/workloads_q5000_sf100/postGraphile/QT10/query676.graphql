@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "doeskins"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

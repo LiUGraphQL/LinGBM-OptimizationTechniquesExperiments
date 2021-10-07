@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "isopropyl"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

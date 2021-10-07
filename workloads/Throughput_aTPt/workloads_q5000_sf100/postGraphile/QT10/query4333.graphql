@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "delighting"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

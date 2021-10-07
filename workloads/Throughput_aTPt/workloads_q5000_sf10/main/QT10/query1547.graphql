@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"unyokes") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

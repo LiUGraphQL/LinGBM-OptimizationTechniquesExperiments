@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"aahed") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

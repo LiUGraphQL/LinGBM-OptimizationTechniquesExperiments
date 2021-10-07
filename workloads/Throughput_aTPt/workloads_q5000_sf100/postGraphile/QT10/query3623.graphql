@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "werewolf"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

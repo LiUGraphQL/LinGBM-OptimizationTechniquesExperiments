@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "florescent"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

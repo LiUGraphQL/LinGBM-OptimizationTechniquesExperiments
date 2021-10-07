@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "swelling"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

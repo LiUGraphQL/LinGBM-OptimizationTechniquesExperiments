@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "eluder"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

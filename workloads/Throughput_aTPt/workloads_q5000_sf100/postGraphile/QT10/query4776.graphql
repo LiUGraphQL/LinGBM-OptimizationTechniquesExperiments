@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "picador"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

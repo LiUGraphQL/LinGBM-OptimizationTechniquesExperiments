@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "gerbils"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

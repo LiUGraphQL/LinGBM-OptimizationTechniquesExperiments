@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "magnesic"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

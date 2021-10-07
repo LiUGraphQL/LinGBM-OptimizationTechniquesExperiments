@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "waspier"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

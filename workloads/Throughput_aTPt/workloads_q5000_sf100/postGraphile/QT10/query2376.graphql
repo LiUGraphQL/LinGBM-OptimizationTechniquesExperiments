@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "psychometrics"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

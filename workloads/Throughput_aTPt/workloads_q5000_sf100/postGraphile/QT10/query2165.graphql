@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "catheterizing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

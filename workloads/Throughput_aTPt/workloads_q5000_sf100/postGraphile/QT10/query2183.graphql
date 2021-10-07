@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "silking"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

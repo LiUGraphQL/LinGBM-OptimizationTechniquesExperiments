@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "dressages"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

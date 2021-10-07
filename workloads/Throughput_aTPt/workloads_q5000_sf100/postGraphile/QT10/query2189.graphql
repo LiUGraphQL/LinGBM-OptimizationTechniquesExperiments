@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "nightshirts"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

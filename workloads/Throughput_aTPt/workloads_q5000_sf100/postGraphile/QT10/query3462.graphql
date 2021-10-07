@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "manchurians"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

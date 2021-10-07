@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "misinterpretation"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

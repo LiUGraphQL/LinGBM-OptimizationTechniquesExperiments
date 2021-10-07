@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"abolishing") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

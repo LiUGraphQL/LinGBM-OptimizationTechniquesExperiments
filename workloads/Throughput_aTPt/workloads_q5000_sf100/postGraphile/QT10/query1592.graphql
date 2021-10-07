@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "standup"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "abandonedly"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

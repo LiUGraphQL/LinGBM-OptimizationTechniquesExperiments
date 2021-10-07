@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "borts"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

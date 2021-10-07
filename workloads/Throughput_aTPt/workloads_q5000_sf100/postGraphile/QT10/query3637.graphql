@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "idioms"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

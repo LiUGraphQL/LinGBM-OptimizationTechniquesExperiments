@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "punctuates"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

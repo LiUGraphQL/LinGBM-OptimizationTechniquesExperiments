@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"recollecting") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

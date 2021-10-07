@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "gashouses"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

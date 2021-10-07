@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "prohibitively"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

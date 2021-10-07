@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "belays"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

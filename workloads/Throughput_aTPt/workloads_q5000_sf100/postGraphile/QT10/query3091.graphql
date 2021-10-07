@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bumpering"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

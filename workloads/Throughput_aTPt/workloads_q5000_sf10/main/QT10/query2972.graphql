@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"defalcate") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

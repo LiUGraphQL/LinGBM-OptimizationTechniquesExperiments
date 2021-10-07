@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"aortal") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

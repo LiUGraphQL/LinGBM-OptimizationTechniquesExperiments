@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bircher"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

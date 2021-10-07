@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sharpie"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

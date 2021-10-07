@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "foreplays"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

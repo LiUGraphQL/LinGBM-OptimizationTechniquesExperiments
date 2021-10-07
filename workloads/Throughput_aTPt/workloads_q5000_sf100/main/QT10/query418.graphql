@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"countered") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

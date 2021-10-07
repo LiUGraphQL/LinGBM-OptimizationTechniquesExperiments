@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "claimless"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

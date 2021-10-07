@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "footropes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

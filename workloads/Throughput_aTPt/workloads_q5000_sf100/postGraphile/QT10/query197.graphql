@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "tinges"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

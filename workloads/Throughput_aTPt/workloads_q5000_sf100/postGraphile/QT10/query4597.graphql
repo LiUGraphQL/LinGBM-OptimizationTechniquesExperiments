@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "somnolently"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

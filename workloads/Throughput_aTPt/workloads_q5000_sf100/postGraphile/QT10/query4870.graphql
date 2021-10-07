@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "manning"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

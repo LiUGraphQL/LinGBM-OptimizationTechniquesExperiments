@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "crimsoning"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

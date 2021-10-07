@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "pinstripes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

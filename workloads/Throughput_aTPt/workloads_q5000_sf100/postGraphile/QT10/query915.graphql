@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unsays"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

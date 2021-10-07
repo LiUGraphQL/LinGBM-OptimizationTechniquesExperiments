@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "neighboring"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

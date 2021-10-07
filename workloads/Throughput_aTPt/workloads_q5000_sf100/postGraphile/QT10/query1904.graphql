@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "spores"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

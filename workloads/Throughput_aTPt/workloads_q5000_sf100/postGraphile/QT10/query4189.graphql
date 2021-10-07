@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "mayoralties"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

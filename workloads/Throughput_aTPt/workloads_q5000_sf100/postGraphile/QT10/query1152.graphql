@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "annunciation"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

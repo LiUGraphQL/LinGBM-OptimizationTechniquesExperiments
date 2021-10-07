@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "frigidity"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "emigrational"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "baryon"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

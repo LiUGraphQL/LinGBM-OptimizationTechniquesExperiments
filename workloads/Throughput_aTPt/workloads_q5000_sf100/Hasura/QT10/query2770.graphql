@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%crushable%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

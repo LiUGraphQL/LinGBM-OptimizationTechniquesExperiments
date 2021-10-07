@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "reinstated"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

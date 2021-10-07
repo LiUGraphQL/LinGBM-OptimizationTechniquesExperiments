@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "missives"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

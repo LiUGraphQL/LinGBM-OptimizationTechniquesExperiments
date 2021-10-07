@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "lamenting"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

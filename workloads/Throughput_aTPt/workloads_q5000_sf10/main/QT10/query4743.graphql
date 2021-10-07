@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"incinerated") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

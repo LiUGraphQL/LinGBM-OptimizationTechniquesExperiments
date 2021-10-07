@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "monstrances"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "valse"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

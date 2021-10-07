@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "coadmit"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

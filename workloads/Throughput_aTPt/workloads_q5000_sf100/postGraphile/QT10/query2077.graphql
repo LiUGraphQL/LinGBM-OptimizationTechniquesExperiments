@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "metrology"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

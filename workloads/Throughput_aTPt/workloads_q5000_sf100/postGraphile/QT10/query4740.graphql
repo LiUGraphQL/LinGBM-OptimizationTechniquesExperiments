@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "frizz"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

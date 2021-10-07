@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "railer"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

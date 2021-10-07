@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "honesties"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

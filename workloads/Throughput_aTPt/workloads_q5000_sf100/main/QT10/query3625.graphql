@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"electioneering") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

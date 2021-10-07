@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "remembering"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

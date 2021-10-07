@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "pariahs"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

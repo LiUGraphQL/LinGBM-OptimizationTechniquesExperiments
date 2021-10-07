@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "biogenic"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

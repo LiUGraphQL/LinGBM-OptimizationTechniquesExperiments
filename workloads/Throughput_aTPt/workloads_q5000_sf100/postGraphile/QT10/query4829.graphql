@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "extrajudicially"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

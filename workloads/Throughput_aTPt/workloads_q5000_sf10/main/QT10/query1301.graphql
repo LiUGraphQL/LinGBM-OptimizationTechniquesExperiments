@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"medicant") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

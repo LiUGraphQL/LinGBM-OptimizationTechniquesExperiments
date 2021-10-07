@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "methylparaben"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "nervelessly"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

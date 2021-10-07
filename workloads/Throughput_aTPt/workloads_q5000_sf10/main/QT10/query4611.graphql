@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"carboxyl") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

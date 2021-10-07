@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "retook"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "rainbows"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

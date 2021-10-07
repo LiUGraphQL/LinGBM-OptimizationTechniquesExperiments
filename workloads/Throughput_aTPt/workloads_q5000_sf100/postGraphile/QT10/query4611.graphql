@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "disuse"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

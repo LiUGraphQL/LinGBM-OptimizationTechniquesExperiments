@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "whiffing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

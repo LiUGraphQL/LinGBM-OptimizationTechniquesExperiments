@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "gallicism"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

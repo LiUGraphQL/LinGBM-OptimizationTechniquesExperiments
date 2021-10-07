@@ -1,9 +1,0 @@
-{ 
-	graduateStudents (limit:559, order:[telephone, id]){ 
-		id 
-		telephone 
-		emailAddress 
-	} 
-} 
-
- 

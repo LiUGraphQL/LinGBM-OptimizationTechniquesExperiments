@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "acoustically"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

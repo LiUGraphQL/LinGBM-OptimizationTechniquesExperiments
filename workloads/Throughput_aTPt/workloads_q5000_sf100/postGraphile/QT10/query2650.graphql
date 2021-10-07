@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "defeminizing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

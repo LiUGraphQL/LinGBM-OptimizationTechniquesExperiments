@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "notifying"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

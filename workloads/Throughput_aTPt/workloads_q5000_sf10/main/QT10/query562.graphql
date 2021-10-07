@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"patriarchs") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

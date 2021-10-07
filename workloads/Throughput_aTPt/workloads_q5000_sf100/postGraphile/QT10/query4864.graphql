@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "vulcanizers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "latencies"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

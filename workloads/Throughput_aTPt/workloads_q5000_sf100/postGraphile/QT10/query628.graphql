@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "pampean"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

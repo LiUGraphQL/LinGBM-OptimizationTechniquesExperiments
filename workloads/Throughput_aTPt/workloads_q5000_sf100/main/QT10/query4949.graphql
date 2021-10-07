@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"gashouses") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

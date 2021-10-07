@@ -1,9 +1,0 @@
-{ 
-	publicationSearch(field:title, criterion:CONTAINS, pattern:"refund") { 
-		id 
-		title 
-		abstract 
-	} 
-} 
-
- 

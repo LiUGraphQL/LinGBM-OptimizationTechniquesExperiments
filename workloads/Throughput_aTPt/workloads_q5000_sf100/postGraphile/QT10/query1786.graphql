@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "decentered"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

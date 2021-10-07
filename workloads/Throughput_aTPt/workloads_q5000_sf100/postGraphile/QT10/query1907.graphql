@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "exsanguine"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

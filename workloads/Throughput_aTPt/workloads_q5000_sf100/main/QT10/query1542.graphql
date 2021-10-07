@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"bytes") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

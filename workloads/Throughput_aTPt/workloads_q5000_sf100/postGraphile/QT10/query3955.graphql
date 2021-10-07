@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "subcommissioner"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

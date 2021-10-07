@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"vaulting") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "dusked"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

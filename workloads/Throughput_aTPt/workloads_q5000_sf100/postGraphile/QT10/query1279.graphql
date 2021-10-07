@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "designs"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

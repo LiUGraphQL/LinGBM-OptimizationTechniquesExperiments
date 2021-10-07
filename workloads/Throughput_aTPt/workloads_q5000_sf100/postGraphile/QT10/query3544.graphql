@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "revalidation"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

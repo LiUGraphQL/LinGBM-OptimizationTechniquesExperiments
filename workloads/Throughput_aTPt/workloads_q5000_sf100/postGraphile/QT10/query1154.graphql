@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sinhalese"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

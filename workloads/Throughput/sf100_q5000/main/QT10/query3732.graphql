@@ -1,9 +1,0 @@
-{ 
-	publicationSearch(field:title, criterion:CONTAINS, pattern:"shivas") { 
-		id 
-		title 
-		abstract 
-	} 
-} 
-
- 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "rayless"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

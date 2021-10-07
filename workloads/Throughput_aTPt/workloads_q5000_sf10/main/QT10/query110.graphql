@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"slanging") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

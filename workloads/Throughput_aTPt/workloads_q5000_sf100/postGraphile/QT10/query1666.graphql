@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "glycerins"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

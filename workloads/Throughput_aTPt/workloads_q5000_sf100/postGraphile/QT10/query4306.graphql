@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sensated"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

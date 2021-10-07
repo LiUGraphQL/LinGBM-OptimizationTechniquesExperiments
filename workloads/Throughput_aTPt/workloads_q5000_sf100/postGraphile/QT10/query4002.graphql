@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "gipsy"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "disputers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

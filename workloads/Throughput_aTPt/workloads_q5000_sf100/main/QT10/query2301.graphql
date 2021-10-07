@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"reapers") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

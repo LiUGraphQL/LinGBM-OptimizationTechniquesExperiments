@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "defenseless"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "industrialist"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

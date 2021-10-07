@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "consonantly"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

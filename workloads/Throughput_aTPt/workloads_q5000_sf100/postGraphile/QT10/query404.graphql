@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "perked"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

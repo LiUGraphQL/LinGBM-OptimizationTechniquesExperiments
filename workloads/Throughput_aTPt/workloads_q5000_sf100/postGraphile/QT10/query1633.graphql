@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "foreordained"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

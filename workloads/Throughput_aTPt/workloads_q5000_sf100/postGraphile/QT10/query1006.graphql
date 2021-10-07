@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "overgrowing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

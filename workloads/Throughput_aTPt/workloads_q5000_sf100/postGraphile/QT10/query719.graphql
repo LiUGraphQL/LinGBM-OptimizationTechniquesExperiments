@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bergs"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

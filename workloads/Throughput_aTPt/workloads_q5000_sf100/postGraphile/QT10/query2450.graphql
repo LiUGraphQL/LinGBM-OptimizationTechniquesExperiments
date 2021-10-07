@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "undercoat"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

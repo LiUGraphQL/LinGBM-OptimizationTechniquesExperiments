@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"jazziest") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

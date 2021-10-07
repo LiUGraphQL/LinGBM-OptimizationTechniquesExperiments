@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "lambencies"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

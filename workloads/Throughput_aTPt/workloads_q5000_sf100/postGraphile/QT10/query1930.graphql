@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "tetrasaccharide"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

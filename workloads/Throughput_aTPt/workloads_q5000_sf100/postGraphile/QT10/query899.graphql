@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "washstand"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

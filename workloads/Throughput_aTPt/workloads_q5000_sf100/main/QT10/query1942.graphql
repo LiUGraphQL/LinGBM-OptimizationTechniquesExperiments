@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"customers") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

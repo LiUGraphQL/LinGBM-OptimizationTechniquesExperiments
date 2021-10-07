@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "enchanter"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

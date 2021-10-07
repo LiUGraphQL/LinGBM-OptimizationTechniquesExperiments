@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"nondenominational") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

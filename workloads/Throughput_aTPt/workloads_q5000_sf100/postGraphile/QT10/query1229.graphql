@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unaided"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

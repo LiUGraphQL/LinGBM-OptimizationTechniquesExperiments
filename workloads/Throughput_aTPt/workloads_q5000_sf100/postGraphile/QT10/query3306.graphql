@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "gapes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

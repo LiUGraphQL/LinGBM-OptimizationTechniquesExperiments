@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "informalities"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

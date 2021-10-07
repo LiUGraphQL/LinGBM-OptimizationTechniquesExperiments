@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"supraliminal") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

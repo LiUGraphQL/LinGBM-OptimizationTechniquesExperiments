@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "adhesively"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

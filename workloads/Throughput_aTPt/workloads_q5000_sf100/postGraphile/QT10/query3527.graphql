@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "habanera"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

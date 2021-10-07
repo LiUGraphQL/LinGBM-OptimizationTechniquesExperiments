@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "magisters"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

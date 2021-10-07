@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "perfecting"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

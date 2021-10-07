@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "remarkers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "lipping"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cadge"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

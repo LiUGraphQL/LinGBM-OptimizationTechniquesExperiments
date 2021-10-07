@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "acclimatizer"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

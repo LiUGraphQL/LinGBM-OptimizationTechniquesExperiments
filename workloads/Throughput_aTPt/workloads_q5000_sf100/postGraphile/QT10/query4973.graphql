@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "introspectiveness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

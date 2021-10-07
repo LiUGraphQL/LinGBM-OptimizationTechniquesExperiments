@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"prelim") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"feedbox") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

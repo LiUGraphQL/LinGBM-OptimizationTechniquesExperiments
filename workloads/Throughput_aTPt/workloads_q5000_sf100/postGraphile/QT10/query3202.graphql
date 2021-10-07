@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unstarched"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

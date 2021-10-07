@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "shrinker"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

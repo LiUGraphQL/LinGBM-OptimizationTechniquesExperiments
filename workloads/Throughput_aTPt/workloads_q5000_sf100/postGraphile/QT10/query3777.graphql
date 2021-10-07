@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "seismal"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

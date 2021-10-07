@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"disobliged") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

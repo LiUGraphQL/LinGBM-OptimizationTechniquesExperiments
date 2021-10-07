@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"chirpers") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

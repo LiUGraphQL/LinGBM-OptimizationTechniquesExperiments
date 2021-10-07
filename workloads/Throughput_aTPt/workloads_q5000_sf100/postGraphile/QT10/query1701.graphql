@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "absurdities"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

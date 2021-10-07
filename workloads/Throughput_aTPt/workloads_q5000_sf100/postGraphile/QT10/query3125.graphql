@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "stewardesses"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

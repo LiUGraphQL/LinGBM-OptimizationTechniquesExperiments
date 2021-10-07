@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "compressibility"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

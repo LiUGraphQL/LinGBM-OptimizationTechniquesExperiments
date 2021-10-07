@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cringes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

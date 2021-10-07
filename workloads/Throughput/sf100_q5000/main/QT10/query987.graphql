@@ -1,9 +1,0 @@
-{ 
-	publicationSearch(field:title, criterion:CONTAINS, pattern:"litoral") { 
-		id 
-		title 
-		abstract 
-	} 
-} 
-
- 

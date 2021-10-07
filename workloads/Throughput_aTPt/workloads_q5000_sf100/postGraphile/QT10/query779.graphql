@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "backstitching"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

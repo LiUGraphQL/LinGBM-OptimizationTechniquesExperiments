@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "retitle"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

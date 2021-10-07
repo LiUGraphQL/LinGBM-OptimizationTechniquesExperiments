@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "epitomized"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "mortarboard"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

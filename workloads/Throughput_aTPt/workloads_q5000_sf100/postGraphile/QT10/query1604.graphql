@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "draggiest"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

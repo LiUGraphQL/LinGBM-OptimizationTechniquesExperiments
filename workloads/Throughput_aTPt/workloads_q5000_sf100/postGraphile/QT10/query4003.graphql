@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "phagosome"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

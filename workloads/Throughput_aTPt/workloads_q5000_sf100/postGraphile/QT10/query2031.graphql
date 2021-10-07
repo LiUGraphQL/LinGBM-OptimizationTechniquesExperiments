@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "apatites"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

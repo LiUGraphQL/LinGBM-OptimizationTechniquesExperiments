@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sunsuit"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

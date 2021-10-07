@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "imperialist"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

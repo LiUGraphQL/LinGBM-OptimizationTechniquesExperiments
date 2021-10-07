@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "autoing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

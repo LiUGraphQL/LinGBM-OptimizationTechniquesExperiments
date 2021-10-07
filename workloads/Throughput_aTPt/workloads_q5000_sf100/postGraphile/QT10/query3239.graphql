@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "preblessed"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

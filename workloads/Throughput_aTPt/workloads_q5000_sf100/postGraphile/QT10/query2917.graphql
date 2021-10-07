@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "egger"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

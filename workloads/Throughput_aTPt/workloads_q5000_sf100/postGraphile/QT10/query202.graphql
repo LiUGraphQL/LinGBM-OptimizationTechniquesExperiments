@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "frypan"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

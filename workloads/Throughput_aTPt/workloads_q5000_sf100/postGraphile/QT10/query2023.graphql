@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "lummoxes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

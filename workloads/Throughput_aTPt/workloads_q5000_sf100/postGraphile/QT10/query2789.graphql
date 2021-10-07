@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bandstands"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

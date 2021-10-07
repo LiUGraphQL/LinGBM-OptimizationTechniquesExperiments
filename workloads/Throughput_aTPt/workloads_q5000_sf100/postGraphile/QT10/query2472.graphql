@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "airbrushed"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

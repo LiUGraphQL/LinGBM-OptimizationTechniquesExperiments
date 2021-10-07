@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "geophysicists"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

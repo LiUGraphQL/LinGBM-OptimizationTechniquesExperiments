@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "analogies"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

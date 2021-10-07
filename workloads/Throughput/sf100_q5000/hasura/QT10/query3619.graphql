@@ -1,9 +1,0 @@
-{ 
-	publication(where: {title: {_like: "%sporozoa%"}}) { 
-		nr 
-		title 
-		abstract 
-	} 
-} 
-
- 

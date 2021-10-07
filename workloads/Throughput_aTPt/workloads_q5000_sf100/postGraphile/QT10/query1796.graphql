@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "enmesh"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

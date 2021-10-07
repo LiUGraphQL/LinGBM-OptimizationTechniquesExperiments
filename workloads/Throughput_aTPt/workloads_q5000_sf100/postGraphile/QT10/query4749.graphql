@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "dogmata"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

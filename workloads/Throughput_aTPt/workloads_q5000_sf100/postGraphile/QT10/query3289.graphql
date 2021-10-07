@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "discernment"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

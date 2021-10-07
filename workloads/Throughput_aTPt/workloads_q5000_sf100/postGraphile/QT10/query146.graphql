@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "hypocenter"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

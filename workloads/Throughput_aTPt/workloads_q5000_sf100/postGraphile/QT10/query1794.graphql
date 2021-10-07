@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "arcs"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

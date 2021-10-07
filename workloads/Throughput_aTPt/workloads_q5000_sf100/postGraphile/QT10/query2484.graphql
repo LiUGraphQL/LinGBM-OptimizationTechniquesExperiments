@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "slanting"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

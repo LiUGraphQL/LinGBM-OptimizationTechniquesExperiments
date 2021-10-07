@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sheaves"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

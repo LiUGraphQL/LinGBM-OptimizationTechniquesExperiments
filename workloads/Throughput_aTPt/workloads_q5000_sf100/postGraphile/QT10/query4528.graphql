@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "preconstructing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

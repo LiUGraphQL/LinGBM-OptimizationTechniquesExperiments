@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "resorted"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

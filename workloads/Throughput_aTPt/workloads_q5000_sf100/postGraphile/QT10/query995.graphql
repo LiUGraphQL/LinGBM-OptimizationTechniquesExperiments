@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "heroics"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

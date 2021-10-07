@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"puddlings") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

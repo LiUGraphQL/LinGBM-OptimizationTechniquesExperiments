@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "tameable"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

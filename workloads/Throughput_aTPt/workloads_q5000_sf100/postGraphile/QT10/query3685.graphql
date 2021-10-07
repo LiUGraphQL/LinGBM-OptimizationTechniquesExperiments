@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "precooking"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

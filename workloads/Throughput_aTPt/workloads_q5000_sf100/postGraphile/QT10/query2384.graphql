@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sentries"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

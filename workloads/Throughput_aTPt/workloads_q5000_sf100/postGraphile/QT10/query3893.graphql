@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "paragoning"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

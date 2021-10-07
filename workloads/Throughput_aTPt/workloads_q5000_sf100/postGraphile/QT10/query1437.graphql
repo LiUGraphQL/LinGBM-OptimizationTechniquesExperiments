@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "threaders"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

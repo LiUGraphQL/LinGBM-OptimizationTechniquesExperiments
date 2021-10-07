@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "aper"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

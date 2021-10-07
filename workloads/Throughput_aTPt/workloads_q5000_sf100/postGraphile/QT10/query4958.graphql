@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "imploded"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

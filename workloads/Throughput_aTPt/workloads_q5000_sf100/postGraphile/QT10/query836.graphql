@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "hygienist"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

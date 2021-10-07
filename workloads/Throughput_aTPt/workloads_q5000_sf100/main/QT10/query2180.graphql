@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"extremities") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

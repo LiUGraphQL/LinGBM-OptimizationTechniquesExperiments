@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"extinguisher") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

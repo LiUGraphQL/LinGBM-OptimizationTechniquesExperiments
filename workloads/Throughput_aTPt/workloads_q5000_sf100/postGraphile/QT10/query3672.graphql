@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "panatella"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "misogynists"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

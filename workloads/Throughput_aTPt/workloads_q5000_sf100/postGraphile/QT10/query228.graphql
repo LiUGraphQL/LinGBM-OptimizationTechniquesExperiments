@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "restrengthens"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

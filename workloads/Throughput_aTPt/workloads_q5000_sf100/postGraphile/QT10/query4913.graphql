@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "nubbier"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

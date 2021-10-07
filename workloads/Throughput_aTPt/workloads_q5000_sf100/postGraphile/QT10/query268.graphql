@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "antiacid"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

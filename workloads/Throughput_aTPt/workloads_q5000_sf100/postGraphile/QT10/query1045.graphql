@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "stubs"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

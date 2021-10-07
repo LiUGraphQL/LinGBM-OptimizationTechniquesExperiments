@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bootlicks"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "reversionary"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

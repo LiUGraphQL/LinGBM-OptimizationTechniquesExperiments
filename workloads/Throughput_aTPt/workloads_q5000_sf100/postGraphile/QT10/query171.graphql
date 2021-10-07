@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "limbeck"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

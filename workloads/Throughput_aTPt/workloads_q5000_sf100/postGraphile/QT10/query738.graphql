@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "exceeders"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

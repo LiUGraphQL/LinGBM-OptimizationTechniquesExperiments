@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "postludes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

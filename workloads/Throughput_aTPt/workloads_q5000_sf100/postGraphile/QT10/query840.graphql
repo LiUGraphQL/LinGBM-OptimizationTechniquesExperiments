@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "lousing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

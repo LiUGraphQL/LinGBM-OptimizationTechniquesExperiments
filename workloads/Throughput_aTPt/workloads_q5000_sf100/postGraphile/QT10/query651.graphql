@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "electively"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

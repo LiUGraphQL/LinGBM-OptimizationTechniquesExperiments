@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"legators") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

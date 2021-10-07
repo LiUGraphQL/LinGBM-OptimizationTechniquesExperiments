@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"nonmilitants") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

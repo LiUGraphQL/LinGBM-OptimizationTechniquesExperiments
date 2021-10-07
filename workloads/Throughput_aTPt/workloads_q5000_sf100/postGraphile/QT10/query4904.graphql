@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "handpicked"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

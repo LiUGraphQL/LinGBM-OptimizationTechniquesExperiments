@@ -1,0 +1,19 @@
+{
+  allUniversities(condition: {nr: 88}) {
+    nodes {
+      facultiesByDoctoraldegreefrom(condition: {worksfor: 8415}) {
+        nodes {
+          nr
+          emailaddress
+          publicationsByMainauthor {
+            nodes {
+              nr
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+ 

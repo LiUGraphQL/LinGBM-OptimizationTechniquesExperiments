@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "ingeniousness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

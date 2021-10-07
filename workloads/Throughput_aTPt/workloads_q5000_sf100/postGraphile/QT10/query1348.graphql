@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sandworms"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "muriate"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

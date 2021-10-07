@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "indued"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

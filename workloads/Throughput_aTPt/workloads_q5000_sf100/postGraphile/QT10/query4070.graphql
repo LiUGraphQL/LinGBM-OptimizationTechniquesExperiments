@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "distracted"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

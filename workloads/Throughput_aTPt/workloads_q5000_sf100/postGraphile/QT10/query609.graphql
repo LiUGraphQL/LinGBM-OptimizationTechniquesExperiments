@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "lasagnas"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

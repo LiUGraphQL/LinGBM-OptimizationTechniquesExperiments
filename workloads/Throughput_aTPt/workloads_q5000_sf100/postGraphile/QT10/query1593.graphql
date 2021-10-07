@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "untreading"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

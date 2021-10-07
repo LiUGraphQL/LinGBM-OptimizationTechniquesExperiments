@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "nonbeings"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

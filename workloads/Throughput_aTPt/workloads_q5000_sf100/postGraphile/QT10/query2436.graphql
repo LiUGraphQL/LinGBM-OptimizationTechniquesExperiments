@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "aconite"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

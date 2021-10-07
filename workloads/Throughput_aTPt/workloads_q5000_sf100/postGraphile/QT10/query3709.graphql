@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bummer"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

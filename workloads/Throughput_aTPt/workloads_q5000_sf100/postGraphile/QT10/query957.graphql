@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "caesura"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

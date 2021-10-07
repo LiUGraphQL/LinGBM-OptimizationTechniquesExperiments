@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unlooked"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

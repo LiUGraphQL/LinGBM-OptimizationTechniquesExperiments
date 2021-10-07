@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "subtends"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

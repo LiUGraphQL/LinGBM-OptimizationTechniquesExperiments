@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "lichenoid"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

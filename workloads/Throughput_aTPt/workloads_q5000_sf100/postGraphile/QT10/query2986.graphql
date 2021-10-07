@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "throbbing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

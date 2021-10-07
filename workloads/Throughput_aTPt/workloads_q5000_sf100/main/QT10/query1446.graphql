@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"repressibility") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

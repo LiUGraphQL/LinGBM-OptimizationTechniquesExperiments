@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "tamps"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

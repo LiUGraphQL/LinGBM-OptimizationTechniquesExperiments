@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "filterability"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

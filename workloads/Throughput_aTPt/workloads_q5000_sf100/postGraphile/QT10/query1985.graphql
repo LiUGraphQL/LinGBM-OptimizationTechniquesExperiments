@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sandhogs"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "emasculates"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

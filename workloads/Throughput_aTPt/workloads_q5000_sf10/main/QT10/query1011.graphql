@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"disproves") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

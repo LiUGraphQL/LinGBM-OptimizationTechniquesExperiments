@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "chieftainships"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

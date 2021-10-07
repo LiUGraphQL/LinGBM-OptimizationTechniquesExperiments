@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "appellation"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

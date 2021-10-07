@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "piously"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

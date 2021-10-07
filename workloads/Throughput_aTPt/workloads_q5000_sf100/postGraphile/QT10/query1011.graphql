@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "motioned"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

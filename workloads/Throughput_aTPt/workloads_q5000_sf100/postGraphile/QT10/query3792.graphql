@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "catalytically"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

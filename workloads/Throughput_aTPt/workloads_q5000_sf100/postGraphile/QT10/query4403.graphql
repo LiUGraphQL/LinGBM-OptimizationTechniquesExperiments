@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "poco"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

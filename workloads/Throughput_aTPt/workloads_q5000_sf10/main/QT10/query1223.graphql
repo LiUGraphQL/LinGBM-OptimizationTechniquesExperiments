@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"infiltrating") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

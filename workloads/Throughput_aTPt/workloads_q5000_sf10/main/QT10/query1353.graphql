@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"wearier") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

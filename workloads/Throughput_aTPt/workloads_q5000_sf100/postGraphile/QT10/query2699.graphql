@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "nonconductors"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

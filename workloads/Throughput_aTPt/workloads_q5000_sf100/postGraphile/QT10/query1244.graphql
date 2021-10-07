@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "degums"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

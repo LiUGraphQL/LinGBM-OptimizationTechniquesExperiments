@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unexploded"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

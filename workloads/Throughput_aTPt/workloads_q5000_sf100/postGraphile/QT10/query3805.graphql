@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "filthily"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "dustily"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

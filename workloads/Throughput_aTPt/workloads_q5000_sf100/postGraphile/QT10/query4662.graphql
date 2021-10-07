@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "lodgings"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

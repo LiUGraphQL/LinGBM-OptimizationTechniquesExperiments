@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "filliped"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "decrements"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

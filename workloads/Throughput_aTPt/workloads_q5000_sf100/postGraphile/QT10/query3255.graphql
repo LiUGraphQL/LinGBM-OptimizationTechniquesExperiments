@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "frescoists"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

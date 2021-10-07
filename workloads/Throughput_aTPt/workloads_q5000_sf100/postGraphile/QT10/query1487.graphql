@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "echoing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

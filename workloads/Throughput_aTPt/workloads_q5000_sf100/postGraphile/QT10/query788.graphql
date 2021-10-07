@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "prewashing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

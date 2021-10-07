@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"whitecap") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

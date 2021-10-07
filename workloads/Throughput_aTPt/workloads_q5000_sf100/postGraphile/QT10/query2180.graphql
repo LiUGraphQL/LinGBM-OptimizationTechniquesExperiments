@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "extremities"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

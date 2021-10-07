@@ -1,9 +1,0 @@
-{ 
-	publicationSearch(field:title, criterion:CONTAINS, pattern:"proverbed") { 
-		id 
-		title 
-		abstract 
-	} 
-} 
-
- 

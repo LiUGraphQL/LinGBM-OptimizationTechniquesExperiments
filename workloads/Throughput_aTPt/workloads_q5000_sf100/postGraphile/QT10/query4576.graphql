@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "antivivisectionists"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

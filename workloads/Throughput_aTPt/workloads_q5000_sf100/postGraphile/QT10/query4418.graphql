@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "reminisces"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "geoidal"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "biaxal"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "diopters"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

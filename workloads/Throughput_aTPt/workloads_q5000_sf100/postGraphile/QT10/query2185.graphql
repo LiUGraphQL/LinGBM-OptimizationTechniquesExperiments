@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "billiards"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

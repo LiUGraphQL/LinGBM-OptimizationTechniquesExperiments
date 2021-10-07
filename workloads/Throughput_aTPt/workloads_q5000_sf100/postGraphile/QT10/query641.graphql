@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "jillion"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

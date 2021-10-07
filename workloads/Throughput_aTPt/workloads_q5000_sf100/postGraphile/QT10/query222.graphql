@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "stalingrad"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

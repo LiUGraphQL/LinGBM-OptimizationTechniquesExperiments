@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "harshest"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

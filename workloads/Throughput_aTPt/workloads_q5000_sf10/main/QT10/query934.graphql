@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"lapwings") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

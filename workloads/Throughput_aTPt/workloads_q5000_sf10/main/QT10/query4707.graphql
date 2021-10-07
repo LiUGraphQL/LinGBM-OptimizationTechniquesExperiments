@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"mammons") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

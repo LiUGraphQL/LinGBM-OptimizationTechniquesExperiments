@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "minidisks"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

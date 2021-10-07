@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "plena"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

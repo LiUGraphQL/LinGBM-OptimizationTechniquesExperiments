@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "isolator"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

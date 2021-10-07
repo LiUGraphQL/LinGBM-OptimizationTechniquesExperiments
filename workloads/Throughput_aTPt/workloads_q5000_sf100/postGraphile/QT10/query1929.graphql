@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "abhorrer"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

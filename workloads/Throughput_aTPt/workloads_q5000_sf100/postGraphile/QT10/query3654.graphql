@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cragsmen"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

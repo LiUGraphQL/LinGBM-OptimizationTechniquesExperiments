@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "hookers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

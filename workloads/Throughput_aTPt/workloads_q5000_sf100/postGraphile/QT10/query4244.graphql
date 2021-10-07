@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "duckweed"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

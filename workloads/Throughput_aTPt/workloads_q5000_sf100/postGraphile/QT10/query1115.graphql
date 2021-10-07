@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "proposer"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

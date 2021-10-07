@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "panegyric"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

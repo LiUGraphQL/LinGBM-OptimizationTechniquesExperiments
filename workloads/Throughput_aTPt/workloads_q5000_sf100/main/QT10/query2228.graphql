@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"thudding") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "splosh"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

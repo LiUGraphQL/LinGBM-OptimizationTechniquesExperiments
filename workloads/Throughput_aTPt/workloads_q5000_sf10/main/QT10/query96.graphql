@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"pebbled") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

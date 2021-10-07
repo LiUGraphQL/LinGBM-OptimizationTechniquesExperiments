@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "graveless"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

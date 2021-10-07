@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "trepans"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

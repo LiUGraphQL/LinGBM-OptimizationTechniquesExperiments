@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "pileups"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

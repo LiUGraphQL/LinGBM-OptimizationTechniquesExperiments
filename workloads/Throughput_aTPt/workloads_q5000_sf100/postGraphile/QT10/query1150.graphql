@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "reaccepted"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

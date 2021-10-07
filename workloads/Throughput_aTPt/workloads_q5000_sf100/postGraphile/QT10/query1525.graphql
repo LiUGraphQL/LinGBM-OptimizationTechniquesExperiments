@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "connivers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

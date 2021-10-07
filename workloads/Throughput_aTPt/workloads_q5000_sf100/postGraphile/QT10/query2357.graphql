@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "compadres"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

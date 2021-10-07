@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "scouring"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

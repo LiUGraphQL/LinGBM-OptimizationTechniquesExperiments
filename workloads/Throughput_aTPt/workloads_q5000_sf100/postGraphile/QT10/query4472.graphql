@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "emulsifies"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

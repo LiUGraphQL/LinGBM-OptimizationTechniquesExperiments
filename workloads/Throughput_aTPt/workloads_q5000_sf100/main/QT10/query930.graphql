@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"inviabilities") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

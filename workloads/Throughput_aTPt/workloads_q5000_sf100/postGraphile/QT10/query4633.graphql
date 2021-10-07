@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "muring"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

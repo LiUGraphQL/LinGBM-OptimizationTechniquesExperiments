@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"foaming") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

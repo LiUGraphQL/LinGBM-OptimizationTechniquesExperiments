@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "tippler"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

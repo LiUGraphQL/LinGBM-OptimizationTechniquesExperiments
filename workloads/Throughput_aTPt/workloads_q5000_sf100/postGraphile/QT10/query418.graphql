@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "countered"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

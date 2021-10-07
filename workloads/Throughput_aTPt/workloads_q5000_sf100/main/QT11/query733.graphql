@@ -1,0 +1,8 @@
+{ 
+	graduateStudents (where: {university: {nr:192} } ) { 
+		id 
+		advisor {id} 
+	} 
+}
+
+ 

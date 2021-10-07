@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "reallocation"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

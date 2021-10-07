@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unlettable"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sweller"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

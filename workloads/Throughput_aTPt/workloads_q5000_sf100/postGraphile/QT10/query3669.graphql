@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "effusions"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

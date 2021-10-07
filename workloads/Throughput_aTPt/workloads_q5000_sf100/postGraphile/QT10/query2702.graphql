@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "deferentially"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

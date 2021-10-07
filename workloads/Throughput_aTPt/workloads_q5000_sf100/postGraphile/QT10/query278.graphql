@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "spans"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

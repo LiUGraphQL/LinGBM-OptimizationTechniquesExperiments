@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "flirters"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

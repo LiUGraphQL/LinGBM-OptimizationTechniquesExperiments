@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bravoes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

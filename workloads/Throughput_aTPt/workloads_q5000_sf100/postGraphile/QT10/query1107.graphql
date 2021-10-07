@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "stylistically"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

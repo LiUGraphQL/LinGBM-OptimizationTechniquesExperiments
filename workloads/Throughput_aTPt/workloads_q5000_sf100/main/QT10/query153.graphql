@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"photocatalyst") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

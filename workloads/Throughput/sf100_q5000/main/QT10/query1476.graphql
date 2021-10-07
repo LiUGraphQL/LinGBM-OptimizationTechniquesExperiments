@@ -1,9 +1,0 @@
-{ 
-	publicationSearch(field:title, criterion:CONTAINS, pattern:"unfashionable") { 
-		id 
-		title 
-		abstract 
-	} 
-} 
-
- 

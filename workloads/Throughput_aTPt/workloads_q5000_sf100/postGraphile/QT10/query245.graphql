@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "narc"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

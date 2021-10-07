@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "crenate"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

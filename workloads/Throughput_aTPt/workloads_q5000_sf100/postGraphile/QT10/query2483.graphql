@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sallier"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

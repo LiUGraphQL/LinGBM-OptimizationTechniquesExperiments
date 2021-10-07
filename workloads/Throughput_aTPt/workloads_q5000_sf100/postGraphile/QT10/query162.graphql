@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "stereochemistry"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

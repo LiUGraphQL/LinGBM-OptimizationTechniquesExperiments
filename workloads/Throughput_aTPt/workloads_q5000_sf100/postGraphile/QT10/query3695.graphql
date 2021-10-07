@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "reporting"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

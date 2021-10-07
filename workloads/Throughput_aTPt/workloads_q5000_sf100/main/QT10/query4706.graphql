@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"conversely") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

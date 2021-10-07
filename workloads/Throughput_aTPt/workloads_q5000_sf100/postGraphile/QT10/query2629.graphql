@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "overprinted"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

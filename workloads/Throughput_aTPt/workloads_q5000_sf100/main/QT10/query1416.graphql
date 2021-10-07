@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"pentameters") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

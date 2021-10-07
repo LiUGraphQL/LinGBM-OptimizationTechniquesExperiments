@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "dossed"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

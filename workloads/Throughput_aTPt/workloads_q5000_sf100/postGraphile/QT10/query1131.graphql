@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "mahjongg"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

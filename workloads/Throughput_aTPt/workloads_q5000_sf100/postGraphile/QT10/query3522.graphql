@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "filially"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

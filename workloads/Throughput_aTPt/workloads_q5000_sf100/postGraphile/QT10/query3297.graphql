@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "ductility"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

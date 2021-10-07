@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "venality"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

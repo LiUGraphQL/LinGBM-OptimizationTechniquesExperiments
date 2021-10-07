@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bicyclic"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

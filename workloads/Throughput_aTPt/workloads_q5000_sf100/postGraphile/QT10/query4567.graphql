@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sporozoan"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

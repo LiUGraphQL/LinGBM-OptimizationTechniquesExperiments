@@ -1,9 +1,0 @@
-{ 
-	graduatestudent (limit:529, order_by:{memberof:asc, undergraduatedegreefrom:asc}){ 
-		nr 
-		telephone 
-		emailaddress 
-	} 
-} 
-
- 

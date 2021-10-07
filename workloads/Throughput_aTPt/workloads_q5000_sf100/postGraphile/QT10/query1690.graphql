@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "nonexempt"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

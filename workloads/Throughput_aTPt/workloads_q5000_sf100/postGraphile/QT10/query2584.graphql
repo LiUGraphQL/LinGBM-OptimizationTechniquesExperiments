@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "leagues"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

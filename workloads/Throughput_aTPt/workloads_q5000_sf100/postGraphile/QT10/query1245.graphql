@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "yodels"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

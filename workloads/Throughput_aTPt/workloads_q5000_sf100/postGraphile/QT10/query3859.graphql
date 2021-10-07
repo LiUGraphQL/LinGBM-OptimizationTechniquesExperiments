@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "dogmatically"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

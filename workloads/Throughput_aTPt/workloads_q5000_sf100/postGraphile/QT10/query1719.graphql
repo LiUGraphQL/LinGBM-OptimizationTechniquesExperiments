@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "multifaceted"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

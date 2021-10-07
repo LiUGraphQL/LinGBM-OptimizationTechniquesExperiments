@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "contender"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "voidance"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

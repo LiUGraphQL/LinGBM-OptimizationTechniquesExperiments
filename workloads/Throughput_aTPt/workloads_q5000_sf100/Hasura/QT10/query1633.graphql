@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%foreordained%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

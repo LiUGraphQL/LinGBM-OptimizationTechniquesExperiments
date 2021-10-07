@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "kirsch"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

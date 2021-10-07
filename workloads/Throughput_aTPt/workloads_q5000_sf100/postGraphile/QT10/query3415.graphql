@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "stagecoaches"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

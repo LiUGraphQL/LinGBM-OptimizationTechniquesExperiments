@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "steering"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

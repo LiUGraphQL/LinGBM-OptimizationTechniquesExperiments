@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "budger"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

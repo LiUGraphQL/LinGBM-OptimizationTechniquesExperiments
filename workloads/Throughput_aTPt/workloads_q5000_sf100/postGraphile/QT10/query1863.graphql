@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "fatiguing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

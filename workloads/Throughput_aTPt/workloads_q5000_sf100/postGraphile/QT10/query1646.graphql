@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "breeder"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

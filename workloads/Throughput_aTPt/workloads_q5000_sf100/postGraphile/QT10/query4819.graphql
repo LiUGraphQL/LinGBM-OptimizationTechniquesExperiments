@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "reorienting"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

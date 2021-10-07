@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "jesuitical"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sunglow"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "enrollment"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

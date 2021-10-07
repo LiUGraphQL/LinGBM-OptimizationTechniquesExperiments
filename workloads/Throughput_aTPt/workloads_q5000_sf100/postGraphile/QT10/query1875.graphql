@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "somebodies"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

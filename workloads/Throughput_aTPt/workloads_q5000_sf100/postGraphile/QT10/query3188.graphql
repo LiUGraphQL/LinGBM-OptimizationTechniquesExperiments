@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cowfish"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"providentially") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

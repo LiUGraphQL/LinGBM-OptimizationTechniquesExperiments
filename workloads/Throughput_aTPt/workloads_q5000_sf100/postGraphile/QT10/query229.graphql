@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "symbolical"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "visualizes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

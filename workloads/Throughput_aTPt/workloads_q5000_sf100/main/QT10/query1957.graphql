@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"glorifying") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

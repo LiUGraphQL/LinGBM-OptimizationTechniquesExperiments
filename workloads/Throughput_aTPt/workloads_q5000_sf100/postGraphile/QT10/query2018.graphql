@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "execrators"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

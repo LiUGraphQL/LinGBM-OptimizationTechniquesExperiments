@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "boughten"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

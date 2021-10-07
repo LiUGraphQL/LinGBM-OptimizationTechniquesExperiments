@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "undoes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

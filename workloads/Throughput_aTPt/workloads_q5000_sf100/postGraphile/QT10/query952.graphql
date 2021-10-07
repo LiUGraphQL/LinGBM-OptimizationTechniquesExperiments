@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "tapered"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"awninged") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

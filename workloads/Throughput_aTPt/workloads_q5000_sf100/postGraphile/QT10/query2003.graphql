@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "acclaiming"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

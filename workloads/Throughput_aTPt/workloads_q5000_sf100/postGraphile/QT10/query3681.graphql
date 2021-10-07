@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "uncombined"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

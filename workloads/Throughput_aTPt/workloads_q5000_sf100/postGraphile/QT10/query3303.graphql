@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "insanity"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

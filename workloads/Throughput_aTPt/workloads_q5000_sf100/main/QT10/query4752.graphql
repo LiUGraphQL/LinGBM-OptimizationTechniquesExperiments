@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"ungraciously") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

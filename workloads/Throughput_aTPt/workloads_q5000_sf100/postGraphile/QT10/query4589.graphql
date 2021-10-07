@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "pottage"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

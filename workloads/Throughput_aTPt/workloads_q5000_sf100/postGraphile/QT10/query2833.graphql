@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "stagehands"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

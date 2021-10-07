@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "fewest"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

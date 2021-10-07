@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "syllables"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

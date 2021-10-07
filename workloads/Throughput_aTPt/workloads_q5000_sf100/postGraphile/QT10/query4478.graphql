@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "nonethically"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

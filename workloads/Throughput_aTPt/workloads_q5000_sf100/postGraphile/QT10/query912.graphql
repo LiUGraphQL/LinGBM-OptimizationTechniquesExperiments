@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "tariffed"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

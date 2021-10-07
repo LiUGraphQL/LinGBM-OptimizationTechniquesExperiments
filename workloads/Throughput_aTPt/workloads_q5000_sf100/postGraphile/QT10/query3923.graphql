@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "flenser"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

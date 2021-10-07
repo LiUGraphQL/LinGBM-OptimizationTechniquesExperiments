@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "foiled"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

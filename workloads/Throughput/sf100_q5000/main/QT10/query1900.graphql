@@ -1,9 +1,0 @@
-{ 
-	publicationSearch(field:title, criterion:CONTAINS, pattern:"veld") { 
-		id 
-		title 
-		abstract 
-	} 
-} 
-
- 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "parlaying"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

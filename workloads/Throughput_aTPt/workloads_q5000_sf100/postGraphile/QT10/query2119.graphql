@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "disarranges"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

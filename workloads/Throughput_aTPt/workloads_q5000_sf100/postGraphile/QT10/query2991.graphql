@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "noisily"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"cormorants") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

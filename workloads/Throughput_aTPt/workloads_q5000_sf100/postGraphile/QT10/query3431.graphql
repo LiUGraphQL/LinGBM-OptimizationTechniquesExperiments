@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "chagrinning"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

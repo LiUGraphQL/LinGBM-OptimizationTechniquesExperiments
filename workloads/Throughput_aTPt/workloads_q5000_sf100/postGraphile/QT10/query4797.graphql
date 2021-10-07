@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "falconet"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

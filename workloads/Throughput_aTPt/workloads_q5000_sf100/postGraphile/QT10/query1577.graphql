@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "seating"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

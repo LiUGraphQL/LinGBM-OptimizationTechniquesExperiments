@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "erasions"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

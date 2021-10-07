@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cicerone"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

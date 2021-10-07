@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "wared"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unsurveyed"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

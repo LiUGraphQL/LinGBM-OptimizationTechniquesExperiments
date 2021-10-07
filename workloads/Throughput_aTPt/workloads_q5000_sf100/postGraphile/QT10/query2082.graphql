@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "nabs"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

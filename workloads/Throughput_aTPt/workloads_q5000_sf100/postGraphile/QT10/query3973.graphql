@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "inebriated"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "synthesizes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

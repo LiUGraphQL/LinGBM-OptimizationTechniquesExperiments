@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "inalterably"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

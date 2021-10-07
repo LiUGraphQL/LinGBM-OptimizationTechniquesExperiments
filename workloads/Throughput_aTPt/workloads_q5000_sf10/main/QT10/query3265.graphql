@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"terrifies") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

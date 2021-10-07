@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "scoopsful"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

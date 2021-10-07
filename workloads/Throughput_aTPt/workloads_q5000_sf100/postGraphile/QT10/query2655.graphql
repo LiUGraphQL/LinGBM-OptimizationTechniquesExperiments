@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "waterproofing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

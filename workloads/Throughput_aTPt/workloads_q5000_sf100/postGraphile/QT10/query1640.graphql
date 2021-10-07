@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "paternities"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

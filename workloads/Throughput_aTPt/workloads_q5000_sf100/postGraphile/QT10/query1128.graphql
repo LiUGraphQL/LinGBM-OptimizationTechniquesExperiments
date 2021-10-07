@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "liquefying"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "carom"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

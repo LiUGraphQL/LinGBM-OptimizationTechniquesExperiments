@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "endorsers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

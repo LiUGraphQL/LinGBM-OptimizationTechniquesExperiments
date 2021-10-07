@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "forboding"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

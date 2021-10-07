@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "screwed"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

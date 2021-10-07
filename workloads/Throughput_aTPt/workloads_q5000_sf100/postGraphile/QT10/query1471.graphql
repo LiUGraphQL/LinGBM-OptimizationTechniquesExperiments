@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "dicotyledons"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "disciplined"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

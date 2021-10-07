@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cavorted"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

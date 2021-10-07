@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "spaceships"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

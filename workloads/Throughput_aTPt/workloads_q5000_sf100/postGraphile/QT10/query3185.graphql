@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "hushing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

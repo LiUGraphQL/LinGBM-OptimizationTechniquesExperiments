@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "dilatator"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cuddlesome"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "fructifies"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

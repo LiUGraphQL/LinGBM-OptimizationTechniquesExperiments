@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "tabour"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

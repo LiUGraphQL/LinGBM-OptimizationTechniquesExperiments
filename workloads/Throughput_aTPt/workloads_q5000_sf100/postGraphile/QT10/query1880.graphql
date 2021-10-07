@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "retrained"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,9 +1,0 @@
-{ 
-	publication(where: {title: {_like: "%redistribution%"}}) { 
-		nr 
-		title 
-		abstract 
-	} 
-} 
-
- 

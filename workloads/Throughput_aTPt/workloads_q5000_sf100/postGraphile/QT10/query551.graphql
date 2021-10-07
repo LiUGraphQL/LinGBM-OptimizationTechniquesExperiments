@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "deceasing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

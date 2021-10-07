@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "intuiting"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

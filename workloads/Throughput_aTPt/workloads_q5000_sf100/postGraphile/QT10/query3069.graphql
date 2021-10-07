@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "ajowans"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

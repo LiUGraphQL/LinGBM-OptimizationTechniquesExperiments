@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bradding"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

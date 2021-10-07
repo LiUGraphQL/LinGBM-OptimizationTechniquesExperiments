@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "preassigning"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

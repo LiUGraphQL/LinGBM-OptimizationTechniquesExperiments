@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "kips"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

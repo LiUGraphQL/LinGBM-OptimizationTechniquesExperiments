@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "genuflect"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

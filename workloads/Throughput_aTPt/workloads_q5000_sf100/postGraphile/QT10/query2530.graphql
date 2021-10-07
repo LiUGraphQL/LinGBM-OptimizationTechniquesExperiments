@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "surpasses"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

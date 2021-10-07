@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "malocclusions"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

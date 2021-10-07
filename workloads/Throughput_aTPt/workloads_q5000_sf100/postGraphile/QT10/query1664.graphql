@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "underbred"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

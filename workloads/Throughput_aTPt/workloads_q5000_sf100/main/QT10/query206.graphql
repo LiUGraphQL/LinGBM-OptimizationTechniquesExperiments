@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"andirons") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

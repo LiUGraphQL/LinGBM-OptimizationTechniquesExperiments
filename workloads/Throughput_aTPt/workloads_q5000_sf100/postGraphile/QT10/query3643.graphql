@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "remonetizing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

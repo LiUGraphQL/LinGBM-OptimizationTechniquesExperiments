@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "refreshers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

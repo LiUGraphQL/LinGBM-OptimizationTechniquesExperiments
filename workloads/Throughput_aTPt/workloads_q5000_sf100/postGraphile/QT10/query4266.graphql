@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "corkwoods"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

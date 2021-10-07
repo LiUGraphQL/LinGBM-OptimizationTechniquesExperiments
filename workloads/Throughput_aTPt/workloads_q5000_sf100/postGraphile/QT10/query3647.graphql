@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "nonstrikers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

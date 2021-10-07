@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "angriest"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

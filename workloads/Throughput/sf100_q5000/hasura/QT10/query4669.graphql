@@ -1,9 +1,0 @@
-{ 
-	publication(where: {title: {_like: "%chondrite%"}}) { 
-		nr 
-		title 
-		abstract 
-	} 
-} 
-
- 

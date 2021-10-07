@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "caster"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

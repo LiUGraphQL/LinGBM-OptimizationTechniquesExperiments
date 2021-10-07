@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "incorrectness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

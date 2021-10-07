@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "tryptophane"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

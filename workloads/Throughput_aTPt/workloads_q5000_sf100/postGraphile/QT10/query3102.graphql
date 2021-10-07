@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "avengers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "exscinding"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

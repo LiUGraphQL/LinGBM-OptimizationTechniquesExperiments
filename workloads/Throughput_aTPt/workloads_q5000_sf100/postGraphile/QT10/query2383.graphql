@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "fattiest"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

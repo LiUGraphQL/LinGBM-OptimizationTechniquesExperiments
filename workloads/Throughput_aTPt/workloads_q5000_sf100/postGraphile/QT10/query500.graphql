@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "hatches"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

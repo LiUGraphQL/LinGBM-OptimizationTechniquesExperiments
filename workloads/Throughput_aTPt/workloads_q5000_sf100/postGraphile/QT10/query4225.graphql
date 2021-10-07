@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "radiologists"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

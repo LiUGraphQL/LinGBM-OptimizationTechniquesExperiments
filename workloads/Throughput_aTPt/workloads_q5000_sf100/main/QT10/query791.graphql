@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"nescients") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

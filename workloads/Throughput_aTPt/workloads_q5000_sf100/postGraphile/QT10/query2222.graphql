@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "misapplication"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "salvager"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

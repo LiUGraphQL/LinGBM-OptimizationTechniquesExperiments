@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "tunability"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

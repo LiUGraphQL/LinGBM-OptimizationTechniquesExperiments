@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cataloged"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

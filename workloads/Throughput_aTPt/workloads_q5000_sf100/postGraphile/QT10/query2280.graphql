@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "wonderingly"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

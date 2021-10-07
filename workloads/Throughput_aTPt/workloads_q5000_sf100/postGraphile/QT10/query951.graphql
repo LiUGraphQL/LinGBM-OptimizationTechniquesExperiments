@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "vol"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

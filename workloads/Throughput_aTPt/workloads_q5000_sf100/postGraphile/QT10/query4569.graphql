@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "honeymooner"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "hacklers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

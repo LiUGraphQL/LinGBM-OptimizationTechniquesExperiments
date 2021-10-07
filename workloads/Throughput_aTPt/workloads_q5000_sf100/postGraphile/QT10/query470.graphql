@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "energetics"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

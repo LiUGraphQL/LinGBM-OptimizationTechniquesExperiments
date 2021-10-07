@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "groused"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

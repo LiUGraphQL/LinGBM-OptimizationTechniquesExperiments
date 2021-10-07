@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"biomedicine") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

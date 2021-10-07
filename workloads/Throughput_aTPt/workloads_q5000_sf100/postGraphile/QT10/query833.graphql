@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "warders"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

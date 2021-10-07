@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "ology"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

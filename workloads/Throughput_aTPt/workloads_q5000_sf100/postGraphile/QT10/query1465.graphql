@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "poorest"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

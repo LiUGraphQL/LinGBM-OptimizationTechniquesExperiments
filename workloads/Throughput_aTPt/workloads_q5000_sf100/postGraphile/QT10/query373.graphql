@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "impugners"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

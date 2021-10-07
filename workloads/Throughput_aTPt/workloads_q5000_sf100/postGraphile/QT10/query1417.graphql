@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "defecation"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

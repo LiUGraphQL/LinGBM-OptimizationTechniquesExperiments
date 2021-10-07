@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "drongo"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

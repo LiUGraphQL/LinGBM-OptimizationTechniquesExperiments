@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"geomagnetic") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

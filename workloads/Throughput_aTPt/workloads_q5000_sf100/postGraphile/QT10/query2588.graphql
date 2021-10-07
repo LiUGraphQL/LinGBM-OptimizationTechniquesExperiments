@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "currie"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%refinish%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

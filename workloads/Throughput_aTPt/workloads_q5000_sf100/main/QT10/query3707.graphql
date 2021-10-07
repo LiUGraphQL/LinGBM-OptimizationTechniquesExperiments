@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"coneys") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

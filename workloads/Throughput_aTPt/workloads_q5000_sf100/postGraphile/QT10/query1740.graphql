@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "raffled"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cuestas"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

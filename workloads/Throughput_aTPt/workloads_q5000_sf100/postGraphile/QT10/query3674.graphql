@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "encroached"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "elevators"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

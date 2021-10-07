@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "thirstiest"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

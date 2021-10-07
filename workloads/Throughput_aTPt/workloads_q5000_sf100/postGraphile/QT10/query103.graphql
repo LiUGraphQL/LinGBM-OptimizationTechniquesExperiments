@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "vowers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

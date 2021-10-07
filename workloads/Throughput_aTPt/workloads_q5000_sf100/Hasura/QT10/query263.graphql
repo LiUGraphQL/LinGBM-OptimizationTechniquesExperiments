@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%permafrost%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

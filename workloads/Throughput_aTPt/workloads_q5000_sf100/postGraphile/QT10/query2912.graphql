@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "lanolin"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

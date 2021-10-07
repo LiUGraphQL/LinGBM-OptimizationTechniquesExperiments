@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%forwarder%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

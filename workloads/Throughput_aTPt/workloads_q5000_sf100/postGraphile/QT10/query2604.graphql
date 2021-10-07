@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "glossarial"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "spurtles"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

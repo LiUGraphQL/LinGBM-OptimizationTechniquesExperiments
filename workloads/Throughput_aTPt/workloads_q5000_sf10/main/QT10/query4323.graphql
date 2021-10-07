@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"overdesirous") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

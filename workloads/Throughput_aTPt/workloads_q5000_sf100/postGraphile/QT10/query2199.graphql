@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "magyar"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

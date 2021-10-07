@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "fivers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

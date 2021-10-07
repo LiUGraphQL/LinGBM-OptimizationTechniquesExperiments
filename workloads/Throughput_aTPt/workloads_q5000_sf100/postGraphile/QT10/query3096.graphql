@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "penalization"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

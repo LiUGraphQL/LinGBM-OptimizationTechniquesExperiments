@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "overgarment"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

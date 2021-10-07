@@ -1,0 +1,9 @@
+{ 
+	faculty(nr:2101063){ 
+		doctoralDegreeFrom { 
+			undergraduateDegreeObtainedBystudent{id emailAddress} 
+		} 
+	} 
+}
+
+ 

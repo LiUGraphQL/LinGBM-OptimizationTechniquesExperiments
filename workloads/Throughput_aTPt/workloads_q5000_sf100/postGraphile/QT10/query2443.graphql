@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "veterans"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

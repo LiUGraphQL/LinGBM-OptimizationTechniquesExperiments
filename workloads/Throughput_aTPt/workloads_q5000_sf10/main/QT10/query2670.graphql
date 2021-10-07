@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"spermatocidal") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

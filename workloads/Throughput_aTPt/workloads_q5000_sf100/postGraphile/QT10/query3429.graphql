@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "huggers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

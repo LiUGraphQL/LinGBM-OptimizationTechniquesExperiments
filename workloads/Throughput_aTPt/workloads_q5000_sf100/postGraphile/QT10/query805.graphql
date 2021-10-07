@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "liaises"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

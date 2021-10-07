@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "chlorites"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

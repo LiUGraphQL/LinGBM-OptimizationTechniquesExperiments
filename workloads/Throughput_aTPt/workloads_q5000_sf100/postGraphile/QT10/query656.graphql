@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "scalds"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

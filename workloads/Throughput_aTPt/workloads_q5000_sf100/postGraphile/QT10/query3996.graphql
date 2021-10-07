@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "warthog"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "gists"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

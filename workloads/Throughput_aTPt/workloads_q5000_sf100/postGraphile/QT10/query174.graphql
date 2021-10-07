@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "canner"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

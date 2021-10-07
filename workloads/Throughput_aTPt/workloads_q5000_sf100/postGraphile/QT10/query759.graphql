@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "eternally"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

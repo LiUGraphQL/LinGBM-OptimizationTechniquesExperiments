@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "hectograms"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"cowering") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

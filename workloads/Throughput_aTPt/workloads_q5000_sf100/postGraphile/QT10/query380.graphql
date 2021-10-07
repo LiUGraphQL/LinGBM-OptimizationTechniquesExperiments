@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "untruthful"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

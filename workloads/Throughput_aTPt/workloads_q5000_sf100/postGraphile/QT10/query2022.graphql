@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "twitter"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

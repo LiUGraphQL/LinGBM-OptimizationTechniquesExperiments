@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "hazers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

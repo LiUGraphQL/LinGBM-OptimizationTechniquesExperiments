@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "wickedest"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "circumstantiates"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

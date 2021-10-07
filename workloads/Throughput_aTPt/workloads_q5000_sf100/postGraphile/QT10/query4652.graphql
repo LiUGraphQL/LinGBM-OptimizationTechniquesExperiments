@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "wows"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

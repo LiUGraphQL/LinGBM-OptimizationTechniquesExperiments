@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "reconcentration"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

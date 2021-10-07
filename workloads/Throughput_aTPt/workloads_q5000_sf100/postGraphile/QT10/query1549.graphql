@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "equates"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

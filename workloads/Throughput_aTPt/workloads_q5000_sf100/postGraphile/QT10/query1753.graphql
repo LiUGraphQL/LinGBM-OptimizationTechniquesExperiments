@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "nondenominational"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

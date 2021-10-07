@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "crudeness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

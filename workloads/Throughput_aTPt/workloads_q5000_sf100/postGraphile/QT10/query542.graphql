@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "gamelans"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

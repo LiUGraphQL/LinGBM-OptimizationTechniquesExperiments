@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "whigs"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

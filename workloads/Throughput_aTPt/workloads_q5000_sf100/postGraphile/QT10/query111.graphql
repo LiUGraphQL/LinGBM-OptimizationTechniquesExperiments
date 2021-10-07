@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "receipts"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

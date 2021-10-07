@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "converging"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

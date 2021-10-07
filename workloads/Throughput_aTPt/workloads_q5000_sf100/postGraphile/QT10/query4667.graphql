@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "immanently"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

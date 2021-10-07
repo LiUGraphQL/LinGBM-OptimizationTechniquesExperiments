@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "petrifies"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

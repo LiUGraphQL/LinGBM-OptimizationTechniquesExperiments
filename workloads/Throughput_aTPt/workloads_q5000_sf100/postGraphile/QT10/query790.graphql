@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "nonbreakable"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

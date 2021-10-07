@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "incarcerators"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "harken"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

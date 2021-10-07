@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "nonconsumption"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"tariffed") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

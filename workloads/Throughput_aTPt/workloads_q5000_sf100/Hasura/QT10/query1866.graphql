@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%dreggiest%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

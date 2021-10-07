@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bitchier"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

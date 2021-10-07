@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "environmentally"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

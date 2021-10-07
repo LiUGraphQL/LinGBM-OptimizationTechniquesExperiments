@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "fortified"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

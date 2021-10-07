@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"criminality") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

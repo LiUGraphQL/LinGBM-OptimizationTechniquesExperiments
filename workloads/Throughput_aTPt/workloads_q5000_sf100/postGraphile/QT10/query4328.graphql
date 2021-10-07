@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "punter"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

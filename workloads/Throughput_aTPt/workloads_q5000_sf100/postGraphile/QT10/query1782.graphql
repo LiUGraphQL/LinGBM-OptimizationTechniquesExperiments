@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "entomologies"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

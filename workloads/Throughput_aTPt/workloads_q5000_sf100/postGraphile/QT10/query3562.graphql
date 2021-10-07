@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "monotremata"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

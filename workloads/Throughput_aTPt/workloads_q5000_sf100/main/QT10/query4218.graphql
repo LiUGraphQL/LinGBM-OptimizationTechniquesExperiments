@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"adaption") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

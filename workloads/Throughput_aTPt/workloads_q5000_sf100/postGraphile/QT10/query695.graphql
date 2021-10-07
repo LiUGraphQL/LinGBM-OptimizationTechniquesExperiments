@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "pulsating"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

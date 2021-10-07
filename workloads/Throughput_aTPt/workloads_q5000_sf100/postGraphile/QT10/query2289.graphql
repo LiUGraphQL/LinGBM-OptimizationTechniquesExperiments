@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "glories"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"banjoists") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

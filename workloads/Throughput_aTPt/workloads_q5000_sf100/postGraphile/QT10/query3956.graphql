@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "pidgins"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "remodelling"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

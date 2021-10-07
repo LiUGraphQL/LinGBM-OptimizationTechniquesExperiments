@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"denouncer") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

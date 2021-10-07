@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "seafloor"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

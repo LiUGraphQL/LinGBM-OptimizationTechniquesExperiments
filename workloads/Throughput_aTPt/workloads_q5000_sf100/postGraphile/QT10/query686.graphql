@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "misidentifies"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "invocates"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

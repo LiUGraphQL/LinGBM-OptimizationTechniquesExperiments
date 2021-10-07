@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unsling"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

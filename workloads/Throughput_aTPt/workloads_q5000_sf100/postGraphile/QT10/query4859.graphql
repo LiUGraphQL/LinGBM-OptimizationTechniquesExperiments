@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "suzette"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"scrapper") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

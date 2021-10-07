@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "toxicologist"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

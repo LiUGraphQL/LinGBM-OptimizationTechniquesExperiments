@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "refiled"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "rideable"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

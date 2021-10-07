@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "crescentic"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

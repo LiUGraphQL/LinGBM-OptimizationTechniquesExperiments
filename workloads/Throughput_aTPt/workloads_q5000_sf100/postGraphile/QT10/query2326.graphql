@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "flaggings"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

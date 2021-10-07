@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "distend"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

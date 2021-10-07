@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "temperatures"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

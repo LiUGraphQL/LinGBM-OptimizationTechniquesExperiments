@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "modernist"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

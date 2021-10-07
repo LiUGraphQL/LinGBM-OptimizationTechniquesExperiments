@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "antiphonic"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

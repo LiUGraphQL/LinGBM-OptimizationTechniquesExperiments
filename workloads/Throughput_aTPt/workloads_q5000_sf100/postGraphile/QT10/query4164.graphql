@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "skiings"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

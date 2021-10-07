@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "overheard"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

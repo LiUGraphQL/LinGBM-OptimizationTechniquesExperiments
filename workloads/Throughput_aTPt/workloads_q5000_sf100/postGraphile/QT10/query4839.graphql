@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "walkup"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

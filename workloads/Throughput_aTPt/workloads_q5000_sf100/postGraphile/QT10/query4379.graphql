@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "autogiros"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "chairmaned"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

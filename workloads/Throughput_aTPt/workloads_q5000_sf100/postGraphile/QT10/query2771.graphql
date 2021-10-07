@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "vivacities"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

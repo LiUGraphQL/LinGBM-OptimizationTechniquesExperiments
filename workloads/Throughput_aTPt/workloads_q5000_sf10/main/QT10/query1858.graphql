@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"correlative") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

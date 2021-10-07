@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "remake"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

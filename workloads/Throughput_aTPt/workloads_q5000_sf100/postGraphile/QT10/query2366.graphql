@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "flyings"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

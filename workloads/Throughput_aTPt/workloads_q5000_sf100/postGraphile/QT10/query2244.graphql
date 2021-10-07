@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "postulation"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

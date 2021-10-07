@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sideswiper"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

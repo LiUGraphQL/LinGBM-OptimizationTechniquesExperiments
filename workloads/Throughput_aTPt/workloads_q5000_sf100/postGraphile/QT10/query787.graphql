@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "selsyns"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

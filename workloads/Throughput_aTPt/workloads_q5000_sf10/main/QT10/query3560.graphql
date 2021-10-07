@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"corals") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

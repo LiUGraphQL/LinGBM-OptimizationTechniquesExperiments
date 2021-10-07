@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "monstrosities"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

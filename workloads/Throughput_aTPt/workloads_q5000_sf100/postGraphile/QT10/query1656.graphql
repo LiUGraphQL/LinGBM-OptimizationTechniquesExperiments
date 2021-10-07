@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sucres"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

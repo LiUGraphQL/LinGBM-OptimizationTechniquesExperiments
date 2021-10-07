@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "chromes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

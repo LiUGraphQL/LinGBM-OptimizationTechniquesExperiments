@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sledded"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

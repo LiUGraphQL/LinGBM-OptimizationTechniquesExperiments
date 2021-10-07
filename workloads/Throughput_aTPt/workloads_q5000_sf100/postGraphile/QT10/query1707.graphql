@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "overland"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

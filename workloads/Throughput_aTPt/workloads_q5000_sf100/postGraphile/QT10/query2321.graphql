@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "promissory"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

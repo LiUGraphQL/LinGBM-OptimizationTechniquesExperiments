@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "aliases"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

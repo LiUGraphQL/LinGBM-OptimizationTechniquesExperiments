@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "rehemmed"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

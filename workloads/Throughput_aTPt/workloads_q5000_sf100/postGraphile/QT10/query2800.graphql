@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "iodized"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

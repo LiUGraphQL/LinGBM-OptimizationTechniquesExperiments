@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "panegyrizing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "serigraphs"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

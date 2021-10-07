@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "jocundities"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

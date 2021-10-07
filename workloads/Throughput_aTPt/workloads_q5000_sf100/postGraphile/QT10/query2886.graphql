@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "arousals"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

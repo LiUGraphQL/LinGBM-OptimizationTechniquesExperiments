@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "calthrops"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "subverted"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

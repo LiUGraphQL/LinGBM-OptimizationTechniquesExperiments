@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "mistunes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "strolling"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

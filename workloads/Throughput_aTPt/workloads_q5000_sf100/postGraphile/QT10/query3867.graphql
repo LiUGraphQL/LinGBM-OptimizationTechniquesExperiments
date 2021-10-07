@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "accusingly"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

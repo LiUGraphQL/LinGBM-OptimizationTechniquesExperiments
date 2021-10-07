@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "miscellaneousness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

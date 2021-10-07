@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"shameless") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

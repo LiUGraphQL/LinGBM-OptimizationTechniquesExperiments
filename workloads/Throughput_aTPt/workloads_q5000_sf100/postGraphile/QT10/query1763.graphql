@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "palpitation"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "toledos"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

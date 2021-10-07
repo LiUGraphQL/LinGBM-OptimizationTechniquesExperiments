@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"eisteddfod") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

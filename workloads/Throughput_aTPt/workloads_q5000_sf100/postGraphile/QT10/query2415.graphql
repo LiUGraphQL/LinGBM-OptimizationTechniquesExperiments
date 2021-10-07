@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "flophouse"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

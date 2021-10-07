@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "vigors"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

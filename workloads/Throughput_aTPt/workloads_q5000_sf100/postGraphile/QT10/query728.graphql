@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "parkinsonism"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

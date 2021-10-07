@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "merged"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

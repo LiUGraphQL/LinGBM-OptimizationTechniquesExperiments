@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "verbs"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

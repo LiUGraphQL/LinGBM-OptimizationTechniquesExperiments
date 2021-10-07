@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "lisps"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

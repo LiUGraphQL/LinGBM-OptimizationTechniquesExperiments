@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "palters"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

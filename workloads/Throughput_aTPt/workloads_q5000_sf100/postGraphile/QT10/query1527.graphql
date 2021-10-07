@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "idealists"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

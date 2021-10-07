@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%reparative%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

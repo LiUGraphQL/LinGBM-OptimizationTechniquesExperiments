@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "jojoba"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

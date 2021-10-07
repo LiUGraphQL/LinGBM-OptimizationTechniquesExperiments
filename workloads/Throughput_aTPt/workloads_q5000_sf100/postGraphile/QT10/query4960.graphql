@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "crypts"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

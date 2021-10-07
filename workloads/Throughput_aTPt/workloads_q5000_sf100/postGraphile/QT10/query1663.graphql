@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "labouring"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

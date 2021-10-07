@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "mentholated"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

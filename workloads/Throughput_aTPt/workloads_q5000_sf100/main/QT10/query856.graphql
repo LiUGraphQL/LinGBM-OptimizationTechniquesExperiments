@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"lounger") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "noncommunicative"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "fats"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "provolone"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

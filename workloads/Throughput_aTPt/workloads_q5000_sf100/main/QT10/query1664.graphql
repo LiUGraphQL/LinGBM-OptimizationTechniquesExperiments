@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"underbred") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

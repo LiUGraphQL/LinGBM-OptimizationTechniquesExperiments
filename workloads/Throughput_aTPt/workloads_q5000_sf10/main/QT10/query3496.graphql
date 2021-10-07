@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"gormands") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

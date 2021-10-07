@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "probers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

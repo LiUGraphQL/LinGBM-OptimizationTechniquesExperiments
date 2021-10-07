@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "californian"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "obdurately"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

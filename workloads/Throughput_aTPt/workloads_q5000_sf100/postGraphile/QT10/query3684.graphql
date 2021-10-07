@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "fuggier"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

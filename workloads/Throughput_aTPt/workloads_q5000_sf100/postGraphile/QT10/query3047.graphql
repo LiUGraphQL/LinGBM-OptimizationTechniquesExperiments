@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "immolated"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

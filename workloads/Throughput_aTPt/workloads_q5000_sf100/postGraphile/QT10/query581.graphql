@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "voicelessness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "contra"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

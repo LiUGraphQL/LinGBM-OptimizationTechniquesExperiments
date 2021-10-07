@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "jubilees"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

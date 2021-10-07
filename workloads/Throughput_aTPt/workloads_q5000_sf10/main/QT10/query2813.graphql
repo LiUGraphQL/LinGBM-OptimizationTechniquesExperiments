@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"gushiest") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

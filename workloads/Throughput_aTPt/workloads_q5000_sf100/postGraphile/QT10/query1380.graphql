@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "prevocational"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

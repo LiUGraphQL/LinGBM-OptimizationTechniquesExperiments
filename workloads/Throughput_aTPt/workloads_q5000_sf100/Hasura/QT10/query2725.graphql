@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%excising%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

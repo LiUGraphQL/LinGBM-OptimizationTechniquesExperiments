@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"pulpier") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

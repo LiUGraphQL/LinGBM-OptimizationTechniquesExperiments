@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "redescribe"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

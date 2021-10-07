@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bustier"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

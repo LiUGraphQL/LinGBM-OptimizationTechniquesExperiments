@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "reprehension"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

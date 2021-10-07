@@ -1,0 +1,9 @@
+{ 
+	faculty(where: {nr: {_eq: 9400063 }}){ 
+		university { 
+			graduatestudents {nr emailaddress} 
+		} 
+	} 
+}
+
+ 

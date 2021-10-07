@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "woodman"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

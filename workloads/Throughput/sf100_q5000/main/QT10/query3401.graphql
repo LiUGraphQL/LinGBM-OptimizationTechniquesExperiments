@@ -1,9 +1,0 @@
-{ 
-	publicationSearch(field:title, criterion:CONTAINS, pattern:"shammers") { 
-		id 
-		title 
-		abstract 
-	} 
-} 
-
- 

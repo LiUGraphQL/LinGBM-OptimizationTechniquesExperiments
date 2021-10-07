@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "placebos"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

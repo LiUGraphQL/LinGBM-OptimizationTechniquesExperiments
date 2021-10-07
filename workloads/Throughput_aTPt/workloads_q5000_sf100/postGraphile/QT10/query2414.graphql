@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "shaftings"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

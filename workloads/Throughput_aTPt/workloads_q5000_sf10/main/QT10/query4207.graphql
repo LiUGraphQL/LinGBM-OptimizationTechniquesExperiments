@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"overapprehensive") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

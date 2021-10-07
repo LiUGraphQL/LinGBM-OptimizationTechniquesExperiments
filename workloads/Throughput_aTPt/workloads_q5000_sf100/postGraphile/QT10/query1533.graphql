@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "insomnias"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

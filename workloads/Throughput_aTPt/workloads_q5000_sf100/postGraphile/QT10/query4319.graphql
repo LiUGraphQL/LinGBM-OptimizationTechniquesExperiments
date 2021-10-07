@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "mudder"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

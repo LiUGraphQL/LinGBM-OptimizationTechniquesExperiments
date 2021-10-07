@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "dissects"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

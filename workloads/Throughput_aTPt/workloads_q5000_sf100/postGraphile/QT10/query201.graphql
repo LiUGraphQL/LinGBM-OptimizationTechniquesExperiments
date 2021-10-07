@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "eardrums"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

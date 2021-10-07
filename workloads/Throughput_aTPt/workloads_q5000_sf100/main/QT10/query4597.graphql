@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"somnolently") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

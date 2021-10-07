@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "chafed"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

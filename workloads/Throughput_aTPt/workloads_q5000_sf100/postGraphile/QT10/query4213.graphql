@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "hussies"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

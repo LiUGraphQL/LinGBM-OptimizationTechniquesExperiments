@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "odiums"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

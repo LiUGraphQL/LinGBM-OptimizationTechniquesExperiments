@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "exteriorly"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

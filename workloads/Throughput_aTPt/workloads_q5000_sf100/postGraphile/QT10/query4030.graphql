@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "blasty"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

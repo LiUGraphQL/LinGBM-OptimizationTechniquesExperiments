@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "shriekier"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

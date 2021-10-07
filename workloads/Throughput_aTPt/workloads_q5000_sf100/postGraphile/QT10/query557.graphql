@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sauces"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

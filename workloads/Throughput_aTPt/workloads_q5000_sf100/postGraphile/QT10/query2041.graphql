@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "whirlers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "minaciousness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

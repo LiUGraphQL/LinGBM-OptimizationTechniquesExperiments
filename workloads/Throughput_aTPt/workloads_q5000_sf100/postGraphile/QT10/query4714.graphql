@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "byelorussians"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

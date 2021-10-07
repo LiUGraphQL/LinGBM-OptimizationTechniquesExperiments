@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "diplex"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

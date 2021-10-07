@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"punchier") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

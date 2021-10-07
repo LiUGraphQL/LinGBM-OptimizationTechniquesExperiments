@@ -1,0 +1,13 @@
+{ 
+  researchGroup(nr:610702) { 
+    subOrganizationOf { 
+      head { 
+        id 
+        emailAddress 
+        doctoralDegreeFrom {id} 
+      } 
+    } 
+  } 
+} 
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "mustiness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

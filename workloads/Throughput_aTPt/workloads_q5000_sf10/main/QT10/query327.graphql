@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"scoffer") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

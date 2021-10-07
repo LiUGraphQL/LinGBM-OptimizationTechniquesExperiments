@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "carmaker"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

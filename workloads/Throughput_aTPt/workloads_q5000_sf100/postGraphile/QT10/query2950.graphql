@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "deterrer"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "collop"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

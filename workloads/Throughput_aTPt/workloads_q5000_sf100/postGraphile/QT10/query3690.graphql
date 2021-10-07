@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "fulled"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

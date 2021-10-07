@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "peonage"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

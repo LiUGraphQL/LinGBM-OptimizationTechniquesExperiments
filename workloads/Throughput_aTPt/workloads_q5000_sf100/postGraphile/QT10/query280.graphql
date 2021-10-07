@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "chicle"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

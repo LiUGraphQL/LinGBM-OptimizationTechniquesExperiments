@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "reflections"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

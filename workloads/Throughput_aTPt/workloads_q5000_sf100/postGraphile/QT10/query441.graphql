@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "vastity"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

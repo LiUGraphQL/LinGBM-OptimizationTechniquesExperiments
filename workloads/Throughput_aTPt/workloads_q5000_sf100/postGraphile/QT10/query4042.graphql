@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "prissiest"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

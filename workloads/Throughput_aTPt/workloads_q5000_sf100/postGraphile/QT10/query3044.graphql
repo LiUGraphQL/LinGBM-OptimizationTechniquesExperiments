@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "shopkeeper"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

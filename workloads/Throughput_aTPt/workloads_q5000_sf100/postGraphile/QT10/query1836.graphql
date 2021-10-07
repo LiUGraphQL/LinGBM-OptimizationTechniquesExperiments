@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "minnows"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

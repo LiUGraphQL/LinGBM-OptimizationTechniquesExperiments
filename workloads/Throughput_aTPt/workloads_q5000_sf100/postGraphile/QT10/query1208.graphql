@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "saddles"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

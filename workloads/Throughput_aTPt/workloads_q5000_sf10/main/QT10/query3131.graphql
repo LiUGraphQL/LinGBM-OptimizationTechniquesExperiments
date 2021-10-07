@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"prattles") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "tombs"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

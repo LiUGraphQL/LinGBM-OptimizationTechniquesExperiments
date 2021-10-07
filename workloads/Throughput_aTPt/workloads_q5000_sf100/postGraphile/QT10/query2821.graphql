@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "disavowing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

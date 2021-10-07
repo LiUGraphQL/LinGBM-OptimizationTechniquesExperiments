@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "easts"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

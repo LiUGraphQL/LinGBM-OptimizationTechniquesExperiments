@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "foreground"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

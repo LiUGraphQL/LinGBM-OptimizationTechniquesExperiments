@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "aptitudes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

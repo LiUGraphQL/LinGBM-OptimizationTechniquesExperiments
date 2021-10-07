@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "surfeits"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

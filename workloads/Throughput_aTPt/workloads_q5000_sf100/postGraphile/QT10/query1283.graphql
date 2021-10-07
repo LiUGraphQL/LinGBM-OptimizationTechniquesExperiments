@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "besmeared"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

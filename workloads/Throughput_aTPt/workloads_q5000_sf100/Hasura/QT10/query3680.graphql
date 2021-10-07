@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%isogamy%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

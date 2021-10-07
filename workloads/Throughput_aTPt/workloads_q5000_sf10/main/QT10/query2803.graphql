@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"backbit") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

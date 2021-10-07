@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "wisecrackers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

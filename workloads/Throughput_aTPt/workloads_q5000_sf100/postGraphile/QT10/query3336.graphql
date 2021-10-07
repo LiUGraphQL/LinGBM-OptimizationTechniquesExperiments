@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "interreligious"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

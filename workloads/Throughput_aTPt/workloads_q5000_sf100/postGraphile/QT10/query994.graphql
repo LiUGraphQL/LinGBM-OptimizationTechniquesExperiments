@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "simonizes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

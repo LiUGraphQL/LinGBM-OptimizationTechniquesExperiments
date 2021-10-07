@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "peristyles"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "vaporizes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

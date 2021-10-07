@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "althorns"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

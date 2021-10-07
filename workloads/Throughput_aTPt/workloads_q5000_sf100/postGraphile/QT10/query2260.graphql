@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cactoid"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

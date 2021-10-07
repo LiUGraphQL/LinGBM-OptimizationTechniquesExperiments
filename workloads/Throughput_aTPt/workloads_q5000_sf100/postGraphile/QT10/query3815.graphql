@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unposed"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

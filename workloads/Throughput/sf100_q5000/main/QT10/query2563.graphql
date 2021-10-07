@@ -1,9 +1,0 @@
-{ 
-	publicationSearch(field:title, criterion:CONTAINS, pattern:"neuronic") { 
-		id 
-		title 
-		abstract 
-	} 
-} 
-
- 

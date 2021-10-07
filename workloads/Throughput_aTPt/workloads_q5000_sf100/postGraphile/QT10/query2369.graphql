@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bassinets"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

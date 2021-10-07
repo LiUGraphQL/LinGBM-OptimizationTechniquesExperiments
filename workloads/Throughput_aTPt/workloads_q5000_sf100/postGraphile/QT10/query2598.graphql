@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "disbars"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "reloaded"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

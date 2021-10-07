@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "smashing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

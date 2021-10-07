@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cans"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

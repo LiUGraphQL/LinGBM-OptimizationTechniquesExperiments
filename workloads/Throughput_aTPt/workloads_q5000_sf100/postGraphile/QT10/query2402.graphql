@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bootjack"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

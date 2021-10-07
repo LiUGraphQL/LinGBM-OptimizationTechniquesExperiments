@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "yanquis"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

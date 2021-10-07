@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "retribute"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

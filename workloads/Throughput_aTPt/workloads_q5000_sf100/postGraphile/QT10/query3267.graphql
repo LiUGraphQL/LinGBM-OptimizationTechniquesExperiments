@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "combatants"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

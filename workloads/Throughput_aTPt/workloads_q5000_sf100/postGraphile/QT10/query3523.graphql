@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "slinking"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

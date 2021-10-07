@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "slumps"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

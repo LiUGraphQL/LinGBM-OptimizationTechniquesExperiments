@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "apologists"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

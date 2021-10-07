@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"legitimizations") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

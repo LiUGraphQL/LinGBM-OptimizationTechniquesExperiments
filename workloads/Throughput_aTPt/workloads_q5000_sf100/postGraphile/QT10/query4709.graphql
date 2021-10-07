@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "postages"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

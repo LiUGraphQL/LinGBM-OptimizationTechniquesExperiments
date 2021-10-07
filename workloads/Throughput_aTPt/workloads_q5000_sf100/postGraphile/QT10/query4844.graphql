@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "teaching"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

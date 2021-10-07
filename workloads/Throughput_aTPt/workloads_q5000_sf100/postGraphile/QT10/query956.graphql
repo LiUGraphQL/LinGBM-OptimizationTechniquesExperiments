@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "baggie"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "golfs"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

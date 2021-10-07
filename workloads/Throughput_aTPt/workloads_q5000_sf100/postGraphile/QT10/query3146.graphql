@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "repin"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"frivoling") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

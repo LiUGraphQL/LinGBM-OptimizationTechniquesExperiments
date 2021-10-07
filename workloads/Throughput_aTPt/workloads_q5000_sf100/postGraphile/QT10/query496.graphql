@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "rosed"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,9 +1,0 @@
-{ 
-	publicationSearch(field:title, criterion:CONTAINS, pattern:"tenderizing") { 
-		id 
-		title 
-		abstract 
-	} 
-} 
-
- 

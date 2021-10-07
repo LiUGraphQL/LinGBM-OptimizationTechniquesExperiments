@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "despiting"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

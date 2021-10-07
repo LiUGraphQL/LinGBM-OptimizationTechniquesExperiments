@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"reflections") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

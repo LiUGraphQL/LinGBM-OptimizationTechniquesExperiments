@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"vagarious") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

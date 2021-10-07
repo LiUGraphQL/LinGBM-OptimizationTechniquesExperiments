@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"regressively") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

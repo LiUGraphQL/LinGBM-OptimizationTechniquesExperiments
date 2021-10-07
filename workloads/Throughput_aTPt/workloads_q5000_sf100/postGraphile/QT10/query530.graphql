@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "slapjack"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

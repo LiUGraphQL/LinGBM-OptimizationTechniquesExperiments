@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "baric"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

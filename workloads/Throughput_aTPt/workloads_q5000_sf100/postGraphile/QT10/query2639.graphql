@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "proofed"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

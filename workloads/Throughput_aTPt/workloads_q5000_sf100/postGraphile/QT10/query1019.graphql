@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "perspiratory"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

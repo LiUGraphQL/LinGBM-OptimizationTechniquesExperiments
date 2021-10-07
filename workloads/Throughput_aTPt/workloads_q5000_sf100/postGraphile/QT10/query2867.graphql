@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "steamered"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

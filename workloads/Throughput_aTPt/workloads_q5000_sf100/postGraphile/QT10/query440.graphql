@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "evanesce"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "trounced"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "flouncy"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "partials"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

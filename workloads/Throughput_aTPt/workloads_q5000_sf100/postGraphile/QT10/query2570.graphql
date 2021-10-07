@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sunbaked"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

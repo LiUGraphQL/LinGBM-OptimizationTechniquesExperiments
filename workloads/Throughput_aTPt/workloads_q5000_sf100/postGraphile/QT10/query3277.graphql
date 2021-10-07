@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "calumnies"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "megacycles"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

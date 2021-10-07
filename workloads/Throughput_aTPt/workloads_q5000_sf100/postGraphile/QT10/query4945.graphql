@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "frescoed"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "allotrope"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

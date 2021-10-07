@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "gustier"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "coracle"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

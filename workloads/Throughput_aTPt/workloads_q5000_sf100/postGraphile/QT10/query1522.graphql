@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "minuter"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

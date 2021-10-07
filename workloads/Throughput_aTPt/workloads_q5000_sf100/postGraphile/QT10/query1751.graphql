@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "adj"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

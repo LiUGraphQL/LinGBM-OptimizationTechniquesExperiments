@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "daemonic"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "rechartering"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

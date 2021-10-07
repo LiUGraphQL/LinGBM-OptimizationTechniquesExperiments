@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cermet"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

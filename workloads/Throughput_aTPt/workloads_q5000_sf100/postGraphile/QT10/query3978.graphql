@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unsettles"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

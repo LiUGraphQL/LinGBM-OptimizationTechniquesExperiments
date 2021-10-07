@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "woodiest"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "slouchy"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

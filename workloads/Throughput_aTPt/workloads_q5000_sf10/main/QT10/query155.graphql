@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"witling") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

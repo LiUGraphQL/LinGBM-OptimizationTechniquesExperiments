@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "intelligibly"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

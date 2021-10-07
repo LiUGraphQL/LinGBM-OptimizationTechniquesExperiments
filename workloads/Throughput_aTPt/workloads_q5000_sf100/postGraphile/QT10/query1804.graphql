@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "appeases"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

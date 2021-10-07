@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "wishfulness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

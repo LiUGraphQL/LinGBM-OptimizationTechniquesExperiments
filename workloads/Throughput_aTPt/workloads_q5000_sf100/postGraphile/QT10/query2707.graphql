@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "interpreted"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

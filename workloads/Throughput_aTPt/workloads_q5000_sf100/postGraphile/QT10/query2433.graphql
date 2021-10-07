@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "prosperously"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

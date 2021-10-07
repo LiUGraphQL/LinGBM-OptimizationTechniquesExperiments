@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "myths"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "testation"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "overspecialize"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

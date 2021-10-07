@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "recuperated"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

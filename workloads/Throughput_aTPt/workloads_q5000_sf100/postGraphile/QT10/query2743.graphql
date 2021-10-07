@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "escudos"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

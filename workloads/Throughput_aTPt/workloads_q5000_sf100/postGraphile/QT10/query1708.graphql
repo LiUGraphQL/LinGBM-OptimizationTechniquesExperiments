@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "fastidiousness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

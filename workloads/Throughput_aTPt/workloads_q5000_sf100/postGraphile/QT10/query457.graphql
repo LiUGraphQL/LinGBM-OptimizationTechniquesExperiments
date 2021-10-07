@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "flies"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

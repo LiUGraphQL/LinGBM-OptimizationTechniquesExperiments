@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "weaver"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "dichotic"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

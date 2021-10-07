@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "gateposts"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

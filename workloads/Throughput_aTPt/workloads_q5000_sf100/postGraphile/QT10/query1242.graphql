@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "milkman"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

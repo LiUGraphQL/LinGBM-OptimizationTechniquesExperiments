@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "silva"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

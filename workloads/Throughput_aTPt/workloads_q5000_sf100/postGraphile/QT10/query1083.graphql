@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "hysterically"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

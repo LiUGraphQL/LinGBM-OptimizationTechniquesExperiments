@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "baguette"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

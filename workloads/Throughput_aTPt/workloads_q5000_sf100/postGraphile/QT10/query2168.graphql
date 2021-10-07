@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "expositors"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

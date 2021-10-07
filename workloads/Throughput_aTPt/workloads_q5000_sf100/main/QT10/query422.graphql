@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"chantage") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

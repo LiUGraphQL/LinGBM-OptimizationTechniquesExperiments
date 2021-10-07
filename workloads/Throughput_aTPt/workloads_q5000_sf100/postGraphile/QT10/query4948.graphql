@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "earls"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

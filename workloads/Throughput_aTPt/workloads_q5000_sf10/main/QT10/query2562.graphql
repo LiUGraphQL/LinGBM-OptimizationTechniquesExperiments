@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"sprinkling") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"halvers") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

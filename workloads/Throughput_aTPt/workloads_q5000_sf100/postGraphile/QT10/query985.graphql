@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "snowstorms"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

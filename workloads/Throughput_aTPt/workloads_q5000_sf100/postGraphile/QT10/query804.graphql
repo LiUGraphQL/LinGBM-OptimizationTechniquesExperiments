@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "incitements"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

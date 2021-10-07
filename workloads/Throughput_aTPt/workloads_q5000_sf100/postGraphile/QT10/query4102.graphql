@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "portages"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

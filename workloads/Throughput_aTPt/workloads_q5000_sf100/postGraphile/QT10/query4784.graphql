@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "disenfranchise"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

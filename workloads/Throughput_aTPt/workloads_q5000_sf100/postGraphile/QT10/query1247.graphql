@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "fixings"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

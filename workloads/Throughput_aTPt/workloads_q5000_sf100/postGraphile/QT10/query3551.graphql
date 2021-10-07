@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "tomahawks"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

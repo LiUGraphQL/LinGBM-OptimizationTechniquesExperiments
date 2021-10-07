@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%shopkeeper%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "subdefinition"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

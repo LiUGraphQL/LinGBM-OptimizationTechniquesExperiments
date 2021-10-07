@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "structured"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

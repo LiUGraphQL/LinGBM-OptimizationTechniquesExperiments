@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "adoptively"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

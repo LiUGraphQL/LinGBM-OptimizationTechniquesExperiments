@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "faintness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "dissemblance"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"trawlers") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "motorist"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

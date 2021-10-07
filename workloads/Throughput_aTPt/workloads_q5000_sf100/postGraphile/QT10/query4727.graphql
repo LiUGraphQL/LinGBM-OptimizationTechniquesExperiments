@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "underprice"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

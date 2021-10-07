@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "annotatively"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "absorbingly"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "mise"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

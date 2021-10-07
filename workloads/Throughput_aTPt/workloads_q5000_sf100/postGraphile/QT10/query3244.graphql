@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "severation"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "fluxed"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

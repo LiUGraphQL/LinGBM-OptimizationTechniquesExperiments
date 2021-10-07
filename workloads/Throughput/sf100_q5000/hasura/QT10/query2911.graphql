@@ -1,9 +1,0 @@
-{ 
-	publication(where: {title: {_like: "%brutifying%"}}) { 
-		nr 
-		title 
-		abstract 
-	} 
-} 
-
- 

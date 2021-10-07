@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "permissibly"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

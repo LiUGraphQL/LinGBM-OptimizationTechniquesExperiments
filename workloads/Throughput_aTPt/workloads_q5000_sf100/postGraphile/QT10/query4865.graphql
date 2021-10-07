@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "deathblows"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

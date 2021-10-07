@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "disunion"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

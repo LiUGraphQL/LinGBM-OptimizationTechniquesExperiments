@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "coordinately"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

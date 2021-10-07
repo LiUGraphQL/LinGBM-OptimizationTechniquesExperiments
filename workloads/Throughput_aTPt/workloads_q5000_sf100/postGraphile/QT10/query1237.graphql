@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "superber"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

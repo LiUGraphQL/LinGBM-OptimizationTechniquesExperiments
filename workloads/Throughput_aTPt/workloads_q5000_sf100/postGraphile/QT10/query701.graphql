@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "accidence"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

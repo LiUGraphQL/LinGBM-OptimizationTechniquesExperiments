@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "superannuity"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

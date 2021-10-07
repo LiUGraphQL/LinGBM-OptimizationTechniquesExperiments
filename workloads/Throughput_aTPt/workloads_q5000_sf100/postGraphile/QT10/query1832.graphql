@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "fesse"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

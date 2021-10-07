@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "frescoing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

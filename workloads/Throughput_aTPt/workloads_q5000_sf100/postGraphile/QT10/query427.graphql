@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "distillation"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

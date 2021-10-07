@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "toppled"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

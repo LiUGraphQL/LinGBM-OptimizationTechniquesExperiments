@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "nonabsorbents"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"linky") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

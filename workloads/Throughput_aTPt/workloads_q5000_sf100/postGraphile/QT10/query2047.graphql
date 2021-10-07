@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "egises"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

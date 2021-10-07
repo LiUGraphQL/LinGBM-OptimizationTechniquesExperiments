@@ -1,9 +1,0 @@
-{ 
-	publication(where: {title: {_like: "%humdrums%"}}) { 
-		nr 
-		title 
-		abstract 
-	} 
-} 
-
- 

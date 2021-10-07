@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "intercessional"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "procedures"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

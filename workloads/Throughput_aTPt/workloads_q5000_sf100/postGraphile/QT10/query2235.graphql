@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "rosiness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "venturous"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

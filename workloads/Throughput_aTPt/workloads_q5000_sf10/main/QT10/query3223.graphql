@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"semirespectability") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

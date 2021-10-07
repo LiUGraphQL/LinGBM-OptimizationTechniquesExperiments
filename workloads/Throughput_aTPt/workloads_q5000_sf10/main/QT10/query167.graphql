@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"vanquished") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

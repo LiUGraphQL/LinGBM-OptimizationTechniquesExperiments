@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "zebus"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

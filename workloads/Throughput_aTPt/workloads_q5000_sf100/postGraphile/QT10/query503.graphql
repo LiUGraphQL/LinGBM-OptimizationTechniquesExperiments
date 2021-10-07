@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "luminously"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

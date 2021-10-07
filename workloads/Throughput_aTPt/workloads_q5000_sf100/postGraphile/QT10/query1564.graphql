@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "inferrer"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

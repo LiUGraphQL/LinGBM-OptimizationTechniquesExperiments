@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"subnucleus") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "grandiloquently"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

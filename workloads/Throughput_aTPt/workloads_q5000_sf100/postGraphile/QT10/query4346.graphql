@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "zeals"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

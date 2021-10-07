@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "simmers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

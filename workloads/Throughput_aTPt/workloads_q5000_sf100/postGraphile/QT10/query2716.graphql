@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "papaya"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

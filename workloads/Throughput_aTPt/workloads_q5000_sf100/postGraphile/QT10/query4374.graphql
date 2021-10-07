@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "overelaborate"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

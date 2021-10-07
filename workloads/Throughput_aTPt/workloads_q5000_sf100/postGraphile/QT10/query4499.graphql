@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "roils"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

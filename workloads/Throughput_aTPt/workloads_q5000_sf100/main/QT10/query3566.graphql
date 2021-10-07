@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"cytological") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "purloiner"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

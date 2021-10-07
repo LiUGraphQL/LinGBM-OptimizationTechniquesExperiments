@@ -1,9 +1,0 @@
-{ 
-	publicationSearch(field:title, criterion:CONTAINS, pattern:"landscaper") { 
-		id 
-		title 
-		abstract 
-	} 
-} 
-
- 

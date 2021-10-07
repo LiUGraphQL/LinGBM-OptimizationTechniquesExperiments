@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "prepuces"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

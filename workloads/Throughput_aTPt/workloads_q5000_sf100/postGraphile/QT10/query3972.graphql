@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "slurs"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

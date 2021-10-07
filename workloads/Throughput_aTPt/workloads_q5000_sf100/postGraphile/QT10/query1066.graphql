@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "turgencies"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

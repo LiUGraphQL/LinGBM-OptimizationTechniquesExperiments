@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "nitrators"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

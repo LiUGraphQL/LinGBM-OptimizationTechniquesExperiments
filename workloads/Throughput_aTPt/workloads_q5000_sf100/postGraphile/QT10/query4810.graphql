@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unfrocks"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

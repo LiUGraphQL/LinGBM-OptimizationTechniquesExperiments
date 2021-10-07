@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "regressed"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

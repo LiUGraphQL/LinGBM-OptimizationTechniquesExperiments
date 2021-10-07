@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "glibber"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "embowered"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

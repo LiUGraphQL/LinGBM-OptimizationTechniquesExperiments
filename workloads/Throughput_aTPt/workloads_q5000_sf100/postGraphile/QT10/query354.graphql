@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "guacamole"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

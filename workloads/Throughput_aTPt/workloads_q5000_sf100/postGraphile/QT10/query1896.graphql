@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "clubbing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

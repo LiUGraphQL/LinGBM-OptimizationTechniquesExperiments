@@ -1,9 +1,0 @@
-{ 
-	publicationSearch(field:title, criterion:CONTAINS, pattern:"defenselessness") { 
-		id 
-		title 
-		abstract 
-	} 
-} 
-
- 

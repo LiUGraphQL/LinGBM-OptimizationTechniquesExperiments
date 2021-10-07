@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "repleteness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

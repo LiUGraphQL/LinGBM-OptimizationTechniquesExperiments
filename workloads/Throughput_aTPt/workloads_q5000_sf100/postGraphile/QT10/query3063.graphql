@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "wispier"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

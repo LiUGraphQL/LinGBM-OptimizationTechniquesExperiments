@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "chanties"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

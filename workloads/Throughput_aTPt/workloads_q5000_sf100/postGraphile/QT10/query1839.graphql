@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "marquise"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

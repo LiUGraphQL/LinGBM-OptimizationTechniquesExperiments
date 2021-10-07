@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"septics") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

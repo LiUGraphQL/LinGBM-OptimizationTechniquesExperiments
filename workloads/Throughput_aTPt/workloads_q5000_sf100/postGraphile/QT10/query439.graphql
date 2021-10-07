@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "reawaking"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

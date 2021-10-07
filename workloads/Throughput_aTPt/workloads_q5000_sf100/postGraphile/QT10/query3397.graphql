@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "garnisheeing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

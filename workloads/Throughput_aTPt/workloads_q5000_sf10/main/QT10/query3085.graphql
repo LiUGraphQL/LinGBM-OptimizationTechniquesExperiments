@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"frequency") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

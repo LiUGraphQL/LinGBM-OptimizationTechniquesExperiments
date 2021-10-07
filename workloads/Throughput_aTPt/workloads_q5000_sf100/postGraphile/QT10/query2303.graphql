@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "hayers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

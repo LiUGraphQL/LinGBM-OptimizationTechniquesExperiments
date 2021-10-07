@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "fluoresced"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

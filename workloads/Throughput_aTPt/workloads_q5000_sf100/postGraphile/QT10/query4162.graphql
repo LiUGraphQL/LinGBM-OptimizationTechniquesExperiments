@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "pushcarts"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

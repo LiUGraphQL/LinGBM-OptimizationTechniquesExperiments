@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unrepentingly"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

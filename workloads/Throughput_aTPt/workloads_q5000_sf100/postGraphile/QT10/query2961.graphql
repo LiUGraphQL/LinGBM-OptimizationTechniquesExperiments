@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "circularizer"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

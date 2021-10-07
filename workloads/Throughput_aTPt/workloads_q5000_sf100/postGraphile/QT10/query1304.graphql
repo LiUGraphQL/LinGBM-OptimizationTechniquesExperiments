@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "holstered"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

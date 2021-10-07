@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "derailments"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

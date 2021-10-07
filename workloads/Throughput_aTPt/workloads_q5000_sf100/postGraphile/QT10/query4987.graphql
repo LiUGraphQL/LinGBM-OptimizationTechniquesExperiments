@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "reconsolidates"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"panegyric") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

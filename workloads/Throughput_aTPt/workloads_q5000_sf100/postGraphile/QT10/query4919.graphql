@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "flagellated"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

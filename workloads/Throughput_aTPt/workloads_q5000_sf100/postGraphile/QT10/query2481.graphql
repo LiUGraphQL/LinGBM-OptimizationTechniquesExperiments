@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "inoculative"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

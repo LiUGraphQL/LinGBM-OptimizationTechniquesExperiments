@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"commits") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "despairingly"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

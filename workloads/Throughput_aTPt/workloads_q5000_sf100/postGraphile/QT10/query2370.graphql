@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "animosities"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

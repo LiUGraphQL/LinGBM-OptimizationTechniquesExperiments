@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cybernated"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "shimmers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "forebodies"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

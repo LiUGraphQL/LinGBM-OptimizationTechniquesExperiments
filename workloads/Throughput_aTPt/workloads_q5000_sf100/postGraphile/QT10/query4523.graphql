@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "kismets"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

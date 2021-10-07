@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "retreating"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

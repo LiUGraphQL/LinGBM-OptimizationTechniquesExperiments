@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"overeducating") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

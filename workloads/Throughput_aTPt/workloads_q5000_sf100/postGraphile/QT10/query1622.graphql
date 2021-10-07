@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "scrams"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

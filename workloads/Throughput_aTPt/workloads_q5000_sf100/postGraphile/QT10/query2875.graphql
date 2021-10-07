@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "constructors"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

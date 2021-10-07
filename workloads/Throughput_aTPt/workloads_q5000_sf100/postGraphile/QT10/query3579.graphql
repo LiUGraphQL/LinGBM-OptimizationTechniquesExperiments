@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "diversifications"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

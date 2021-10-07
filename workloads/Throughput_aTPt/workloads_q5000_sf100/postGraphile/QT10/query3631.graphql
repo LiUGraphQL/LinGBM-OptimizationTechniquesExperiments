@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "gremmies"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

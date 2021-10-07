@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "defecates"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

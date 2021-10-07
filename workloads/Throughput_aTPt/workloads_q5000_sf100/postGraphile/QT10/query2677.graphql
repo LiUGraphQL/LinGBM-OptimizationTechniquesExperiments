@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "misfired"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "lappering"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

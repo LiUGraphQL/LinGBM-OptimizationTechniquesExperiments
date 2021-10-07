@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"mimeoed") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

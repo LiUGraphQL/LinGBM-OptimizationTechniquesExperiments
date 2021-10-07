@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "magistracy"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "curability"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

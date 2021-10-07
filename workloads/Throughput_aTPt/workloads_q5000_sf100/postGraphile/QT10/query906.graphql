@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "darts"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

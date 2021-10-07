@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "reverers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"colloquiums") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

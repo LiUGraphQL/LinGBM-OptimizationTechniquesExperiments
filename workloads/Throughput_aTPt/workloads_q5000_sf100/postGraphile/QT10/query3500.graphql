@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "ticks"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

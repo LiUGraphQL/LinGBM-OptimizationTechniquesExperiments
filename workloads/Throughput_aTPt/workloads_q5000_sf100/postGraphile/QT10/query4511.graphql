@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "shills"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

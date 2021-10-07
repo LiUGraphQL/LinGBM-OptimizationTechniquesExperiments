@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"raddling") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

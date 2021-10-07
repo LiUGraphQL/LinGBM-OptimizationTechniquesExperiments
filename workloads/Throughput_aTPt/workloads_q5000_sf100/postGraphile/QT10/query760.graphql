@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "aerology"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

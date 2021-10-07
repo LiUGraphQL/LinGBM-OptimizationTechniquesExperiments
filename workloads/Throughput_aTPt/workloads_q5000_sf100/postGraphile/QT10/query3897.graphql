@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "poetesses"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

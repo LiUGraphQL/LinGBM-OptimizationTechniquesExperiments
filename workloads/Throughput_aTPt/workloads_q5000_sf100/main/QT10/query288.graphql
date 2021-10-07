@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"semipermeable") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

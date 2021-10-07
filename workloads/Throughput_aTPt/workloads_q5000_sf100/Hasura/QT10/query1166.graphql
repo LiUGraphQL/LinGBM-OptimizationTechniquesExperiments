@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%besmearing%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

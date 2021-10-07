@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "dehorns"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

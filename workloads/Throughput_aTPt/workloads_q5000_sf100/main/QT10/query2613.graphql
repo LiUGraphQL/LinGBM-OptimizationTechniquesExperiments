@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"cooler") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "swanked"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

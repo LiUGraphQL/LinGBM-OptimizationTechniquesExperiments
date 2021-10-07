@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "imports"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

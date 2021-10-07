@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "snowdrop"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

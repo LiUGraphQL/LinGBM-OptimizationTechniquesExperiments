@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "kingfishes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "ampules"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "gelding"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "enema"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

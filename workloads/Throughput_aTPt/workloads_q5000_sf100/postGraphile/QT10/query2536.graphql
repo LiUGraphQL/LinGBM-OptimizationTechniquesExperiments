@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "womanizer"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "arbor"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

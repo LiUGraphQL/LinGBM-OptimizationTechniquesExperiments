@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "warmest"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

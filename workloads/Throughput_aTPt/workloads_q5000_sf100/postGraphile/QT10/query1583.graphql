@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sameness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

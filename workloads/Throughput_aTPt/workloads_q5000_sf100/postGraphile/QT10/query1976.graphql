@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "recyclable"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

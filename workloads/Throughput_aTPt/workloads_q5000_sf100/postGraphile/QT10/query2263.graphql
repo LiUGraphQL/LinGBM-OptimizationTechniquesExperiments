@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "salvoes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

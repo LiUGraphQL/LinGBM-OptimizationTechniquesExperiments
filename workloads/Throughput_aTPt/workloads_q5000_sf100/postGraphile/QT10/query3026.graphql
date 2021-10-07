@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "furbishes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

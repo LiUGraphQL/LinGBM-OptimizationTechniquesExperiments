@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "andirons"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

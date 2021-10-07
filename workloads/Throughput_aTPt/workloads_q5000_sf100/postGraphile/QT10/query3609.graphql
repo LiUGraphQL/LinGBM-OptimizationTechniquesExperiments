@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "replan"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

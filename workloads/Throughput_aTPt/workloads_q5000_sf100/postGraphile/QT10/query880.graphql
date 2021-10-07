@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "resurface"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

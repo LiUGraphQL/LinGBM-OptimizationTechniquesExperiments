@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "elative"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "damnable"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

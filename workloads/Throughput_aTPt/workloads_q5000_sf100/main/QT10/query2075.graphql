@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"fervidness") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

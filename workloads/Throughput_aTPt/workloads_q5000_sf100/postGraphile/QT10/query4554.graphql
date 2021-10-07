@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unworthiness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

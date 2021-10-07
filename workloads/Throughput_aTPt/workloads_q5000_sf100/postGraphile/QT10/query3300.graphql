@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "omelette"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

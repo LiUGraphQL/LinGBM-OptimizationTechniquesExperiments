@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "tipstaff"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

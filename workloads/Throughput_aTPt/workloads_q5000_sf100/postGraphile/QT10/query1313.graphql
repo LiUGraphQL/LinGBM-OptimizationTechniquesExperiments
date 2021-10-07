@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "discourser"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

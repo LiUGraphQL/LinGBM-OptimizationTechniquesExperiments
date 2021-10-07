@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"donorship") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

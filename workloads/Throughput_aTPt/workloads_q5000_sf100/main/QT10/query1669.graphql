@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"parleys") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

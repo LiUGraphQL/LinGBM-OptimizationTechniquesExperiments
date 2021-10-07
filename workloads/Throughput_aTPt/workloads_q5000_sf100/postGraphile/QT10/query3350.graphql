@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bristly"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

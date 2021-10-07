@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "goldfinches"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

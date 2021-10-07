@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "poleaxe"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

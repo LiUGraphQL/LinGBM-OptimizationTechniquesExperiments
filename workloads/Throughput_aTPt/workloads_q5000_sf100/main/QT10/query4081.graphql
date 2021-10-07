@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"shunpike") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

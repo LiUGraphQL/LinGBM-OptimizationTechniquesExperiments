@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cenacles"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

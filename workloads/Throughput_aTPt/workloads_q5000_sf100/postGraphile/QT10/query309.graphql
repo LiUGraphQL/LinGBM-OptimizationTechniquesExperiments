@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "taffrail"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

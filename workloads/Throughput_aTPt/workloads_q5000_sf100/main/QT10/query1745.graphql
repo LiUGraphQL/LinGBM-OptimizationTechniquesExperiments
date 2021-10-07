@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"aviators") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

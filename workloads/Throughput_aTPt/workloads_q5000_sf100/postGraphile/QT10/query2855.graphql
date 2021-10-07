@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "volitional"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

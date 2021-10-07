@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "catchiest"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

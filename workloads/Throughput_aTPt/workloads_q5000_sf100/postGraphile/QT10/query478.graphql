@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sulkers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%tonsorial%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

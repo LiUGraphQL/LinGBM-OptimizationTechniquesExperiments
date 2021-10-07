@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "paddies"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

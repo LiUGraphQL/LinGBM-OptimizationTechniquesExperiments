@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "electrotype"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

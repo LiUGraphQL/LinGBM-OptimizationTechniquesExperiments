@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "windpipe"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

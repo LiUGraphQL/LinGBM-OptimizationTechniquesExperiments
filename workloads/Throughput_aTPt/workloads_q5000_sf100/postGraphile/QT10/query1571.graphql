@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "teazling"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

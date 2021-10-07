@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "hearthside"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

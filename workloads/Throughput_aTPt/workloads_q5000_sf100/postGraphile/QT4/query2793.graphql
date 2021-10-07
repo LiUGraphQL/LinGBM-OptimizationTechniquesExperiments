@@ -1,0 +1,28 @@
+{ 
+ allLecturers(condition: {nr: 9810064}) {
+    nodes {
+      facultyByNr {
+        universityByDoctoraldegreefrom {
+          nr
+          graduatestudentsByUndergraduatedegreefrom {
+            nodes {
+              nr
+              emailaddress
+              professorByAdvisor {
+                facultyByNr {
+                  nr
+                  emailaddress
+                  departmentByWorksfor {
+                    nr
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+ 

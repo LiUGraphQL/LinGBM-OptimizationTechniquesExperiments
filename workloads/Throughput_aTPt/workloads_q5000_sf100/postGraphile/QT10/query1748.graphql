@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "accomplishing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

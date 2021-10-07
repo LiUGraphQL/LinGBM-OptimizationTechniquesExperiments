@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "excitable"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

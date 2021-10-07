@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "homogenizers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

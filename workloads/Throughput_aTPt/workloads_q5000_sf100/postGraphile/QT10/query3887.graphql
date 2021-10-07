@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "performing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

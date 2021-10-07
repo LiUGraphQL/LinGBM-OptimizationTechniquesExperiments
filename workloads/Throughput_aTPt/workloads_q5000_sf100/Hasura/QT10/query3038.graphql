@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%taxonomically%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "mongolians"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "hipshot"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

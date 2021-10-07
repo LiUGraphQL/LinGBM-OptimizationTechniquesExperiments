@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "convexes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

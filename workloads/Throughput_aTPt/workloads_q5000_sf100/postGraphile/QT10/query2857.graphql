@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "daydreamers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

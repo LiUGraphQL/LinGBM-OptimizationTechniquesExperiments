@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "russety"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

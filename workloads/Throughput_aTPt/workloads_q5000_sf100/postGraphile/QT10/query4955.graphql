@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "blonds"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

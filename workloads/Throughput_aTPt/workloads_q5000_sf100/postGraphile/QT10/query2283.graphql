@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "colonizing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "elmier"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

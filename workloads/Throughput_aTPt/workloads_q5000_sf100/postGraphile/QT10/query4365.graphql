@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "ossuaries"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

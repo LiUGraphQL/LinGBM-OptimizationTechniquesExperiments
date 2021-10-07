@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "disporting"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "respirating"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

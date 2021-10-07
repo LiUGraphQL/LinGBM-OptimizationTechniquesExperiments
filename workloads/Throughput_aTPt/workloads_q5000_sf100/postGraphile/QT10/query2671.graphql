@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "monomanias"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

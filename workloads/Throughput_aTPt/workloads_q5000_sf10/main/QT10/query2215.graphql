@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"convoys") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

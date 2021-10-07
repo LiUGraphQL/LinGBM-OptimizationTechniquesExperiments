@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "discants"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

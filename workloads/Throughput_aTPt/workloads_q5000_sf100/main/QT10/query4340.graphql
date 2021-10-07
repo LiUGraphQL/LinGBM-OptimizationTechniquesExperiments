@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"subcurator") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

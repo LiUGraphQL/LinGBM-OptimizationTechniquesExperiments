@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "comfy"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

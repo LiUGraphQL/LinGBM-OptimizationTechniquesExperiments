@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "standoffs"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

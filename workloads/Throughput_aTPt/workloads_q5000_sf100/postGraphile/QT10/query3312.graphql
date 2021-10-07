@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "inconveniently"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

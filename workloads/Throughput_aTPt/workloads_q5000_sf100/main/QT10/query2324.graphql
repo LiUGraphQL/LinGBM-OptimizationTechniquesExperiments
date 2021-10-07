@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"reboils") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "inflexibly"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

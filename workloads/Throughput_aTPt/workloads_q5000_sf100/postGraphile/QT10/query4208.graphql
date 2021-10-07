@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "outpayment"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

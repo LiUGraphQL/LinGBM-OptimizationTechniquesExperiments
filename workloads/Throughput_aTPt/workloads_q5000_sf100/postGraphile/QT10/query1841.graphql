@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "wrongheadedly"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

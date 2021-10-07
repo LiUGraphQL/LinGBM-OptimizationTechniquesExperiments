@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "septuple"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

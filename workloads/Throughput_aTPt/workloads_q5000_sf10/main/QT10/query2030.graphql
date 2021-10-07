@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"pastils") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

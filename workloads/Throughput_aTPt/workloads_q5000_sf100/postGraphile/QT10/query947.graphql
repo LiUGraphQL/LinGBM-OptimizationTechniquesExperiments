@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "azide"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

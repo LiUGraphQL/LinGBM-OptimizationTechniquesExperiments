@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "spelunker"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

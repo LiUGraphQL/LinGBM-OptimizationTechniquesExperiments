@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "surds"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

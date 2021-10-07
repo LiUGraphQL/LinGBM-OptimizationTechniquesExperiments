@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "anteposition"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "brutishness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

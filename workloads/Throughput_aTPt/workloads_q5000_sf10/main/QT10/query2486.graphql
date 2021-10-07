@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"vivisect") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

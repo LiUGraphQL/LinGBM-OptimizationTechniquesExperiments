@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "radiotelephonic"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

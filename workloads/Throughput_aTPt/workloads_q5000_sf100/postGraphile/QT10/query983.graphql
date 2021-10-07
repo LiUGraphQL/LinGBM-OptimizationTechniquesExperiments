@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sabbats"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

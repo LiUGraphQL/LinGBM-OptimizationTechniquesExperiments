@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "regattas"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

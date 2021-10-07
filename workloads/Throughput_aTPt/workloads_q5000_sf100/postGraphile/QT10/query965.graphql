@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "necrologies"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

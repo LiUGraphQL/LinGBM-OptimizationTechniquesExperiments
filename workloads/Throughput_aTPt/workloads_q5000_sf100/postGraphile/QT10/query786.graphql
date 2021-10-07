@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "engineers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

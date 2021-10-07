@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "antiquers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

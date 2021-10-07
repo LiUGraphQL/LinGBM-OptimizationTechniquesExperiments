@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "chaplains"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

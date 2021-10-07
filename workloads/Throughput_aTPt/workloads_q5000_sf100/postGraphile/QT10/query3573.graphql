@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sociological"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

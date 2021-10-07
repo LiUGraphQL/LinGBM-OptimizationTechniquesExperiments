@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "broadens"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

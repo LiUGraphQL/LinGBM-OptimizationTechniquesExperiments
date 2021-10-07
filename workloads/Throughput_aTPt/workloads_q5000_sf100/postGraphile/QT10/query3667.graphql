@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "supersaturates"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

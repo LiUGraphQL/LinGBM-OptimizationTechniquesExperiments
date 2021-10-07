@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "pedagogically"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

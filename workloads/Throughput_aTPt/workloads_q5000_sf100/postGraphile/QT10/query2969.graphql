@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "beasties"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

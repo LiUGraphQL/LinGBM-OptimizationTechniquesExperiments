@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "shuddering"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

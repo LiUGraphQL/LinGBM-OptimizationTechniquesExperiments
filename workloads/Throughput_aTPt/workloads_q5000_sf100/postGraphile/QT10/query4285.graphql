@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "nighter"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

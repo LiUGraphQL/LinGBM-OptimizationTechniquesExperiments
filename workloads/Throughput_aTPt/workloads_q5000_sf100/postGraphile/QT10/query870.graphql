@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "opiums"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

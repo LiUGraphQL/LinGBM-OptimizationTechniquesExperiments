@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "reentrances"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

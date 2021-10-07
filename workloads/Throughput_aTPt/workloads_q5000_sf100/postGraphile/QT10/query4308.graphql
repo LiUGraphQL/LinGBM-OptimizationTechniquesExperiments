@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "snowpacks"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

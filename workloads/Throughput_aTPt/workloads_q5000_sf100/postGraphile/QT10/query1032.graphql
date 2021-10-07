@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "comparable"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

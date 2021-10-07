@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unconsumed"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

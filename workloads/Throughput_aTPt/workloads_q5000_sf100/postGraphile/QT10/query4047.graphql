@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "hymnals"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

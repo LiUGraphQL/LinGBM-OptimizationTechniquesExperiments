@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "tubing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

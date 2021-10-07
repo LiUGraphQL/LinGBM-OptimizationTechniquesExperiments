@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "nocked"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "frisks"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

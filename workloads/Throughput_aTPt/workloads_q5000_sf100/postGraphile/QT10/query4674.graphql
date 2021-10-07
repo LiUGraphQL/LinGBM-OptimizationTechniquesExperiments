@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "straddles"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

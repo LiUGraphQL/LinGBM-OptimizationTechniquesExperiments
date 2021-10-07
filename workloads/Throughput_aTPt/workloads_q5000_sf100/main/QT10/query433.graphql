@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"parkers") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

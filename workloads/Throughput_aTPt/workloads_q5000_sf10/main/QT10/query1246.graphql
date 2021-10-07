@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"rewaxing") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "typifies"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

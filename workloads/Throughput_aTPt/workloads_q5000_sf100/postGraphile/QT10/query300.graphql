@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "wristbands"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

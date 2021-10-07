@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "julienne"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

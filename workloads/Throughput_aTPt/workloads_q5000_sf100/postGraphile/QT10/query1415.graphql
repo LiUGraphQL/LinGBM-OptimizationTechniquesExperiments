@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "begone"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

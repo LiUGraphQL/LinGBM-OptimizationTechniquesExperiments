@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "plasticized"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

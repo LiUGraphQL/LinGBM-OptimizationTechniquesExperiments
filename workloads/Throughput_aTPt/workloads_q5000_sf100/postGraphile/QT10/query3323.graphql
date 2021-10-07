@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "shanteys"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

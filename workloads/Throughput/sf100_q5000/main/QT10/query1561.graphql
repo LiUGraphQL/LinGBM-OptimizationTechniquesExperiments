@@ -1,9 +1,0 @@
-{ 
-	publicationSearch(field:title, criterion:CONTAINS, pattern:"severing") { 
-		id 
-		title 
-		abstract 
-	} 
-} 
-
- 

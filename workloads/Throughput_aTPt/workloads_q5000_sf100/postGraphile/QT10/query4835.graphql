@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cantrip"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

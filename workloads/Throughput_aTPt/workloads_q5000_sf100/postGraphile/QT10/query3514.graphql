@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "humpbacks"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

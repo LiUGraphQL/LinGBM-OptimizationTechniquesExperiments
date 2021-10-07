@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "photomicrography"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

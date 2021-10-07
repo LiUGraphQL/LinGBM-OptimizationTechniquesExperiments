@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "monkhoods"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

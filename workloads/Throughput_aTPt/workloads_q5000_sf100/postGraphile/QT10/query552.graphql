@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "progressively"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

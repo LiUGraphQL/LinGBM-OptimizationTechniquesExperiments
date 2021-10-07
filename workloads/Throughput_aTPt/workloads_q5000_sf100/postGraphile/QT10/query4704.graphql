@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "harpooning"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

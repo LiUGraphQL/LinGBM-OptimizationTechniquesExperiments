@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "espadrilles"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

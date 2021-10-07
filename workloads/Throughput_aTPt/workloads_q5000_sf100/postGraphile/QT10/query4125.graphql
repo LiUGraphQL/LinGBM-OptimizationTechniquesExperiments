@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "hoggishly"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

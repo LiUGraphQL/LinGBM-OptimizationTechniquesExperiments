@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"disgracing") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

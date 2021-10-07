@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"haggis") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

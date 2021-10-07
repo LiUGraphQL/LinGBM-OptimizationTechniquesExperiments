@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "deselected"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cilantro"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

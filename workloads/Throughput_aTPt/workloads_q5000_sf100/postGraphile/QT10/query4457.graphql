@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "hairstyle"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

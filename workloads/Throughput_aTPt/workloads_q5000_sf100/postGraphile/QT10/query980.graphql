@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "delirifacient"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

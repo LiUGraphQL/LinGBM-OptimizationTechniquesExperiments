@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "dwarflike"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

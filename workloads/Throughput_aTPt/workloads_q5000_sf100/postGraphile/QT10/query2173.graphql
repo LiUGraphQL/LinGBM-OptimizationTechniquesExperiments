@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "jellyfishes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

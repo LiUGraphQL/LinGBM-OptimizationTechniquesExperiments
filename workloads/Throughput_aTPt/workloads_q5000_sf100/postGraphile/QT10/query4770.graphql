@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "grifters"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

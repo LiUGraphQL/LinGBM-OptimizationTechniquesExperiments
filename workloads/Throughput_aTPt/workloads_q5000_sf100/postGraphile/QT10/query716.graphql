@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "fencing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

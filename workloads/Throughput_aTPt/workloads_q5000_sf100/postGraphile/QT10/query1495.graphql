@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "screeners"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

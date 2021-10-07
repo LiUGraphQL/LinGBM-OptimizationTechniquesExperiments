@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "grossest"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

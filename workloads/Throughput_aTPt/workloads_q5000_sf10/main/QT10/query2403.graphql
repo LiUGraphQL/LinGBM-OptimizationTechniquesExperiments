@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"immigration") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

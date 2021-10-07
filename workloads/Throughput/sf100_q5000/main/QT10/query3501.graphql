@@ -1,9 +1,0 @@
-{ 
-	publicationSearch(field:title, criterion:CONTAINS, pattern:"capriccio") { 
-		id 
-		title 
-		abstract 
-	} 
-} 
-
- 

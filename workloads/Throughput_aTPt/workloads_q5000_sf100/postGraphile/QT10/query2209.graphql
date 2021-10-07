@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "handcars"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

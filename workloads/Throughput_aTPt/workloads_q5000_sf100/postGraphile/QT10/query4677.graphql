@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unroofed"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

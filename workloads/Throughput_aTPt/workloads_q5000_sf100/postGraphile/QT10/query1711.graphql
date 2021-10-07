@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "herdswoman"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

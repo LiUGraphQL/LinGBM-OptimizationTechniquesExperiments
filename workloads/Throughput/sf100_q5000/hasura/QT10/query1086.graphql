@@ -1,9 +1,0 @@
-{ 
-	publication(where: {title: {_like: "%ecclesiastical%"}}) { 
-		nr 
-		title 
-		abstract 
-	} 
-} 
-
- 

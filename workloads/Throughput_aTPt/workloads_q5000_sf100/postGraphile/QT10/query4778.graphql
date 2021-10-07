@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "pinkishness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

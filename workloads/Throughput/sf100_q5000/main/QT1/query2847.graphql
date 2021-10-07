@@ -1,9 +1,0 @@
-{ 
-	faculty(nr:8518004){ 
-		doctoralDegreeFrom { 
-			undergraduateDegreeObtainedBystudent{id emailAddress} 
-		} 
-	} 
-}
-
- 

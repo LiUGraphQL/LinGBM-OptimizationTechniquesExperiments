@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bluejay"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

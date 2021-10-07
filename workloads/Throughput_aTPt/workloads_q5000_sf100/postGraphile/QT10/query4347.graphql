@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "chalkier"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

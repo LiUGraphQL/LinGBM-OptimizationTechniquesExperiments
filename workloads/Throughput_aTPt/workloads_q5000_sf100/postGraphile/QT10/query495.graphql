@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unhanding"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "blockers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

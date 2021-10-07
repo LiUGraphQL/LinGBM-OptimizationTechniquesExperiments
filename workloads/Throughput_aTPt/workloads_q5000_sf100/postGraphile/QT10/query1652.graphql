@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "dements"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

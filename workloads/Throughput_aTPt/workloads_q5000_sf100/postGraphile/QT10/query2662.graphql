@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "evertor"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

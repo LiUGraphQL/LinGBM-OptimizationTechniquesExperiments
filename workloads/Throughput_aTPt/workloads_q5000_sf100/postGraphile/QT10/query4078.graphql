@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "modestly"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

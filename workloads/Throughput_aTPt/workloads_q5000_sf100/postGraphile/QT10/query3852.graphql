@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "tardiness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

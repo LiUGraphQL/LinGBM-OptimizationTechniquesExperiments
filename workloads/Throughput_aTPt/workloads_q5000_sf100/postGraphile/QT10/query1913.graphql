@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "brahmins"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

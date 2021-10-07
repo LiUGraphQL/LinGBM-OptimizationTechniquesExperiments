@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "greenrooms"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

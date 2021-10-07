@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "staggeringly"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "waterproofer"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

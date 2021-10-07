@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "revokes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "dawdles"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

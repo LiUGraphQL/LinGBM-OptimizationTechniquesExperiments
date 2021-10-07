@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"radiosensitivities") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

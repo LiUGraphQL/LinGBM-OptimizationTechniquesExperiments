@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cannier"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

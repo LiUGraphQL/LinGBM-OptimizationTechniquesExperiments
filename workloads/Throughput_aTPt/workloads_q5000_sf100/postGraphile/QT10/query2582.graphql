@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "aurate"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

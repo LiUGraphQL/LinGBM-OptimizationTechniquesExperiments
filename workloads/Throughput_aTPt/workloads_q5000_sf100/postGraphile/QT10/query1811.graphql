@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "kindergartens"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

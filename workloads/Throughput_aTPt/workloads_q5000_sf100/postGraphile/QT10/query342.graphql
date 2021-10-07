@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "confectioner"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

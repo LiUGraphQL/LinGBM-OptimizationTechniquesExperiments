@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "disorganizes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

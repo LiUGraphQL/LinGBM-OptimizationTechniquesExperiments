@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "review"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

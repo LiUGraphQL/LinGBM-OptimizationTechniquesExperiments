@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unbalanced"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

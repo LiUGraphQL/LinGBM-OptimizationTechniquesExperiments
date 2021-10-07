@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "exerted"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unturned"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

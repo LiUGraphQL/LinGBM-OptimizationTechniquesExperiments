@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "apogeal"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"sudsless") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

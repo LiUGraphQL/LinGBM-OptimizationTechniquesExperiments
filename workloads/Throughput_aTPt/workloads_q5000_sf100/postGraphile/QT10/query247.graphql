@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "placentomata"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

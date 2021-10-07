@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "supposers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

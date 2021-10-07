@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sweltriest"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

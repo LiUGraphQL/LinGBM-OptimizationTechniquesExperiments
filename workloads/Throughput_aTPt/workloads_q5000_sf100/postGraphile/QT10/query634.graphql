@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "inquietude"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

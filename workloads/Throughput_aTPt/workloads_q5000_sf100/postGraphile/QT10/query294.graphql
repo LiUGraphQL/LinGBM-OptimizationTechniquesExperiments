@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "ignorer"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

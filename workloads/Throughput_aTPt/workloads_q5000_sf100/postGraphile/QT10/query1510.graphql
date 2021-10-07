@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "valors"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

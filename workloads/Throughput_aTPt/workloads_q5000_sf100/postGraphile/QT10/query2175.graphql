@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "twittery"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

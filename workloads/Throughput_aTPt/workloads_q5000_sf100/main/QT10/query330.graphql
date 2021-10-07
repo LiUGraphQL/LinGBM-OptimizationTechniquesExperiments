@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"unhitch") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

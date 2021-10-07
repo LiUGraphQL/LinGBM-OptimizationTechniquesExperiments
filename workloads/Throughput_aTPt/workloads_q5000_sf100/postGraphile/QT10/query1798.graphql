@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "stoneflies"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

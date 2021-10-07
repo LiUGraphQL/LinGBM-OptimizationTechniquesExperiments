@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "stager"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

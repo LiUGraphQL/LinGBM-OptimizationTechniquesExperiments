@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"sighers") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

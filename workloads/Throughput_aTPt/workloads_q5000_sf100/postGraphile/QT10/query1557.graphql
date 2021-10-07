@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "fiddling"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

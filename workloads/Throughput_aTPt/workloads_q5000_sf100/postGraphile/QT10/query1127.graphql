@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "accreditee"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

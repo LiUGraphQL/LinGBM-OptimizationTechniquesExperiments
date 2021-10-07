@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "concavities"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

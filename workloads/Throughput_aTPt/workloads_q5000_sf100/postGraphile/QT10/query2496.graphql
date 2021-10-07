@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "succulently"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

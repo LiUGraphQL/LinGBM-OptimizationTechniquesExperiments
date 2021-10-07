@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "screams"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"chubbily") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

@@ -1,9 +1,0 @@
-{ 
-	publicationSearch(field:title, criterion:CONTAINS, pattern:"tomahawked") { 
-		id 
-		title 
-		abstract 
-	} 
-} 
-
- 

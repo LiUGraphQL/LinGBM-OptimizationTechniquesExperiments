@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "toshes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

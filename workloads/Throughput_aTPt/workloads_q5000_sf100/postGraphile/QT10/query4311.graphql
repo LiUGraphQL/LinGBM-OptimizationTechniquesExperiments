@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unaspiring"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

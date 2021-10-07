@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "stylar"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

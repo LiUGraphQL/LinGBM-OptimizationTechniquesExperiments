@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "semiopaque"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

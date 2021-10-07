@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "hardhearted"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

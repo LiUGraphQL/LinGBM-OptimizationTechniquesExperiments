@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "composedness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

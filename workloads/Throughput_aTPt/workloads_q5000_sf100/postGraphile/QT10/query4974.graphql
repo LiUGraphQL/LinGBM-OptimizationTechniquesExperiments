@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "eucalyptuses"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

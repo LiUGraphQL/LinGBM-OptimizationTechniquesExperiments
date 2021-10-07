@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "betatrons"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

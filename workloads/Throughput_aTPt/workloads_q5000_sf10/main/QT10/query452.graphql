@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"violinists") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

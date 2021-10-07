@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "forsythia"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

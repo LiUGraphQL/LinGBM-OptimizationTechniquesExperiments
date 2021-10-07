@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "measurement"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

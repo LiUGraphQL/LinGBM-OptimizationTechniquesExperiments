@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "naperies"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

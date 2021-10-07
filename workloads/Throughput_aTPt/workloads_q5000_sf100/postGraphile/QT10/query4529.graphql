@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "spading"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

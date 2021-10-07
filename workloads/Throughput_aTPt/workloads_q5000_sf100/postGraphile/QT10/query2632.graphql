@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "dripping"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

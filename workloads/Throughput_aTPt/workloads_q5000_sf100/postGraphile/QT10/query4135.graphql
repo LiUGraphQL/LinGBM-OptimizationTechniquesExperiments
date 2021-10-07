@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "lofting"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

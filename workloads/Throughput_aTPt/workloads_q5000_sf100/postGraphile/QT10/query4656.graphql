@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "wobbliness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

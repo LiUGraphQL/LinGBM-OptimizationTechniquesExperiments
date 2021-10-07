@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "coneys"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "reaccession"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

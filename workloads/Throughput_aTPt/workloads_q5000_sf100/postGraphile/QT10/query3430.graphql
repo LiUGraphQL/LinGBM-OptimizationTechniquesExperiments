@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "splined"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

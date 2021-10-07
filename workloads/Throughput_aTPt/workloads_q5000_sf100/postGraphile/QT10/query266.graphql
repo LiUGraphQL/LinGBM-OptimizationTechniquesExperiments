@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "inactivation"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"vailing") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

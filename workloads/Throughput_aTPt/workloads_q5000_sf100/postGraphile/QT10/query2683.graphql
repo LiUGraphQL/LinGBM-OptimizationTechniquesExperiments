@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "gibing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

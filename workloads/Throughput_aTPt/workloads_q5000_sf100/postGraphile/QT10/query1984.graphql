@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "climbers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "aquiline"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

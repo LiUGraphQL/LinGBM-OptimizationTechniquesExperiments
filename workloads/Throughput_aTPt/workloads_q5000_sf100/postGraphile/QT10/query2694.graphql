@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "toothaches"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

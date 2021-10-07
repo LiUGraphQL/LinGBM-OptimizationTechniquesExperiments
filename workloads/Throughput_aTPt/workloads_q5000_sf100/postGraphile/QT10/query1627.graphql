@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "alienisms"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "quelling"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

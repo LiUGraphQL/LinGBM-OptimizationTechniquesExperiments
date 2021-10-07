@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "appropriately"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

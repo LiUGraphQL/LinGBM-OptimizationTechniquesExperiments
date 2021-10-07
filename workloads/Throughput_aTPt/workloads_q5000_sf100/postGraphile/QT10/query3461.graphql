@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "mineralogic"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

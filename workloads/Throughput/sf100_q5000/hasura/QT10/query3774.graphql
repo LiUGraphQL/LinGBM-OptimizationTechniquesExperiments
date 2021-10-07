@@ -1,9 +1,0 @@
-{ 
-	publication(where: {title: {_like: "%probation%"}}) { 
-		nr 
-		title 
-		abstract 
-	} 
-} 
-
- 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "pokes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

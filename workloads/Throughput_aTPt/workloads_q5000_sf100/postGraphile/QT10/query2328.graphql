@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "rachitis"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"battlegrounds") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

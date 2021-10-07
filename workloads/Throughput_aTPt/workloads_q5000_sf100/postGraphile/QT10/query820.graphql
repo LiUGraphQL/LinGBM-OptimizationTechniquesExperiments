@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "diking"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "afterbirth"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

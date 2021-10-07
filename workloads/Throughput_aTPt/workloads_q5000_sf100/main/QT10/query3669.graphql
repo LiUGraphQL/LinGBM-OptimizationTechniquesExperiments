@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"effusions") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

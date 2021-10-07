@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "preys"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

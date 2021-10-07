@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "trunnels"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

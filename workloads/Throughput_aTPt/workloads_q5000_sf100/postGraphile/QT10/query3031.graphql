@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "faster"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

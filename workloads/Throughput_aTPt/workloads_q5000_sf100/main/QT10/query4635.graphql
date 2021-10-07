@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"nonpareil") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

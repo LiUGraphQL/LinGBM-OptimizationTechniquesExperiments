@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "hiragana"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

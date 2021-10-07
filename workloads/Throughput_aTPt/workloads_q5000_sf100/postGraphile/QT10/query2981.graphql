@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "assemblies"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%visualizes%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"timeless") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

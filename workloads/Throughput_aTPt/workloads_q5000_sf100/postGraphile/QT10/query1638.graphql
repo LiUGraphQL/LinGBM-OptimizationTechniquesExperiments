@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "knowingly"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "recasting"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

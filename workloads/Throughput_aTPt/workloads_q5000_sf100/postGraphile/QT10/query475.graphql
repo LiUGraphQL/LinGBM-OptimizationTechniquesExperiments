@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "hired"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

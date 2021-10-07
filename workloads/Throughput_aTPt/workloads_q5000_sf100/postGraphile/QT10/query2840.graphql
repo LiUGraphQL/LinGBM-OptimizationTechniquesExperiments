@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "gaolers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "households"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

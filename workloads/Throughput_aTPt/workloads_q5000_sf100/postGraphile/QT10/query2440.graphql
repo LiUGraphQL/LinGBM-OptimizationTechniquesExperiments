@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "pointillism"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

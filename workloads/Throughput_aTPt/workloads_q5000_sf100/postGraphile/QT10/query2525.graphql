@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "jinglers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

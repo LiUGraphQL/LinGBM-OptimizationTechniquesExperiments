@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "airhead"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

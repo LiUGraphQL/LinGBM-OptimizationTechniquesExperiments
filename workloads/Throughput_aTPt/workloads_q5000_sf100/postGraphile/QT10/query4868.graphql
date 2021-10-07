@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "posited"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

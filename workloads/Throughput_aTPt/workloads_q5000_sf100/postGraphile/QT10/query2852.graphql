@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "donationes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

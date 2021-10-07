@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "subfraction"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

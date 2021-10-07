@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "peripherals"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

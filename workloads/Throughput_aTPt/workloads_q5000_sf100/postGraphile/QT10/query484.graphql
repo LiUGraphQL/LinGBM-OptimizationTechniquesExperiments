@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "wildest"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

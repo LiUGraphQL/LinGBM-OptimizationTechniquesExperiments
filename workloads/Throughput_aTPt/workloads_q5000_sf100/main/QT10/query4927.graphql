@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"olympians") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

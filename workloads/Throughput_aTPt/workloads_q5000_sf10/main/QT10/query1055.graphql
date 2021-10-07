@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"waviness") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

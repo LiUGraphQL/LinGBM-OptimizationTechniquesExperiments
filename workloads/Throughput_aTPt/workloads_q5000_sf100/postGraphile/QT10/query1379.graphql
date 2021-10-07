@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "obligability"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

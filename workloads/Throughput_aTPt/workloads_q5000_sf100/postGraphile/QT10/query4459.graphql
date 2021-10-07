@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "caroming"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

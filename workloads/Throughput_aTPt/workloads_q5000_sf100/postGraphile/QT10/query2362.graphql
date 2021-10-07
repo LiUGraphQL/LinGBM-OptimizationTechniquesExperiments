@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "parquets"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

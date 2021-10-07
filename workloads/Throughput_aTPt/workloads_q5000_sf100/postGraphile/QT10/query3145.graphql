@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "solecized"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

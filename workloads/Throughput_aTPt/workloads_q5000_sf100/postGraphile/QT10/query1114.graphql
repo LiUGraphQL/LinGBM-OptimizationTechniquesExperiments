@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "presidency"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

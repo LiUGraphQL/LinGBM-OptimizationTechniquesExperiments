@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "rester"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

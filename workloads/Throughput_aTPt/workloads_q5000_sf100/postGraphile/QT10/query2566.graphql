@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "strips"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

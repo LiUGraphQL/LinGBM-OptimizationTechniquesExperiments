@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "repairable"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

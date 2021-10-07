@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "aviators"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sexualized"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "almoner"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "enclasping"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

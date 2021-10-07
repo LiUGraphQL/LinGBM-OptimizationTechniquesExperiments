@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"admissive") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

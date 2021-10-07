@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "vamper"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

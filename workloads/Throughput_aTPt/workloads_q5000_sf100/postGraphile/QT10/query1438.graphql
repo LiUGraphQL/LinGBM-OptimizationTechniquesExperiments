@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "plaguily"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

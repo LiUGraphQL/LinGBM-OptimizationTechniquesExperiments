@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"licensees") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

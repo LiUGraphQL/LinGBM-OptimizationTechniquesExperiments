@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "homeliness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

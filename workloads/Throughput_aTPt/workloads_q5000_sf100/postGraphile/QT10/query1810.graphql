@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "hydrators"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

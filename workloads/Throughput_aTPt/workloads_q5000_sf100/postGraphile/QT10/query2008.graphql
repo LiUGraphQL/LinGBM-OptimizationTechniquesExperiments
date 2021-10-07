@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sporule"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "eloping"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

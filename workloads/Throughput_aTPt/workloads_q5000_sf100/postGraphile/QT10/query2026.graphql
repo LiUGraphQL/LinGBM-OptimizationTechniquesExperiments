@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "singer"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

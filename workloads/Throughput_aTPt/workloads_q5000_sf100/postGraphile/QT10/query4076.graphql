@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "agouty"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

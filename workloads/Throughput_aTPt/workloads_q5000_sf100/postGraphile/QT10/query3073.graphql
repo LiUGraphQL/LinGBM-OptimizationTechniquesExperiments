@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "felicitated"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

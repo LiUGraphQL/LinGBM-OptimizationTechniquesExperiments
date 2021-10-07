@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "biocatalyst"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

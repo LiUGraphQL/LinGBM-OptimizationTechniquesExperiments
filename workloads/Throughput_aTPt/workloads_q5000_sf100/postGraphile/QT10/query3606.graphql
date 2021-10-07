@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "jutting"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

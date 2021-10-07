@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "lapland"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

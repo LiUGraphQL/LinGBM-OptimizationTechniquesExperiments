@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"twiggy") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

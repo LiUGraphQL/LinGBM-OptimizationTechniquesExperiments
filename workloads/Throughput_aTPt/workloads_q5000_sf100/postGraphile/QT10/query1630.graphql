@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "blancmanges"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

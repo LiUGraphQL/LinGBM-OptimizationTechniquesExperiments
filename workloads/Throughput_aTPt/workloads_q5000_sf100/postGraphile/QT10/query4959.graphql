@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sealery"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

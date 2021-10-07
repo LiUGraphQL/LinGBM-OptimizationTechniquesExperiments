@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "microanalysis"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

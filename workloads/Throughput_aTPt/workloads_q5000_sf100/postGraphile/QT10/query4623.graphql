@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "hurrays"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

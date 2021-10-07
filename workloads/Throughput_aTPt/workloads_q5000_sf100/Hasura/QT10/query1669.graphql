@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%parleys%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

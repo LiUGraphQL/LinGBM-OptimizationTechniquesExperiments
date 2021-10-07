@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "gruffer"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

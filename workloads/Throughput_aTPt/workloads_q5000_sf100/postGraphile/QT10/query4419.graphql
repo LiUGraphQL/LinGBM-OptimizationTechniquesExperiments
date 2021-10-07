@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "polygamy"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

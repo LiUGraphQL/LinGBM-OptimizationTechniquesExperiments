@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"discourser") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

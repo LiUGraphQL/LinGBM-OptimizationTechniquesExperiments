@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "centigram"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

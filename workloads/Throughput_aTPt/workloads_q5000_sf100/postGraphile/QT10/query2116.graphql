@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cert"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

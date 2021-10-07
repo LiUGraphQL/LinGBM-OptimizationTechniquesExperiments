@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cofeature"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"aboral") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

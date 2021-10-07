@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "biers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

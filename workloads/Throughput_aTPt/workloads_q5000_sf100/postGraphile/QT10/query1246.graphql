@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "vended"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

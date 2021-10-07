@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "airfares"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

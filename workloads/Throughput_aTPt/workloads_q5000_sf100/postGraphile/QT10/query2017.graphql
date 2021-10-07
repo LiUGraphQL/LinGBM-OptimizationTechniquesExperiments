@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "malinger"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

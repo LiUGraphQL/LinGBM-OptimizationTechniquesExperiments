@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "russets"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

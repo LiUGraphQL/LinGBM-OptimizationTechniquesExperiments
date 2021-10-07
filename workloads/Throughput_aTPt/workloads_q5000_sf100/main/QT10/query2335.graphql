@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"gutsier") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

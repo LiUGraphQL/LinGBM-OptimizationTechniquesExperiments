@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "lassoing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "clams"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

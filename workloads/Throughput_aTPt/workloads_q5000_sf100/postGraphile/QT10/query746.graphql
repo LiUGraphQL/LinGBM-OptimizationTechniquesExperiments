@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "pollinators"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

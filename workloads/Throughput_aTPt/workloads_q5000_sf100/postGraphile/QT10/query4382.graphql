@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "mortally"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

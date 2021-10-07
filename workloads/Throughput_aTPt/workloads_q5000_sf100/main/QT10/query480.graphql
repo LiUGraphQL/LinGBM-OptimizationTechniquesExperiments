@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"ribosomal") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

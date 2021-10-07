@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "imposted"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

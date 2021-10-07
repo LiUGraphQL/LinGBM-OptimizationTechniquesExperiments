@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "wombs"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

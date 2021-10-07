@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "fervidness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

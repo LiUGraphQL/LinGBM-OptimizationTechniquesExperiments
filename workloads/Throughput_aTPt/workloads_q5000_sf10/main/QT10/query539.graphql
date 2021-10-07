@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"antigravity") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

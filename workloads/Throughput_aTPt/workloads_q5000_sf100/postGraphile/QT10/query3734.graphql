@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "irremediably"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "buncoed"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

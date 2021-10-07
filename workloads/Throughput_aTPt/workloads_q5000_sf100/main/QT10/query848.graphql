@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"howbeit") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

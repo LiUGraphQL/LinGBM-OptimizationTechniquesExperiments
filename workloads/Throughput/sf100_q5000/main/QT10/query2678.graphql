@@ -1,9 +1,0 @@
-{ 
-	publicationSearch(field:title, criterion:CONTAINS, pattern:"crabbily") { 
-		id 
-		title 
-		abstract 
-	} 
-} 
-
- 

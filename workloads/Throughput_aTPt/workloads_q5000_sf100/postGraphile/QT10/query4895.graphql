@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "smirky"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

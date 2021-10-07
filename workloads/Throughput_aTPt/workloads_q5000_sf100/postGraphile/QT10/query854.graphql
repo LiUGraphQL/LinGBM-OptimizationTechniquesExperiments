@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "vulgarity"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

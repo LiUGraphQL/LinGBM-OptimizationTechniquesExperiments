@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "foreby"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

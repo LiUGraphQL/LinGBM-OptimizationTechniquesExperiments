@@ -1,9 +1,0 @@
-{ 
-	publication(where: {title: {_like: "%electricity%"}}) { 
-		nr 
-		title 
-		abstract 
-	} 
-} 
-
- 

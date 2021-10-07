@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "clashing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "monarchism"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

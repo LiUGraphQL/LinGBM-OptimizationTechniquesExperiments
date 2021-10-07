@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "endeavors"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "exegetic"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

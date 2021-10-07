@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "weakish"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

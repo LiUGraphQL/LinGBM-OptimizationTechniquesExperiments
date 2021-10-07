@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "royals"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

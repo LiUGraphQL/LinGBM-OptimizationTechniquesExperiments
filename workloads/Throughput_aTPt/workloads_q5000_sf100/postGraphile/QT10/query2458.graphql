@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "futurism"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

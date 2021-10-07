@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "subtitling"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

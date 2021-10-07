@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "trooper"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

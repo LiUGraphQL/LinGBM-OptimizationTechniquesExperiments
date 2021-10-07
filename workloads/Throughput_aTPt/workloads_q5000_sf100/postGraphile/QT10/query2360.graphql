@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "maltreatment"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

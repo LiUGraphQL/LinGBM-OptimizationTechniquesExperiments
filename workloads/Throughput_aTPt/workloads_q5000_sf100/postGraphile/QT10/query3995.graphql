@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "seesawing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

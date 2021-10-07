@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "adversaries"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

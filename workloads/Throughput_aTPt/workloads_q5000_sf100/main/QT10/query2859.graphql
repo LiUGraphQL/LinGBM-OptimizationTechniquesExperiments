@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"interpolator") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sharers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

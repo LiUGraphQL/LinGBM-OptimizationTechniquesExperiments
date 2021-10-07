@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "amortizement"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

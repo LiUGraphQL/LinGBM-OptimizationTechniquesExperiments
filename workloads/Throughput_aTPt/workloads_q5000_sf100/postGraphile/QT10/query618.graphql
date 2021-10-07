@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "stated"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

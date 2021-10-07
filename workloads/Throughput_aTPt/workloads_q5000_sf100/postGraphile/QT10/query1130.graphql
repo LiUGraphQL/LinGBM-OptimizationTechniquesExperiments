@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "richly"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

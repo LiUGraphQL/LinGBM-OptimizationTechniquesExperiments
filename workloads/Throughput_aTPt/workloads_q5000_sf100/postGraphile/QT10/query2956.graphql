@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "pailful"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

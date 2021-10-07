@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "envois"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "meteorologists"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

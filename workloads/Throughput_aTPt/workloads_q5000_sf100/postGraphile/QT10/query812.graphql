@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "intercepting"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

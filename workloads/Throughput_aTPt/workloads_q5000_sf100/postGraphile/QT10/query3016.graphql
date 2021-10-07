@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "kinspeople"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

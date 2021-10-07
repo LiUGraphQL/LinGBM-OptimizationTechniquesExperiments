@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"paddies") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "anatomist"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

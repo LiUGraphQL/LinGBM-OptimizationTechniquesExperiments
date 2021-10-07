@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "clamorers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

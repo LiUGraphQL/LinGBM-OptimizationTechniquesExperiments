@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cystectomies"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

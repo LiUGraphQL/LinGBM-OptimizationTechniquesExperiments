@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sunbird"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

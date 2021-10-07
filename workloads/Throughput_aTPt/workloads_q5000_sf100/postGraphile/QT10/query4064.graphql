@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "outguessed"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

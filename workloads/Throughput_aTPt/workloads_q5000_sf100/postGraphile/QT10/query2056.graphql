@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "foists"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

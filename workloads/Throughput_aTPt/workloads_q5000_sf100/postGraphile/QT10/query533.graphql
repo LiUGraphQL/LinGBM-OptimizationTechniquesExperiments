@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "kegs"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

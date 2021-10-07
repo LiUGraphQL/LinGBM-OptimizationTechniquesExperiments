@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "phonically"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

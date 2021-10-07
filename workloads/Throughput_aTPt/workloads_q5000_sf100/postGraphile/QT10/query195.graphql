@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "originality"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,9 +1,0 @@
-{ 
-	publication(where: {title: {_like: "%deforests%"}}) { 
-		nr 
-		title 
-		abstract 
-	} 
-} 
-
- 

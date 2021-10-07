@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "mastless"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "smiters"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

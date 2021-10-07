@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "repressibility"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

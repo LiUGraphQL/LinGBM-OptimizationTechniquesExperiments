@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "niseis"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

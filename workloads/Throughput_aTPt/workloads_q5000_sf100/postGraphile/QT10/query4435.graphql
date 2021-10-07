@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "delphiniums"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "fireworm"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

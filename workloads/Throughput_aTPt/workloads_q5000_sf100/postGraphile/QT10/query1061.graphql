@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "overambitious"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

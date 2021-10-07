@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "repeatedly"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

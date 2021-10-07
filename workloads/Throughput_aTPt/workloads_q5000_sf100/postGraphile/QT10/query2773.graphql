@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "showdowns"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

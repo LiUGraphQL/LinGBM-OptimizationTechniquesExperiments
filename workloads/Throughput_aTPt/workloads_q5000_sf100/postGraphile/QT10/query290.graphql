@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "howlers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bifid"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

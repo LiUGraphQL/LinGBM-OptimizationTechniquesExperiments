@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "kishkes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

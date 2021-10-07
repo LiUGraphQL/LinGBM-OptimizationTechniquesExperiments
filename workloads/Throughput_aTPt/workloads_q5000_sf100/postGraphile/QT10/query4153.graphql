@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "subsumable"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

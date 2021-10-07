@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "gunwhale"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

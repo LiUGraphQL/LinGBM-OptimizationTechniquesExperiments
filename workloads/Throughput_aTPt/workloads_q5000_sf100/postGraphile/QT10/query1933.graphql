@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "photomaps"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

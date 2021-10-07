@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "shrews"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

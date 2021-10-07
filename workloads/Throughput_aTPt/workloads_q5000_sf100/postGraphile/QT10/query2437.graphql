@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "rehabilitates"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

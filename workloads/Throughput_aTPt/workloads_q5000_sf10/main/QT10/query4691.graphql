@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"tenderheartedness") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

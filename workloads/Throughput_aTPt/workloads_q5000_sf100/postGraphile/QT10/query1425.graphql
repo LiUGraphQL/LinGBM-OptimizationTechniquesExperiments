@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bellwethers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

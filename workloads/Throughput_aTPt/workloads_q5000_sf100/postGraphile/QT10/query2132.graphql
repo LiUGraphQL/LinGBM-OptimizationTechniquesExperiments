@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "aspirins"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

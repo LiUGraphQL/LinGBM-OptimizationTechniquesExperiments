@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "kickbacks"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

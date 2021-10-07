@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "indecency"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

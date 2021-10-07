@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unarrested"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

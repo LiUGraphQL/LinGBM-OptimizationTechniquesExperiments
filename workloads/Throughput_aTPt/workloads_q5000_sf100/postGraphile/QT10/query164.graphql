@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "maidens"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

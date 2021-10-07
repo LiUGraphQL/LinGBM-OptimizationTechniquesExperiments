@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "shorties"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

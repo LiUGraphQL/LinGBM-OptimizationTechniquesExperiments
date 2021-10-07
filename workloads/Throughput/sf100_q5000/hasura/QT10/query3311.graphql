@@ -1,9 +1,0 @@
-{ 
-	publication(where: {title: {_like: "%grumpiest%"}}) { 
-		nr 
-		title 
-		abstract 
-	} 
-} 
-
- 

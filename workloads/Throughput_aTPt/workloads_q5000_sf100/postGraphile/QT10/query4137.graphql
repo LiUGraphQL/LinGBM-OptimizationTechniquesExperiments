@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "huzzahed"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

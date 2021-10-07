@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "complexional"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

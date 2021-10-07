@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"rosters") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

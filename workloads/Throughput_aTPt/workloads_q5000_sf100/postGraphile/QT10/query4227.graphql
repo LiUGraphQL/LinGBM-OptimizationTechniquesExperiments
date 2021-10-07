@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "heehaws"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

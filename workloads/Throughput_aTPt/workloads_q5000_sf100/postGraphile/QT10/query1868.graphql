@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "burses"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

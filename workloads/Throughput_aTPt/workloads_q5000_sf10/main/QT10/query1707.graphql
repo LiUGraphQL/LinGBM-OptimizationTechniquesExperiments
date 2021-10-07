@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"disembodying") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sensorium"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

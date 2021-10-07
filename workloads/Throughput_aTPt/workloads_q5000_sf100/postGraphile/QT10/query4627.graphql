@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "navaho"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

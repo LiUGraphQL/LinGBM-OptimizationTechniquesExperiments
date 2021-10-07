@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "platy"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"deposals") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

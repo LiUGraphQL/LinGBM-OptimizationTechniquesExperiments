@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cions"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

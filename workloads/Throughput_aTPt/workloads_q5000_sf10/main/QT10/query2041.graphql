@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"hooked") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

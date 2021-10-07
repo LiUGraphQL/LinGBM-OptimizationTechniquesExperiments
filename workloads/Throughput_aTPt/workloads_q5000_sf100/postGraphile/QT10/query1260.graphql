@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "willfulness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%ticks%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

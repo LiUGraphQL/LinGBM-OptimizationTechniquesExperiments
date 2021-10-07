@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "manginess"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

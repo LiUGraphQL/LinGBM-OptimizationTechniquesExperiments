@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "conscienceless"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

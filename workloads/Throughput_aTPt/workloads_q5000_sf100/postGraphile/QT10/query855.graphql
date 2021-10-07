@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "footpads"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

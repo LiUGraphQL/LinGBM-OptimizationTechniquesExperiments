@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cobwebs"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

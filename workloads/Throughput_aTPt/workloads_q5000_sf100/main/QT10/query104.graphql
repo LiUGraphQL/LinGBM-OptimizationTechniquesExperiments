@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"doubtfulness") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

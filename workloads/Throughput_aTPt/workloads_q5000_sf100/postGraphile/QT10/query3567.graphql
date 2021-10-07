@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "macerates"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

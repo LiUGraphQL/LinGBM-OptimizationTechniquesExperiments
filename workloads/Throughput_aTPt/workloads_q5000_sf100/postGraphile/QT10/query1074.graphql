@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "misconstruction"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

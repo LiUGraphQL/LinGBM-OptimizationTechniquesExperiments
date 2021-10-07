@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "projects"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

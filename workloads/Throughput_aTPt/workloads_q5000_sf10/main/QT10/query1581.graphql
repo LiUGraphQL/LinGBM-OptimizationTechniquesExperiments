@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"repacked") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

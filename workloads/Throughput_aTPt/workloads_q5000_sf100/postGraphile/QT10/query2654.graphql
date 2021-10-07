@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "biospheres"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

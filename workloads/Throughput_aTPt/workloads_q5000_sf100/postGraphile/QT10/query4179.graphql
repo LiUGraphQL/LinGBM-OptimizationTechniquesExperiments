@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "commercialization"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

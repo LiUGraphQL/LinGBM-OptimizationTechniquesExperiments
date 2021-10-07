@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"defraying") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

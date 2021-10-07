@@ -1,9 +1,0 @@
-{ 
-	publicationSearch(field:title, criterion:CONTAINS, pattern:"tattings") { 
-		id 
-		title 
-		abstract 
-	} 
-} 
-
- 

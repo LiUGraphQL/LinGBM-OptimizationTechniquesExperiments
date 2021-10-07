@@ -1,9 +1,0 @@
-{ 
-	publication(where: {title: {_like: "%entrancingly%"}}) { 
-		nr 
-		title 
-		abstract 
-	} 
-} 
-
- 

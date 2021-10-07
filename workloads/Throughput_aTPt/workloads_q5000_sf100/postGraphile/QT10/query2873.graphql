@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "thinclads"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "doorsill"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

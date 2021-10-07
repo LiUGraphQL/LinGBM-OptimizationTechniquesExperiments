@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "silex"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

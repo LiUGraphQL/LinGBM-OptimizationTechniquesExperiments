@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "galivant"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

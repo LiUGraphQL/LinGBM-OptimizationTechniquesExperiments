@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "kanji"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

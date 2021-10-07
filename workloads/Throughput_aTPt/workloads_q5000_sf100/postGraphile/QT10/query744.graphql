@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "preplans"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

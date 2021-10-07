@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "massacrer"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

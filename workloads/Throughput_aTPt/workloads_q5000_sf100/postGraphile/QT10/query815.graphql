@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "tuckers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

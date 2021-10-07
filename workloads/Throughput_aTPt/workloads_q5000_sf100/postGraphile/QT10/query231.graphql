@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "monopoles"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

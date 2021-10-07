@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sangria"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

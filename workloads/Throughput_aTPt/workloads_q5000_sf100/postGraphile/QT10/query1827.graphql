@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "clabbering"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

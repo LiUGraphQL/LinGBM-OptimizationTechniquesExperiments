@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "mammary"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

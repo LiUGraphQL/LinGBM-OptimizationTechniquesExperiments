@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"alamos") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

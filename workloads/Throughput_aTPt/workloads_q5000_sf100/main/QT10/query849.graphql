@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"revering") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

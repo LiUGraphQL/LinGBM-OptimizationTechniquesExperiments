@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"molters") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

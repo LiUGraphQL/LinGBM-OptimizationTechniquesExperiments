@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "rosarian"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

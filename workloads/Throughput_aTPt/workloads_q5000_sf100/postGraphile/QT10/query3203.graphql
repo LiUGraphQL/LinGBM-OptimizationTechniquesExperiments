@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "organdie"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

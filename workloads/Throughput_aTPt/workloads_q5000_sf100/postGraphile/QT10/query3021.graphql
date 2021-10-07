@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "compactions"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

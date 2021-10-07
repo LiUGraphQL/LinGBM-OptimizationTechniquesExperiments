@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cerements"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

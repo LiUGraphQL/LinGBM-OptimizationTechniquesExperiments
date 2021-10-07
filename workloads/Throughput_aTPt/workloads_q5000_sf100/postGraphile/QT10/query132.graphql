@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bubby"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

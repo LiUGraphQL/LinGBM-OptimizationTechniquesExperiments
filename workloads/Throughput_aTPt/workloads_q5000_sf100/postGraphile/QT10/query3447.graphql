@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "conceals"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

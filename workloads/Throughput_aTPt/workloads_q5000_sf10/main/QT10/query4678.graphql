@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"messier") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

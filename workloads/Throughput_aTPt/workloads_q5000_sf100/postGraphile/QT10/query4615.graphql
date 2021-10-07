@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "lout"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

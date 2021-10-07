@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "regauging"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"raceways") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "gainliest"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

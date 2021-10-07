@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "putoffs"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "tovarich"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

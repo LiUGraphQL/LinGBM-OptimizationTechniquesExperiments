@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%dicotyledons%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

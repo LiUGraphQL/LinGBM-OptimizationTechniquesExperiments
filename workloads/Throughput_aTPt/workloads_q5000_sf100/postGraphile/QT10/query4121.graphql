@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "pulpier"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

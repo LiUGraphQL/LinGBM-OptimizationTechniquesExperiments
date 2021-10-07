@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "investigations"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

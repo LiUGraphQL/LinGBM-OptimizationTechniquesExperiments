@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "euphony"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

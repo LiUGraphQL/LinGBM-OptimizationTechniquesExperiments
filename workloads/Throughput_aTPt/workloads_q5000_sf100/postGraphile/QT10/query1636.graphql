@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "diversified"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

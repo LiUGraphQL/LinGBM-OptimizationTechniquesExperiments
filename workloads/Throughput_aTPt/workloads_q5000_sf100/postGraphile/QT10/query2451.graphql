@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "canonically"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

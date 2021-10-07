@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "intrudes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

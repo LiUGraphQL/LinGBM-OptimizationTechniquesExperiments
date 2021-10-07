@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sandbar"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

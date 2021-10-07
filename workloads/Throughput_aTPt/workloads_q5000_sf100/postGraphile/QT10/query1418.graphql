@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "dwarfing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

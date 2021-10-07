@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "ternate"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "geniality"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

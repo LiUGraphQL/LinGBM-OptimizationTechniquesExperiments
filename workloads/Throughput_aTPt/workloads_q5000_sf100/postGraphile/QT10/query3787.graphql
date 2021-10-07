@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "turbidness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

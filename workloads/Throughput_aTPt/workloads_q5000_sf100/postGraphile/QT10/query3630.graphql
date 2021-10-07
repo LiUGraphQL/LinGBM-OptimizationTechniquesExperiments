@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "nougats"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

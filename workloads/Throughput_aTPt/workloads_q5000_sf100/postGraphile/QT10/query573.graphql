@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "blurred"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

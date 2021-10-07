@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "shiftlessly"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

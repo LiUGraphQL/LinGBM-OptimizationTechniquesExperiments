@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cuban"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "toughened"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

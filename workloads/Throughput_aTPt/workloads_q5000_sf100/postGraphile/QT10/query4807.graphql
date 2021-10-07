@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "linking"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

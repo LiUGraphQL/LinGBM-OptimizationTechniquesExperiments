@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "washier"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

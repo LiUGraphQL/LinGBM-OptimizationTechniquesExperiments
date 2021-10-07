@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "coextensively"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

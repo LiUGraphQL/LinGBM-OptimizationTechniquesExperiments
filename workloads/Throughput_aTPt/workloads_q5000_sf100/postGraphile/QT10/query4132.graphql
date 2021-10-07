@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "vasoinhibitory"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

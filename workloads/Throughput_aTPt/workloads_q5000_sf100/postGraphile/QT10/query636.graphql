@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "convening"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

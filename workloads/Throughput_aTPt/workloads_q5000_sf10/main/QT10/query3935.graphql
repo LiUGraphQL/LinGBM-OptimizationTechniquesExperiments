@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"speedboating") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

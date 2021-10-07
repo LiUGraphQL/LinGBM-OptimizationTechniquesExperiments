@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "xerographic"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

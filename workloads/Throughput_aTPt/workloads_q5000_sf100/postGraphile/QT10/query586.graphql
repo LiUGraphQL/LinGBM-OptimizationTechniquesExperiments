@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "coastings"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "jardiniere"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

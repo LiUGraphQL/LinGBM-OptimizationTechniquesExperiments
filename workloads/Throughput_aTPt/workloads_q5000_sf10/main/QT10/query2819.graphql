@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"bailer") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

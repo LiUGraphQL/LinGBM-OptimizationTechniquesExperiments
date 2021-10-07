@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "iambi"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"chiller") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

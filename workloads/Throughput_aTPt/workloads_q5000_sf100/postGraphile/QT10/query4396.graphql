@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "rhyming"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

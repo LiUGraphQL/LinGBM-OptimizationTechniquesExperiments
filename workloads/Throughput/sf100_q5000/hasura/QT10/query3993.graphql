@@ -1,9 +1,0 @@
-{ 
-	publication(where: {title: {_like: "%adiposities%"}}) { 
-		nr 
-		title 
-		abstract 
-	} 
-} 
-
- 

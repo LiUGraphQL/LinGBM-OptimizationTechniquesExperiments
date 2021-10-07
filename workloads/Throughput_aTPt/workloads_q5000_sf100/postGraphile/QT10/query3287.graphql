@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "philharmonics"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

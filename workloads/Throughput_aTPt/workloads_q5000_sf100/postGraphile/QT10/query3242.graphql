@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "feeler"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

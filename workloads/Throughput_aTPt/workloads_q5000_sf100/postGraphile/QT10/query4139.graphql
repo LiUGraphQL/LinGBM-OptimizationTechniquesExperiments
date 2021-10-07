@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "diabetics"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

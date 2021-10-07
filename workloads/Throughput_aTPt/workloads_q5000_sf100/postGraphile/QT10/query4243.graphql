@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "crooned"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

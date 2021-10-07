@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "blades"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

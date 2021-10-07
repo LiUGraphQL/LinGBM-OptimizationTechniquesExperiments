@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "throned"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "underclothed"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

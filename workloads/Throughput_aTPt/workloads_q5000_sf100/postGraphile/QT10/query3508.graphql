@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "burry"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

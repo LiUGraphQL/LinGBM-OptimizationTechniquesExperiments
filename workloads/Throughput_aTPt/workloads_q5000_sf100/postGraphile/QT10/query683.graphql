@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "dependably"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

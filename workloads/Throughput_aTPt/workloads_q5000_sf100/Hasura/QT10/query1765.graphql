@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%trackings%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

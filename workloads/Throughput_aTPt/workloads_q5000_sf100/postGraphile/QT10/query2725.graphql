@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "excising"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

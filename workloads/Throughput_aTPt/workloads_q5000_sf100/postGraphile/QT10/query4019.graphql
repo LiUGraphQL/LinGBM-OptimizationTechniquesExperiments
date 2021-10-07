@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "circumstantially"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

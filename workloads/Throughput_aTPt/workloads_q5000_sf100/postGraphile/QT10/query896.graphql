@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "lappers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

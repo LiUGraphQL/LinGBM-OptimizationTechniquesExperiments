@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "playthings"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

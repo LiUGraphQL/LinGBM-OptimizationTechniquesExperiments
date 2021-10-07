@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "squealing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "reboils"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sprinklers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

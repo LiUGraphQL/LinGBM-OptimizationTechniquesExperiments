@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "gyve"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

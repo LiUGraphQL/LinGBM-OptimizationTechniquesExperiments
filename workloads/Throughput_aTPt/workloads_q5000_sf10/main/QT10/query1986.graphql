@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"polymorphically") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

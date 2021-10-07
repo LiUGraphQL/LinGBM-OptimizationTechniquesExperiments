@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"protoactinium") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

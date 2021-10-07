@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "iliads"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "alamos"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

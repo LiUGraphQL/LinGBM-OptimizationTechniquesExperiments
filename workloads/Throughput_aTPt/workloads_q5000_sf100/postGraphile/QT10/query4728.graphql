@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "roentgens"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

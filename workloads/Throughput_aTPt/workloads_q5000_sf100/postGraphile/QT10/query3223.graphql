@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "rebid"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

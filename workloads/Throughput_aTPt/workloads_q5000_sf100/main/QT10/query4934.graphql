@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"carwash") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

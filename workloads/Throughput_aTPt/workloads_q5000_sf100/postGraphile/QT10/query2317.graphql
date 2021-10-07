@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unserviceably"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "hankie"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

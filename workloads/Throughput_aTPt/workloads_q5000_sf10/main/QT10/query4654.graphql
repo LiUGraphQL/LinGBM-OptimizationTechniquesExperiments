@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"dozing") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

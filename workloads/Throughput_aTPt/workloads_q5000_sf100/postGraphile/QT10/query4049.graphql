@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "venireman"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

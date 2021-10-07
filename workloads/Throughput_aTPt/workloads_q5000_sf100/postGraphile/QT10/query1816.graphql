@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "swaddling"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "jacker"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

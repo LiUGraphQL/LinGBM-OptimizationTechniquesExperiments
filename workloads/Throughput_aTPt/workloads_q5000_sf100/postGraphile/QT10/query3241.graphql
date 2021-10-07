@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "slobbish"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

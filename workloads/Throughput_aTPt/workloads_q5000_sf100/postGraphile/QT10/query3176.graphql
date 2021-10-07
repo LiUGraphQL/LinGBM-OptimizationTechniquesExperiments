@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "halfheartedness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

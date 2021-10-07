@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"juggleries") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

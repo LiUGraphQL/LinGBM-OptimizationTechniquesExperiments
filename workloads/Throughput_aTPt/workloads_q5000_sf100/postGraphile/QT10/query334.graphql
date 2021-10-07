@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "pended"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

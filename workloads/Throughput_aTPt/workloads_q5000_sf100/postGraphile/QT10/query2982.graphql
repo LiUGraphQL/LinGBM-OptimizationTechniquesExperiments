@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "larcenously"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

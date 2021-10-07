@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "snorkeling"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

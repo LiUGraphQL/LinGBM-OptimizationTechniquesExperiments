@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "tabourers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

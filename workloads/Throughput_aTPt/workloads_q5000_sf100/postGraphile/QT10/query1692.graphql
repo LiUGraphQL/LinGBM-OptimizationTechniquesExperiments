@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "weevily"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "outbox"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "teapots"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

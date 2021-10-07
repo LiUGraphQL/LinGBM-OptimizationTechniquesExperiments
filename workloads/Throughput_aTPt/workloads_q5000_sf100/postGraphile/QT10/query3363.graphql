@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "contacts"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

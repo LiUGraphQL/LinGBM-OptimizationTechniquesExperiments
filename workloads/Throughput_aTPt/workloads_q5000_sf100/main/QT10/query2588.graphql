@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"currie") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

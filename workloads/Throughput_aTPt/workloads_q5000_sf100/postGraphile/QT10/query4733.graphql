@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "recollecting"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

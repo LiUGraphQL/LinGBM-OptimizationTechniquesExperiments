@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "insteps"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

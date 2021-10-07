@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"rancidity") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

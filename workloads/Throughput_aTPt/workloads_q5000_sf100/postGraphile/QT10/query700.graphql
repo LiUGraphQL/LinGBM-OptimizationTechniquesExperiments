@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "incestuousness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

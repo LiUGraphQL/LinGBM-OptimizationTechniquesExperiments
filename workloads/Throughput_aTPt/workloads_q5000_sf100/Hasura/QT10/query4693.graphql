@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%expirers%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

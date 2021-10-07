@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "undersize"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

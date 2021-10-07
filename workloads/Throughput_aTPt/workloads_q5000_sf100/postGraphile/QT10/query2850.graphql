@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "normatively"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

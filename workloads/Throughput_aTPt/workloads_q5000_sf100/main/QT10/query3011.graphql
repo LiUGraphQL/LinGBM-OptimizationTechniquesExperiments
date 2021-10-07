@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"maneuverability") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

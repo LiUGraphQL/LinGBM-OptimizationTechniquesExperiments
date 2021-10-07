@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "tympanums"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

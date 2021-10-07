@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "expirers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

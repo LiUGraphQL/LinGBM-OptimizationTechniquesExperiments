@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "interwove"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

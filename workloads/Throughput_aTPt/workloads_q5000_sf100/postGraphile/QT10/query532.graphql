@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "illiberal"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

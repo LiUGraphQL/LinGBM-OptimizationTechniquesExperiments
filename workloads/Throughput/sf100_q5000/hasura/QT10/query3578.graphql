@@ -1,9 +1,0 @@
-{ 
-	publication(where: {title: {_like: "%rectangles%"}}) { 
-		nr 
-		title 
-		abstract 
-	} 
-} 
-
- 

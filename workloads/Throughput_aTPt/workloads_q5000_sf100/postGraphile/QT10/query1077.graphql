@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unintentional"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

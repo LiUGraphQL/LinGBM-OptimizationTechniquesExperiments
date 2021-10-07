@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "displaying"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

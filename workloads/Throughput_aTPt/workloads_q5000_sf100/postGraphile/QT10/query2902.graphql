@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "pock"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

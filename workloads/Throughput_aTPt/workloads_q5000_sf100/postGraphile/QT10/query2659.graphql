@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "scandinavians"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

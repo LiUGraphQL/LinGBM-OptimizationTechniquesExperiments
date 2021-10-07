@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "strawy"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

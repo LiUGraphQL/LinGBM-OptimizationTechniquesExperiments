@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sightsaw"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

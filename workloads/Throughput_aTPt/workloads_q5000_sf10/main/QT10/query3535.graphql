@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"clerked") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

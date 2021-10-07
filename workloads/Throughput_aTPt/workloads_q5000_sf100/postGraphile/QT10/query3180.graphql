@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "rummaging"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

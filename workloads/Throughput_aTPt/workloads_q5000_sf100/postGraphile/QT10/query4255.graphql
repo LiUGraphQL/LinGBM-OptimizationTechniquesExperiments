@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "nutriment"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

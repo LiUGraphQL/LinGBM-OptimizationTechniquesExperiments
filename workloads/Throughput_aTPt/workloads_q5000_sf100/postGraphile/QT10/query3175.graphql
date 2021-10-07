@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "parries"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

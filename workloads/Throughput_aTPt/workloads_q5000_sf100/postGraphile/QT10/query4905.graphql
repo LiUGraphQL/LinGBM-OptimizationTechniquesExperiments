@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "markdown"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

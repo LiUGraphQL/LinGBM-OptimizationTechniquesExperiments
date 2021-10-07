@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "insultingly"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

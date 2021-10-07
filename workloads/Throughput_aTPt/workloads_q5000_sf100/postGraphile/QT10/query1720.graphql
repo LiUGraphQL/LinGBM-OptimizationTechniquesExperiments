@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "lyrists"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

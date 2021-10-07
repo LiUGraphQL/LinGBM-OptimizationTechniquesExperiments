@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "hebraizing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "beneficiaries"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

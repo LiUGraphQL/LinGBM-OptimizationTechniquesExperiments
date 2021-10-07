@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "plays"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

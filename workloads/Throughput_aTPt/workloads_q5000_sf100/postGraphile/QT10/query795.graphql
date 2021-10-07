@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "lecheries"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

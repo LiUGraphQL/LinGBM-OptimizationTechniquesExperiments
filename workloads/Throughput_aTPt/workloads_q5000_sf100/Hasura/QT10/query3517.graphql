@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%scatology%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

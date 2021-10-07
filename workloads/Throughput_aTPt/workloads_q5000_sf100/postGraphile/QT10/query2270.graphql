@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "smuggest"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

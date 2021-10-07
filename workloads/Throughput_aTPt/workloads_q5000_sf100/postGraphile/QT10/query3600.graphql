@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "hedgehops"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

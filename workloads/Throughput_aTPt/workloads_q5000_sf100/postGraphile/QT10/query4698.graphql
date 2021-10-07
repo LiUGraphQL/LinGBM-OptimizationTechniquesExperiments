@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "conning"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

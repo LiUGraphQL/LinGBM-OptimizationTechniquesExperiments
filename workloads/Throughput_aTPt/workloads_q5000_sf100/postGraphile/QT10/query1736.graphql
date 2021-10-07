@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "multichannel"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

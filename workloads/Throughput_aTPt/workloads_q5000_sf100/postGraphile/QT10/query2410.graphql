@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "echoers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

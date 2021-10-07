@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "moocher"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

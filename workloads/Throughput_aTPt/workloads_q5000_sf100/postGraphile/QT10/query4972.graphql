@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "murthered"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "recordership"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "faddism"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "trampers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

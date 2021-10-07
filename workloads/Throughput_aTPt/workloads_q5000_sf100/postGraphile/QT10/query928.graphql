@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unpolarized"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

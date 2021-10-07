@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "halitoses"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"bowlfuls") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

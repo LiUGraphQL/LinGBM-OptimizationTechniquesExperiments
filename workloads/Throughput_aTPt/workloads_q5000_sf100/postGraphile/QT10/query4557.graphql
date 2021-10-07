@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "proclamations"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

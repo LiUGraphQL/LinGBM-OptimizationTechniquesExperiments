@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "samphires"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

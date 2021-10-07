@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unicolor"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

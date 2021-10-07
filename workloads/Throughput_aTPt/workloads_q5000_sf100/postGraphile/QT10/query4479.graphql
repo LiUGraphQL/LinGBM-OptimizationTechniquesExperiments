@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "hyphenated"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

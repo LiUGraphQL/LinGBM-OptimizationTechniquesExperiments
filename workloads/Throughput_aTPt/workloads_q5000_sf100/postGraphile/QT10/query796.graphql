@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "flunking"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

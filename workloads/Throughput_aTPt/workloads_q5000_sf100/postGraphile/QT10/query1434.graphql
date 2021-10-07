@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "interlunar"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

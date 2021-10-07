@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "singes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "kilters"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

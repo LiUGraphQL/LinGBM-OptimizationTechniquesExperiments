@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "carping"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

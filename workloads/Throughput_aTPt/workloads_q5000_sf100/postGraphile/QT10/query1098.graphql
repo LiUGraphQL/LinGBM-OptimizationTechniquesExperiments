@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "reconstructs"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

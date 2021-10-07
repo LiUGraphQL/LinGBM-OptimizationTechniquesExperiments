@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%intrudes%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "oversold"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

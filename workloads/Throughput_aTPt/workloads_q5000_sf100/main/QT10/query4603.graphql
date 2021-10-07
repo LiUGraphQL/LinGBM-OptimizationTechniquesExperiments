@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"dehydrogenating") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

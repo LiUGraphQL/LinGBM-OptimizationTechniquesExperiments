@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"leanings") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

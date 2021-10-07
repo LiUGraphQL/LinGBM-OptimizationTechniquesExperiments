@@ -1,9 +1,0 @@
-{ 
-	university(nr:237) { 
-		undergraduateDegreeObtainedBystudent(limit:10, offset: 13) { 
-			advisor {id} 
-		} 
-	} 
-} 
-
- 

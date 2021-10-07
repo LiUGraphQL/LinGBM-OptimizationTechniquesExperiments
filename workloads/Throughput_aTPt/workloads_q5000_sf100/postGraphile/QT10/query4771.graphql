@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "rinsible"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

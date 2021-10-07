@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "incapacitated"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

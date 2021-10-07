@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "annoying"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

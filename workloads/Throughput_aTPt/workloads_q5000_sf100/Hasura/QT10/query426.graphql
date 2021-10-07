@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%legibleness%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

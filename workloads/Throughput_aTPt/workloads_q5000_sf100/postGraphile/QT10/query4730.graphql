@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bhutanese"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

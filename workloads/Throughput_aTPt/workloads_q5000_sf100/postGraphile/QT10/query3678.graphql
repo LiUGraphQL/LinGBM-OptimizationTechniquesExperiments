@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "jouncing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

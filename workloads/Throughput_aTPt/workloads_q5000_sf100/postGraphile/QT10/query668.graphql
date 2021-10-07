@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "dismantles"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

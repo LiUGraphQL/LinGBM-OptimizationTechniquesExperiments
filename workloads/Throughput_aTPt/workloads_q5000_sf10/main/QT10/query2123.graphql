@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"slugabed") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "pasteurizes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"subahdars") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "planer"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

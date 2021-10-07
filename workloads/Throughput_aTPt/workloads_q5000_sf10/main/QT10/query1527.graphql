@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"imbalmer") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

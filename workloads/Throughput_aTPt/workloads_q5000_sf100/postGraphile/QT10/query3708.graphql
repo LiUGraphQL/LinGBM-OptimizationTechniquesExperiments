@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "dazing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

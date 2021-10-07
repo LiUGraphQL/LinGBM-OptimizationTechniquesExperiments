@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "meeting"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

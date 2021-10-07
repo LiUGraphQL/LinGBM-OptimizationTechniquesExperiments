@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unifier"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

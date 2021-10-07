@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "typefaces"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

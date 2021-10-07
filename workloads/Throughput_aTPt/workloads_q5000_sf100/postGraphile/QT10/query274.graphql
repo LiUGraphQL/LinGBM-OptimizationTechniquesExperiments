@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "peopled"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

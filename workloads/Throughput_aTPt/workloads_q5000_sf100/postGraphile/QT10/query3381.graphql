@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "mildewed"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

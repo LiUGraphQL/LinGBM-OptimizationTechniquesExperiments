@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "customers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

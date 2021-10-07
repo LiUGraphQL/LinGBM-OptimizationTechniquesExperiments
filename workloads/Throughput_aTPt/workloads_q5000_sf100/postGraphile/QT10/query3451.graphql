@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "chlorination"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bedquilts"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

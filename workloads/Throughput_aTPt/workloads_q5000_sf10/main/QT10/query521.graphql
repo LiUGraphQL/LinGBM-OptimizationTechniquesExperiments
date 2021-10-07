@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"resumes") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

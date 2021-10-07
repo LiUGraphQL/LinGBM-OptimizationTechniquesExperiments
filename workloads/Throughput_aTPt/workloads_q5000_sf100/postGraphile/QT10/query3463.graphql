@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "detrain"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

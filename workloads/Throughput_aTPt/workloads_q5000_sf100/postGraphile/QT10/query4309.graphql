@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "engages"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

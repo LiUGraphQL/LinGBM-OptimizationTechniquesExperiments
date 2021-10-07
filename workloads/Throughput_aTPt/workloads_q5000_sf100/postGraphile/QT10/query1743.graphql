@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "dismisses"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

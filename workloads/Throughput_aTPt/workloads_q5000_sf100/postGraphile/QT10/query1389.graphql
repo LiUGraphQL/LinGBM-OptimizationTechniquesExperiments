@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "oinks"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

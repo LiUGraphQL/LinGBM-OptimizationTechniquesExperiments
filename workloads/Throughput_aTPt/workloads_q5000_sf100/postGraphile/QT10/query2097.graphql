@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "keratotomies"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

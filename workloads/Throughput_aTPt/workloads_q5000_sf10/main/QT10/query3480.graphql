@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"premeditated") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

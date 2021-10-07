@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "reinfects"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

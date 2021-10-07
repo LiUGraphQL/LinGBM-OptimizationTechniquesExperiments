@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"tameable") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

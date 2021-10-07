@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "overman"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

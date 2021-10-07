@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "confuted"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

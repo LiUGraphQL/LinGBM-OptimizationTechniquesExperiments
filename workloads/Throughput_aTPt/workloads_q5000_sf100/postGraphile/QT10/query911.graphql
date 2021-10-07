@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "empaling"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

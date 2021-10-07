@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "alopecic"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

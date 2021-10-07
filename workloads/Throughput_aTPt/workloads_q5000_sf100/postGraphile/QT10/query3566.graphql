@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cytological"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

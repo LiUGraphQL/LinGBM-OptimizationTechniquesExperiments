@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "queers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

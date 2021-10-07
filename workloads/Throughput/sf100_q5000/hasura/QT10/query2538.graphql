@@ -1,9 +1,0 @@
-{ 
-	publication(where: {title: {_like: "%anabolism%"}}) { 
-		nr 
-		title 
-		abstract 
-	} 
-} 
-
- 

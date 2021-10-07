@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "despoilment"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

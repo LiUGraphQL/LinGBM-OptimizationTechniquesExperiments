@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "toked"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

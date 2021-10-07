@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "southeasters"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

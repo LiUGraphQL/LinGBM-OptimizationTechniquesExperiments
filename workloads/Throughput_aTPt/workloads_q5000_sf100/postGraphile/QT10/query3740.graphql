@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "tarbush"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

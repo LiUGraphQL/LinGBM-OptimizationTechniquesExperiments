@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "photocatalyst"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

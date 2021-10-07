@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "slider"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

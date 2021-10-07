@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "mathematicians"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "diphtherian"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "peels"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"conjoined") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

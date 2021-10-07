@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "suttas"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

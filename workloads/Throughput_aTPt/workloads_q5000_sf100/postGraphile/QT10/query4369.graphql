@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "reinducts"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "enlisters"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

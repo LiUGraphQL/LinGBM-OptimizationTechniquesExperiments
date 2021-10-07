@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "untasteful"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

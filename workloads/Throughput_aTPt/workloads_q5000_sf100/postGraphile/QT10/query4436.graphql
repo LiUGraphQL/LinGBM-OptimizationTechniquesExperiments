@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "resuscitating"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "slitted"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

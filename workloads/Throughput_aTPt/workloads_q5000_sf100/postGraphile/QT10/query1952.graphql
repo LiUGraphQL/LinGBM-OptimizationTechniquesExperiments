@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bestrew"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

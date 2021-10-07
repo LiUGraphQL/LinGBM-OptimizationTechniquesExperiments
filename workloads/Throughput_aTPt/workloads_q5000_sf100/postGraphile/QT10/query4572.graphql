@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "nativists"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

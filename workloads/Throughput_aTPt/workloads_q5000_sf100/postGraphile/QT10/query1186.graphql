@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "booting"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

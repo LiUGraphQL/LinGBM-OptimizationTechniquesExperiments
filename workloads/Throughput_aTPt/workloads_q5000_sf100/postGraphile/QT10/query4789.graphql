@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "crees"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

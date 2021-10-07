@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "quadroon"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

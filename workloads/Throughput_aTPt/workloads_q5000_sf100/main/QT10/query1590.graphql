@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"inspirited") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "extemporize"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unextinguished"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

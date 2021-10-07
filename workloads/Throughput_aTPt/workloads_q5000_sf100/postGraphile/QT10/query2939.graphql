@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "orphaned"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

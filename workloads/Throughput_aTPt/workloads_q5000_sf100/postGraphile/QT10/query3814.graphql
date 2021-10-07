@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "prolonged"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

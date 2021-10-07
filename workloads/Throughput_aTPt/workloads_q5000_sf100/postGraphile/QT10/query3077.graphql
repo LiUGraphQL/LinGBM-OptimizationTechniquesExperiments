@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bedims"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

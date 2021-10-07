@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "thankfully"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

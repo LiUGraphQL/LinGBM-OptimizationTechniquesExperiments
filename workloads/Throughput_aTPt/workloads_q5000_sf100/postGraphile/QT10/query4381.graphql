@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "marrying"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

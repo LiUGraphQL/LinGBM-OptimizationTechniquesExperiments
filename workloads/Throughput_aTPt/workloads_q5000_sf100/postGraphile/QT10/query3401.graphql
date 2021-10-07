@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "tactfulness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

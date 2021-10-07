@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bandanas"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "subversively"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

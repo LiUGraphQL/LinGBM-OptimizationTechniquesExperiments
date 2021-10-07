@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "morphological"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

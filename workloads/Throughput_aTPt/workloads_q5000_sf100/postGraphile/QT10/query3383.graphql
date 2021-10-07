@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "nouns"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

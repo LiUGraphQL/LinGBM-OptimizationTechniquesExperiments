@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "prattle"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

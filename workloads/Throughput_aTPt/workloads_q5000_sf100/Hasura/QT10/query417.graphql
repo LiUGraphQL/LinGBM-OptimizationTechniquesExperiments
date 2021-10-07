@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%rejectees%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

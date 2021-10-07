@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "backspaces"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "yarer"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

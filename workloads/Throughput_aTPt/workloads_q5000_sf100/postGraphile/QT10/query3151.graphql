@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "heinies"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

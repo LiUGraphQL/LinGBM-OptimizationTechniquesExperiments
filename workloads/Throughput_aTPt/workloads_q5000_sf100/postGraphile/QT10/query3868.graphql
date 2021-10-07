@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "lifelessly"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

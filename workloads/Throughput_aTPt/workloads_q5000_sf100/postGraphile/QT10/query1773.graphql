@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "corncrib"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

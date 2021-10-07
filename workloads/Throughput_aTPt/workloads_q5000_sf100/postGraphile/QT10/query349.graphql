@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "movables"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

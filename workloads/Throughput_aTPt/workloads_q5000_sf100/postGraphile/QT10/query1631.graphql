@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "groved"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

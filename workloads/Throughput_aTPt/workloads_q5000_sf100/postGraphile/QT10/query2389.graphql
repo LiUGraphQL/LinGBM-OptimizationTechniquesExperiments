@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "euglenas"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

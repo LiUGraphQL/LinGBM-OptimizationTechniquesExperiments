@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "spiffing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "predesignates"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

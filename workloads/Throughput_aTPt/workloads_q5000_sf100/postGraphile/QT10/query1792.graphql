@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "maintained"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

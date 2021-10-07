@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "heinousness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

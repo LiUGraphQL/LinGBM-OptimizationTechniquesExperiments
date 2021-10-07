@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "ruralite"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "crawdads"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

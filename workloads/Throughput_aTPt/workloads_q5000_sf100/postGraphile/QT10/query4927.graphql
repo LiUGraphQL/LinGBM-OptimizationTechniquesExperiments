@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "olympians"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

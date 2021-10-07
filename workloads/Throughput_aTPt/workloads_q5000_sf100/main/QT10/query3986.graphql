@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"althorns") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

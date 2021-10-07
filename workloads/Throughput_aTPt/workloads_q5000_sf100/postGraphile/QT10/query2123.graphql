@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "arithmeticians"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "declaims"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

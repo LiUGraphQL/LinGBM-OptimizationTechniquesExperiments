@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "disacknowledgements"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

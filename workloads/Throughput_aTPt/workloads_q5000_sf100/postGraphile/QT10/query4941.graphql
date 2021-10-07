@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "swishes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

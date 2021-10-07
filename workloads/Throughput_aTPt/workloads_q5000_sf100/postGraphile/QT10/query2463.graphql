@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "ideally"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

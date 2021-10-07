@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "renewals"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

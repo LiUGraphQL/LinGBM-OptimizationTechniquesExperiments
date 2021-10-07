@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "ailing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"vapory") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

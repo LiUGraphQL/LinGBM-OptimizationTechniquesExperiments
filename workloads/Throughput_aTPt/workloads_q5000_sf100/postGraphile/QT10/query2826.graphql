@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "haughtier"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

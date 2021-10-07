@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "pets"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

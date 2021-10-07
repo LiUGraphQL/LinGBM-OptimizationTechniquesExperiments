@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "staling"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

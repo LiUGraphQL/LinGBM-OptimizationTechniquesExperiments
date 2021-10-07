@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "seas"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "archonships"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "racker"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

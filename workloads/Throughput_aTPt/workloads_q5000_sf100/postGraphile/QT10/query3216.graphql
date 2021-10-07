@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cleanly"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

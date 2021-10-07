@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "absentmindedness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

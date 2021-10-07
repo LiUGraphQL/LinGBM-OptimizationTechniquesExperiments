@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "serenely"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

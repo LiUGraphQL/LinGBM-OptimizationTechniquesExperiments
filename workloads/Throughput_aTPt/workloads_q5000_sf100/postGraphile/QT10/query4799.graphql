@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cinematographies"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

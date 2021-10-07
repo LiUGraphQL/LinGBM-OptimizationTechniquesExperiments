@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "alexia"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

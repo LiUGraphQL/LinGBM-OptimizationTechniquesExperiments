@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "prelate"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

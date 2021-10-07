@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%unmarriageable%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "thwacked"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

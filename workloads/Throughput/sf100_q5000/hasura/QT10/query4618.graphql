@@ -1,9 +1,0 @@
-{ 
-	publication(where: {title: {_like: "%etoiles%"}}) { 
-		nr 
-		title 
-		abstract 
-	} 
-} 
-
- 

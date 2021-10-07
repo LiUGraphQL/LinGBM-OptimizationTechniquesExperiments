@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "repressions"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

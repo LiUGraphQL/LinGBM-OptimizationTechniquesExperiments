@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "reenslaves"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

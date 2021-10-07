@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unclogged"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

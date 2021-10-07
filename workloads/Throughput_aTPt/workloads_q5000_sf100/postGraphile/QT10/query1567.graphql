@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "pixie"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

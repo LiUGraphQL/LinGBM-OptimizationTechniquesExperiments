@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "tattooist"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

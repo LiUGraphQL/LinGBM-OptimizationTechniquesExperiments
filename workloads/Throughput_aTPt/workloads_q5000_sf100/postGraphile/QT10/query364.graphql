@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "meltons"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

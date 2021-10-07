@@ -1,9 +1,0 @@
-{ 
-	publicationSearch(field:title, criterion:CONTAINS, pattern:"wooer") { 
-		id 
-		title 
-		abstract 
-	} 
-} 
-
- 

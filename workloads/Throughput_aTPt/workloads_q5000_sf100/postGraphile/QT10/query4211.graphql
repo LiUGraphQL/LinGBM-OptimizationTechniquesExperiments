@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "reissuers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

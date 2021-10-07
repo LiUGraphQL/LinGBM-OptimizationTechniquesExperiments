@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "parleys"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

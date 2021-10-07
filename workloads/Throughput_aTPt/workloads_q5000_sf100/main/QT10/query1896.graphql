@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"clubbing") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

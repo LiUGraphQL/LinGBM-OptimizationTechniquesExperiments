@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "antonymy"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

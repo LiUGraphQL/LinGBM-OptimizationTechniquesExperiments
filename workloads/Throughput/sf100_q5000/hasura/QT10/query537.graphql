@@ -1,9 +1,0 @@
-{ 
-	publication(where: {title: {_like: "%thereamong%"}}) { 
-		nr 
-		title 
-		abstract 
-	} 
-} 
-
- 

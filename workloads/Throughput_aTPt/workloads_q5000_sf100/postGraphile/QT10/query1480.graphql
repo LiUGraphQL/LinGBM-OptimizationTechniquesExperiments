@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "camouflaged"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

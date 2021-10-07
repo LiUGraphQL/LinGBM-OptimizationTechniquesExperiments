@@ -1,9 +1,0 @@
-{ 
-	publication(where: {title: {_like: "%sender%"}}) { 
-		nr 
-		title 
-		abstract 
-	} 
-} 
-
- 

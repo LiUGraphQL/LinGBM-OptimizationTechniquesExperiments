@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "muggs"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

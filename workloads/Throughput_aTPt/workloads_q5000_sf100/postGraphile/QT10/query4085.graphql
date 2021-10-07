@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "abluted"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

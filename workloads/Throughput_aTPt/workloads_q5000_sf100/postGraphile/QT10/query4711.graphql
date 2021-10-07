@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "fomenter"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

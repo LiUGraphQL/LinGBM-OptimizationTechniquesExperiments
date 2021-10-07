@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "warranting"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "smooching"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

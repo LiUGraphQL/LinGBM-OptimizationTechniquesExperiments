@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "rifles"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

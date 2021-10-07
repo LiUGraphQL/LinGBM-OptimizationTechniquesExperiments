@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "squads"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

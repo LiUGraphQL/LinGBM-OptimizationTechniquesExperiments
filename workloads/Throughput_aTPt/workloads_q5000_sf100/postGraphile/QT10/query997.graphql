@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "contumacious"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "shipping"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

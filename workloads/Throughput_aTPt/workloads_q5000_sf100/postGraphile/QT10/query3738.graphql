@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "wordperfect"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

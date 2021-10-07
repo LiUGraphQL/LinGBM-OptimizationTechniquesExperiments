@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bandeaus"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

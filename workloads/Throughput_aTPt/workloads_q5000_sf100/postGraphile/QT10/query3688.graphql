@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "blueish"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

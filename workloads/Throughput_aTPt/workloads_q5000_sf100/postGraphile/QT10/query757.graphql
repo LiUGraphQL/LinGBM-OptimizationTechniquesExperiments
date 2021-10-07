@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "rustles"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

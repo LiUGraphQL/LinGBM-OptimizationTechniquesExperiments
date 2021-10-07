@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "jawline"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

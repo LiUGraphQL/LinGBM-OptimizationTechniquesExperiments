@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%motorbus%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

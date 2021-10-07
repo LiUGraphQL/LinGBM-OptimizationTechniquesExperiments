@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "epergne"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

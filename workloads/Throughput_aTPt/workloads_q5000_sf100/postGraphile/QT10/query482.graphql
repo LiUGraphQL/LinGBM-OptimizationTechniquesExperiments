@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "mailed"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

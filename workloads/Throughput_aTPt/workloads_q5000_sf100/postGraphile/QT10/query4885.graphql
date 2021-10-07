@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "triplexes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

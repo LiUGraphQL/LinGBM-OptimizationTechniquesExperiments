@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "fathomable"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

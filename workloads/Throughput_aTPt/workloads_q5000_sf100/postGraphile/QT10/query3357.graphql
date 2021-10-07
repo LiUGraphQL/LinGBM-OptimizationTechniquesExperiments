@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "birdmen"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

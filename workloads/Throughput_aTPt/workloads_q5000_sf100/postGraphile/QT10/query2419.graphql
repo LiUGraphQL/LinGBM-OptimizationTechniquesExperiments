@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "anticipated"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

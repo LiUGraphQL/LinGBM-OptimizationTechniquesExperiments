@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "chooses"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

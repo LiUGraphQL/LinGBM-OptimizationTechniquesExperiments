@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "crushable"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

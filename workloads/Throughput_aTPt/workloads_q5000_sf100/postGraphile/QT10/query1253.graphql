@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "antics"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

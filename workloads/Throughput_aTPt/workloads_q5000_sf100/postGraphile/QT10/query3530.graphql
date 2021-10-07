@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "mincers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

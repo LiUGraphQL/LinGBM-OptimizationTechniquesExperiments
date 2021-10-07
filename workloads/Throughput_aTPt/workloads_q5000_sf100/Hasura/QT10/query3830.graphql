@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%planetoids%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

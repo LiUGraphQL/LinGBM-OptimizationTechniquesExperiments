@@ -1,9 +1,0 @@
-{ 
-	publicationSearch(field:title, criterion:CONTAINS, pattern:"ferrymen") { 
-		id 
-		title 
-		abstract 
-	} 
-} 
-
- 

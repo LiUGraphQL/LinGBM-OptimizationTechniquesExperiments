@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "stressor"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "reenlightening"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

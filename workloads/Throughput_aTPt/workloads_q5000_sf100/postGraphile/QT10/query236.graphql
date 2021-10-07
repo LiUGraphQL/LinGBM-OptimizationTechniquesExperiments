@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "vapory"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

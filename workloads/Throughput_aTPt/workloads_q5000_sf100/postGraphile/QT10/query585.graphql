@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "patriliny"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

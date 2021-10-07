@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "grandames"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

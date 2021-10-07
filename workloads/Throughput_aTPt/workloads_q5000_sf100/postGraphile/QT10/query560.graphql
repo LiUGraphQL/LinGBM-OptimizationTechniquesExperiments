@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "gouges"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

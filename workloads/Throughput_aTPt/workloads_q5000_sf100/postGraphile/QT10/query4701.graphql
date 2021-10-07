@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "perm"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

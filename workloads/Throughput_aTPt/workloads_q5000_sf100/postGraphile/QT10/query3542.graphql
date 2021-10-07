@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "dimwitted"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

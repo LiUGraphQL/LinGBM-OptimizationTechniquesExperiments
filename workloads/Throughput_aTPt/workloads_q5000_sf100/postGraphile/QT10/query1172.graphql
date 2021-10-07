@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "queuer"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

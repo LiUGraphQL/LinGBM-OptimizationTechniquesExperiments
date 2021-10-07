@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "gestate"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

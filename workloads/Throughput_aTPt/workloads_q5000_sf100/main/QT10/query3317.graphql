@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"tamps") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

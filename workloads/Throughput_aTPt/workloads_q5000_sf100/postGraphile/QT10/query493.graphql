@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "gyral"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

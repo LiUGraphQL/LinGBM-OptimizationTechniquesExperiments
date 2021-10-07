@@ -1,9 +1,0 @@
-{ 
-	publicationSearch(field:title, criterion:CONTAINS, pattern:"unedible") { 
-		id 
-		title 
-		abstract 
-	} 
-} 
-
- 

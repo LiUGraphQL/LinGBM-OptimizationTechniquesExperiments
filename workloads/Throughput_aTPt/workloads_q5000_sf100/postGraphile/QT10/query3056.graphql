@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "peacocks"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

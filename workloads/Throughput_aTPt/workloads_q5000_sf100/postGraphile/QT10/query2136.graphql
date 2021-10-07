@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "backsliding"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "naughts"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

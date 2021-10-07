@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "disport"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

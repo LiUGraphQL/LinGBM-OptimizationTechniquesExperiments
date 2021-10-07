@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"backwoodsman") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

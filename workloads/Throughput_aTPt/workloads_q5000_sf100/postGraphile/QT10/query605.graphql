@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unfortified"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

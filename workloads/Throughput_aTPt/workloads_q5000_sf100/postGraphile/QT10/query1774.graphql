@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sundering"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

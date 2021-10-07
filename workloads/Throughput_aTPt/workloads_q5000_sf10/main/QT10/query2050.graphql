@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"waled") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

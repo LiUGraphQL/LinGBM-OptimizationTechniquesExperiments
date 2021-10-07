@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "gnotobiologies"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

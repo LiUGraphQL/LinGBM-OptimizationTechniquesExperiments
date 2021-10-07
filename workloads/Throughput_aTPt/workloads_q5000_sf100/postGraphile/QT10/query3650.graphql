@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "situps"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

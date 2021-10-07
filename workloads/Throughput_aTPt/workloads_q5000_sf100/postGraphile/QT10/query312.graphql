@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "doorless"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

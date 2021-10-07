@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "triumvirates"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

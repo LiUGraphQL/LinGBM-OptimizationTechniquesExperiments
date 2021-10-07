@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "resettles"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

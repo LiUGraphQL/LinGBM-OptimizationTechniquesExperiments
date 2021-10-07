@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "fragmented"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

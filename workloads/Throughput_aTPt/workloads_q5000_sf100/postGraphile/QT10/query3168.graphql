@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "glazers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

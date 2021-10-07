@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "personative"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

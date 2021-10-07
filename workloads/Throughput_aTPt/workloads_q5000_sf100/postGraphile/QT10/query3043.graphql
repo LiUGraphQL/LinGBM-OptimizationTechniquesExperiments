@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "stateswomen"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

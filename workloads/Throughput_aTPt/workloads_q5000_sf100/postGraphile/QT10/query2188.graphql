@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "dramatization"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

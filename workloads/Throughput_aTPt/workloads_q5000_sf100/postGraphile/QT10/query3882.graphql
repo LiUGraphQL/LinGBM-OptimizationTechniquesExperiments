@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "titanias"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

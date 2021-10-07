@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bordels"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

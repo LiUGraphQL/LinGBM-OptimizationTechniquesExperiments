@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"wavelike") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

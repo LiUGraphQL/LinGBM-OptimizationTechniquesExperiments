@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "upsetter"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

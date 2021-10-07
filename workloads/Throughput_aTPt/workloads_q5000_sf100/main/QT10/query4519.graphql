@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"tennises") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

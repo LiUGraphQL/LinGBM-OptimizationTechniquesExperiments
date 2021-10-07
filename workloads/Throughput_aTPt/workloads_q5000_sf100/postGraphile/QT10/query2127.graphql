@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "fettered"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

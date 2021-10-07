@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "pattypan"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

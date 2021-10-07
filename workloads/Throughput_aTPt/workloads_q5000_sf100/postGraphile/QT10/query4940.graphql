@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "proscribes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

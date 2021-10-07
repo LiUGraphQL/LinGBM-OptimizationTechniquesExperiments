@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "vicarial"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "fleeciness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

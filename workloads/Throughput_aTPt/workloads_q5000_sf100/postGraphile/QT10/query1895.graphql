@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "druidesses"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

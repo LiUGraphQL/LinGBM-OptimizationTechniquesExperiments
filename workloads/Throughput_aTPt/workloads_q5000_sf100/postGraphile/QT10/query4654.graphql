@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "anapests"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

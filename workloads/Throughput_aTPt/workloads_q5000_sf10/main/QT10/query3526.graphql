@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"throbbed") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

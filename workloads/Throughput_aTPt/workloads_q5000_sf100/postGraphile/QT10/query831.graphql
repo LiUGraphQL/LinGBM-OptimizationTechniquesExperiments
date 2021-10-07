@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "slyest"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

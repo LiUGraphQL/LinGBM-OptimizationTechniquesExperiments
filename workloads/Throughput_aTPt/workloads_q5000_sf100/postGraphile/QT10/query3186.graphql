@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sorcerer"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

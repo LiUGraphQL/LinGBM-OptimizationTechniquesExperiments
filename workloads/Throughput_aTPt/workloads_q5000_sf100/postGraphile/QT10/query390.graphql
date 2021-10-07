@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cordwood"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

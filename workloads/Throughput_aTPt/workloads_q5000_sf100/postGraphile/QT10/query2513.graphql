@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "concelebration"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

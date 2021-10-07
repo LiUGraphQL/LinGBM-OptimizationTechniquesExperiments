@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "tagalong"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "spined"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

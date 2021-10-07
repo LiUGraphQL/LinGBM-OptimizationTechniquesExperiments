@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"hectograms") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

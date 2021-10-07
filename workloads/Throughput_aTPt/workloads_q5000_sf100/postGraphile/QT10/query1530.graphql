@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "legator"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

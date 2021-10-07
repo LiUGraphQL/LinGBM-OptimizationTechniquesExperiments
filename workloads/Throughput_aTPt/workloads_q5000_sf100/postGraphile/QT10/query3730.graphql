@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "remeasurement"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

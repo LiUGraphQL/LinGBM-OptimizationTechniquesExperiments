@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "hidings"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

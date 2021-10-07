@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"civies") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

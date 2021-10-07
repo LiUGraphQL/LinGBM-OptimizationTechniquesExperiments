@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "peps"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

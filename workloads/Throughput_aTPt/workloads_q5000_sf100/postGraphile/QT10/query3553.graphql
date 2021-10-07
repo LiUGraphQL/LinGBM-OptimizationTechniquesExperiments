@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "trouped"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

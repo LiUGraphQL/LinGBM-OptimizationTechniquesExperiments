@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "apologizer"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

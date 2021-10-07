@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "muckraked"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

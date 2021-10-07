@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "poolhalls"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

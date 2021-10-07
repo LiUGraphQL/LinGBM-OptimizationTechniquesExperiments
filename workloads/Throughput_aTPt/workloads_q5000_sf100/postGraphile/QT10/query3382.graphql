@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "nonallergenic"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

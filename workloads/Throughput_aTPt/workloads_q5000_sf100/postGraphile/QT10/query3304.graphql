@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "worrying"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

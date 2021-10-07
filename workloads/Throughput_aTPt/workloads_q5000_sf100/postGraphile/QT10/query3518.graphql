@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "newsboys"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

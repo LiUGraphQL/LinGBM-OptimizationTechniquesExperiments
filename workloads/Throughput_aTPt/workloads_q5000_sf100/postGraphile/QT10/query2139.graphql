@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "fellies"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

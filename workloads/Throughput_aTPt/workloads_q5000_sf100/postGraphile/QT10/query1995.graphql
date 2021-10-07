@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "occultism"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

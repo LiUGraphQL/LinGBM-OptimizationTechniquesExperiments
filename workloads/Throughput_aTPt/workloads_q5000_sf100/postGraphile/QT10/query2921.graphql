@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unpromising"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

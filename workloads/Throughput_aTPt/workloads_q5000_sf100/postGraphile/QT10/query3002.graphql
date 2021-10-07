@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "shoats"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

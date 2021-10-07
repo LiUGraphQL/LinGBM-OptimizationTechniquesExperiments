@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "serviceably"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

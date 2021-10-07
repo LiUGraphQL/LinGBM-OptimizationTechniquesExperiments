@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "retrievers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

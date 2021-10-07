@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "busywork"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "blitzkriegs"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

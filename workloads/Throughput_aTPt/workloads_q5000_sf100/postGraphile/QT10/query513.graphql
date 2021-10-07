@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "nubbins"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

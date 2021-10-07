@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "alluring"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "militarizes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "reapers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

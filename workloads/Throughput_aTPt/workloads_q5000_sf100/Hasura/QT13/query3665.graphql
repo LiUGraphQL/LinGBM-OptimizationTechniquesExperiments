@@ -1,0 +1,11 @@
+{ 
+  university(where: { nr:{ _eq: 168 }}) { 
+    graduatestudents(where: {professor: {researchinterest:{ _like: "%prs%" }}}){ 
+      nr 
+      emailaddress 
+      graduatestudenttakecourses {graduatecourseid } 
+    } 
+  } 
+} 
+
+ 

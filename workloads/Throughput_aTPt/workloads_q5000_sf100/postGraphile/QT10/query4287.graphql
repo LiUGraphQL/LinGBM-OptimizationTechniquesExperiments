@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unchastities"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

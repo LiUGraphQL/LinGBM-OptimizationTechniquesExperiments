@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "coexisting"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

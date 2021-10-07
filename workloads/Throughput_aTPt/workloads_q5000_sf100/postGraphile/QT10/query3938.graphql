@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "ecological"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

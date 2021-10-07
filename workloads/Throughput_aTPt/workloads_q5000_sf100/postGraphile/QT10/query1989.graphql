@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "felted"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

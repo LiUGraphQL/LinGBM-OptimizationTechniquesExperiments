@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "oversophisticated"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bollixed"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

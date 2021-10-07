@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "uncontrovertible"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

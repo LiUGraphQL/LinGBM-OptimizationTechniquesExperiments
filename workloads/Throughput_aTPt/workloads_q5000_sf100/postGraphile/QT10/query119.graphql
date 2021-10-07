@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "emplaced"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

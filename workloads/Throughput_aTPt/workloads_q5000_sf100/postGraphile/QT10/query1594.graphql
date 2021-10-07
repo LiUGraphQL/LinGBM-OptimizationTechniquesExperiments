@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "psychosexuality"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

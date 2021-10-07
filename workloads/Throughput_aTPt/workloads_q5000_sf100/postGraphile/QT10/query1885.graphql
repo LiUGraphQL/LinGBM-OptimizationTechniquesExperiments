@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "submarginal"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

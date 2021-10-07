@@ -1,9 +1,0 @@
-{ 
-	publication(where: {title: {_like: "%overmodifies%"}}) { 
-		nr 
-		title 
-		abstract 
-	} 
-} 
-
- 

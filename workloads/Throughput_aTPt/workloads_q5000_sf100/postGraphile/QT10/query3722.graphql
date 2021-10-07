@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "rubbing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

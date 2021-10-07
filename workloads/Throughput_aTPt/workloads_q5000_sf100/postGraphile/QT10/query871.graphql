@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "flakiness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

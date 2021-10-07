@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "wareroom"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

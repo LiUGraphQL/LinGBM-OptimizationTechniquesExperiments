@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "carrell"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

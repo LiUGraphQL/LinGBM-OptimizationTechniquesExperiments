@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "woolskin"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

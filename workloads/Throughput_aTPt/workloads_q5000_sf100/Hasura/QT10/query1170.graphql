@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%interdicting%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

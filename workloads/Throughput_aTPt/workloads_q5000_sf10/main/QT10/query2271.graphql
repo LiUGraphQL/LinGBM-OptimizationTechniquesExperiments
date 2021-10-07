@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"goldfishes") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

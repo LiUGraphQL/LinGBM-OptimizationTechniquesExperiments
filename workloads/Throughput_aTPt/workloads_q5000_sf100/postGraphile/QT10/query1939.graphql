@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "abominators"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

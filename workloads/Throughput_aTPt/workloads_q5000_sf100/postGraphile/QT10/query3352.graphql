@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "outskirts"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "decathlons"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

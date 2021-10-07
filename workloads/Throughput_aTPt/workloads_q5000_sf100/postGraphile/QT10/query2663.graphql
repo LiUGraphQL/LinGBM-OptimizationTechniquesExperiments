@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "leadoff"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

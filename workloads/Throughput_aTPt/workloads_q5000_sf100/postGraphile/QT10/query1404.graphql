@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "equilibriums"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

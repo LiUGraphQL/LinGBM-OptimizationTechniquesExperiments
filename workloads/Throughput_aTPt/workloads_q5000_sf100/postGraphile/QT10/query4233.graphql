@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "salesmanship"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

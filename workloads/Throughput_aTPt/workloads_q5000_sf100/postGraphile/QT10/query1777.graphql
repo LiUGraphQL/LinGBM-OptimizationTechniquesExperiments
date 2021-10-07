@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "rescheduled"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

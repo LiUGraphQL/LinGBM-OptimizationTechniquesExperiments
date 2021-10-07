@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"perkiness") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

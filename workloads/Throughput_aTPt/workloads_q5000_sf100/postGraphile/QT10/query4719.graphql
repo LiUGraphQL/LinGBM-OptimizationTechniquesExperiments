@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "inspects"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "isometrically"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

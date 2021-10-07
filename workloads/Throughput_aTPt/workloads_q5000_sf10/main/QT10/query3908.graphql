@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"holisms") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

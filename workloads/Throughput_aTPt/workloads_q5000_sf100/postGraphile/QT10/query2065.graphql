@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "journeying"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

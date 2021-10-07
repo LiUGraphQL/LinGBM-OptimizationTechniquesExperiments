@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "hyperbolas"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

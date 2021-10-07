@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "carwash"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "numerating"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

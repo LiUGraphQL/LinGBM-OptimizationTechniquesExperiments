@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "inurns"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

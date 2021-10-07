@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bountifulness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

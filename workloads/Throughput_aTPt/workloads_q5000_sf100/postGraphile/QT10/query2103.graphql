@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "obscenities"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

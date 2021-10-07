@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"paleocene") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

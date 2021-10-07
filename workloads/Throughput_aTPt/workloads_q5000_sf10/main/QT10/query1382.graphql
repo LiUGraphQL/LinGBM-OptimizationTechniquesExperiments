@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"zee") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

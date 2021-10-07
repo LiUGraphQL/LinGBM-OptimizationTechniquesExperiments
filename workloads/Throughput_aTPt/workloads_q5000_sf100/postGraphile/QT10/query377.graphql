@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "ungenial"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

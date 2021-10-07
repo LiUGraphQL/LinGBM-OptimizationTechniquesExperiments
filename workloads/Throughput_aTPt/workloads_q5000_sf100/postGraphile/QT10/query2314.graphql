@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "backrests"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

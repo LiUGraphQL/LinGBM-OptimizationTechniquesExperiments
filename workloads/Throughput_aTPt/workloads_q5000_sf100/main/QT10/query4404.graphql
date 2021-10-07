@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"nondifferentiation") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

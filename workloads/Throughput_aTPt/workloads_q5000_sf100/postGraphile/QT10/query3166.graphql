@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "treasured"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

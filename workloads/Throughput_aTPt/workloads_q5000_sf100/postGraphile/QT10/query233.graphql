@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "interpolations"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

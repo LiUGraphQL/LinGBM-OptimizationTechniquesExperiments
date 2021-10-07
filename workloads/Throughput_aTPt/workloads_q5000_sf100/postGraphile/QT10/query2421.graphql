@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "ramparts"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

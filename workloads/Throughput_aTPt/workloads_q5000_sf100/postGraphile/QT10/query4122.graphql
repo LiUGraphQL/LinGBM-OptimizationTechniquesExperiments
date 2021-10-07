@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "rubbled"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "tetrahedrons"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"appeals") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

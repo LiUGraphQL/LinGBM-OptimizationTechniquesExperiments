@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "surfeiting"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

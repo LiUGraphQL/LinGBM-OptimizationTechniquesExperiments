@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "lacewings"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

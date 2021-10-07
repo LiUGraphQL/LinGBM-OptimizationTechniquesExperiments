@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "lavishers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "amorphousness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

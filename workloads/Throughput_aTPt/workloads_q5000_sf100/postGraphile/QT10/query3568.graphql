@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "policyholders"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

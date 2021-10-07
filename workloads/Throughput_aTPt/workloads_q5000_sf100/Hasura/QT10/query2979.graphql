@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%carmaker%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "nonsecular"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"superannuity") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

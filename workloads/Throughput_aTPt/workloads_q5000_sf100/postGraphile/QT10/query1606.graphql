@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "barns"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

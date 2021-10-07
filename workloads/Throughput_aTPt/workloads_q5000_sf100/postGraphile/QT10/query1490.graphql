@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "largess"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

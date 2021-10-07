@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "beefless"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

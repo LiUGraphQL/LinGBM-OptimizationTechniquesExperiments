@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "dabblings"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

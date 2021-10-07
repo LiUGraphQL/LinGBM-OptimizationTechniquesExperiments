@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "aortal"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

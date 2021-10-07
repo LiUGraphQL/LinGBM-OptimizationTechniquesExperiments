@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "untangles"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

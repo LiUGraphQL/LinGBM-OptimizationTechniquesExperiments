@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"phosphorous") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

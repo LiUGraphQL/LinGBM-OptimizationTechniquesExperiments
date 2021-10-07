@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "nescients"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

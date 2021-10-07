@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cuish"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

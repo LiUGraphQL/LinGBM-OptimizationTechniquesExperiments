@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "encouragement"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

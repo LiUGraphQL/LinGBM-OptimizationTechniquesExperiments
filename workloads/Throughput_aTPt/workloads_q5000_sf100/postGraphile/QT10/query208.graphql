@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unobserving"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sweepings"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

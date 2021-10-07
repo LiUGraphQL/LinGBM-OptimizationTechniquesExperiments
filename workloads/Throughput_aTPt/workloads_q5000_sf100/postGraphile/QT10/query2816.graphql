@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "birdlimes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

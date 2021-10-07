@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sallowy"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

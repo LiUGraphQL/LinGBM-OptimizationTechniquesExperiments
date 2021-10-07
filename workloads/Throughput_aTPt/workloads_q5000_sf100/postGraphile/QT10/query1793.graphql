@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "chancellery"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

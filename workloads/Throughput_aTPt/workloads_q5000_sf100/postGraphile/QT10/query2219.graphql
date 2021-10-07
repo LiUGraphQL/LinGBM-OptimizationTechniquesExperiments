@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "befuddles"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

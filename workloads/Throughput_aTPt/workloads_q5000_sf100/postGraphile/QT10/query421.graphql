@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "simulated"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

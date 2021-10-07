@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"tubectomy") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sophisticates"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

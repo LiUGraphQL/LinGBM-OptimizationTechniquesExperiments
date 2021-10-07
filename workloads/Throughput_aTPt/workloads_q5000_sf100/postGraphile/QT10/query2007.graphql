@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "haggis"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

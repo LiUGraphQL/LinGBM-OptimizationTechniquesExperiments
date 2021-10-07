@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "knobbiest"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

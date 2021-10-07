@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "contemnor"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

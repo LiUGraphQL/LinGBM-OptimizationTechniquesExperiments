@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"multitudes") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

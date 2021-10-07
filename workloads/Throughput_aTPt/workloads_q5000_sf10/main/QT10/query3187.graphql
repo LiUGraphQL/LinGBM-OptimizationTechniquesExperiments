@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"pothead") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

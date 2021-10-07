@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "ribosomal"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

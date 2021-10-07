@@ -1,9 +1,0 @@
-{ 
-	publicationSearch(field:title, criterion:CONTAINS, pattern:"carbolated") { 
-		id 
-		title 
-		abstract 
-	} 
-} 
-
- 

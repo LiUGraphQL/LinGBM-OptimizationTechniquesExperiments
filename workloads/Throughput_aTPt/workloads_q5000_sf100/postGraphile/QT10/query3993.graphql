@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "tercentennial"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

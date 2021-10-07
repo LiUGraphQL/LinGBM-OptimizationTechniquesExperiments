@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "golds"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

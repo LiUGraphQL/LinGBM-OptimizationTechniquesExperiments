@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "metastasizes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

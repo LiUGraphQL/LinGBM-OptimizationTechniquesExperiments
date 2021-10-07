@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "hingers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

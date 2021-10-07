@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "rondures"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

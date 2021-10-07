@@ -1,9 +1,0 @@
-{ 
-	publicationSearch(field:title, criterion:CONTAINS, pattern:"exactors") { 
-		id 
-		title 
-		abstract 
-	} 
-} 
-
- 

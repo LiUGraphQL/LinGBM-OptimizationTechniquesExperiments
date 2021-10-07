@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"winding") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "inviabilities"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

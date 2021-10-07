@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "determents"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

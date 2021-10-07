@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "notarized"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unmarriageable"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

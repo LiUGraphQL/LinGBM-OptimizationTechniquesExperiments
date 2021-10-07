@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "aggie"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

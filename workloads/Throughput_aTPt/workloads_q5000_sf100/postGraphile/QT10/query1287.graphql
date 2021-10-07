@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "voile"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

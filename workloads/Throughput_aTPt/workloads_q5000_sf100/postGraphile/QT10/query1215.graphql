@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "haltingly"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

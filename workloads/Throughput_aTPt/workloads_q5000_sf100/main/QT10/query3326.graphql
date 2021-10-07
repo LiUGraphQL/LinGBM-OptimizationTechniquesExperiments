@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"electrics") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

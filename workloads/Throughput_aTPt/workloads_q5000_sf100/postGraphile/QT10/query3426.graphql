@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "tribuneship"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "priss"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

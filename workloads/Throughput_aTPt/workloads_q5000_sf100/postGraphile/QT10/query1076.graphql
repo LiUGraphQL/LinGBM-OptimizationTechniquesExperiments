@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "zionists"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "criminology"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

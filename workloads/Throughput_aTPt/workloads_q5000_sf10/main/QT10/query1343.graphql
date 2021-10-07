@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"monotheist") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

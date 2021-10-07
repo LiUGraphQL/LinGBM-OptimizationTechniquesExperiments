@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "recordists"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

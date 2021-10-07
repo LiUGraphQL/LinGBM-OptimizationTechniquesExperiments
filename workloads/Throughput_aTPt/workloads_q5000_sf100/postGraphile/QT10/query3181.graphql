@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "crankshafts"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

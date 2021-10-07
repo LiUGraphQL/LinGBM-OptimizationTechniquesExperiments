@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "extinctions"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

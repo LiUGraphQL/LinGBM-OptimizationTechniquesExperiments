@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "revs"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "perfusing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

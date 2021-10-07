@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "nourishers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

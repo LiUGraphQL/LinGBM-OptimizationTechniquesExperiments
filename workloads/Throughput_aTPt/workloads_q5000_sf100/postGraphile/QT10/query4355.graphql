@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "colonelcies"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

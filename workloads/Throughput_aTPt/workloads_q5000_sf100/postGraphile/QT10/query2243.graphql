@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "countersigns"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

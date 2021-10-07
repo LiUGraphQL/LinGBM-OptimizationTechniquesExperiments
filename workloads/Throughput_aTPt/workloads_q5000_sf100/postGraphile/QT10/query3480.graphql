@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "deceptions"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

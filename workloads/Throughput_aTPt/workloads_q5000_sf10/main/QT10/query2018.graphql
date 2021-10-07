@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"thickset") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

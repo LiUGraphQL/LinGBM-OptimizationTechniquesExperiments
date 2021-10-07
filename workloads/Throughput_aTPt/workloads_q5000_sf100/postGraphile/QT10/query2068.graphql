@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "delegations"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

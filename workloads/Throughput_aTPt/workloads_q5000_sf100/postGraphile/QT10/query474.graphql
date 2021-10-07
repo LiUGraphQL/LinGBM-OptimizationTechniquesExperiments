@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "paseos"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

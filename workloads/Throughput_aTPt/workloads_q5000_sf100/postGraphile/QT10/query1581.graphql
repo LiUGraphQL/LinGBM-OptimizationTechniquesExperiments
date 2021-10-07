@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "ketches"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

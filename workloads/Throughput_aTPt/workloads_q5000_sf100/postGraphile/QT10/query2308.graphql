@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "symbiote"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"skinniest") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

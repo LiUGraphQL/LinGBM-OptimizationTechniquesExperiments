@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "denuding"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

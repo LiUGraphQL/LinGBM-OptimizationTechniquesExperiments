@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "miniskirts"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

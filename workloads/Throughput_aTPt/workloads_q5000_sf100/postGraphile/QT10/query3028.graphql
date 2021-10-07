@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "aspca"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

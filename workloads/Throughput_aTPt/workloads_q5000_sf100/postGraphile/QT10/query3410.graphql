@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "claddings"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

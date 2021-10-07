@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "trowsers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

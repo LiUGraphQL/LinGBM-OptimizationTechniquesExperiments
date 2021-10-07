@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "noshing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

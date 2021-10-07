@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "logicizes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

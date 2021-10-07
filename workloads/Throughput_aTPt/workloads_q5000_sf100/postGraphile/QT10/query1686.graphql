@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "mineralogically"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

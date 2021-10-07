@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "marbliest"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

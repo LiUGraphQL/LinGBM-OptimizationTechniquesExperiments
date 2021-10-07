@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "insider"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

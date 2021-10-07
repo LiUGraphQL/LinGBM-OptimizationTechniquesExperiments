@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "dustheaps"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

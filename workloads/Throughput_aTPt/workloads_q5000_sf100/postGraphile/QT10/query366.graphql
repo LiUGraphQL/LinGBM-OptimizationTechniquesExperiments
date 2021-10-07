@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "tearer"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "landslid"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

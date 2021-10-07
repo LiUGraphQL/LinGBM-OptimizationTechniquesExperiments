@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "facing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

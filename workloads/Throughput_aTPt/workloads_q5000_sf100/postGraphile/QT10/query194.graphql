@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "aunts"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

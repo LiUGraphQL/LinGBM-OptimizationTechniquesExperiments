@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "besmearing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

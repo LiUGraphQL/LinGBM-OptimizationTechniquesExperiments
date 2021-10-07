@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"swingers") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

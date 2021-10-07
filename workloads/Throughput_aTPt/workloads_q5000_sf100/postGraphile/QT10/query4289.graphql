@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "discerned"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

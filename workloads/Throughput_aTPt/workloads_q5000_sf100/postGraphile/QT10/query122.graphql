@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "statelessness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "fossilized"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

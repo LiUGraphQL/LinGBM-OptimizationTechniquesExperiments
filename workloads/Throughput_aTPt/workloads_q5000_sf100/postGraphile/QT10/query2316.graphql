@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "gimping"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

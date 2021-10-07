@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "murderously"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

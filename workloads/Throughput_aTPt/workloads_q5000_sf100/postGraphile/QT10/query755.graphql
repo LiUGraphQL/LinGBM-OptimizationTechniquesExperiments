@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "metatarsi"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

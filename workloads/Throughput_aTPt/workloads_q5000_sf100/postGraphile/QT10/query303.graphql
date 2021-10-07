@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "creaser"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

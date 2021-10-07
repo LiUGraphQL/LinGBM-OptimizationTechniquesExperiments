@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "enjambment"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

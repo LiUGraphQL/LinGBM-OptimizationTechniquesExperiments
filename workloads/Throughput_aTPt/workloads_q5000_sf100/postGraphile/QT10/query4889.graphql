@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "kabala"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"carbonize") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "eyecup"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"evertor") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

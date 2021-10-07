@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "croaker"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"jellified") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

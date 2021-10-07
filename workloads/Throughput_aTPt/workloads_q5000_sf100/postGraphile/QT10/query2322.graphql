@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "yearns"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bundles"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

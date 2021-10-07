@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"ripoffs") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "leukemics"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "endorsees"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

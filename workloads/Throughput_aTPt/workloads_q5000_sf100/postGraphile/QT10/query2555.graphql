@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "foreordaining"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

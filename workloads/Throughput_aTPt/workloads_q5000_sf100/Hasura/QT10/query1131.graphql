@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%mahjongg%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

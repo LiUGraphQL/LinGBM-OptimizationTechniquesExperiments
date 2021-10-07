@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "moistener"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

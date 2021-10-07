@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%rechartering%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

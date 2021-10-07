@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "reentry"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

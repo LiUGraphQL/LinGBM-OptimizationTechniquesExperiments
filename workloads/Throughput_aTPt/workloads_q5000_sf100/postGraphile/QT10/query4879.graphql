@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unhook"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

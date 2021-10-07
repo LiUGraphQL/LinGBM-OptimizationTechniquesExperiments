@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "panoramas"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

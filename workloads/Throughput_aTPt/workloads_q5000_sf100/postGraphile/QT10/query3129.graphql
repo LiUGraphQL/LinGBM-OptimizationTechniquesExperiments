@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "drawled"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

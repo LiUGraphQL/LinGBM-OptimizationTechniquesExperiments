@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"corpulences") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

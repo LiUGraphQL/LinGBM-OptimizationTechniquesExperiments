@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"reinvestigated") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "skinniest"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

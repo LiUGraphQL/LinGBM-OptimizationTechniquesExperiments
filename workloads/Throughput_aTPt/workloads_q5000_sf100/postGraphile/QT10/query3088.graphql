@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "avitaminoses"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

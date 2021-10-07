@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "negatrons"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

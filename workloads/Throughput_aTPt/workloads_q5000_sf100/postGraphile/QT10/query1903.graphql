@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "overrefined"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

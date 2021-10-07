@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "soullessness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

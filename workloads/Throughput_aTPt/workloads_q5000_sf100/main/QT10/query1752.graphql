@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"venine") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

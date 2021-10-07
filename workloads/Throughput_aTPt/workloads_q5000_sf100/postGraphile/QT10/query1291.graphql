@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "reenforce"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

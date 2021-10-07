@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "tramelled"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

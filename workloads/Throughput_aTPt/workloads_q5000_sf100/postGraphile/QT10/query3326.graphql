@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "electrics"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

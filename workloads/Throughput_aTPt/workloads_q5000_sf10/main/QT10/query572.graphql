@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"viability") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "strenuously"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

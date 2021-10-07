@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "calculating"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

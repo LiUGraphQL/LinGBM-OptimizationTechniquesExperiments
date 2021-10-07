@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"rotational") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

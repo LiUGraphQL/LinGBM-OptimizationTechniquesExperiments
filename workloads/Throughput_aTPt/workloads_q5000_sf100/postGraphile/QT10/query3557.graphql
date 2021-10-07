@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "guilds"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

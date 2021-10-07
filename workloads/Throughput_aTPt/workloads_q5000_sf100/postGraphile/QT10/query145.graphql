@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "grueller"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

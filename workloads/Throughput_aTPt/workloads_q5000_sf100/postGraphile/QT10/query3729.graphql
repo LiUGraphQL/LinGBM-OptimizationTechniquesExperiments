@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "persecutors"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

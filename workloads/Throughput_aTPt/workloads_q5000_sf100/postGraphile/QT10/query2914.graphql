@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "lunkers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

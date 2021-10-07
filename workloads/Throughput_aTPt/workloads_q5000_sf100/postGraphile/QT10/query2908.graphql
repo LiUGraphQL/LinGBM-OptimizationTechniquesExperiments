@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "olives"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

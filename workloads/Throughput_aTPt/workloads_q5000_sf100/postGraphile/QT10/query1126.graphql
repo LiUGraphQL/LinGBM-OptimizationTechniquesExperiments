@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "raglans"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "erecter"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bankrupts"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

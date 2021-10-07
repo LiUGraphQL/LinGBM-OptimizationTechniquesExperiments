@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bravoed"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

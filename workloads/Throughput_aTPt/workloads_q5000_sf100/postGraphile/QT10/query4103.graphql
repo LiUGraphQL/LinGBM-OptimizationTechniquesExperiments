@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "christeners"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

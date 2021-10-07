@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unconstricted"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

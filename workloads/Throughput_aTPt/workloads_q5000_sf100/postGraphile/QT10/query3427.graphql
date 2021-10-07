@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "mercurous"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

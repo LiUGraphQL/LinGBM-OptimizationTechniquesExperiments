@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "tilts"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

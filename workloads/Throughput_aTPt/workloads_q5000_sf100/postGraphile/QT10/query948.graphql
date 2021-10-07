@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "excellence"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

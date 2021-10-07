@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "apprisers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "grumbling"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

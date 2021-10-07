@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "grazioso"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

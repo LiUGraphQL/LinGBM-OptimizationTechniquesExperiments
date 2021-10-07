@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "footslogs"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

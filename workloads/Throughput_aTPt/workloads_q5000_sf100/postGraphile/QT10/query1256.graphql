@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "frisbee"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

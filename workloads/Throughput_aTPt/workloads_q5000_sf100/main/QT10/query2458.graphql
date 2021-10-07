@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"futurism") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

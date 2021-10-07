@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "smoothy"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

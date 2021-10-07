@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "villainesses"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

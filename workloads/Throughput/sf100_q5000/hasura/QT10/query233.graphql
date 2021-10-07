@@ -1,9 +1,0 @@
-{ 
-	publication(where: {title: {_like: "%backslide%"}}) { 
-		nr 
-		title 
-		abstract 
-	} 
-} 
-
- 

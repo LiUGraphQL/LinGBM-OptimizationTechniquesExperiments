@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"calories") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

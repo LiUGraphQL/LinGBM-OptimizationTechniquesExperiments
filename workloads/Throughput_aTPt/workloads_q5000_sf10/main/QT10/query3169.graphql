@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"baccarats") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bacons"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

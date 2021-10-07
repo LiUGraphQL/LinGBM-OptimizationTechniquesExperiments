@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "prudery"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

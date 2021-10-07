@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "disestablished"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

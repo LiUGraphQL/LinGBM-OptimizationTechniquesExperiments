@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "morels"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

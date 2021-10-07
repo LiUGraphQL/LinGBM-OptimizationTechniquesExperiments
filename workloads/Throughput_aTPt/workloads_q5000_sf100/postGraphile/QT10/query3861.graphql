@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "contestation"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

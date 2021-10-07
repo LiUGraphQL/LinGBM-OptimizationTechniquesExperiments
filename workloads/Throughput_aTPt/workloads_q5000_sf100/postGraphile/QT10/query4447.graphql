@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "footboy"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

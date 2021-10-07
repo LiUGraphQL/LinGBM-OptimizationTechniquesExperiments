@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "childlessness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

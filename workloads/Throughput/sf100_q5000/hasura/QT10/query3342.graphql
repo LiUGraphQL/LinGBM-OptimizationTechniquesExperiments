@@ -1,9 +1,0 @@
-{ 
-	publication(where: {title: {_like: "%genitalic%"}}) { 
-		nr 
-		title 
-		abstract 
-	} 
-} 
-
- 

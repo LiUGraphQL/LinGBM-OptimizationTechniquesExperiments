@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%recyclable%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

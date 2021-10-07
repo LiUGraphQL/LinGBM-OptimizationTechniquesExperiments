@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "incoincident"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

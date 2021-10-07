@@ -1,9 +1,0 @@
-{ 
-	publication(where: {title: {_like: "%counted%"}}) { 
-		nr 
-		title 
-		abstract 
-	} 
-} 
-
- 

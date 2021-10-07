@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "jowliest"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "iceless"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

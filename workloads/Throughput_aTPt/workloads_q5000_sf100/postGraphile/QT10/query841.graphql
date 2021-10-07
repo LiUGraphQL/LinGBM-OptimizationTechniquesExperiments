@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "differentiated"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

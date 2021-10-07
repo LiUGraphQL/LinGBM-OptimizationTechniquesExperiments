@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "reemphasis"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

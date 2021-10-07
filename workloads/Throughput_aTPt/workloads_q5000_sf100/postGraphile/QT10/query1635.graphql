@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "disestablish"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

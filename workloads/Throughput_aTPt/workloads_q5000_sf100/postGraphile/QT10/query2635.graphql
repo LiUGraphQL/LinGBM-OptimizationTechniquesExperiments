@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "weiners"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

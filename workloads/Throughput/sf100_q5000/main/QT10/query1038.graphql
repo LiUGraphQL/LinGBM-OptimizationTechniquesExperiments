@@ -1,9 +1,0 @@
-{ 
-	publicationSearch(field:title, criterion:CONTAINS, pattern:"arrhythmias") { 
-		id 
-		title 
-		abstract 
-	} 
-} 
-
- 

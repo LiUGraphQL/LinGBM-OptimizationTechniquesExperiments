@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sublimation"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

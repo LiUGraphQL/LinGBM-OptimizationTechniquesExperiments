@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "plumbable"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

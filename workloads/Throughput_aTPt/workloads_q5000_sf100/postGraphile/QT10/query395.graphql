@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "gravimeters"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

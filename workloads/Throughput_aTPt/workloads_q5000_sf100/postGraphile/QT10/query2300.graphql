@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cerebrums"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

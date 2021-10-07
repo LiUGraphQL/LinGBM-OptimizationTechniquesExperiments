@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "overachieved"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

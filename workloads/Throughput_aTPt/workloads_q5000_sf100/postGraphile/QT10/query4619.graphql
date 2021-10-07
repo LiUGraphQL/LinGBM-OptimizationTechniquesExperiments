@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "recompute"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "leader"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

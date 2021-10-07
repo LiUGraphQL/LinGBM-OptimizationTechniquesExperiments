@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "studys"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "knuckliest"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

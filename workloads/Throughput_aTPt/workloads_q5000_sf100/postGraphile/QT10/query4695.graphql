@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "ousting"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bedevilment"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"paralyze") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

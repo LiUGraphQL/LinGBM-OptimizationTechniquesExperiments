@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "forefinger"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

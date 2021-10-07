@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "veiner"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

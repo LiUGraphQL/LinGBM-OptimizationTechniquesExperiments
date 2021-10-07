@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"misconstruction") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

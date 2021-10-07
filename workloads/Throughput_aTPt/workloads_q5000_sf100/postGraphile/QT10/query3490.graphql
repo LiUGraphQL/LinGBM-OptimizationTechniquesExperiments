@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "tuques"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

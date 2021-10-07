@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"obstructor") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

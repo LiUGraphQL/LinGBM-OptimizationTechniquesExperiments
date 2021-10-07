@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "alcazar"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

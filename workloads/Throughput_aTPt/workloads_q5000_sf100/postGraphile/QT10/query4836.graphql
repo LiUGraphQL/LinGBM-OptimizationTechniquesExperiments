@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "ropiest"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

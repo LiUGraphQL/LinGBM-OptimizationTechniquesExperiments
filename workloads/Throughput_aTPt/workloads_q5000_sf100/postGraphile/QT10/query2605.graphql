@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "tenderest"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

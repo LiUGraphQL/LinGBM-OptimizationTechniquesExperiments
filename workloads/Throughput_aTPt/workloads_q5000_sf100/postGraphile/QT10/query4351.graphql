@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "appliques"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

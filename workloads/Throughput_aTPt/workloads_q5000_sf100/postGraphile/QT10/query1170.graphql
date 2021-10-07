@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "interdicting"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

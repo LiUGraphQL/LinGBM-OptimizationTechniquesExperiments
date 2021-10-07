@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "invigoration"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

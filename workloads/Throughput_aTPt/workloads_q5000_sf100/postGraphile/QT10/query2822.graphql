@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "lowlier"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

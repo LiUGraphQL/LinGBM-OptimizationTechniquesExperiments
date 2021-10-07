@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"setae") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

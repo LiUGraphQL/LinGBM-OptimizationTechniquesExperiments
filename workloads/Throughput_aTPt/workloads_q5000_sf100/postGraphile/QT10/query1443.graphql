@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sodalities"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

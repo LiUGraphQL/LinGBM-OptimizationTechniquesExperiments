@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "ensembles"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

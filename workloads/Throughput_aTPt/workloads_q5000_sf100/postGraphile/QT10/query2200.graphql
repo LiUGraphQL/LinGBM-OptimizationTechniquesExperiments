@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "tarsi"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

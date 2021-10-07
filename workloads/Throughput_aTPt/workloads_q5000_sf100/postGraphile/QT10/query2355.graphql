@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "penholder"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

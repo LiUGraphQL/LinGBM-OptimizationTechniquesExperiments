@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "trekked"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

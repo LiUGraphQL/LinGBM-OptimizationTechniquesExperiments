@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "tatting"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

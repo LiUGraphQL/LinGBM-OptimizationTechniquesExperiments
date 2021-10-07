@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "hallucinates"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

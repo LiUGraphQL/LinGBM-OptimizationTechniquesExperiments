@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "automatons"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

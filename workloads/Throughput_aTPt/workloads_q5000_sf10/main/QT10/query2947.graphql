@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"alterable") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

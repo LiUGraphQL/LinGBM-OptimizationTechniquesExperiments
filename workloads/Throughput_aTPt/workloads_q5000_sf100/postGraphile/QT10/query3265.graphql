@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cadis"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "dissimulates"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

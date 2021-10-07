@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "globate"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "standardization"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

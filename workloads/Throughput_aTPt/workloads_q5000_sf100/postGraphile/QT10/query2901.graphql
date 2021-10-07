@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "impellers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

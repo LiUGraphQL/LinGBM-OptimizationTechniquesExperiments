@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bootee"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

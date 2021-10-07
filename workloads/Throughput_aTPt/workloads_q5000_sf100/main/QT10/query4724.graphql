@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"lavishers") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

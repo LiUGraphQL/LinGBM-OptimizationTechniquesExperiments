@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "inspirited"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

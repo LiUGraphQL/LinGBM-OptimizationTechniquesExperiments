@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unadvisedly"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

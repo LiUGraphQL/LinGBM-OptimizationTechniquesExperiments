@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "handwrites"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

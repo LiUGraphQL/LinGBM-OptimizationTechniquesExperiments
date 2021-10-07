@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "chidden"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

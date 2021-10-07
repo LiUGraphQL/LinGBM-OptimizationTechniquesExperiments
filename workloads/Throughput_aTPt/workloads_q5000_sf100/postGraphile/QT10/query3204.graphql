@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "stoppages"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "ingots"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

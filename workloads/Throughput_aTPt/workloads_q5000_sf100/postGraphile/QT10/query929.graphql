@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "gestapos"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

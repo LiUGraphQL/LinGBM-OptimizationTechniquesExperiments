@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"flagellation") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

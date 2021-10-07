@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "demoness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

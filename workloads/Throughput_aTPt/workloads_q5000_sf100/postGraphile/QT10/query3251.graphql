@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "entoils"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

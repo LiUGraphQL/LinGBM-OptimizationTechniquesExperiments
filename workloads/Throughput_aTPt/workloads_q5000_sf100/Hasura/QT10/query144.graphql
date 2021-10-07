@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%unsteadiness%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "wizardly"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"bicyclic") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"bedcover") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "indicatively"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

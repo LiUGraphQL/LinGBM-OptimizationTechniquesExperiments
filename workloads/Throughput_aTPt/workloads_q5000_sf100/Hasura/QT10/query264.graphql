@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%nonphysiological%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

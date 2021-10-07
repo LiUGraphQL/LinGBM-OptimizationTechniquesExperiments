@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "serological"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

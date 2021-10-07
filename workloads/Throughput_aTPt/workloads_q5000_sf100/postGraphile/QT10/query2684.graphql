@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "haircloth"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "earful"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "whackiest"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

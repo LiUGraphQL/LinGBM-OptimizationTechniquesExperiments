@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "broods"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

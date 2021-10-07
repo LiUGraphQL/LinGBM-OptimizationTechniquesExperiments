@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "harridans"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

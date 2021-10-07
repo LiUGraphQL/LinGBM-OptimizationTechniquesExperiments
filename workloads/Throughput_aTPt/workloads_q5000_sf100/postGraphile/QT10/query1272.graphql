@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "fluty"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

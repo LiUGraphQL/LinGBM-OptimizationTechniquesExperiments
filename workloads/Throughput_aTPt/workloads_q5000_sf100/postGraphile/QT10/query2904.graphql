@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "rotisseries"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

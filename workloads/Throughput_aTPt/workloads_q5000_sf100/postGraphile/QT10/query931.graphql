@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "forgoing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

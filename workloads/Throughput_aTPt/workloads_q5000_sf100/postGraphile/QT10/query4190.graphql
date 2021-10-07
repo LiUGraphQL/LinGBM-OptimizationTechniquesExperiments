@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "splenectomize"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

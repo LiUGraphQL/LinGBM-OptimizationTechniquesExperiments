@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"harken") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

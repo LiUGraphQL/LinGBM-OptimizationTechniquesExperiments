@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "rationally"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

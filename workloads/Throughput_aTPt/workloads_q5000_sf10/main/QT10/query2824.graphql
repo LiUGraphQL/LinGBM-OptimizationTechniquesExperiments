@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"eulogize") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "anisettes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%ensign%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

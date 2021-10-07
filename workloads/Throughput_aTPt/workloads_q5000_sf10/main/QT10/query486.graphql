@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"metastasizing") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

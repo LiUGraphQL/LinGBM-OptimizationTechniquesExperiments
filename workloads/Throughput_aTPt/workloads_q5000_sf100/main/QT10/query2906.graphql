@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"triumvirates") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

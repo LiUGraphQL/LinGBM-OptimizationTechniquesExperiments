@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "chinooks"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

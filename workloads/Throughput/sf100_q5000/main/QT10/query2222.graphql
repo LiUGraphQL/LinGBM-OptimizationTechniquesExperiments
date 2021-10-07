@@ -1,9 +1,0 @@
-{ 
-	publicationSearch(field:title, criterion:CONTAINS, pattern:"defying") { 
-		id 
-		title 
-		abstract 
-	} 
-} 
-
- 

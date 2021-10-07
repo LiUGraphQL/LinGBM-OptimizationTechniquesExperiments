@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "mystification"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

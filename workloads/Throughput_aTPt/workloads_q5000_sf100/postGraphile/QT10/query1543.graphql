@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "animator"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

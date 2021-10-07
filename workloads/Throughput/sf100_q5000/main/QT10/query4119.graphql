@@ -1,9 +1,0 @@
-{ 
-	publicationSearch(field:title, criterion:CONTAINS, pattern:"rings") { 
-		id 
-		title 
-		abstract 
-	} 
-} 
-
- 

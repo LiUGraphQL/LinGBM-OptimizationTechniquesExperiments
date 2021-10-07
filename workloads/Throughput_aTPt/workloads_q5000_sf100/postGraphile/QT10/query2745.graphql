@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "outvotes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

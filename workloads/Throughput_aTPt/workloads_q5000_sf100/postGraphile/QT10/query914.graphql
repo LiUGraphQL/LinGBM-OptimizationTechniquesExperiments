@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "dockers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

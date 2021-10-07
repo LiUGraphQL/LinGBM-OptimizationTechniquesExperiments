@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "refinish"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "shrills"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "savoring"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "inexorably"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

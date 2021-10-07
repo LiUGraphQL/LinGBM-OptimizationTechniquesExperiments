@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bloater"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

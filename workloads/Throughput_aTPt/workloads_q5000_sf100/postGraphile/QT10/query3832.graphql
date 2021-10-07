@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "antinovel"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "ticketed"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

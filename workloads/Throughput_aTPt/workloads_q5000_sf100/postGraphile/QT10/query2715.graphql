@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "assemblages"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

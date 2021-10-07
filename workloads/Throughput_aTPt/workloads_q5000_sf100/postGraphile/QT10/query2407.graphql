@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "nonfiction"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

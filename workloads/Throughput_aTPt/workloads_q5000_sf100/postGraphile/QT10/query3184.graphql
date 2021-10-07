@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "hocussed"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "musculatures"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

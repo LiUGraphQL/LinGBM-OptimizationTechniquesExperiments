@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "skillfulness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

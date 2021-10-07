@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "purposelessness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "exaggerating"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

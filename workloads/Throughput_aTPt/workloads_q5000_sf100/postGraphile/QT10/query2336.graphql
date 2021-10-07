@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "overtraining"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

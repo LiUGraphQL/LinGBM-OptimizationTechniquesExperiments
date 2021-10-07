@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "pearled"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

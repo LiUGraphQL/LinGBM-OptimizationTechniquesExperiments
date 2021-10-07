@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "courters"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

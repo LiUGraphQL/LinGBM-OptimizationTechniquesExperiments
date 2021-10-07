@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "demineralizes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "dilatate"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "worldliness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"etape") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

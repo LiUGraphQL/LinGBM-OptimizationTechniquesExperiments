@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "recelebrates"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

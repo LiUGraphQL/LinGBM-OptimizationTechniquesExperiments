@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "teepees"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

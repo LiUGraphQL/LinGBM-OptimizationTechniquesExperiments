@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "woodenness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

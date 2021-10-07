@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "alpacas"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

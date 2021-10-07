@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "violating"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "spiced"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

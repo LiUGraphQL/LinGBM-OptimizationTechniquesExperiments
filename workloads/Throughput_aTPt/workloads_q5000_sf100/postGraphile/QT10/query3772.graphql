@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "estimating"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

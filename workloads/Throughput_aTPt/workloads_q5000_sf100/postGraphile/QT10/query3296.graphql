@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "goddams"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

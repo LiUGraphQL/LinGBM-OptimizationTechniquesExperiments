@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"jubilees") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

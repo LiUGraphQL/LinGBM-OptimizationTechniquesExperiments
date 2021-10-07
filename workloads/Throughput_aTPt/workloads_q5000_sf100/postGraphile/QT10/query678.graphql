@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "risks"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

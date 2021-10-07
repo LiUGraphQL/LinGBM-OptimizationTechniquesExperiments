@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cottontail"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

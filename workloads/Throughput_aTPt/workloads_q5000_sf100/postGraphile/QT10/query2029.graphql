@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "professed"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

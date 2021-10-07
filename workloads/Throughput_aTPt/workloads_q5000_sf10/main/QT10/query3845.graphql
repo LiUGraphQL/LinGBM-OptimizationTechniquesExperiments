@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"recooked") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

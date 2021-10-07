@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "motordrome"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "pelf"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

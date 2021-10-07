@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"canzoni") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

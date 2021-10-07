@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "eulogists"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

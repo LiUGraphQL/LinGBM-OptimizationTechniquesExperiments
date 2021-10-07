@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "timer"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

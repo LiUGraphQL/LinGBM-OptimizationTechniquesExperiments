@@ -1,9 +1,0 @@
-{ 
-	publicationSearch(field:title, criterion:CONTAINS, pattern:"bunched") { 
-		id 
-		title 
-		abstract 
-	} 
-} 
-
- 

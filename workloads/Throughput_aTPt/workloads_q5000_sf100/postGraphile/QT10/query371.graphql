@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "guttersnipes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

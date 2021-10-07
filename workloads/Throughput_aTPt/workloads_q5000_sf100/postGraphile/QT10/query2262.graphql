@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "misnomers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

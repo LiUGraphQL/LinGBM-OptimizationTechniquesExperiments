@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "racers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

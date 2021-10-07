@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "braw"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

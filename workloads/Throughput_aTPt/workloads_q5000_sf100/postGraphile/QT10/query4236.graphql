@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "towardly"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

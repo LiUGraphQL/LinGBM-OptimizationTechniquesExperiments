@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "retributive"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "potter"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

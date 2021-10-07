@@ -1,0 +1,9 @@
+{ 
+	publication(where: {title: {_like: "%individualist%"}}) { 
+		nr 
+		title 
+		abstract 
+	} 
+} 
+
+ 

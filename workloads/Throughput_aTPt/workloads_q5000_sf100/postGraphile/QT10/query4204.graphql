@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "involving"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

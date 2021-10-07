@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "dinginess"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

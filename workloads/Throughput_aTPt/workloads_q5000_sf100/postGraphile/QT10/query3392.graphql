@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "shippable"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

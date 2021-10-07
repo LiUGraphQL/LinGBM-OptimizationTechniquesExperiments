@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"markdown") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

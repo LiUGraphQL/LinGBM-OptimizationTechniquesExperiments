@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "unlanded"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

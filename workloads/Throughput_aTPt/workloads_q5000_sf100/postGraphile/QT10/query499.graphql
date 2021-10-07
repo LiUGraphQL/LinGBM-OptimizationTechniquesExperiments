@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "patching"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

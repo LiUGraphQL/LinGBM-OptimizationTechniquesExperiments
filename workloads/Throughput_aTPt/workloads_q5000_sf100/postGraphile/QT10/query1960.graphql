@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "kindness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

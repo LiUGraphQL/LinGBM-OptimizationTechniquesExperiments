@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "narrative"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

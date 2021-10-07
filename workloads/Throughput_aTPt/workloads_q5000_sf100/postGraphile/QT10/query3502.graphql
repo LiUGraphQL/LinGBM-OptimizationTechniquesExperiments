@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cc"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

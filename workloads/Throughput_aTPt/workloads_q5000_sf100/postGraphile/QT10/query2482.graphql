@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "fastness"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

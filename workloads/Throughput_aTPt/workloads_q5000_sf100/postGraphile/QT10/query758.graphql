@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "escapist"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

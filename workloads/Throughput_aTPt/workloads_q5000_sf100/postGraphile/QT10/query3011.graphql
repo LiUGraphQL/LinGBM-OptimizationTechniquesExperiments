@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "maneuverability"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

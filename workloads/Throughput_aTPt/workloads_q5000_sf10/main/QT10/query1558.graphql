@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"reattained") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

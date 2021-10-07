@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "paleocene"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "standpoints"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "hexameters"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

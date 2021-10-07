@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "behemoth"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

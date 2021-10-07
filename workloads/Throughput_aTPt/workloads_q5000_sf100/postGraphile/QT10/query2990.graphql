@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "munchies"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

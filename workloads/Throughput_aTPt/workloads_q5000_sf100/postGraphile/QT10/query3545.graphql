@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "valves"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

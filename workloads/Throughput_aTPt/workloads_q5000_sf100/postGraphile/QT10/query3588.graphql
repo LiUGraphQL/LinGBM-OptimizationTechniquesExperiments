@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cirrostratus"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

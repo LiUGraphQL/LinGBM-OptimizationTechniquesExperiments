@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "clerics"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

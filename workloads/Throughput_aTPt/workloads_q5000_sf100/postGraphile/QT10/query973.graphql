@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "carbonating"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

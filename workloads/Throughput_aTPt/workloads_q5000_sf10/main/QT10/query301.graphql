@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"unobserved") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

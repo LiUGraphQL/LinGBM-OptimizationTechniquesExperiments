@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "squanders"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

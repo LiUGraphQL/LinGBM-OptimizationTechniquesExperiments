@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "masoned"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

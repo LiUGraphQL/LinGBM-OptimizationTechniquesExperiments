@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "impeachers"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

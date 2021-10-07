@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "nocturnally"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

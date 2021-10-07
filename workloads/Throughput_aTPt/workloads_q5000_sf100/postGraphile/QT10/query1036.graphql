@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "kingpins"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

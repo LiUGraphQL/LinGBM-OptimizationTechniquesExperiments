@@ -1,9 +1,0 @@
-{ 
-	publication(where: {title: {_like: "%rapeseeds%"}}) { 
-		nr 
-		title 
-		abstract 
-	} 
-} 
-
- 

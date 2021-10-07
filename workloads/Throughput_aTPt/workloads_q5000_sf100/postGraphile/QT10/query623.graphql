@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "laurelled"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

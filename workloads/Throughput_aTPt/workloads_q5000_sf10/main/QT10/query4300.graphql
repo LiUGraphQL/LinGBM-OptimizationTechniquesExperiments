@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"vocably") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

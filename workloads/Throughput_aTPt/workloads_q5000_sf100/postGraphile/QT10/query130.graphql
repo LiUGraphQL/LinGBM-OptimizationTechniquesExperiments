@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bearberries"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

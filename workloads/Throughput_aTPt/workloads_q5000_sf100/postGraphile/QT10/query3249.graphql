@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "worships"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

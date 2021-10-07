@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "enshrines"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"hunted") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

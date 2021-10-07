@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cartop"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

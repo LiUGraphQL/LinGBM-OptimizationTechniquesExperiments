@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "crams"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

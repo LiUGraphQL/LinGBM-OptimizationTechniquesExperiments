@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "benefactrix"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

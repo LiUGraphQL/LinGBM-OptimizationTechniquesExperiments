@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "irresistibly"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

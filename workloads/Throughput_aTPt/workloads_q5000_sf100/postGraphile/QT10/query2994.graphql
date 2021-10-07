@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sangfroid"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "rotational"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

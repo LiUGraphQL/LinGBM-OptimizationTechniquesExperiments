@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"pesterer") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

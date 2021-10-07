@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "ranching"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bulges"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

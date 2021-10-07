@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "glorifying"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

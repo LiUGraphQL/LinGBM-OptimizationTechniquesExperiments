@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "impressionistic"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

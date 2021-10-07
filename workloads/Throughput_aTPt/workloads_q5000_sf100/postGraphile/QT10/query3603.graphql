@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "multifunction"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

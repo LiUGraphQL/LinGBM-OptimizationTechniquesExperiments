@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "ripraps"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

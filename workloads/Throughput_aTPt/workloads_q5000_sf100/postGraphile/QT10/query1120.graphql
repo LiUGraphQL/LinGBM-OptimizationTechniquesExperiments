@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "protested"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

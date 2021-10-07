@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "cogitations"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

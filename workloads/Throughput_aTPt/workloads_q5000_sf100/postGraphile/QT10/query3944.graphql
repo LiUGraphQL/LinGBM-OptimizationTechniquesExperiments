@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "doorstops"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

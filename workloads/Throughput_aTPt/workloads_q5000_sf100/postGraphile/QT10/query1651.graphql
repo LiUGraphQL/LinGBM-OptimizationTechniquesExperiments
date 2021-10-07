@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "decagram"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

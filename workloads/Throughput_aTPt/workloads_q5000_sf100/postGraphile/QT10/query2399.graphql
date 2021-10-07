@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "pokier"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

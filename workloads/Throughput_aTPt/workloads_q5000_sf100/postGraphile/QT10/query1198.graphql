@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "summarized"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "bitters"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"memorableness") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

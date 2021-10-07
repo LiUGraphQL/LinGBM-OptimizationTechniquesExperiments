@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "flippantly"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

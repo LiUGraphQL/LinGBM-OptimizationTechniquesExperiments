@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "humidification"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

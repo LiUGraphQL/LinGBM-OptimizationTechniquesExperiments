@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "preacher"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

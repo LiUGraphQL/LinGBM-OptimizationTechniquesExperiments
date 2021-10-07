@@ -1,0 +1,9 @@
+{ 
+	publicationSearch(field:title, criterion:CONTAINS, pattern:"incorruptibility") { 
+		id 
+		title 
+		abstract 
+	} 
+} 
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sentimentalists"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

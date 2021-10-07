@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "metabolizes"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

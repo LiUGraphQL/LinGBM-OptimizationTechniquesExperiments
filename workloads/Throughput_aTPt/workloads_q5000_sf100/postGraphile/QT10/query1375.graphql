@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "paraplegia"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "newsrooms"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

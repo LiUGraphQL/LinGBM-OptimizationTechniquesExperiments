@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "subaltern"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

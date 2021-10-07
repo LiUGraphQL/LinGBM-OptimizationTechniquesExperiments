@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "abusage"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

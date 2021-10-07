@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "piths"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

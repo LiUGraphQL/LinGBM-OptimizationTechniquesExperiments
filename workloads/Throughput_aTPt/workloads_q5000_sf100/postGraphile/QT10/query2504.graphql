@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "sufficiently"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

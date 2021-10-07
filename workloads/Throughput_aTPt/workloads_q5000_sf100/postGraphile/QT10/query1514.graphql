@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "effulgence"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

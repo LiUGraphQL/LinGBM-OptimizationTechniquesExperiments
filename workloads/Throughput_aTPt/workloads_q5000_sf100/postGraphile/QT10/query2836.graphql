@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "hewing"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

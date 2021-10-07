@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "somnambulator"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 

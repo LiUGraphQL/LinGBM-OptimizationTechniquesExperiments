@@ -1,0 +1,11 @@
+{
+  allPublications(filter: {title: {includes: "ambulated"}}) {
+    nodes {
+      nr
+      title
+      abstract
+    }
+  }
+}
+
+ 
