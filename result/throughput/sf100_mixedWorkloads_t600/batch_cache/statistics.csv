@@ -1,0 +1,7 @@
+Workloads, "total send out query", "successfully executed query", "queries output an error message", "currentRun"
+WL1, 771, 770, 0, 1
+WL2, 738, 737, 0, 1
+WL3, 680, 679, 0, 1
+WL4, 781, 780, 0, 1
+WL5, 750, 749, 0, 1
+WL6, 733, 732, 0, 1
