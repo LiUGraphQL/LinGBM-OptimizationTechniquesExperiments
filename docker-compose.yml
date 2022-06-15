@@ -1,0 +1,33 @@
+version: "3.7"
+#version: "2.2"
+
+services:
+  node-server:
+    image: node-server 
+    #build: ./node-server
+    #container_name: node-server_test
+    ports:
+      - 4000:4000    
+  postgres:
+    image: dataset 
+    deploy:
+      resources:
+        limits:
+          cpus: '2'
+          memory: 1024M
+        reservations:
+          cpus: '2'
+          memory: 512M 
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: password 
+    volumes:
+      - "dbdata:/var/lib/postgresql/data" 
+  adminer:
+    image: adminer
+    container_name: admines_test
+    ports:
+      - 8080:8080
+volumes:
+  dbdata: 
+
